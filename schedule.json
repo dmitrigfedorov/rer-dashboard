@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "29.10.2026, 18:46:10",
+  "fetchedAtParis": "29.10.2026, 18:55:36",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "19:03",
-          "to": "19:06",
+          "to": "19:05",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -36,27 +36,27 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "18:52",
-          "to": "18:54",
+          "from": "19:03",
+          "to": "19:05",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "19:07",
+          "to": "19:09",
+          "train": "BOBA",
+          "destinationName": "Brétigny",
+          "platform": "E",
+          "status": "onTime"
+        },
+        {
+          "from": "19:16",
+          "to": "19:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
-          "status": "onTime"
-        },
-        {
-          "from": "19:02",
-          "to": "19:04",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis AÃ©roport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
-          "from": "19:06",
-          "to": "19:09",
-          "train": "BOBA",
-          "destinationName": "BrÃ©tigny",
-          "platform": "E",
           "status": "onTime"
         }
       ]
