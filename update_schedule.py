@@ -9,10 +9,16 @@ STATIONS = [('Ivry-sur-Seine','STIF:StopArea:SP:46366:'),('Bibliothèque Franço
 PARIS = ZoneInfo('Europe/Paris')
 
 def many(v): return v if isinstance(v,list) else ([] if v is None else [v])
+def repair_text(s):
+    # Some API responses contain UTF-8 text decoded as Latin-1 upstream.
+    if any(marker in s for marker in ('Ã', 'Â')):
+        try: return s.encode('latin-1').decode('utf-8')
+        except (UnicodeEncodeError, UnicodeDecodeError): pass
+    return s
 def val(v):
     if isinstance(v,dict): return val(v.get('value'))
     if isinstance(v,list): return ', '.join(filter(None,(val(x) for x in v)))
-    return '' if v is None else str(v)
+    return '' if v is None else repair_text(str(v))
 def dt(v):
     if not v: return None
     x=datetime.fromisoformat(str(v).replace('Z','+00:00'))
@@ -47,7 +53,7 @@ def main():
     if not token: raise RuntimeError('Missing Actions secret IDFM_API_TOKEN')
     now=datetime.now(timezone.utc); data=[fetch(token,s,now) for _,s in STATIONS]
     out={'fetchedAtParis':now.astimezone(PARIS).strftime('%d.%m.%Y, %H:%M:%S'),'directions':[{'title':STATIONS[0][0],'destination':STATIONS[1][0],'rows':pair(data[0],data[1])},{'title':STATIONS[1][0],'destination':STATIONS[0][0],'rows':pair(data[1],data[0])}]}
-    Path(__file__).with_name('schedule.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    Path(__file__).with_name('schedule.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
     print('Updated schedule.json at '+out['fetchedAtParis']+' Paris time')
 if __name__=='__main__':
     try: main()
