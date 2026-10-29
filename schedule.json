@@ -1,0 +1,33 @@
+{
+  "fetchedAtParis": "29.10.2026, 14:59:48",
+  "directions": [
+    {
+      "title": "Ivry-sur-Seine",
+      "destination": "Bibliothèque François-Mitterrand",
+      "rows": [
+        {
+          "from": "15:13",
+          "to": "15:16",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "2B",
+          "status": "onTime"
+        }
+      ]
+    },
+    {
+      "title": "Bibliothèque François-Mitterrand",
+      "destination": "Ivry-sur-Seine",
+      "rows": [
+        {
+          "from": "15:00",
+          "to": "15:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d’Orly",
+          "platform": "E",
+          "status": "onTime"
+        }
+      ]
+    }
+  ]
+}
