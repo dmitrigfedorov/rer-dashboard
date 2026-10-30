@@ -1,21 +1,13 @@
 {
-  "fetchedAtParis": "30.10.2026, 11:03:43",
+  "fetchedAtParis": "30.10.2026, 11:12:44",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "11:09",
-          "to": "11:12",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "11:13",
-          "to": "11:15",
+          "to": "11:16",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -23,9 +15,17 @@
         },
         {
           "from": "11:28",
-          "to": "11:30",
+          "to": "11:31",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "11:43",
+          "to": "11:46",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         }
