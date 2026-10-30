@@ -1,31 +1,31 @@
 {
-  "fetchedAtParis": "30.10.2026, 13:54:48",
+  "fetchedAtParis": "30.10.2026, 15:00:29",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "13:58",
-          "to": "14:00",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
-          "from": "14:13",
-          "to": "14:15",
+          "from": "15:13",
+          "to": "15:15",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "14:28",
-          "to": "14:30",
+          "from": "15:28",
+          "to": "15:30",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "15:43",
+          "to": "15:45",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         }
@@ -36,24 +36,24 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "14:00",
-          "to": "14:03",
+          "from": "15:02",
+          "to": "15:05",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "14:15",
-          "to": "14:18",
+          "from": "15:15",
+          "to": "15:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "14:30",
-          "to": "14:33",
+          "from": "15:30",
+          "to": "15:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
