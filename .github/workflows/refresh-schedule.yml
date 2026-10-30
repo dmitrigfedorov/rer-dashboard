@@ -4,10 +4,11 @@ on:
     - cron: '3,8,13,18,23,28,33,38,43,48,53,58 * * * *'
   workflow_dispatch:
 permissions:
+  actions: read
   contents: write
 concurrency:
   group: rer-schedule-update
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -18,6 +19,28 @@ jobs:
         env:
           IDFM_API_TOKEN: ${{ secrets.IDFM_API_TOKEN }}
         run: python3 update_schedule.py
+      - name: Send report to Telegram bot
+        id: telegram
+        if: ${{ vars.TELEGRAM_AUTOMATION_ENABLED == 'true' }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+          GITHUB_WORKFLOW_FILE: refresh-schedule.yml
+        run: |
+          python3 -m pip install --disable-pip-version-check -r requirements-telegram.txt
+          python3 send_telegram_report.py
+      - name: Save Telegram message ID for the next run
+        if: ${{ steps.telegram.outcome == 'success' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: rer-message-state
+          path: message_state.json
+          retention-days: 1
+          if-no-files-found: error
       - name: Publish changed schedule
         run: |
           git config user.name 'github-actions[bot]'
