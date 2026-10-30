@@ -1,4 +1,4 @@
-"""Send the already refreshed RER schedule to the user's Telegram chat."""
+"""Send the refreshed RER schedule to the user's Telegram chat."""
 
 from __future__ import annotations
 
@@ -33,7 +33,7 @@ def headers(token: str) -> dict[str, str]:
 def previous_message_id(token: str) -> int | None:
     repo = required("GITHUB_REPOSITORY")
     this_run = int(required("GITHUB_RUN_ID"))
-    workflow = os.environ.get("GITHUB_WORKFLOW_FILE", "refresh-schedule.yml")
+    workflow = os.environ.get("GITHUB_WORKFLOW_FILE", "update-schedule.yml")
     api_headers = headers(token)
     response = requests.get(
         f"{API_ROOT}/repos/{repo}/actions/workflows/{workflow}/runs",
@@ -131,4 +131,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
