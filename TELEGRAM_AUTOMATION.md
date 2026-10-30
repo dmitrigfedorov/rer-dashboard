@@ -1,27 +1,21 @@
 # Cloud Telegram reporting
 
-The RER schedule updater runs on GitHub Actions. This optional step sends its
-latest `schedule.json` to the personal Telegram chat configured by the owner.
+The RER schedule updater runs on GitHub Actions and can send the latest
+`schedule.json` to a separate private chat with a Telegram bot.
 
-## Required Actions secrets
+## Setup
 
-The repository already uses `IDFM_API_TOKEN` for the RER schedule updater.
-For Telegram, add these Actions secrets:
+1. Open [@DmitriRERCScheduleBot2026_bot](https://t.me/DmitriRERCScheduleBot2026_bot) in Telegram and press **Start**.
+2. Add the token from BotFather as the Actions secret `TELEGRAM_BOT_TOKEN`.
+3. Add these Actions variables:
+   - `TELEGRAM_CHAT_ID`: the chat ID for the new private chat with this bot.
+   - `TELEGRAM_AUTOMATION_ENABLED`: `true`.
 
-- `TELEGRAM_API_ID`
-- `TELEGRAM_API_HASH`
-- `TELEGRAM_SESSION` (Telethon StringSession for the signed-in personal account)
-- `TELEGRAM_CHAT_ID`
+The repository already has the `IDFM_API_TOKEN` secret. The bot token only
+controls this bot; it does not authorize access to your personal Telegram
+account or other chats. Keep the token out of the repository and workflow logs.
 
-Then add the Actions variable `TELEGRAM_AUTOMATION_ENABLED=true` to enable
-sending. Leave it unset to keep the Telegram step disabled.
-
-A Telethon StringSession is a full Telegram account authorization, not a
-send-only credential. Store it only as a GitHub Actions secret and never in
-the repository, workflow logs, or issue/PR text. The public repository stores
-only workflow code; the report message ID is retained briefly in a GitHub
-Actions artifact so the next run can delete the previous report before sending.
-
-The workflow uses the GitHub Actions schedule already used by this repository.
-Scheduled jobs run on GitHub-hosted runners; GitHub may delay scheduled starts
-during periods of high load.
+The workflow runs on GitHub-hosted runners every five minutes. It saves only
+the previous bot message ID in a short-lived Actions artifact, deletes that
+message, and then sends the current report. The report appears in the new bot
+chat, not in Saved Messages/«Я».
