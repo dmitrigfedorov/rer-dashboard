@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import asyncio
 import io
 import json
 import os
@@ -11,8 +10,6 @@ from pathlib import Path
 from typing import Any
 
 import requests
-from telethon import TelegramClient
-from telethon.sessions import StringSession
 
 ARTIFACT_NAME = "rer-message-state"
 API_ROOT = "https://api.github.com"
@@ -98,22 +95,26 @@ def format_report(schedule: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
-async def send(report: str, chat_id: int, old_message_id: int | None) -> int:
-    client = TelegramClient(
-        StringSession(required("TELEGRAM_SESSION")),
-        int(required("TELEGRAM_API_ID")),
-        required("TELEGRAM_API_HASH"),
-    )
-    await client.connect()
+def bot_api(method: str, values: dict[str, Any]) -> dict[str, Any]:
+    token = required("TELEGRAM_BOT_TOKEN")
+    url = f"https://api.telegram.org/bot{token}/{method}"
     try:
-        if not await client.is_user_authorized():
-            raise RuntimeError("Telegram session is no longer authorized")
-        if old_message_id is not None:
-            await client.delete_messages(chat_id, [old_message_id], revoke=True)
-        sent = await client.send_message(chat_id, report)
-        return int(sent.id)
-    finally:
-        await client.disconnect()
+        response = requests.post(url, json=values, timeout=20)
+        response.raise_for_status()
+        result = response.json()
+    except requests.RequestException:
+        # Do not include the request URL: it contains the bot token.
+        raise RuntimeError("Telegram Bot API request failed") from None
+    if not result.get("ok"):
+        raise RuntimeError("Telegram Bot API rejected the request")
+    return result["result"]
+
+
+def send(report: str, chat_id: int, old_message_id: int | None) -> int:
+    if old_message_id is not None:
+        bot_api("deleteMessage", {"chat_id": chat_id, "message_id": old_message_id})
+    sent = bot_api("sendMessage", {"chat_id": chat_id, "text": report})
+    return int(sent["message_id"])
 
 
 def main() -> None:
@@ -122,7 +123,7 @@ def main() -> None:
     report = format_report(schedule)
     github_token = required("GITHUB_TOKEN")
     old_id = previous_message_id(github_token)
-    message_id = asyncio.run(send(report, int(required("TELEGRAM_CHAT_ID")), old_id))
+    message_id = send(report, int(required("TELEGRAM_CHAT_ID")), old_id)
     with Path("message_state.json").open("w", encoding="utf-8") as state_file:
         json.dump({"message_id": message_id}, state_file)
     print("RER report sent; prior report removed when one was available.")
