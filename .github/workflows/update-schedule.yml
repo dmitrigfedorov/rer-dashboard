@@ -5,9 +5,8 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
-  actions: read
 concurrency:
-  group: rer-schedule-update
+  group: rer-dashboard-refresh
   cancel-in-progress: false
 jobs:
   update:
@@ -27,21 +26,3 @@ jobs:
           if git diff --cached --quiet; then echo 'Schedule content is unchanged.'; exit 0; fi
           git commit -m 'Update RER schedule'
           git push
-      - name: Install Telegram dependency
-        run: python3 -m pip install requests
-      - name: Send current schedule to Telegram
-        if: vars.TELEGRAM_AUTOMATION_ENABLED == 'true'
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
-          GITHUB_TOKEN: ${{ github.token }}
-          GITHUB_WORKFLOW_FILE: update-schedule.yml
-        run: python3 send_telegram_report.py
-      - name: Save Telegram message state
-        if: vars.TELEGRAM_AUTOMATION_ENABLED == 'true'
-        uses: actions/upload-artifact@v4
-        with:
-          name: rer-message-state
-          path: message_state.json
-          retention-days: 30
-          overwrite: true
