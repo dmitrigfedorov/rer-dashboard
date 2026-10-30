@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "30.10.2026, 17:38:15",
+  "fetchedAtParis": "30.10.2026, 17:39:15",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,18 +14,18 @@
           "status": "onTime"
         },
         {
-          "from": "17:58",
-          "to": "18:00",
+          "from": "18:13",
+          "to": "18:15",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "18:13",
-          "to": "18:15",
-          "train": "NORA",
-          "destinationName": "Pontoise",
+          "from": "18:28",
+          "to": "18:30",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         }
