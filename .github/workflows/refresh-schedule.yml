@@ -1,7 +1,7 @@
 name: Refresh dashboard and send Telegram RER report
 on:
   schedule:
-    - cron: '3,8,13,18,23,28,33,38,43,48,53,58 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 permissions:
   actions: read
