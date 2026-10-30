@@ -1,20 +1,12 @@
 {
-  "fetchedAtParis": "30.10.2026, 09:19:27",
+  "fetchedAtParis": "30.10.2026, 09:30:15",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "09:28",
-          "to": "09:30",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
-          "from": "09:44",
+          "from": "09:43",
           "to": "09:46",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -28,6 +20,14 @@
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
+        },
+        {
+          "from": "10:13",
+          "to": "10:15",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "2B",
+          "status": "onTime"
         }
       ]
     },
@@ -36,15 +36,15 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "09:33",
-          "to": "09:35",
+          "from": "09:31",
+          "to": "09:34",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "09:45",
+          "from": "09:46",
           "to": "09:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -52,7 +52,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:01",
+          "from": "10:02",
           "to": "10:04",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
