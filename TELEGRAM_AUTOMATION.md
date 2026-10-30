@@ -18,13 +18,13 @@ account or other chats. Keep the token out of the repository and workflow logs.
 ## Schedule
 
 `refresh-schedule.yml` runs every five minutes. Each run fetches fresh train
-data from Île-de-France Mobilités, publishes changed `schedule.json` data for
-the dashboard, then sends a Telegram report from that same fetched schedule.
-Before sending, it deletes the previous report and saves the new message ID in
-a short-lived Actions artifact.
+data from Île-de-France Mobilités and publishes changed `schedule.json` data for
+the dashboard. It waits for the matching GitHub Pages deployment to succeed,
+then sends a Telegram report from that same fetched schedule. Before sending, it
+deletes the previous report and saves the new message ID in a short-lived
+Actions artifact.
 
-The separate fifteen-minute updater has been removed, so there is one
-five-minute update-and-send cycle. While open, `index.html` reloads every five
-minutes and rereads `schedule.json` every thirty seconds.
+There is one five-minute update-and-send cycle. While open, `index.html`
+reloads every five minutes and rereads `schedule.json` every thirty seconds.
 
 The report appears in the bot's private chat, not in Saved Messages/«Я».
