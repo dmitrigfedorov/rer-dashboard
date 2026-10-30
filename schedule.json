@@ -1,29 +1,29 @@
 {
-  "fetchedAtParis": "30.10.2026, 10:22:27",
+  "fetchedAtParis": "30.10.2026, 11:03:43",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "10:28",
-          "to": "10:31",
+          "from": "11:09",
+          "to": "11:12",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "10:45",
-          "to": "10:47",
+          "from": "11:13",
+          "to": "11:15",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "10:58",
-          "to": "11:00",
+          "from": "11:28",
+          "to": "11:30",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -36,26 +36,26 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "10:30",
-          "to": "10:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
-          "from": "10:45",
-          "to": "10:48",
+          "from": "11:15",
+          "to": "11:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "11:00",
-          "to": "11:03",
+          "from": "11:30",
+          "to": "11:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "11:45",
+          "to": "11:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         }
