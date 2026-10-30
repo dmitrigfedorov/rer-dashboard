@@ -1,7 +1,6 @@
 # Cloud Telegram reporting
 
-The RER schedule updater runs on GitHub Actions and can send the latest
-`schedule.json` to a separate private chat with a Telegram bot.
+The Telegram report and dashboard data refresh run as separate GitHub Actions workflows.
 
 ## Setup
 
@@ -15,7 +14,15 @@ The repository already has the `IDFM_API_TOKEN` secret. The bot token only
 controls this bot; it does not authorize access to your personal Telegram
 account or other chats. Keep the token out of the repository and workflow logs.
 
-The workflow runs on GitHub-hosted runners every five minutes. It saves only
-the previous bot message ID in a short-lived Actions artifact, deletes that
-message, and then sends the current report. The report appears in the new bot
-chat, not in Saved Messages/«Я».
+## Schedule
+
+- `refresh-schedule.yml` runs every five minutes. It sends the latest published
+  `schedule.json` to the bot chat, deletes the previous report, and stores the
+  new message ID in a short-lived Actions artifact.
+- `update-schedule.yml` runs every fifteen minutes. It fetches fresh data from
+  Île-de-France Mobilités and publishes changed schedule data for the dashboard.
+  It does not send Telegram messages.
+- `index.html` reloads every five minutes and refreshes `schedule.json` every
+  thirty seconds while open.
+
+The report appears in the bot's private chat, not in Saved Messages/«Я».
