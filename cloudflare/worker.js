@@ -15,6 +15,7 @@ async function dispatchWorkflow(env) {
       Accept: "application/vnd.github+json",
       "X-GitHub-Api-Version": "2022-11-28",
       "Content-Type": "application/json",
+      "User-Agent": "rer-dashboard-cloudflare-cron",
     },
     body: JSON.stringify({ ref: REF }),
   });
