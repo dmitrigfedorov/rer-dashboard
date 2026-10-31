@@ -1,13 +1,163 @@
 <!doctype html>
-<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="300"><title>RER C — ближайшие поезда</title>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="300">
+<title>RER C — ближайшие поезда</title>
 <style>
-:root{color-scheme:dark;--paper:#0d1116;--card:#171d24;--line:#303a43;--ink:#f4f2ec;--muted:#a7b0b8;--blue:#69b9f5;--gold:#f3c96c;--green:#a5dbb0}*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}body{padding:4.2vh 4.5vw}.top{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1px solid var(--line);padding-bottom:2.1vh;margin-bottom:3vh}.eyebrow{font-size:1.4vw;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);font-weight:700}.title{font-size:4vw;font-weight:700;letter-spacing:-.035em;margin:.5vh 0 0}.clock{text-align:right;font-size:1vw;color:var(--muted)}.clock strong{display:block;color:var(--ink);font-size:2.25vw;font-weight:600;margin-bottom:.5vh}.clock #updated{display:block;font-size:1vw;margin-top:.3vh}.grid{display:grid;grid-template-columns:1fr 1fr;gap:2vw}.panel{background:var(--card);border:1px solid var(--line);border-radius:1.1vw;padding:2.1vw 2.3vw;min-height:45vh}.route{font-size:1.55vw;color:var(--muted);line-height:1.35;min-height:4.4vw}.route b{color:var(--ink);font-weight:600}.direction{display:flex;align-items:center;gap:.7vw;color:var(--gold);font-size:1.05vw;letter-spacing:.12em;text-transform:uppercase;margin:2vh 0 1.3vh}.train{border-top:1px solid var(--line);padding:2.1vh 0;display:grid;grid-template-columns:1.05fr 1fr .72fr;align-items:center;gap:1vw}.times{font-size:2.2vw;font-weight:700;white-space:nowrap}.times small{font-size:1.1vw;color:var(--muted);font-weight:400}.meta{font-size:1.25vw;line-height:1.6;color:var(--muted)}.meta b{color:var(--ink);font-size:1.45vw}.platform{text-align:right}.badge{display:inline-block;border:1px solid #527d5a;color:var(--green);border-radius:999px;padding:.4em .75em;font-size:.92vw;white-space:nowrap}.empty{padding:5vh 0;color:var(--muted);font-size:1.4vw}.bottom{display:flex;justify-content:space-between;gap:2vw;margin-top:2.3vh;color:var(--muted);font-size:1vw}.line{display:inline-flex;align-items:center;justify-content:center;min-width:2.1em;height:2.1em;border-radius:50%;background:#e9d851;color:#222;font-size:.8em;font-weight:700;margin-right:.6vw}@media(max-aspect-ratio:4/3){body{padding:3vh 4vw}.grid{grid-template-columns:1fr}.title{font-size:6vw}.eyebrow{font-size:2vw}.clock strong{font-size:3vw}.clock{font-size:1.8vw}.clock #updated{font-size:1.4vw}.panel{padding:3vw;min-height:auto}.route{font-size:2.3vw;min-height:auto}.direction{font-size:1.7vw}.times{font-size:3.4vw}.times small{font-size:1.7vw}.meta{font-size:1.8vw}.meta b{font-size:2vw}.badge{font-size:1.4vw}.bottom{font-size:1.4vw}}
-</style></head><body><header class="top"><div><div class="eyebrow"><span class="line">C</span> Transilien • ближайшие отправления</div><h1 class="title">Ближайшие поезда RER C</h1></div><div class="clock"><strong id="clock">--:--</strong><span id="updated">Обновлено: загрузка…</span></div></header><main class="grid" id="schedule"></main><footer class="bottom"><span>Обновление каждые 5 минут</span><span>Данные Île-de-France Mobilités • Ivry-sur-Seine</span></footer>
+:root{color-scheme:dark;--paper:#0d1116;--card:#171d24;--line:#303a43;--ink:#f4f2ec;--muted:#a7b0b8;--blue:#69b9f5;--gold:#f3c96c;--green:#a5dbb0}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+body{padding:4.2vh 4.5vw}
+.top{display:flex;justify-content:space-between;align-items:flex-end;gap:1.5vw;border-bottom:1px solid var(--line);padding-bottom:2.1vh;margin-bottom:3vh}
+.eyebrow{font-size:1.4vw;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);font-weight:700}
+.title{font-size:4vw;font-weight:700;letter-spacing:-.035em;margin:.5vh 0 0}
+.top-right{display:flex;align-items:flex-end;gap:1.2vw}
+.language{display:flex;align-items:center;gap:.5vw;color:var(--muted);font-size:1vw;white-space:nowrap}
+.language select{color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:.55vw;padding:.65em .75em;font:inherit;cursor:pointer}
+.language select:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.clock{text-align:right;font-size:1vw;color:var(--muted);white-space:nowrap}
+.clock strong{display:block;color:var(--ink);font-size:2.25vw;font-weight:600;margin-bottom:.5vh}
+.clock #updated{display:block;font-size:1vw;margin-top:.3vh}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:2vw}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:1.1vw;padding:2.1vw 2.3vw;min-height:45vh}
+.route{font-size:1.55vw;color:var(--muted);line-height:1.35;min-height:4.4vw}
+.route b{color:var(--ink);font-weight:600}
+.direction{display:flex;align-items:center;gap:.7vw;color:var(--gold);font-size:1.05vw;letter-spacing:.12em;text-transform:uppercase;margin:2vh 0 1.3vh}
+.train{border-top:1px solid var(--line);padding:2.1vh 0;display:grid;grid-template-columns:1.05fr 1fr .72fr;align-items:center;gap:1vw}
+.times{font-size:2.2vw;font-weight:700;white-space:nowrap}
+.times small{font-size:1.1vw;color:var(--muted);font-weight:400}
+.meta{font-size:1.25vw;line-height:1.6;color:var(--muted)}
+.meta b{color:var(--ink);font-size:1.45vw}
+.platform{text-align:right}
+.badge{display:inline-block;border:1px solid #527d5a;color:var(--green);border-radius:999px;padding:.4em .75em;font-size:.92vw;white-space:nowrap}
+.empty{padding:5vh 0;color:var(--muted);font-size:1.4vw}
+.bottom{display:flex;justify-content:space-between;gap:2vw;margin-top:2.3vh;color:var(--muted);font-size:1vw}
+.line{display:inline-flex;align-items:center;justify-content:center;min-width:2.1em;height:2.1em;border-radius:50%;background:#e9d851;color:#222;font-size:.8em;font-weight:700;margin-right:.6vw}
+@media(max-aspect-ratio:4/3){
+ body{padding:3vh 4vw}
+ .top{align-items:flex-start;gap:2vw}
+ .top-right{align-items:flex-end;flex-direction:column;gap:1vh}
+ .language{font-size:1.5vw}
+ .language select{font-size:1.5vw}
+ .grid{grid-template-columns:1fr}
+ .title{font-size:6vw}
+ .eyebrow{font-size:2vw}
+ .clock strong{font-size:3vw}
+ .clock{font-size:1.8vw}
+ .clock #updated{font-size:1.4vw}
+ .panel{padding:3vw;min-height:auto}
+ .route{font-size:2.3vw;min-height:auto}
+ .direction{font-size:1.7vw}
+ .times{font-size:3.4vw}
+ .times small{font-size:1.7vw}
+ .meta{font-size:1.8vw}
+ .meta b{font-size:2vw}
+ .badge{font-size:1.4vw}
+ .bottom{font-size:1.4vw}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div>
+    <div class="eyebrow"><span class="line">C</span><span id="eyebrow-text">Transilien • ближайшие отправления</span></div>
+    <h1 class="title" id="page-title">Ближайшие поезда RER C</h1>
+  </div>
+  <div class="top-right">
+    <div class="language">
+      <label id="language-label" for="language-select">Язык</label>
+      <select id="language-select" aria-label="Язык отображения">
+        <option value="ru">🇷🇺 Русский</option>
+        <option value="fr">🇫🇷 Français</option>
+        <option value="bg">🇧🇬 Български</option>
+      </select>
+    </div>
+    <div class="clock">
+      <strong id="clock">--:--</strong>
+      <span id="updated">Обновлено: загрузка…</span>
+    </div>
+  </div>
+</header>
+<main class="grid" id="schedule"></main>
+<footer class="bottom">
+  <span id="refresh-note">Обновление каждые 5 минут</span>
+  <span id="data-note">Данные Île-de-France Mobilités • Ivry-sur-Seine</span>
+</footer>
 <script>
 const fallback={fetchedAtParis:"",directions:[]};
-const fixText=s=>{s=String(s==null?"—":s);if(/[ÃÂ]/.test(s)){try{return new TextDecoder().decode(Uint8Array.from([...s].map(c=>c.charCodeAt(0))))}catch(_){}}return s};const esc=s=>fixText(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function countdown(t){const p=t.split(':').map(Number),d=new Date();d.setHours(p[0],p[1],0,0);const n=Math.round((d-new Date())/60000);return n < -1?'ушёл '+Math.abs(n)+' мин назад':n<=0?'сейчас':'через '+n+' мин'}
-function paint(data){document.getElementById('schedule').innerHTML=(data.directions||[]).map(d=>'<section class="panel"><div class="route"><b>'+esc(d.title)+'</b><br>до '+esc(d.destination)+'</div><div class="direction">Ближайший поезд</div>'+((d.rows||[]).map(r=>'<div class="train"><div class="times">'+esc(r.from)+' <small>→ '+esc(r.to)+'</small></div><div class="meta"><b>'+esc(r.train)+'</b> · '+esc(r.destinationName)+'<br>Отправление '+esc(countdown(r.from))+'</div><div class="meta platform">Путь<br><b>'+esc(r.platform)+'</b><br><span class="badge">'+esc(r.status)+'</span></div></div>').join('')||'<div class="empty">Ближайшие отправления не найдены</div>')+'</section>').join('');document.getElementById('updated').textContent=data.fetchedAtParis?'Обновлено: '+data.fetchedAtParis:'Обновлено: нет данных'}
-function tick(){document.getElementById('clock').textContent=new Intl.DateTimeFormat('ru-FR',{hour:'2-digit',minute:'2-digit',second:'2-digit',timeZone:'Europe/Paris'}).format(new Date())}
-async function loadSchedule(){try{const r=await fetch('schedule.json?ts='+Date.now(),{cache:'no-store'});if(r.ok)paint(await r.json());else paint(fallback)}catch(_){paint(fallback)}}loadSchedule();tick();setInterval(tick,1000);setInterval(loadSchedule,30000);
-</script></body></html>
+const storageKey="rer-dashboard-language";
+const translations={
+ ru:{
+  locale:"ru-FR",language:"Язык",eyebrow:"Transilien • ближайшие отправления",title:"Ближайшие поезда RER C",
+  updated:"Обновлено:",loading:"Обновлено: загрузка…",noData:"Обновлено: нет данных",nearest:"Ближайший поезд",
+  to:"до ",departure:"Отправление ",platform:"Путь",empty:"Ближайшие отправления не найдены",
+  refresh:"Обновление каждые 5 минут",data:"Данные Île-de-France Mobilités • Ivry-sur-Seine",
+  now:"сейчас",inMinutes:"через ",minutes:" мин",ago:"ушёл ",agoEnd:" мин назад",
+  statuses:{onTime:"По расписанию"}
+ },
+ fr:{
+  locale:"fr-FR",language:"Langue",eyebrow:"Transilien • prochains départs",title:"Prochains trains RER C",
+  updated:"Mis à jour :",loading:"Mise à jour : chargement…",noData:"Mise à jour : aucune donnée",nearest:"Prochain train",
+  to:"vers ",departure:"Départ ",platform:"Voie",empty:"Aucun départ à venir",
+  refresh:"Mise à jour toutes les 5 minutes",data:"Données Île-de-France Mobilités • Ivry-sur-Seine",
+  now:"maintenant",inMinutes:"dans ",minutes:" min",ago:"parti il y a ",agoEnd:" min",
+  statuses:{onTime:"À l'heure"}
+ },
+ bg:{
+  locale:"bg-BG",language:"Език",eyebrow:"Transilien • предстоящи заминавания",title:"Следващи влакове RER C",
+  updated:"Обновено:",loading:"Обновяване: зареждане…",noData:"Обновяване: няма данни",nearest:"Следващ влак",
+  to:"до ",departure:"Отпътуване ",platform:"Кол.",empty:"Няма намерени предстоящи влакове",
+  refresh:"Обновяване на всеки 5 минути",data:"Данни от Île-de-France Mobilités • Ivry-sur-Seine",
+  now:"сега",inMinutes:"след ",minutes:" мин",ago:"заминал преди ",agoEnd:" мин",
+  statuses:{onTime:"По разписание"}
+ }
+};
+const repairText=s=>{s=String(s==null?"—":s);if(/[ÃÂ]/.test(s)){try{return new TextDecoder().decode(Uint8Array.from([...s].map(c=>c.charCodeAt(0))))}catch(_){}}return s};
+const esc=s=>repairText(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let currentData=fallback;
+let currentLanguage="ru";
+function getSavedLanguage(){try{const value=localStorage.getItem(storageKey);return translations[value]?value:"ru"}catch(_){return "ru"}}
+function countdown(time){const t=translations[currentLanguage],p=time.split(":").map(Number),d=new Date();d.setHours(p[0],p[1],0,0);const n=Math.round((d-new Date())/60000);if(n < -1)return t.ago+Math.abs(n)+t.agoEnd;if(n<=0)return t.now;return t.inMinutes+n+t.minutes}
+function statusText(value){const key=String(value==null?"":value);return translations[currentLanguage].statuses[key]||key||"—"}
+function paint(data){
+ const t=translations[currentLanguage];
+ document.getElementById("schedule").innerHTML=(data.directions||[]).map(d=>
+  '<section class="panel"><div class="route"><b>'+esc(d.title)+'</b><br>'+t.to+esc(d.destination)+'</div>'+
+  '<div class="direction">'+t.nearest+'</div>'+
+  ((d.rows||[]).map(r=>
+   '<div class="train"><div class="times">'+esc(r.from)+' <small>→ '+esc(r.to)+'</small></div>'+
+   '<div class="meta"><b>'+esc(r.train)+'</b> · '+esc(r.destinationName)+'<br>'+t.departure+esc(countdown(r.from))+'</div>'+
+   '<div class="meta platform">'+t.platform+'<br><b>'+esc(r.platform)+'</b><br><span class="badge">'+esc(statusText(r.status))+'</span></div></div>'
+  ).join('')||'<div class="empty">'+t.empty+'</div>')+'</section>'
+ ).join('');
+ document.getElementById("updated").textContent=data.fetchedAtParis?t.updated+" "+data.fetchedAtParis:t.noData;
+}
+function applyLanguage(language,persist){
+ currentLanguage=translations[language]?language:"ru";
+ const t=translations[currentLanguage];
+ document.documentElement.lang=currentLanguage;
+ document.title=t.title+" — Transilien";
+ document.getElementById("language-select").value=currentLanguage;
+ document.getElementById("language-select").setAttribute("aria-label",t.language);
+ document.getElementById("language-label").textContent=t.language;
+ document.getElementById("eyebrow-text").textContent=t.eyebrow;
+ document.getElementById("page-title").textContent=t.title;
+ document.getElementById("refresh-note").textContent=t.refresh;
+ document.getElementById("data-note").textContent=t.data;
+ if(!currentData.fetchedAtParis)document.getElementById("updated").textContent=t.loading;
+ if(persist){try{localStorage.setItem(storageKey,currentLanguage)}catch(_){}}
+ tick();
+ paint(currentData);
+}
+function tick(){document.getElementById("clock").textContent=new Intl.DateTimeFormat(translations[currentLanguage].locale,{hour:"2-digit",minute:"2-digit",second:"2-digit",timeZone:"Europe/Paris"}).format(new Date())}
+async function loadSchedule(){try{const response=await fetch("schedule.json?ts="+Date.now(),{cache:"no-store"});currentData=response.ok?await response.json():fallback}catch(_){currentData=fallback}paint(currentData)}
+document.getElementById("language-select").addEventListener("change",event=>applyLanguage(event.target.value,true));
+applyLanguage(getSavedLanguage(),false);
+loadSchedule();
+setInterval(tick,1000);
+setInterval(loadSchedule,30000);
+</script>
+</body>
+</html>
