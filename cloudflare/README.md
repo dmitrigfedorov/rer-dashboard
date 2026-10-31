@@ -1,19 +1,13 @@
 # Cloudflare Cron dispatcher
 
-This Worker dispatches the existing GitHub Actions workflow every five minutes. The Worker runs outside the local computer; the workflow continues to refresh the dashboard and send the report to the existing Telegram bot conversation.
+This Worker dispatches the existing GitHub Actions workflow every five minutes. It runs outside the local computer; the workflow refreshes the dashboard and sends the report to the existing Telegram bot conversation.
 
-## Deploy
+## Configuration
 
-From this directory, deploy with Wrangler or create a Worker in the Cloudflare dashboard using `worker.js` as its entry point and `*/5 * * * *` as its Cron Trigger.
+The Worker targets `dmitrigfedorov/rer-dashboard`, branch `main`, workflow `.github/workflows/refresh-schedule.yml`. Only the GitHub credential is configured as a secret.
 
-Configure these Worker variables:
+Add `GITHUB_TOKEN` as an encrypted Production Worker secret. Use a fine-grained GitHub token restricted to this repository with **Metadata: Read-only** and **Actions: Read and write**. Never put the token in this repository.
 
-- `GITHUB_OWNER`: `dmitrigfedorov`
-- `GITHUB_REPO`: `rer-dashboard`
-- `GITHUB_REF`: `main`
+Cloudflare builds this Worker from this directory. The Wrangler config installs the `*/5 * * * *` Cron Trigger. After confirming that Cloudflare dispatches successfully, remove the `schedule` trigger from the GitHub workflow and keep `workflow_dispatch` for manual runs.
 
-Add `GITHUB_TOKEN` as an encrypted Worker secret. Use a fine-grained GitHub token restricted to this repository with **Actions: Read and write** permission. Never put the token in this repository.
-
-After deployment, use the Worker’s **Run** action or wait for a Cron Trigger, then confirm a new run appears under GitHub Actions. Only after confirming the Cloudflare dispatch works, remove the `schedule` trigger from `.github/workflows/refresh-schedule.yml`; keep `workflow_dispatch` for manual runs. Leaving both schedulers enabled would create duplicate runs.
-
-The workflow’s concurrency group serializes overlapping runs. Cloudflare Worker logs show dispatch errors; GitHub Actions logs show refresh, publish, and Telegram delivery results.
+The workflow's concurrency group serializes overlapping runs. Cloudflare Worker logs show dispatch errors; GitHub Actions logs show refresh, publish, and Telegram delivery results.
