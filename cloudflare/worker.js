@@ -1,7 +1,13 @@
+const REPOSITORY = "dmitrigfedorov/rer-dashboard";
 const WORKFLOW_FILE = "refresh-schedule.yml";
+const REF = "main";
 
 async function dispatchWorkflow(env) {
-  const url = `https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/actions/workflows/${WORKFLOW_FILE}/dispatches`;
+  if (!env.GITHUB_TOKEN) {
+    throw new Error("Missing GITHUB_TOKEN Worker secret.");
+  }
+
+  const url = `https://api.github.com/repos/${REPOSITORY}/actions/workflows/${WORKFLOW_FILE}/dispatches`;
   const response = await fetch(url, {
     method: "POST",
     headers: {
@@ -10,7 +16,7 @@ async function dispatchWorkflow(env) {
       "X-GitHub-Api-Version": "2022-11-28",
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ ref: env.GITHUB_REF || "main" }),
+    body: JSON.stringify({ ref: REF }),
   });
 
   if (response.status !== 204) {
@@ -18,7 +24,7 @@ async function dispatchWorkflow(env) {
     throw new Error(`GitHub workflow dispatch failed (${response.status}): ${detail}`);
   }
 
-  console.log(`Dispatched ${env.GITHUB_OWNER}/${env.GITHUB_REPO}/${WORKFLOW_FILE} at ${new Date().toISOString()}`);
+  console.log(`Dispatched ${REPOSITORY}/.github/workflows/${WORKFLOW_FILE} at ${new Date().toISOString()}`);
 }
 
 export default {
