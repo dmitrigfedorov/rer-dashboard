@@ -15,8 +15,18 @@ body{padding:4.2vh 4.5vw}
 .title{font-size:4vw;font-weight:700;letter-spacing:-.035em;margin:.5vh 0 0}
 .top-right{display:flex;align-items:flex-end;gap:1.2vw}
 .language{display:flex;align-items:center;gap:.5vw;color:var(--muted);font-size:1vw;white-space:nowrap}
-.language select{color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:.55vw;padding:.65em .75em;font:inherit;cursor:pointer}
-.language select:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.lang-menu{position:relative}
+.language-trigger{display:flex;align-items:center;gap:.55em;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:.55vw;padding:.65em .75em;font:inherit;cursor:pointer}
+.language-trigger:focus-visible,.language-option:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.flag{display:inline-block;width:1.25em;height:.84em;border:1px solid rgba(255,255,255,.45);border-radius:.1em;box-shadow:0 0 1px #000;flex:none}
+.flag-ru{background:linear-gradient(to bottom,#fff 0 33.333%,#0039a6 33.333% 66.666%,#d52b1e 66.666%)}
+.flag-fr{background:linear-gradient(to right,#0055a4 0 33.333%,#fff 33.333% 66.666%,#ef4135 66.666%)}
+.flag-bg{background:linear-gradient(to bottom,#fff 0 33.333%,#00966e 33.333% 66.666%,#d62612 66.666%)}
+.chevron{width:.48em;height:.48em;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin:-.25em .15em 0 .35em}
+.language-options{position:absolute;z-index:20;top:calc(100% + .35em);right:0;min-width:100%;padding:.2em 0;background:var(--card);border:1px solid #69737d;box-shadow:0 4px 14px #0008}
+.language-options[hidden]{display:none}
+.language-option{width:100%;display:flex;align-items:center;gap:.6em;padding:.52em .75em;border:0;background:transparent;color:var(--ink);font:inherit;text-align:left;white-space:nowrap;cursor:pointer}
+.language-option:hover,.language-option[aria-selected="true"]{background:#263541}
 .clock{text-align:right;font-size:1vw;color:var(--muted);white-space:nowrap}
 .clock strong{display:block;color:var(--ink);font-size:2.25vw;font-weight:600;margin-bottom:.5vh}
 .clock #updated{display:block;font-size:1vw;margin-top:.3vh}
@@ -40,7 +50,7 @@ body{padding:4.2vh 4.5vw}
  .top{align-items:flex-start;gap:2vw}
  .top-right{align-items:flex-end;flex-direction:column;gap:1vh}
  .language{font-size:1.5vw}
- .language select{font-size:1.5vw}
+ .language-trigger,.language-option{font-size:1.5vw}
  .grid{grid-template-columns:1fr}
  .title{font-size:6vw}
  .eyebrow{font-size:2vw}
@@ -67,12 +77,18 @@ body{padding:4.2vh 4.5vw}
   </div>
   <div class="top-right">
     <div class="language">
-      <label id="language-label" for="language-select">Язык</label>
-      <select id="language-select" aria-label="Язык отображения">
-        <option value="ru">🇷🇺 Русский</option>
-        <option value="fr">🇫🇷 Français</option>
-        <option value="bg">🇧🇬 Български</option>
-      </select>
+      <label id="language-label">Язык</label>
+      <div class="lang-menu">
+        <button id="language-toggle" class="language-trigger" type="button" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="language-label language-current">
+          <span id="language-current-flag" class="flag flag-ru" aria-hidden="true"></span>
+          <span id="language-current">Русский</span><span class="chevron" aria-hidden="true"></span>
+        </button>
+        <div id="language-options" class="language-options" role="listbox" aria-labelledby="language-label" hidden>
+          <button class="language-option" type="button" role="option" data-language="ru" aria-selected="true"><span class="flag flag-ru" aria-hidden="true"></span>Русский</button>
+          <button class="language-option" type="button" role="option" data-language="fr" aria-selected="false"><span class="flag flag-fr" aria-hidden="true"></span>Français</button>
+          <button class="language-option" type="button" role="option" data-language="bg" aria-selected="false"><span class="flag flag-bg" aria-hidden="true"></span>Български</button>
+        </div>
+      </div>
     </div>
     <div class="clock">
       <strong id="clock">--:--</strong>
@@ -139,8 +155,9 @@ function applyLanguage(language,persist){
  const t=translations[currentLanguage];
  document.documentElement.lang=currentLanguage;
  document.title=t.title+" — Transilien";
- document.getElementById("language-select").value=currentLanguage;
- document.getElementById("language-select").setAttribute("aria-label",t.language);
+ document.getElementById("language-current").textContent={ru:"Русский",fr:"Français",bg:"Български"}[currentLanguage];
+ document.getElementById("language-current-flag").className="flag flag-"+currentLanguage;
+ document.querySelectorAll(".language-option").forEach(option=>option.setAttribute("aria-selected",String(option.dataset.language===currentLanguage)));
  document.getElementById("language-label").textContent=t.language;
  document.getElementById("eyebrow-text").textContent=t.eyebrow;
  document.getElementById("page-title").textContent=t.title;
@@ -153,7 +170,25 @@ function applyLanguage(language,persist){
 }
 function tick(){document.getElementById("clock").textContent=new Intl.DateTimeFormat(translations[currentLanguage].locale,{hour:"2-digit",minute:"2-digit",second:"2-digit",timeZone:"Europe/Paris"}).format(new Date())}
 async function loadSchedule(){try{const response=await fetch("schedule.json?ts="+Date.now(),{cache:"no-store"});currentData=response.ok?await response.json():fallback}catch(_){currentData=fallback}paint(currentData)}
-document.getElementById("language-select").addEventListener("change",event=>applyLanguage(event.target.value,true));
+const languageToggle=document.getElementById("language-toggle");
+const languageOptions=document.getElementById("language-options");
+function closeLanguageMenu(){languageOptions.hidden=true;languageToggle.setAttribute("aria-expanded","false")}
+languageToggle.addEventListener("click",()=>{
+ const open=languageOptions.hidden;
+ languageOptions.hidden=!open;
+ languageToggle.setAttribute("aria-expanded",String(open));
+});
+languageOptions.addEventListener("click",event=>{
+ const option=event.target.closest("[data-language]");
+ if(!option)return;
+ applyLanguage(option.dataset.language,true);
+ closeLanguageMenu();
+ languageToggle.focus();
+});
+document.addEventListener("click",event=>{if(!event.target.closest(".lang-menu"))closeLanguageMenu()});
+document.addEventListener("keydown",event=>{
+ if(event.key==="Escape"&&!languageOptions.hidden){closeLanguageMenu();languageToggle.focus()}
+});
 applyLanguage(getSavedLanguage(),false);
 loadSchedule();
 setInterval(tick,1000);
