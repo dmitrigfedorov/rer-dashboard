@@ -28,7 +28,7 @@ def dt(v):
     if x.tzinfo is None: x=x.replace(tzinfo=timezone.utc)
     return x.astimezone(timezone.utc)
 def fetch(token, stop, now, line=LINE):
-    q=urllib.parse.urlencode({'MonitoringRef':stop,'LineRef':line})
+    q=urllib.parse.urlencode({'MonitoringRef':stop,'LineRef':line,'MinimumStopVisitsPerLine':3})
     req=urllib.request.Request(API+'?'+q,headers={'apikey':token,'Accept':'application/json','User-Agent':'rer-dashboard/1.0'})
     with urllib.request.urlopen(req,timeout=25) as r: data=json.load(r)
     delivery=data.get('Siri',{}).get('ServiceDelivery',{}).get('StopMonitoringDelivery',[])
