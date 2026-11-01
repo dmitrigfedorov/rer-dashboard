@@ -51,13 +51,13 @@ def normalize(s):
     value=unicodedata.normalize('NFKD',s or '')
     return ''.join(c for c in value if not unicodedata.combining(c)).lower()
 
-def bus_departures(token, stop, headsign, now):
+def bus_departures(token, stop, headsign, now, destination_name=None):
     target=normalize(headsign)
     rows=[]
     for visit in fetch(token,stop,now,BUS_LINE):
         labels=normalize(' '.join((visit.get('dest',''),visit.get('direction',''),visit.get('display',''))))
         if target not in labels: continue
-        rows.append({'from':visit['dep'].astimezone(PARIS).strftime('%H:%M'),'to':'','train':'325','destinationName':headsign,'platform':'','status':visit['status']})
+        rows.append({'from':visit['dep'].astimezone(PARIS).strftime('%H:%M'),'to':'','train':'325','destinationName':destination_name or headsign,'platform':'','status':visit['status']})
         if len(rows)==3: break
     return rows
 
@@ -90,22 +90,26 @@ def main():
         try:
             bus_quai=bus_departures(token,BUS_STOPS['quai'],'Quai de la Gare',now)
             bus_vincennes=bus_departures(token,BUS_STOPS['vincennes'],'Château de Vincennes',now)
+            bus_eglise=bus_departures(token,BUS_STOPS['quai'],'Château de Vincennes',now,'Église de Saint-Mandé')
             bus_updated=now
             print('Refreshed BUS 325 data.')
         except Exception as e:
             print('BUS 325 refresh failed; retaining the last available bus data: '+str(e),file=sys.stderr)
             bus_quai=old_cards.get('bus-quai',{}).get('rows',[])
             bus_vincennes=old_cards.get('bus-vincennes',{}).get('rows',[])
+            bus_eglise=old_cards.get('bus-eglise',{}).get('rows',[])
             if bus_updated is None: bus_updated=now
     else:
         bus_quai=old_cards.get('bus-quai',{}).get('rows',[])
         bus_vincennes=old_cards.get('bus-vincennes',{}).get('rows',[])
+        bus_eglise=old_cards.get('bus-eglise',{}).get('rows',[])
 
     cards=[
         {'card':'rer-ivry','mode':'rer','line':'C','title':STATIONS[0][0],'destination':STATIONS[1][0],'rows':directions[0]['rows'][:2]},
         {'card':'bus-quai','mode':'bus','line':'325','title':'Jean-Jacques Rousseau','destination':'Émile Durkheim','rows':bus_quai},
         {'card':'rer-bfm','mode':'rer','line':'C','title':STATIONS[1][0],'destination':STATIONS[0][0],'rows':directions[1]['rows'][:2]},
-        {'card':'bus-vincennes','mode':'bus','line':'325','title':'Bibliothèque François-Mitterrand','destination':'Jean-Jacques Rousseau','rows':bus_vincennes}
+        {'card':'bus-vincennes','mode':'bus','line':'325','title':'Bibliothèque François-Mitterrand','destination':'Jean-Jacques Rousseau','rows':bus_vincennes},
+        {'card':'bus-eglise','mode':'bus','line':'325','title':'Jean-Jacques Rousseau','destination':'Église de Saint-Mandé','rows':bus_eglise}
     ]
     stamp=now.astimezone(PARIS).strftime('%d.%m.%Y, %H:%M:%S')
     out={'fetchedAtParis':stamp,'directions':directions,'cards':cards,'busFetchedAt':bus_updated.isoformat().replace('+00:00','Z') if bus_updated else None,'busFetchedAtParis':bus_updated.astimezone(PARIS).strftime('%d.%m.%Y, %H:%M:%S') if bus_updated else None}
