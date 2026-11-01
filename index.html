@@ -41,15 +41,15 @@ body{padding:4.2vh 4.5vw}
 .train{border-top:1px solid var(--line);padding:2.1vh 0;display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.2fr) minmax(4.3em,.55fr);align-items:center;gap:1.2vw}
 .departure{min-width:0}
 .departure-label{font-size:1.25vw;line-height:1.3;color:var(--muted);min-height:1.3em}
-.countdown{display:flex;align-items:center;gap:.72vw;margin-top:.25em;white-space:nowrap}
-.countdown-icon{width:1.8vw;height:1.8vw;min-width:16px;min-height:16px;color:#68c9a7;flex:none}
+.countdown{display:flex;align-items:baseline;gap:.72vw;margin-top:.25em;white-space:nowrap}
+.countdown-icon{width:1.8vw;height:1.8vw;min-width:16px;min-height:16px;color:#68c9a7;flex:none;align-self:center}
 .signal-arc{animation:signal-arc 2.4s ease-in-out infinite}
 .signal-dot{animation:signal-dot 2.4s ease-in-out infinite}
 @keyframes signal-arc{0%,14%,100%{opacity:1}30%,72%{opacity:0}88%{opacity:1}}
 @keyframes signal-dot{0%,31%,100%{opacity:1}48%,57%{opacity:0}72%{opacity:1}}
 @media(prefers-reduced-motion:reduce){.signal-arc,.signal-dot{animation:none}}
 .countdown strong{font-size:2.2vw;line-height:1;color:var(--ink)}
-.countdown small{font-size:1.1vw;line-height:1;color:var(--muted);align-self:flex-end;margin-bottom:.04em}
+.countdown small{font-size:1.1vw;line-height:inherit;color:var(--muted)}
 .countdown-text{font-size:1.45vw;line-height:1.3;color:var(--ink);margin-top:.3em}
 .train-details{min-width:0;text-align:left}
 .train-name{font-size:1.45vw;line-height:1.4;color:var(--muted)}
