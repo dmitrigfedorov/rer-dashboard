@@ -49,6 +49,9 @@ body{padding:4.2vh 4.5vw}
 @keyframes signal-dot{0%,31%,100%{opacity:1}48%,57%{opacity:0}72%{opacity:1}}
 @media(prefers-reduced-motion:reduce){.signal-arc,.signal-dot{animation:none}}
 .countdown strong{font-size:2.2vw;line-height:1;color:var(--ink)}
+.countdown-green strong{color:#68c9a7}
+.countdown-yellow strong{color:#f3c96c}
+.countdown-red strong{color:#ff6b6b}
 .countdown small{font-size:1.1vw;line-height:inherit;color:var(--muted)}
 .countdown-text{font-size:1.45vw;line-height:1.3;color:var(--ink);margin-top:.3em}
 .train-details{min-width:0;text-align:left}
@@ -199,7 +202,8 @@ function minutesUntil(time){const p=time.split(":").map(Number),d=new Date();d.s
 function countdown(time){const t=translations[currentLanguage],n=minutesUntil(time);if(n < -1)return t.ago+Math.abs(n)+t.agoEnd;if(n<=0)return t.now;return t.inMinutes+n+t.minutes}
 function departureMarkup(time){
  const t=translations[currentLanguage],n=minutesUntil(time);
- if(n>0)return '<div class="departure-label">'+esc(t.departure+t.inMinutes)+'</div><div class="countdown"><svg class="countdown-icon" viewBox="0 0 24 24" aria-hidden="true"><path class="signal-arc" d="M8.2 4.4a8.4 8.4 0 0 0 0 15.2" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><circle class="signal-dot" cx="14.6" cy="12" r="3.1" fill="currentColor"/></svg><strong>'+n+'</strong><small>'+esc(t.minutes.trim())+'</small></div>';
+ const colorClass=n>=8?"green":n>=6?"yellow":"red";
+ if(n>0)return '<div class="departure-label">'+esc(t.departure+t.inMinutes)+'</div><div class="countdown countdown-'+colorClass+'"><svg class="countdown-icon" viewBox="0 0 24 24" aria-hidden="true"><path class="signal-arc" d="M8.2 4.4a8.4 8.4 0 0 0 0 15.2" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><circle class="signal-dot" cx="14.6" cy="12" r="3.1" fill="currentColor"/></svg><strong>'+n+'</strong><small>'+esc(t.minutes.trim())+'</small></div>';
  return '<div class="departure-label">'+esc(t.departure.trim())+'</div><div class="countdown-text">'+esc(countdown(time))+'</div>';
 }
 function statusText(value){const key=String(value==null?"":value);return translations[currentLanguage].statuses[key]||key||"—"}
