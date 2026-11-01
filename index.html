@@ -15,7 +15,13 @@ body{padding:4.2vh 4.5vw}
 .eyebrow{font-size:1.4vw;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);font-weight:700}
 .title{font-size:4vw;font-weight:700;letter-spacing:-.035em;line-height:1.15;white-space:nowrap;margin:.5vh 0 0}
 .title-badge{display:inline-flex;vertical-align:middle;line-height:1;margin:0 .12em}
-.top-right{display:flex;align-items:flex-end;gap:1.2vw}
+.top-right{display:grid;grid-template-columns:auto auto;grid-template-rows:auto auto;column-gap:1.2vw;row-gap:.25vh;align-items:center}
+.language{grid-column:1;grid-row:2}
+.weather{grid-column:1;grid-row:1;text-align:right}
+.clock{display:contents}
+.clock strong{grid-column:2;grid-row:1;align-self:end}
+.clock #updated{grid-column:2;grid-row:2;align-self:start;display:flex;align-items:center;justify-content:flex-end;gap:.35em}
+.refresh-icon{width:1em;height:1em;flex:none;vertical-align:-.15em}
 .language{display:flex;align-items:center;gap:.5vw;color:var(--muted);font-size:1vw;white-space:nowrap}
 .lang-menu{position:relative}
 .language-trigger{display:flex;align-items:center;gap:.55em;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:.55vw;padding:.65em .75em;font:inherit;cursor:pointer}
@@ -79,7 +85,9 @@ h1.title .station-line{display:inline-flex;vertical-align:middle}
 @media(max-aspect-ratio:4/3){
  body{padding:3vh 4vw}
  .top{align-items:flex-start;gap:2vw}
- .top-right{align-items:flex-end;flex-direction:column;gap:1vh}
+ .top-right{display:flex;align-items:flex-end;flex-direction:column;gap:1vh}
+ .clock{display:block}
+ .clock strong,.clock #updated{grid-column:auto;grid-row:auto}
  .language{font-size:1.5vw}
  .language-trigger,.language-option{font-size:1.5vw}
  .grid{grid-template-columns:1fr;grid-template-rows:none;grid-template-areas:"rer-ivry" "rer-bfm" "bus-quai" "bus-vincennes" "bus-eglise"}
@@ -117,6 +125,9 @@ h1.title .station-line{display:inline-flex;vertical-align:middle}
  .eyebrow{font-size:11px}
  .title{font-size:clamp(22px,6vw,32px)}
  .top-right{gap:10px;align-items:flex-start}
+ .clock{display:block}
+ .clock strong,.clock #updated{grid-column:auto;grid-row:auto}
+ .clock #updated{justify-content:flex-start}
  .language{font-size:12px}
  .language-trigger,.language-option{font-size:12px}
  .clock{font-size:11px}
@@ -180,7 +191,7 @@ h1.title .station-line{display:inline-flex;vertical-align:middle}
     </div>
     <div class="clock">
       <strong id="clock">--:--</strong>
-      <span id="updated">Обновлено: загрузка…</span>
+      <span id="updated" aria-label="Время обновления">загрузка…</span>
     </div>
   </div>
 </header>
@@ -250,7 +261,7 @@ async function loadWeather(){
 const translations={
  ru:{
   locale:"ru-FR",language:"Язык",weatherLoading:"Погода…",weatherUnavailable:"Нет данных о погоде",weatherIp:"примерно по IP",eyebrow:"RER C • BUS 325 • ближайшие отправления",title:"Расписание RER C и BUS 325",heading:'Расписание RER <span class="station-line title-badge">C</span> и BUS <span class="station-line bus-line title-badge">325</span>',
-  updated:"Обновлено:",loading:"Обновлено: загрузка…",noData:"Обновлено: нет данных",nearest:"Ближайший поезд",nearestBus:"Ближайший автобус",
+  updatedLabel:"Время обновления",loading:"загрузка…",noData:"нет данных",nearest:"Ближайший поезд",nearestBus:"Ближайший автобус",
   to:"до ",departure:"Отправление ",platform:"Путь",empty:"Ближайшие отправления не найдены",
   refresh:"Обновление каждые 5 минут",data:"Данные Île-de-France Mobilités • Ivry-sur-Seine",
   now:"сейчас",inMinutes:"через ",minutes:" мин",ago:"ушёл ",agoEnd:" мин назад",
@@ -258,7 +269,7 @@ const translations={
  },
  fr:{
   locale:"fr-FR",language:"Langue",weatherLoading:"Météo…",weatherUnavailable:"Météo indisponible",weatherIp:"localisation IP approximative",eyebrow:"RER C • BUS 325 • prochains départs",title:"Horaires RER C et BUS 325",heading:'Horaires RER <span class="station-line title-badge">C</span> et BUS <span class="station-line bus-line title-badge">325</span>',
-  updated:"Mis à jour :",loading:"Mise à jour : chargement…",noData:"Mise à jour : aucune donnée",nearest:"Prochain train",nearestBus:"Prochain bus",
+  updatedLabel:"Heure de mise à jour",loading:"chargement…",noData:"aucune donnée",nearest:"Prochain train",nearestBus:"Prochain bus",
   to:"vers ",departure:"Départ ",platform:"Voie",empty:"Aucun départ à venir",
   refresh:"Mise à jour toutes les 5 minutes",data:"Données Île-de-France Mobilités • Ivry-sur-Seine",
   now:"maintenant",inMinutes:"dans ",minutes:" min",ago:"parti il y a ",agoEnd:" min",
@@ -266,7 +277,7 @@ const translations={
  },
  bg:{
   locale:"bg-BG",language:"Език",weatherLoading:"Времето…",weatherUnavailable:"Няма данни за времето",weatherIp:"приблизително местоположение по IP",eyebrow:"RER C • BUS 325 • предстоящи заминавания",title:"Разписание RER C и BUS 325",heading:'Разписание RER <span class="station-line title-badge">C</span> и BUS <span class="station-line bus-line title-badge">325</span>',
-  updated:"Обновено:",loading:"Обновяване: зареждане…",noData:"Обновяване: няма данни",nearest:"Следващ влак",nearestBus:"Следващ автобус",
+  updatedLabel:"Час на обновяване",loading:"зареждане…",noData:"няма данни",nearest:"Следващ влак",nearestBus:"Следващ автобус",
   to:"до ",departure:"Отпътуване ",platform:"Кол.",empty:"Няма намерени предстоящи влакове",
   refresh:"Обновяване на всеки 5 минути",data:"Данни от Île-de-France Mobilités • Ivry-sur-Seine",
   now:"сега",inMinutes:"след ",minutes:" мин",ago:"заминал преди ",agoEnd:" мин",
@@ -287,6 +298,12 @@ function departureMarkup(time){
  return '<div class="departure-label">'+esc(t.departure.trim())+'</div><div class="countdown-text">'+esc(countdown(time))+'</div>';
 }
 function statusText(value){const key=String(value==null?"":value);return translations[currentLanguage].statuses[key]||key||"—"}
+function setUpdated(value,label){
+ const element=document.getElementById("updated");
+ element.setAttribute("aria-label",label+(value?" "+value:""));
+ element.title=label+(value?" "+value:"");
+ element.innerHTML='<svg class="refresh-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 7v5h-5M4 17v-5h5M5.64 9A7 7 0 0 1 17.5 6.5L20 12M4 12l2.5 5.5A7 7 0 0 0 18.36 15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>'+esc(value||"")+'</span>';
+}
 function paint(data){
  const t=translations[currentLanguage],grid=document.getElementById("schedule");
  const dashboardCards=Array.isArray(data.cards),panels=dashboardCards?data.cards:(data.directions||[]);
@@ -303,7 +320,7 @@ function paint(data){
    return '<div class="train"><div class="departure">'+departureMarkup(r.from)+'</div><div class="train-details">'+trainName+'<div class="times">'+times+'</div></div>'+details+'</div>';
   }).join('')||'<div class="empty">'+t.empty+'</div>')+'</section>';
  }).join('');
- document.getElementById("updated").textContent=data.fetchedAtParis?t.updated+" "+data.fetchedAtParis:t.noData;
+ setUpdated(data.fetchedAtParis,t.updatedLabel);
 }
 function applyLanguage(language,persist){
  currentLanguage=translations[language]?language:"ru";
@@ -320,7 +337,7 @@ function applyLanguage(language,persist){
  document.getElementById("page-title").innerHTML=t.heading;
  document.getElementById("refresh-note").textContent=t.refresh;
  document.getElementById("data-note").textContent=t.data;
- if(!currentData.fetchedAtParis)document.getElementById("updated").textContent=t.loading;
+ if(!currentData.fetchedAtParis)setUpdated(t.loading,t.updatedLabel);
  if(persist){try{localStorage.setItem(storageKey,currentLanguage)}catch(_){}}
  tick();
  paint(currentData);
