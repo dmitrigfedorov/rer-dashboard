@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "01.11.2026, 15:26:03",
+  "fetchedAtParis": "01.11.2026, 15:31:07",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "15:28",
-          "to": "15:30",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "15:43",
           "to": "15:45",
@@ -28,6 +20,14 @@
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
+        },
+        {
+          "from": "16:13",
+          "to": "16:15",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
         }
       ]
     },
@@ -36,7 +36,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "15:30",
+          "from": "15:31",
           "to": "15:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
