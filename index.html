@@ -31,9 +31,10 @@ body{padding:4.2vh 4.5vw}
 .clock{text-align:right;font-size:1vw;color:var(--muted);white-space:nowrap}
 .clock strong{display:block;color:var(--ink);font-size:2.25vw;font-weight:600;margin-bottom:.5vh}
 .clock #updated{display:block;font-size:1vw;margin-top:.3vh}
-.grid{display:grid;grid-template-columns:1fr 1fr;grid-template-areas:"bus-quai ." "rer-bfm bus-vincennes";gap:2vw}
+.grid{display:grid;grid-template-columns:1fr 1fr;grid-template-areas:"rer-ivry bus-quai" "rer-bfm bus-vincennes";gap:2vw}
 .grid.legacy-grid{grid-template-areas:none}
 .grid.legacy-grid .panel{grid-area:auto}
+.panel[data-card="rer-ivry"]{grid-area:rer-ivry}
 .panel[data-card="bus-quai"]{grid-area:bus-quai}
 .panel[data-card="rer-bfm"]{grid-area:rer-bfm}
 .panel[data-card="bus-vincennes"]{grid-area:bus-vincennes}
@@ -78,9 +79,9 @@ body{padding:4.2vh 4.5vw}
  .top-right{align-items:flex-end;flex-direction:column;gap:1vh}
  .language{font-size:1.5vw}
  .language-trigger,.language-option{font-size:1.5vw}
- .grid{grid-template-columns:1fr;grid-template-areas:"bus-quai" "rer-bfm" "bus-vincennes"}
+ .grid{grid-template-columns:1fr;grid-template-areas:"rer-ivry" "rer-bfm" "bus-quai" "bus-vincennes"}
  .grid.legacy-grid{grid-template-areas:none}
- .panel[data-card="bus-quai"],.panel[data-card="rer-bfm"],.panel[data-card="bus-vincennes"]{grid-area:auto}
+ .panel[data-card="rer-ivry"],.panel[data-card="rer-bfm"],.panel[data-card="bus-quai"],.panel[data-card="bus-vincennes"]{grid-area:auto}
  .title{font-size:6vw}
  .eyebrow{font-size:2vw}
  .clock strong{font-size:3vw}
