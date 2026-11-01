@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "01.11.2026, 19:56:04",
+  "fetchedAtParis": "01.11.2026, 20:01:06",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "19:58",
-          "to": "20:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "20:13",
           "to": "20:15",
@@ -28,6 +20,14 @@
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
+        },
+        {
+          "from": "20:43",
+          "to": "20:45",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
         }
       ]
     },
@@ -36,11 +36,11 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "20:00",
-          "to": "20:03",
+          "from": "20:01",
+          "to": "20:04",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "19:58",
-          "to": "20:00",
+          "from": "20:13",
+          "to": "20:15",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "20:13",
-          "to": "20:15",
+          "from": "20:28",
+          "to": "20:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "19:56",
+          "from": "20:02",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:04",
+          "from": "20:18",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,11 +121,11 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "20:00",
-          "to": "20:03",
+          "from": "20:01",
+          "to": "20:04",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "19:52",
+          "from": "20:05",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:05",
+          "from": "20:31",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -164,6 +164,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-01T18:51:03.481981Z",
-  "busFetchedAtParis": "01.11.2026, 19:51:03"
+  "busFetchedAt": "2026-11-01T19:01:06.921938Z",
+  "busFetchedAtParis": "01.11.2026, 20:01:06"
 }
