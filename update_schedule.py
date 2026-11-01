@@ -28,7 +28,7 @@ def dt(v):
     if x.tzinfo is None: x=x.replace(tzinfo=timezone.utc)
     return x.astimezone(timezone.utc)
 def fetch(token, stop, now, line=LINE):
-    q=urllib.parse.urlencode({'MonitoringRef':stop,'LineRef':line,'MinimumStopVisitsPerLine':3})
+    q=urllib.parse.urlencode({'MonitoringRef':stop,'LineRef':line,'MaximumStopVisits':3})
     req=urllib.request.Request(API+'?'+q,headers={'apikey':token,'Accept':'application/json','User-Agent':'rer-dashboard/1.0'})
     with urllib.request.urlopen(req,timeout=25) as r: data=json.load(r)
     delivery=data.get('Siri',{}).get('ServiceDelivery',{}).get('StopMonitoringDelivery',[])
@@ -97,7 +97,7 @@ def main():
 
     cards=[
         {'card':'rer-ivry','mode':'rer','line':'C','title':STATIONS[0][0],'destination':STATIONS[1][0],'rows':directions[0]['rows']},
-        {'card':'bus-quai','mode':'bus','line':'325','title':'Jean-Jacques Rousseau','destination':'Emile Durkheim','rows':bus_quai},
+        {'card':'bus-quai','mode':'bus','line':'325','title':'Jean-Jacques Rousseau','destination':'Émile Durkheim','rows':bus_quai},
         {'card':'rer-bfm','mode':'rer','line':'C','title':STATIONS[1][0],'destination':STATIONS[0][0],'rows':directions[1]['rows']},
         {'card':'bus-vincennes','mode':'bus','line':'325','title':'Bibliothèque François-Mitterrand','destination':'Jean-Jacques Rousseau','rows':bus_vincennes}
     ]
