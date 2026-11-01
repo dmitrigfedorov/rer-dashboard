@@ -199,7 +199,7 @@ function minutesUntil(time){const p=time.split(":").map(Number),d=new Date();d.s
 function countdown(time){const t=translations[currentLanguage],n=minutesUntil(time);if(n < -1)return t.ago+Math.abs(n)+t.agoEnd;if(n<=0)return t.now;return t.inMinutes+n+t.minutes}
 function departureMarkup(time){
  const t=translations[currentLanguage],n=minutesUntil(time);
- if(n>0)return '<div class="departure-label">'+esc(t.departure+t.inMinutes)+'</div><div class="countdown"><svg class="countdown-icon" viewBox="0 0 24 24" aria-hidden="true"><path class="signal-arc" d="M8.2 4.4a8.4 8.4 0 0 0 0 15.2" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><circle class="signal-dot" cx="17.6" cy="12" r="3.1" fill="currentColor"/></svg><strong>'+n+'</strong><small>'+esc(t.minutes.trim())+'</small></div>';
+ if(n>0)return '<div class="departure-label">'+esc(t.departure+t.inMinutes)+'</div><div class="countdown"><svg class="countdown-icon" viewBox="0 0 24 24" aria-hidden="true"><path class="signal-arc" d="M8.2 4.4a8.4 8.4 0 0 0 0 15.2" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><circle class="signal-dot" cx="15.8" cy="12" r="3.1" fill="currentColor"/></svg><strong>'+n+'</strong><small>'+esc(t.minutes.trim())+'</small></div>';
  return '<div class="departure-label">'+esc(t.departure.trim())+'</div><div class="countdown-text">'+esc(countdown(time))+'</div>';
 }
 function statusText(value){const key=String(value==null?"":value);return translations[currentLanguage].statuses[key]||key||"—"}
