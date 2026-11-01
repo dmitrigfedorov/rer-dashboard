@@ -30,7 +30,13 @@ def dt(v):
 def fetch(token, stop, now, line=LINE):
     q=urllib.parse.urlencode({'MonitoringRef':stop,'LineRef':line,'MaximumStopVisits':3})
     req=urllib.request.Request(API+'?'+q,headers={'apikey':token,'Accept':'application/json','User-Agent':'rer-dashboard/1.0'})
-    with urllib.request.urlopen(req,timeout=25) as r: data=json.load(r)
+    try:
+        with urllib.request.urlopen(req,timeout=25) as r: data=json.load(r)
+    except urllib.error.HTTPError as e:
+        if e.code != 400: raise
+        q=urllib.parse.urlencode({'MonitoringRef':stop,'LineRef':line})
+        req=urllib.request.Request(API+'?'+q,headers={'apikey':token,'Accept':'application/json','User-Agent':'rer-dashboard/1.0'})
+        with urllib.request.urlopen(req,timeout=25) as r: data=json.load(r)
     delivery=data.get('Siri',{}).get('ServiceDelivery',{}).get('StopMonitoringDelivery',[])
     visits=[]
     for d in many(delivery): visits += many(d.get('MonitoredStopVisit'))
