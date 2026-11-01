@@ -51,10 +51,10 @@ body{padding:4.2vh 4.5vw}
 .countdown{display:flex;align-items:baseline;gap:.72vw;margin-top:.25em;white-space:nowrap}
 .countdown-icon{width:1.8vw;height:1.8vw;min-width:16px;min-height:16px;color:#68c9a7;flex:none;align-self:center}
 .signal-arc{animation:signal-arc 2.4s ease-in-out infinite}
-.signal-dot{animation:signal-dot 2.4s ease-in-out infinite}
+.signal-inner{animation:signal-inner 2.4s ease-in-out infinite}
 @keyframes signal-arc{0%,14%,100%{opacity:1}30%,72%{opacity:0}88%{opacity:1}}
-@keyframes signal-dot{0%,31%,100%{opacity:1}48%,57%{opacity:0}72%{opacity:1}}
-@media(prefers-reduced-motion:reduce){.signal-arc,.signal-dot{animation:none}}
+@keyframes signal-inner{0%,31%,100%{opacity:1}48%,57%{opacity:0}72%{opacity:1}}
+@media(prefers-reduced-motion:reduce){.signal-arc,.signal-inner{animation:none}}
 .countdown strong{font-size:2.2vw;line-height:1;color:var(--ink)}
 .countdown-green strong{color:#68c9a7}
 .countdown-yellow strong{color:#f3c96c}
@@ -214,7 +214,7 @@ function countdown(time){const t=translations[currentLanguage],n=minutesUntil(ti
 function departureMarkup(time){
  const t=translations[currentLanguage],n=minutesUntil(time);
  const colorClass=n>=8?"green":n>=6?"yellow":"red";
- if(n>0)return '<div class="departure-label">'+esc(t.departure+t.inMinutes)+'</div><div class="countdown countdown-'+colorClass+'"><svg class="countdown-icon" viewBox="0 0 24 24" aria-hidden="true"><path class="signal-arc" d="M8.2 4.4a8.4 8.4 0 0 0 0 15.2" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><circle class="signal-dot" cx="14.6" cy="12" r="3.1" fill="currentColor"/></svg><strong>'+n+'</strong><small>'+esc(t.minutes.trim())+'</small></div>';
+ if(n>0)return '<div class="departure-label">'+esc(t.departure+t.inMinutes)+'</div><div class="countdown countdown-'+colorClass+'"><svg class="countdown-icon" viewBox="0 0 24 24" aria-hidden="true"><path class="signal-arc" d="M8.3 4.4C3.6 8.2 3.6 15.8 8.3 19.6" fill="none" stroke="currentColor" stroke-width="4.8" stroke-linecap="round"/><path class="signal-inner" d="M14.6 7.6C11.7 9.8 11.7 14.2 14.6 16.4" fill="none" stroke="currentColor" stroke-width="4.2" stroke-linecap="round"/></svg><strong>'+n+'</strong><small>'+esc(t.minutes.trim())+'</small></div>';
  return '<div class="departure-label">'+esc(t.departure.trim())+'</div><div class="countdown-text">'+esc(countdown(time))+'</div>';
 }
 function statusText(value){const key=String(value==null?"":value);return translations[currentLanguage].statuses[key]||key||"—"}
