@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "01.11.2026, 22:06:03",
+  "fetchedAtParis": "01.11.2026, 22:11:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "22:28",
-          "to": "22:30",
+          "from": "22:30",
+          "to": "22:31",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "22:28",
-          "to": "22:30",
+          "from": "22:30",
+          "to": "22:31",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "22:03",
+          "from": "22:20",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:21",
+          "from": "22:32",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "22:03",
+          "from": "22:28",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:28",
+          "from": "22:48",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -169,9 +169,26 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Église de Saint-Mandé",
-      "rows": []
+      "rows": [
+        {
+          "from": "22:12",
+          "to": "",
+          "train": "325",
+          "destinationName": "Église de Saint-Mandé",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "22:37",
+          "to": "",
+          "train": "325",
+          "destinationName": "Église de Saint-Mandé",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
-  "busFetchedAt": "2026-11-01T20:56:04.336959Z",
-  "busFetchedAtParis": "01.11.2026, 21:56:04"
+  "busFetchedAt": "2026-11-01T21:11:04.740021Z",
+  "busFetchedAtParis": "01.11.2026, 22:11:04"
 }
