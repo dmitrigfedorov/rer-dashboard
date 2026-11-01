@@ -162,6 +162,14 @@
           "status": "onTime"
         }
       ]
+    },
+    {
+      "card": "bus-eglise",
+      "mode": "bus",
+      "line": "325",
+      "title": "Jean-Jacques Rousseau",
+      "destination": "Église de Saint-Mandé",
+      "rows": []
     }
   ],
   "busFetchedAt": "2026-11-01T20:56:04.336959Z",
