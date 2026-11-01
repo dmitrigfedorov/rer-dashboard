@@ -13,7 +13,9 @@ html,body{margin:0;min-height:100%;background:var(--paper);color:var(--ink);font
 body{padding:4.2vh 4.5vw}
 .top{display:flex;justify-content:space-between;align-items:flex-end;gap:1.5vw;border-bottom:1px solid var(--line);padding-bottom:2.1vh;margin-bottom:3vh}
 .eyebrow{font-size:1.4vw;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);font-weight:700}
-.title{font-size:4vw;font-weight:700;letter-spacing:-.035em;margin:.5vh 0 0}
+.title{font-size:4vw;font-weight:700;letter-spacing:-.035em;line-height:1.15;margin:.5vh 0 0}
+.title-badge{display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;width:1.91em;height:1.91em;border-radius:.18em;background:#f4cc00;color:#171d24;font-size:.72em;line-height:1;letter-spacing:0;margin:0 .12em}
+.title-badge.bus{width:2.84em;border-radius:.18em;background:#8bd3df;color:#101619;letter-spacing:-.04em}
 .top-right{display:flex;align-items:flex-end;gap:1.2vw}
 .language{display:flex;align-items:center;gap:.5vw;color:var(--muted);font-size:1vw;white-space:nowrap}
 .lang-menu{position:relative}
@@ -73,7 +75,6 @@ body{padding:4.2vh 4.5vw}
 .badge{display:inline-block;border:1px solid #527d5a;color:var(--green);border-radius:999px;padding:.4em .75em;font-size:.92vw;white-space:nowrap}
 .empty{padding:5vh 0;color:var(--muted);font-size:1.4vw}
 .bottom{display:flex;justify-content:space-between;gap:2vw;margin-top:2.3vh;color:var(--muted);font-size:1vw}
-.line{display:inline-flex;align-items:center;justify-content:center;min-width:2.1em;height:2.1em;border-radius:50%;background:#e9d851;color:#222;font-size:.8em;font-weight:700;margin-right:.6vw}
 @media(max-aspect-ratio:4/3){
  body{padding:3vh 4vw}
  .top{align-items:flex-start;gap:2vw}
@@ -147,7 +148,7 @@ body{padding:4.2vh 4.5vw}
 <body>
 <header class="top">
   <div>
-    <div class="eyebrow"><span class="line">C</span><span id="eyebrow-text">Transilien • ближайшие отправления</span></div>
+    <div class="eyebrow"><span id="eyebrow-text">Transilien • ближайшие отправления</span></div>
     <h1 class="title" id="page-title">Ближайшие поезда RER C</h1>
   </div>
   <div class="top-right">
@@ -181,7 +182,7 @@ const fallback={fetchedAtParis:"",directions:[]};
 const storageKey="rer-dashboard-language";
 const translations={
  ru:{
-  locale:"ru-FR",language:"Язык",eyebrow:"RER C • BUS 325 • ближайшие отправления",title:"Расписание RER C и BUS 325",
+  locale:"ru-FR",language:"Язык",eyebrow:"RER C • BUS 325 • ближайшие отправления",title:"Расписание RER C и BUS 325",heading:'Расписание RER <span class="title-badge">C</span> и BUS <span class="title-badge bus">325</span>',
   updated:"Обновлено:",loading:"Обновлено: загрузка…",noData:"Обновлено: нет данных",nearest:"Ближайший поезд",nearestBus:"Ближайший автобус",
   to:"до ",departure:"Отправление ",platform:"Путь",empty:"Ближайшие отправления не найдены",
   refresh:"Обновление каждые 5 минут",data:"Данные Île-de-France Mobilités • Ivry-sur-Seine",
@@ -189,7 +190,7 @@ const translations={
   statuses:{onTime:"По расписанию"}
  },
  fr:{
-  locale:"fr-FR",language:"Langue",eyebrow:"RER C • BUS 325 • prochains départs",title:"Horaires RER C et bus 325",
+  locale:"fr-FR",language:"Langue",eyebrow:"RER C • BUS 325 • prochains départs",title:"Horaires RER C et bus 325",heading:'Horaires RER <span class="title-badge">C</span> et bus <span class="title-badge bus">325</span>',
   updated:"Mis à jour :",loading:"Mise à jour : chargement…",noData:"Mise à jour : aucune donnée",nearest:"Prochain train",nearestBus:"Prochain bus",
   to:"vers ",departure:"Départ ",platform:"Voie",empty:"Aucun départ à venir",
   refresh:"Mise à jour toutes les 5 minutes",data:"Données Île-de-France Mobilités • Ivry-sur-Seine",
@@ -197,7 +198,7 @@ const translations={
   statuses:{onTime:"À l'heure"}
  },
  bg:{
-  locale:"bg-BG",language:"Език",eyebrow:"RER C • BUS 325 • предстоящи заминавания",title:"Разписание RER C и автобус 325",
+  locale:"bg-BG",language:"Език",eyebrow:"RER C • BUS 325 • предстоящи заминавания",title:"Разписание RER C и автобус 325",heading:'Разписание RER <span class="title-badge">C</span> и автобус <span class="title-badge bus">325</span>',
   updated:"Обновено:",loading:"Обновяване: зареждане…",noData:"Обновяване: няма данни",nearest:"Следващ влак",nearestBus:"Следващ автобус",
   to:"до ",departure:"Отпътуване ",platform:"Кол.",empty:"Няма намерени предстоящи влакове",
   refresh:"Обновяване на всеки 5 минути",data:"Данни от Île-de-France Mobilités • Ivry-sur-Seine",
@@ -247,7 +248,7 @@ function applyLanguage(language,persist){
  document.querySelectorAll(".language-option").forEach(option=>option.setAttribute("aria-selected",String(option.dataset.language===currentLanguage)));
  document.getElementById("language-label").textContent=t.language;
  document.getElementById("eyebrow-text").textContent=t.eyebrow;
- document.getElementById("page-title").textContent=t.title;
+ document.getElementById("page-title").innerHTML=t.heading;
  document.getElementById("refresh-note").textContent=t.refresh;
  document.getElementById("data-note").textContent=t.data;
  if(!currentData.fetchedAtParis)document.getElementById("updated").textContent=t.loading;
