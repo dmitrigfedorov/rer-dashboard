@@ -96,6 +96,7 @@ def main():
         bus_vincennes=old_cards.get('bus-vincennes',{}).get('rows',[])
 
     cards=[
+        {'card':'rer-ivry','mode':'rer','line':'C','title':STATIONS[0][0],'destination':STATIONS[1][0],'rows':directions[0]['rows']},
         {'card':'bus-quai','mode':'bus','line':'325','title':'Jean-Jacques Rousseau','destination':'Emile Durkheim','rows':bus_quai},
         {'card':'rer-bfm','mode':'rer','line':'C','title':STATIONS[1][0],'destination':STATIONS[0][0],'rows':directions[1]['rows']},
         {'card':'bus-vincennes','mode':'bus','line':'325','title':'Bibliothèque François-Mitterrand','destination':'Jean-Jacques Rousseau','rows':bus_vincennes}
