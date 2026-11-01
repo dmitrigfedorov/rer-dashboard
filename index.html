@@ -144,6 +144,13 @@ h1.title .station-line{display:inline-flex;vertical-align:middle}
  .badge{font-size:10px}
  .bottom{font-size:10px;margin-top:16px}
 }
+.weather{text-align:right;color:var(--muted);white-space:nowrap}
+.weather-main{display:block;font-size:1.15vw;color:var(--ink)}
+.weather-attribution{display:block;font-size:.72vw;margin-top:.35vh}
+.weather-attribution a{color:inherit;text-decoration:none}
+.weather-attribution a:hover{text-decoration:underline}
+@media(max-aspect-ratio:4/3){.weather{text-align:left}.weather-main{font-size:1.8vw}.weather-attribution{font-size:1.1vw}}
+@media(max-width:640px){.weather{white-space:normal}.weather-main{font-size:14px}.weather-attribution{font-size:9px;margin-top:3px}}
 </style>
 </head>
 <body>
@@ -167,6 +174,10 @@ h1.title .station-line{display:inline-flex;vertical-align:middle}
         </div>
       </div>
     </div>
+    <div class="weather" aria-live="polite" aria-atomic="true">
+      <span id="weather-current" class="weather-main">Погода…</span>
+      <span class="weather-attribution"><a id="weather-location-source" href="https://ipwho.is/" target="_blank" rel="noopener noreferrer">примерно по IP</a> · <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo · CC BY 4.0</a></span>
+    </div>
     <div class="clock">
       <strong id="clock">--:--</strong>
       <span id="updated">Обновлено: загрузка…</span>
@@ -181,9 +192,56 @@ h1.title .station-line{display:inline-flex;vertical-align:middle}
 <script>
 const fallback={fetchedAtParis:"",directions:[]};
 const storageKey="rer-dashboard-language";
+
+const weatherLocationKey="rer-dashboard-weather-location";
+let weatherSnapshot=null;
+const weatherConditions={
+ 0:["☀️","Ясно","Dégagé","Ясно"],1:["🌤️","Преимущественно ясно","Peu nuageux","Предимно ясно"],2:["⛅","Переменная облачность","Partiellement nuageux","Променлива облачност"],3:["☁️","Пасмурно","Couvert","Облачно"],
+ 45:["🌫️","Туман","Brouillard","Мъгла"],48:["🌫️","Изморозь и туман","Brouillard givrant","Скреж и мъгла"],
+ 51:["🌦️","Лёгкая морось","Bruine légère","Слаб ръмеж"],53:["🌦️","Морось","Bruine","Ръмеж"],55:["🌧️","Сильная морось","Bruine dense","Силен ръмеж"],56:["🌧️","Ледяная морось","Bruine verglaçante","Леден дъжд"],57:["🌧️","Сильная ледяная морось","Bruine verglaçante dense","Силен леден ръмеж"],
+ 61:["🌧️","Небольшой дождь","Pluie faible","Слаб дъжд"],63:["🌧️","Дождь","Pluie modérée","Дъжд"],65:["🌧️","Сильный дождь","Forte pluie","Силен дъжд"],66:["🌧️","Ледяной дождь","Pluie verglaçante","Леден дъжд"],67:["🌧️","Сильный ледяной дождь","Forte pluie verglaçante","Силен леден дъжд"],
+ 71:["🌨️","Небольшой снег","Faibles chutes de neige","Слаб сняг"],73:["🌨️","Снег","Chutes de neige modérées","Сняг"],75:["❄️","Сильный снег","Fortes chutes de neige","Силен сняг"],77:["🌨️","Снежные зёрна","Grains de neige","Снежни зърна"],
+ 80:["🌦️","Кратковременный дождь","Averses faibles","Слаби превалявания"],81:["🌧️","Ливень","Averses modérées","Превалявания"],82:["🌧️","Сильный ливень","Fortes averses","Силни превалявания"],85:["🌨️","Снегопад","Averses de neige faibles","Слаб снеговалеж"],86:["❄️","Сильный снегопад","Fortes averses de neige","Силен снеговалеж"],
+ 95:["⛈️","Гроза","Orage","Гръмотевична буря"],96:["⛈️","Гроза с градом","Orage et grêle","Гръмотевична буря с град"],99:["⛈️","Сильная гроза с градом","Orage violent et grêle","Силна гръмотевична буря с град"]
+};
+async function weatherLocation(){
+ try{
+  const saved=JSON.parse(localStorage.getItem(weatherLocationKey)||"null");
+  if(saved&&Number.isFinite(saved.latitude)&&Number.isFinite(saved.longitude)&&Date.now()-saved.savedAt<12*60*60*1000)return saved;
+ }catch(_){}
+ const response=await fetch("https://ipwho.is/",{cache:"no-store"});
+ if(!response.ok)throw new Error("IP geolocation unavailable");
+ const geo=await response.json();
+ if(!geo.success||!Number.isFinite(Number(geo.latitude))||!Number.isFinite(Number(geo.longitude)))throw new Error("IP geolocation failed");
+ const location={latitude:Number(geo.latitude),longitude:Number(geo.longitude),city:String(geo.city||geo.region||geo.country||""),savedAt:Date.now()};
+ try{localStorage.setItem(weatherLocationKey,JSON.stringify(location))}catch(_){}
+ return location;
+}
+function renderWeather(){
+ const target=document.getElementById("weather-current"),t=translations[currentLanguage];
+ if(!weatherSnapshot){target.textContent=t.weatherLoading;return}
+ const condition=weatherConditions[weatherSnapshot.code]||["🌡️","Переменная погода","Conditions variables","Променливо време"];
+ const label=condition[currentLanguage==="ru"?1:currentLanguage==="fr"?2:3];
+ target.textContent=condition[0]+" "+Math.round(weatherSnapshot.temperature)+"°C"+(weatherSnapshot.city?" · "+weatherSnapshot.city:"")+" · "+label;
+}
+async function loadWeather(){
+ const target=document.getElementById("weather-current");
+ target.textContent=translations[currentLanguage].weatherLoading;
+ try{
+  const location=await weatherLocation();
+  const params=new URLSearchParams({latitude:String(location.latitude),longitude:String(location.longitude),current:"temperature_2m,weather_code,is_day",temperature_unit:"celsius",timezone:"auto"});
+  const response=await fetch("https://api.open-meteo.com/v1/forecast?"+params.toString(),{cache:"no-store"});
+  if(!response.ok)throw new Error("Weather service unavailable");
+  const data=await response.json(),current=data.current;
+  if(!current||!Number.isFinite(Number(current.temperature_2m)))throw new Error("Weather data unavailable");
+  weatherSnapshot={temperature:Number(current.temperature_2m),code:Number(current.weather_code),city:location.city};
+  renderWeather();
+ }catch(_){target.textContent=translations[currentLanguage].weatherUnavailable}
+}
+
 const translations={
  ru:{
-  locale:"ru-FR",language:"Язык",eyebrow:"RER C • BUS 325 • ближайшие отправления",title:"Расписание RER C и BUS 325",heading:'Расписание RER <span class="station-line title-badge">C</span> и BUS <span class="station-line bus-line title-badge">325</span>',
+  locale:"ru-FR",language:"Язык",weatherLoading:"Погода…",weatherUnavailable:"Нет данных о погоде",weatherIp:"примерно по IP",eyebrow:"RER C • BUS 325 • ближайшие отправления",title:"Расписание RER C и BUS 325",heading:'Расписание RER <span class="station-line title-badge">C</span> и BUS <span class="station-line bus-line title-badge">325</span>',
   updated:"Обновлено:",loading:"Обновлено: загрузка…",noData:"Обновлено: нет данных",nearest:"Ближайший поезд",nearestBus:"Ближайший автобус",
   to:"до ",departure:"Отправление ",platform:"Путь",empty:"Ближайшие отправления не найдены",
   refresh:"Обновление каждые 5 минут",data:"Данные Île-de-France Mobilités • Ivry-sur-Seine",
@@ -191,7 +249,7 @@ const translations={
   statuses:{onTime:"По расписанию"}
  },
  fr:{
-  locale:"fr-FR",language:"Langue",eyebrow:"RER C • BUS 325 • prochains départs",title:"Horaires RER C et BUS 325",heading:'Horaires RER <span class="station-line title-badge">C</span> et BUS <span class="station-line bus-line title-badge">325</span>',
+  locale:"fr-FR",language:"Langue",weatherLoading:"Météo…",weatherUnavailable:"Météo indisponible",weatherIp:"localisation IP approximative",eyebrow:"RER C • BUS 325 • prochains départs",title:"Horaires RER C et BUS 325",heading:'Horaires RER <span class="station-line title-badge">C</span> et BUS <span class="station-line bus-line title-badge">325</span>',
   updated:"Mis à jour :",loading:"Mise à jour : chargement…",noData:"Mise à jour : aucune donnée",nearest:"Prochain train",nearestBus:"Prochain bus",
   to:"vers ",departure:"Départ ",platform:"Voie",empty:"Aucun départ à venir",
   refresh:"Mise à jour toutes les 5 minutes",data:"Données Île-de-France Mobilités • Ivry-sur-Seine",
@@ -199,7 +257,7 @@ const translations={
   statuses:{onTime:"À l'heure"}
  },
  bg:{
-  locale:"bg-BG",language:"Език",eyebrow:"RER C • BUS 325 • предстоящи заминавания",title:"Разписание RER C и BUS 325",heading:'Разписание RER <span class="station-line title-badge">C</span> и BUS <span class="station-line bus-line title-badge">325</span>',
+  locale:"bg-BG",language:"Език",weatherLoading:"Времето…",weatherUnavailable:"Няма данни за времето",weatherIp:"приблизително местоположение по IP",eyebrow:"RER C • BUS 325 • предстоящи заминавания",title:"Разписание RER C и BUS 325",heading:'Разписание RER <span class="station-line title-badge">C</span> и BUS <span class="station-line bus-line title-badge">325</span>',
   updated:"Обновено:",loading:"Обновяване: зареждане…",noData:"Обновяване: няма данни",nearest:"Следващ влак",nearestBus:"Следващ автобус",
   to:"до ",departure:"Отпътуване ",platform:"Кол.",empty:"Няма намерени предстоящи влакове",
   refresh:"Обновяване на всеки 5 минути",data:"Данни от Île-de-France Mobilités • Ivry-sur-Seine",
@@ -248,6 +306,8 @@ function applyLanguage(language,persist){
  document.getElementById("language-current-flag").className="flag flag-"+currentLanguage;
  document.querySelectorAll(".language-option").forEach(option=>option.setAttribute("aria-selected",String(option.dataset.language===currentLanguage)));
  document.getElementById("language-label").textContent=t.language;
+ document.getElementById("weather-location-source").textContent=t.weatherIp;
+ renderWeather();
  document.getElementById("eyebrow-text").textContent=t.eyebrow;
  document.getElementById("page-title").innerHTML=t.heading;
  document.getElementById("refresh-note").textContent=t.refresh;
@@ -280,8 +340,10 @@ document.addEventListener("keydown",event=>{
 });
 applyLanguage(getSavedLanguage(),false);
 loadSchedule();
+loadWeather();
 setInterval(tick,1000);
 setInterval(loadSchedule,30000);
+setInterval(loadWeather,10*60*1000);
 </script>
 </body>
 </html>
