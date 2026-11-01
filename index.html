@@ -31,12 +31,18 @@ body{padding:4.2vh 4.5vw}
 .clock{text-align:right;font-size:1vw;color:var(--muted);white-space:nowrap}
 .clock strong{display:block;color:var(--ink);font-size:2.25vw;font-weight:600;margin-bottom:.5vh}
 .clock #updated{display:block;font-size:1vw;margin-top:.3vh}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:2vw}
+.grid{display:grid;grid-template-columns:1fr 1fr;grid-template-areas:"bus-quai ." "rer-bfm bus-vincennes";gap:2vw}
+.grid.legacy-grid{grid-template-areas:none}
+.grid.legacy-grid .panel{grid-area:auto}
+.panel[data-card="bus-quai"]{grid-area:bus-quai}
+.panel[data-card="rer-bfm"]{grid-area:rer-bfm}
+.panel[data-card="bus-vincennes"]{grid-area:bus-vincennes}
 .panel{background:var(--card);border:1px solid var(--line);border-radius:1.1vw;padding:2.1vw 2.3vw;min-height:45vh}
 .route-header{display:flex;align-items:flex-start;justify-content:space-between;gap:1.5vw}
 .route{font-size:1.55vw;color:var(--muted);line-height:1.35;min-height:4.4vw}
 .route b{color:var(--ink);font-weight:600}
 .station-line{display:flex;align-items:center;justify-content:center;width:5.5vw;height:5.5vw;min-width:42px;min-height:42px;border-radius:1.2vw;background:#f4cc00;color:#171d24;font-size:3.8vw;line-height:1;font-weight:700;flex:none}
+.station-line.bus-line{width:8.2vw;height:5.5vw;min-width:58px;min-height:40px;border-radius:1.2vw;background:#8bd3df;color:#101619;font-size:2.5vw;letter-spacing:-.04em}
 .direction{display:flex;align-items:center;gap:.7vw;color:var(--gold);font-size:1.05vw;letter-spacing:.12em;text-transform:uppercase;margin:2vh 0 1.3vh}
 .train{border-top:1px solid var(--line);padding:2.1vh 0;display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.2fr) minmax(4.3em,.55fr);align-items:center;gap:1.2vw}
 .departure{min-width:0}
@@ -72,7 +78,9 @@ body{padding:4.2vh 4.5vw}
  .top-right{align-items:flex-end;flex-direction:column;gap:1vh}
  .language{font-size:1.5vw}
  .language-trigger,.language-option{font-size:1.5vw}
- .grid{grid-template-columns:1fr}
+ .grid{grid-template-columns:1fr;grid-template-areas:"bus-quai" "rer-bfm" "bus-vincennes"}
+ .grid.legacy-grid{grid-template-areas:none}
+ .panel[data-card="bus-quai"],.panel[data-card="rer-bfm"],.panel[data-card="bus-vincennes"]{grid-area:auto}
  .title{font-size:6vw}
  .eyebrow{font-size:2vw}
  .clock strong{font-size:3vw}
@@ -81,6 +89,7 @@ body{padding:4.2vh 4.5vw}
  .panel{padding:3vw;min-height:auto}
  .route{font-size:2.3vw;min-height:auto}
  .station-line{width:8vw;height:8vw;border-radius:1.8vw;font-size:5vw}
+ .station-line.bus-line{width:12vw;height:8vw;min-width:48px;min-height:40px;border-radius:1.8vw;font-size:3.6vw}
  .countdown-icon{width:3vw;height:3vw}
  .direction{font-size:1.7vw}
  .departure-label{font-size:2.1vw}
@@ -113,6 +122,7 @@ body{padding:4.2vh 4.5vw}
  .panel{padding:18px;min-height:auto;border-radius:14px}
  .route{font-size:16px;min-height:0}
  .station-line{width:48px;height:48px;min-width:48px;min-height:48px;border-radius:12px;font-size:32px}
+ .station-line.bus-line{width:62px;height:46px;min-width:62px;min-height:46px;border-radius:11px;font-size:25px}
  .countdown-icon{width:18px;height:18px}
  .direction{font-size:11px;margin:14px 0 10px}
  .train{grid-template-columns:minmax(0,.95fr) minmax(0,1.1fr) auto;gap:8px;padding:15px 0}
@@ -170,7 +180,7 @@ const storageKey="rer-dashboard-language";
 const translations={
  ru:{
   locale:"ru-FR",language:"Язык",eyebrow:"Transilien • ближайшие отправления",title:"Ближайшие поезда RER C",
-  updated:"Обновлено:",loading:"Обновлено: загрузка…",noData:"Обновлено: нет данных",nearest:"Ближайший поезд",
+  updated:"Обновлено:",loading:"Обновлено: загрузка…",noData:"Обновлено: нет данных",nearest:"Ближайший поезд",nearestBus:"Ближайший автобус",
   to:"до ",departure:"Отправление ",platform:"Путь",empty:"Ближайшие отправления не найдены",
   refresh:"Обновление каждые 5 минут",data:"Данные Île-de-France Mobilités • Ivry-sur-Seine",
   now:"сейчас",inMinutes:"через ",minutes:" мин",ago:"ушёл ",agoEnd:" мин назад",
@@ -178,7 +188,7 @@ const translations={
  },
  fr:{
   locale:"fr-FR",language:"Langue",eyebrow:"Transilien • prochains départs",title:"Prochains trains RER C",
-  updated:"Mis à jour :",loading:"Mise à jour : chargement…",noData:"Mise à jour : aucune donnée",nearest:"Prochain train",
+  updated:"Mis à jour :",loading:"Mise à jour : chargement…",noData:"Mise à jour : aucune donnée",nearest:"Prochain train",nearestBus:"Prochain bus",
   to:"vers ",departure:"Départ ",platform:"Voie",empty:"Aucun départ à venir",
   refresh:"Mise à jour toutes les 5 minutes",data:"Données Île-de-France Mobilités • Ivry-sur-Seine",
   now:"maintenant",inMinutes:"dans ",minutes:" min",ago:"parti il y a ",agoEnd:" min",
@@ -186,7 +196,7 @@ const translations={
  },
  bg:{
   locale:"bg-BG",language:"Език",eyebrow:"Transilien • предстоящи заминавания",title:"Следващи влакове RER C",
-  updated:"Обновено:",loading:"Обновяване: зареждане…",noData:"Обновяване: няма данни",nearest:"Следващ влак",
+  updated:"Обновено:",loading:"Обновяване: зареждане…",noData:"Обновяване: няма данни",nearest:"Следващ влак",nearestBus:"Следващ автобус",
   to:"до ",departure:"Отпътуване ",platform:"Кол.",empty:"Няма намерени предстоящи влакове",
   refresh:"Обновяване на всеки 5 минути",data:"Данни от Île-de-France Mobilités • Ivry-sur-Seine",
   now:"сега",inMinutes:"след ",minutes:" мин",ago:"заминал преди ",agoEnd:" мин",
@@ -208,17 +218,21 @@ function departureMarkup(time){
 }
 function statusText(value){const key=String(value==null?"":value);return translations[currentLanguage].statuses[key]||key||"—"}
 function paint(data){
- const t=translations[currentLanguage];
- document.getElementById("schedule").innerHTML=(data.directions||[]).map(d=>
-  '<section class="panel"><div class="route-header"><div class="route"><b>'+esc(d.title)+'</b><br>'+t.to+esc(d.destination)+'</div><span class="station-line" aria-label="RER C">C</span></div>'+
-  '<div class="direction">'+t.nearest+'</div>'+
-  ((d.rows||[]).map(r=>
-   '<div class="train"><div class="departure">'+departureMarkup(r.from)+'</div>'+
-   '<div class="train-details"><div class="train-name"><b>'+esc(r.train)+'</b> · '+esc(r.destinationName)+'</div>'+
-   '<div class="times">'+esc(r.from)+' <small>→ '+esc(r.to)+'</small></div></div>'+
-   '<div class="meta platform">'+t.platform+'<br><b>'+esc(r.platform)+'</b><br><span class="badge">'+esc(statusText(r.status))+'</span></div></div>'
-  ).join('')||'<div class="empty">'+t.empty+'</div>')+'</section>'
- ).join('');
+ const t=translations[currentLanguage],grid=document.getElementById("schedule");
+ const dashboardCards=Array.isArray(data.cards),panels=dashboardCards?data.cards:(data.directions||[]);
+ grid.classList.toggle("legacy-grid",!dashboardCards);
+ grid.innerHTML=panels.map(d=>{
+  const bus=d.mode==="bus",line=d.line||(bus?"325":"C"),badgeClass=bus?"station-line bus-line":"station-line";
+  const modeLabel=bus?"BUS "+line:"RER C",cardClass=bus?"panel bus-panel":"panel";
+  return '<section class="'+cardClass+'" data-card="'+esc(d.card||"")+'"><div class="route-header"><div class="route"><b>'+esc(d.title)+'</b><br>'+t.to+esc(d.destination)+'</div><span class="'+badgeClass+'" aria-label="'+modeLabel+'">'+esc(line)+'</span></div>'+
+  '<div class="direction">'+(bus?t.nearestBus:t.nearest)+'</div>'+
+  ((d.rows||[]).map(r=>{
+   const trainName=bus?'<div class="train-name"><b>'+esc(r.train||line)+'</b> · '+esc(r.destinationName||d.destination)+'</div>':'<div class="train-name"><b>'+esc(r.train)+'</b> · '+esc(r.destinationName)+'</div>';
+   const times=bus?esc(r.from):esc(r.from)+' <small>→ '+esc(r.to)+'</small>';
+   const details=bus?'<div class="meta platform"><span class="badge">'+esc(statusText(r.status))+'</span></div>':'<div class="meta platform">'+t.platform+'<br><b>'+esc(r.platform)+'</b><br><span class="badge">'+esc(statusText(r.status))+'</span></div>';
+   return '<div class="train"><div class="departure">'+departureMarkup(r.from)+'</div><div class="train-details">'+trainName+'<div class="times">'+times+'</div></div>'+details+'</div>';
+  }).join('')||'<div class="empty">'+t.empty+'</div>')+'</section>';
+ }).join('');
  document.getElementById("updated").textContent=data.fetchedAtParis?t.updated+" "+data.fetchedAtParis:t.noData;
 }
 function applyLanguage(language,persist){
