@@ -156,12 +156,12 @@ h1.title .station-line{display:inline-flex;vertical-align:middle}
  .bottom{font-size:10px;margin-top:16px}
 }
 .weather{text-align:right;color:var(--muted);white-space:nowrap}
-.weather-main{display:block;font-size:1.15vw;color:var(--ink)}
+.weather-main{display:block;font-size:1.5vw;color:var(--ink)}
 .weather-attribution{display:block;font-size:.72vw;margin-top:.35vh}
 .weather-attribution a{color:inherit;text-decoration:none}
 .weather-attribution a:hover{text-decoration:underline}
-@media(max-aspect-ratio:4/3){.weather{text-align:left}.weather-main{font-size:1.8vw}.weather-attribution{font-size:1.1vw}}
-@media(max-width:640px){.weather{white-space:normal}.weather-main{font-size:14px}.weather-attribution{font-size:9px;margin-top:3px}}
+@media(max-aspect-ratio:4/3){.weather{text-align:left}.weather-main{font-size:2.2vw}.weather-attribution{font-size:1.1vw}}
+@media(max-width:640px){.weather{white-space:normal}.weather-main{font-size:16px}.weather-attribution{font-size:9px;margin-top:3px}}
 </style>
 </head>
 <body>
@@ -187,7 +187,7 @@ h1.title .station-line{display:inline-flex;vertical-align:middle}
     </div>
     <div class="weather" aria-live="polite" aria-atomic="true">
       <span id="weather-current" class="weather-main">Погода…</span>
-      <span class="weather-attribution"><a id="weather-location-source" href="https://ipwho.is/" target="_blank" rel="noopener noreferrer">примерно по IP</a> · <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo · CC BY 4.0</a></span>
+      <span class="weather-attribution"><a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo · CC BY 4.0</a></span>
     </div>
     <div class="clock">
       <strong id="clock">--:--</strong>
@@ -260,7 +260,7 @@ async function loadWeather(){
 
 const translations={
  ru:{
-  locale:"ru-FR",language:"Язык",weatherLoading:"Погода…",weatherUnavailable:"Нет данных о погоде",weatherIp:"примерно по IP",eyebrow:"RER C • BUS 325 • ближайшие отправления",title:"Расписание RER C и BUS 325",heading:'Расписание RER <span class="station-line title-badge">C</span> и BUS <span class="station-line bus-line title-badge">325</span>',
+  locale:"ru-FR",language:"Язык",weatherLoading:"Погода…",weatherUnavailable:"Нет данных о погоде",eyebrow:"RER C • BUS 325 • ближайшие отправления",title:"Расписание RER C и BUS 325",heading:'Расписание RER <span class="station-line title-badge">C</span> и BUS <span class="station-line bus-line title-badge">325</span>',
   updatedLabel:"Время обновления",loading:"загрузка…",noData:"нет данных",nearest:"Ближайший поезд",nearestBus:"Ближайший автобус",
   to:"до ",departure:"Отправление ",platform:"Путь",empty:"Ближайшие отправления не найдены",
   refresh:"Обновление каждые 5 минут",data:"Данные Île-de-France Mobilités • Ivry-sur-Seine",
@@ -268,7 +268,7 @@ const translations={
   statuses:{onTime:"По расписанию"}
  },
  fr:{
-  locale:"fr-FR",language:"Langue",weatherLoading:"Météo…",weatherUnavailable:"Météo indisponible",weatherIp:"localisation IP approximative",eyebrow:"RER C • BUS 325 • prochains départs",title:"Horaires RER C et BUS 325",heading:'Horaires RER <span class="station-line title-badge">C</span> et BUS <span class="station-line bus-line title-badge">325</span>',
+  locale:"fr-FR",language:"Langue",weatherLoading:"Météo…",weatherUnavailable:"Météo indisponible",eyebrow:"RER C • BUS 325 • prochains départs",title:"Horaires RER C et BUS 325",heading:'Horaires RER <span class="station-line title-badge">C</span> et BUS <span class="station-line bus-line title-badge">325</span>',
   updatedLabel:"Heure de mise à jour",loading:"chargement…",noData:"aucune donnée",nearest:"Prochain train",nearestBus:"Prochain bus",
   to:"vers ",departure:"Départ ",platform:"Voie",empty:"Aucun départ à venir",
   refresh:"Mise à jour toutes les 5 minutes",data:"Données Île-de-France Mobilités • Ivry-sur-Seine",
@@ -276,7 +276,7 @@ const translations={
   statuses:{onTime:"À l'heure"}
  },
  bg:{
-  locale:"bg-BG",language:"Език",weatherLoading:"Времето…",weatherUnavailable:"Няма данни за времето",weatherIp:"приблизително местоположение по IP",eyebrow:"RER C • BUS 325 • предстоящи заминавания",title:"Разписание RER C и BUS 325",heading:'Разписание RER <span class="station-line title-badge">C</span> и BUS <span class="station-line bus-line title-badge">325</span>',
+  locale:"bg-BG",language:"Език",weatherLoading:"Времето…",weatherUnavailable:"Няма данни за времето",eyebrow:"RER C • BUS 325 • предстоящи заминавания",title:"Разписание RER C и BUS 325",heading:'Разписание RER <span class="station-line title-badge">C</span> и BUS <span class="station-line bus-line title-badge">325</span>',
   updatedLabel:"Час на обновяване",loading:"зареждане…",noData:"няма данни",nearest:"Следващ влак",nearestBus:"Следващ автобус",
   to:"до ",departure:"Отпътуване ",platform:"Кол.",empty:"Няма намерени предстоящи влакове",
   refresh:"Обновяване на всеки 5 минути",data:"Данни от Île-de-France Mobilités • Ivry-sur-Seine",
@@ -331,7 +331,7 @@ function applyLanguage(language,persist){
  document.getElementById("language-current-flag").className="flag flag-"+currentLanguage;
  document.querySelectorAll(".language-option").forEach(option=>option.setAttribute("aria-selected",String(option.dataset.language===currentLanguage)));
  document.getElementById("language-label").textContent=t.language;
- document.getElementById("weather-location-source").textContent=t.weatherIp;
+
  renderWeather();
  document.getElementById("eyebrow-text").textContent=t.eyebrow;
  document.getElementById("page-title").innerHTML=t.heading;
