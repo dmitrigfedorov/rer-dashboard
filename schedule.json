@@ -85,14 +85,6 @@
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
-        },
-        {
-          "from": "18:28",
-          "to": "18:30",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
         }
       ]
     },
@@ -141,14 +133,6 @@
           "to": "18:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
-          "from": "18:30",
-          "to": "18:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         }
