@@ -112,7 +112,13 @@ def bot_api(method: str, values: dict[str, Any]) -> dict[str, Any]:
 
 def send(report: str, chat_id: int, old_message_id: int | None) -> int:
     if old_message_id is not None:
-        bot_api("deleteMessage", {"chat_id": chat_id, "message_id": old_message_id})
+        try:
+            bot_api("deleteMessage", {"chat_id": chat_id, "message_id": old_message_id})
+        except RuntimeError:
+            # A saved message ID can become stale (for example, after Telegram's
+            # deletion window has passed). Keep the scheduled report flowing and
+            # replace the saved ID with the newly sent message below.
+            print("Warning: could not delete the previous Telegram report; continuing with the current report.")
     sent = bot_api("sendMessage", {"chat_id": chat_id, "text": report})
     return int(sent["message_id"])
 
