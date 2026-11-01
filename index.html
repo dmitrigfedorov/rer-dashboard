@@ -268,7 +268,7 @@ async function loadWeather(){
    const time=times[i];
    if(time.slice(0,10)!==String(current.time||"").slice(0,10)||time<=current.time)continue;
    const probability=Number(probabilities[i]||0),amount=Number(amounts[i]||0),wet=probability>=40||amount>=0.1;
-   const parts=time.match(/^(\\d{4})-(\\d{2})-(\\d{2})T(\\d{2}):/);
+   const parts=time.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):/);
    const hour=parts?Date.UTC(Number(parts[1]),Number(parts[2])-1,Number(parts[3]),Number(parts[4])):null;
    if(wet&&(!previousWet||hour===null||previousHour===null||hour-previousHour!==3600000)){
     const code=Number(codes[i]),condition=weatherConditions[code]||["🌧️"];
