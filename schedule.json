@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "01.11.2026, 19:46:03",
+  "fetchedAtParis": "01.11.2026, 19:51:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -36,14 +36,6 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "19:45",
-          "to": "19:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "20:00",
           "to": "20:03",
           "train": "ROMI",
@@ -56,6 +48,14 @@
           "to": "20:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "20:30",
+          "to": "20:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         }
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "19:57",
+          "from": "19:56",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:08",
+          "from": "20:04",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,18 +121,18 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "19:45",
-          "to": "19:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "20:00",
           "to": "20:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "20:15",
+          "to": "20:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         }
@@ -164,6 +164,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-01T18:36:07.094827Z",
-  "busFetchedAtParis": "01.11.2026, 19:36:07"
+  "busFetchedAt": "2026-11-01T18:51:03.481981Z",
+  "busFetchedAtParis": "01.11.2026, 19:51:03"
 }
