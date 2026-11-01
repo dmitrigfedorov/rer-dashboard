@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "01.11.2026, 21:41:03",
+  "fetchedAtParis": "01.11.2026, 21:46:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "21:43",
-          "to": "21:46",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "22:28",
           "to": "22:30",
@@ -24,6 +16,14 @@
         {
           "from": "22:58",
           "to": "23:00",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "23:28",
+          "to": "23:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "21:43",
-          "to": "21:46",
+          "from": "22:28",
+          "to": "22:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "22:28",
-          "to": "22:30",
+          "from": "22:58",
+          "to": "23:00",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "21:38",
+          "from": "21:55",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:58",
+          "from": "22:06",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "21:34",
+          "from": "22:03",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:03",
+          "from": "22:28",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -164,6 +164,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-01T20:31:03.588161Z",
-  "busFetchedAtParis": "01.11.2026, 21:31:03"
+  "busFetchedAt": "2026-11-01T20:46:03.075376Z",
+  "busFetchedAtParis": "01.11.2026, 21:46:03"
 }
