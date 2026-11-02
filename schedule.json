@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "02.11.2026, 18:46:11",
+  "fetchedAtParis": "02.11.2026, 18:51:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "18:58",
-          "to": "19:00",
+          "to": "19:01",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -37,15 +37,15 @@
       "rows": [
         {
           "from": "18:52",
-          "to": "18:55",
+          "to": "18:52",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
           "from": "18:54",
-          "to": "18:56",
+          "to": "18:57",
           "train": "BOBA",
           "destinationName": "Brétigny",
           "platform": "E",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "18:58",
-          "to": "19:00",
+          "to": "19:01",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -122,15 +122,15 @@
       "rows": [
         {
           "from": "18:52",
-          "to": "18:55",
+          "to": "18:52",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
           "from": "18:54",
-          "to": "18:56",
+          "to": "18:57",
           "train": "BOBA",
           "destinationName": "Brétigny",
           "platform": "E",
