@@ -33,6 +33,12 @@ def fetch(token, stop, now, line=LINE):
     try:
         with urllib.request.urlopen(req,timeout=25) as r: data=json.load(r)
     except urllib.error.HTTPError as e:
+        if e.code == 429:
+            quota_headers = [f'{k}: {v}' for k,v in e.headers.items()
+                             if any(marker in k.lower() for marker in ('ratelimit','quota','retry-after'))]
+            detail = '; '.join(quota_headers)
+            suffix = f' ({detail})' if detail else ''
+            raise RuntimeError('IDFM daily request quota reached (HTTP 429)'+suffix) from e
         if e.code != 400: raise
         q=urllib.parse.urlencode({'MonitoringRef':stop,'LineRef':line})
         req=urllib.request.Request(API+'?'+q,headers={'apikey':token,'Accept':'application/json','User-Agent':'rer-dashboard/1.0'})
@@ -51,15 +57,18 @@ def normalize(s):
     value=unicodedata.normalize('NFKD',s or '')
     return ''.join(c for c in value if not unicodedata.combining(c)).lower()
 
-def bus_departures(token, stop, headsign, now, destination_name=None):
+def bus_departures_from_visits(visits, headsign, destination_name=None):
     target=normalize(headsign)
     rows=[]
-    for visit in fetch(token,stop,now,BUS_LINE):
+    for visit in visits:
         labels=normalize(' '.join((visit.get('dest',''),visit.get('direction',''),visit.get('display',''))))
         if target not in labels: continue
         rows.append({'from':visit['dep'].astimezone(PARIS).strftime('%H:%M'),'to':'','train':'325','destinationName':destination_name or headsign,'platform':'','status':visit['status']})
         if len(rows)==3: break
     return rows
+
+def bus_departures(token, stop, headsign, now, destination_name=None):
+    return bus_departures_from_visits(fetch(token,stop,now,BUS_LINE),headsign,destination_name)
 
 def prior_schedule(path):
     try: return json.loads(path.read_text(encoding='utf-8'))
@@ -88,9 +97,10 @@ def main():
     bus_updated=dt(previous.get('busFetchedAt'))
     if bus_updated is None or now-bus_updated>=BUS_REFRESH:
         try:
-            bus_quai=bus_departures(token,BUS_STOPS['quai'],'Quai de la Gare',now)
+            quai_visits=fetch(token,BUS_STOPS['quai'],now,BUS_LINE)
+            bus_quai=bus_departures_from_visits(quai_visits,'Quai de la Gare')
             bus_vincennes=bus_departures(token,BUS_STOPS['vincennes'],'Château de Vincennes',now)
-            bus_eglise=bus_departures(token,BUS_STOPS['quai'],'Château de Vincennes',now,'Église de Saint-Mandé')
+            bus_eglise=bus_departures_from_visits(quai_visits,'Château de Vincennes','Église de Saint-Mandé')
             bus_updated=now
             print('Refreshed BUS 325 data.')
         except Exception as e:
