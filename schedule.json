@@ -1,20 +1,12 @@
 {
-  "fetchedAtParis": "02.11.2026, 18:56:04",
+  "fetchedAtParis": "02.11.2026, 19:01:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "18:58",
-          "to": "19:01",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
-          "from": "19:15",
+          "from": "19:16",
           "to": "19:18",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -28,6 +20,14 @@
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
+        },
+        {
+          "from": "19:43",
+          "to": "19:45",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "2B",
+          "status": "onTime"
         }
       ]
     },
@@ -36,11 +36,11 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "19:02",
-          "to": "19:04",
+          "from": "19:01",
+          "to": "19:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -71,18 +71,18 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "18:58",
-          "to": "19:01",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
+          "from": "19:16",
+          "to": "19:18",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "19:15",
-          "to": "19:18",
-          "train": "NORA",
-          "destinationName": "Pontoise",
+          "from": "19:28",
+          "to": "19:30",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         }
@@ -121,11 +121,11 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "19:02",
-          "to": "19:04",
+          "from": "19:01",
+          "to": "19:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -179,6 +179,22 @@
           "status": "onTime"
         }
       ]
+    },
+    {
+      "card": "bus-125",
+      "mode": "bus",
+      "line": "125",
+      "title": "Jean-Jacques Rousseau",
+      "destination": "Jean Le Galleu",
+      "rows": []
+    },
+    {
+      "card": "bus-323",
+      "mode": "bus",
+      "line": "323",
+      "title": "Molière",
+      "destination": "Hôpital Jean Rostand",
+      "rows": []
     }
   ],
   "busFetchedAt": "2026-11-02T17:56:04.935822Z",
