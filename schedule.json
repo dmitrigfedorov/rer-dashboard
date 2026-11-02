@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "02.11.2026, 11:06:22",
+  "fetchedAtParis": "02.11.2026, 11:11:14",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -36,16 +36,16 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "11:14",
-          "to": "11:17",
+          "from": "11:13",
+          "to": "11:16",
           "train": "ROMI",
           "destinationName": "Orly Ville",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "11:21",
-          "to": "11:24",
+          "from": "11:20",
+          "to": "11:23",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -121,16 +121,16 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "11:14",
-          "to": "11:17",
+          "from": "11:13",
+          "to": "11:16",
           "train": "ROMI",
           "destinationName": "Orly Ville",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "11:21",
-          "to": "11:24",
+          "from": "11:20",
+          "to": "11:23",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
