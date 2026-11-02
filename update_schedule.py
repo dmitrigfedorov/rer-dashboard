@@ -98,26 +98,43 @@ def main():
     old_cards={c.get('card'):c for c in previous.get('cards',[]) if c.get('mode')=='bus'}
     bus_updated=dt(previous.get('busFetchedAt'))
     if bus_updated is None or now-bus_updated>=BUS_REFRESH or 'bus-125' not in old_cards or 'bus-323' not in old_cards:
+        bus_complete=True
         try:
             quai_visits=fetch(token,BUS_STOPS['quai'],now,BUS_LINE)
             bus_quai=bus_departures_from_visits(quai_visits,'Quai de la Gare')
-            bus_vincennes=bus_departures(token,BUS_STOPS['vincennes'],'Château de Vincennes',now)
             bus_eglise=bus_departures_from_visits(quai_visits,'Château de Vincennes','Église de Saint-Mandé')
+        except Exception as e:
+            print('BUS 325 refresh failed; retaining the last available BUS 325 data: '+str(e),file=sys.stderr)
+            bus_quai=old_cards.get('bus-quai',{}).get('rows',[])
+            bus_eglise=old_cards.get('bus-eglise',{}).get('rows',[])
+            bus_complete=False
+        try:
+            bus_vincennes=bus_departures(token,BUS_STOPS['vincennes'],'Château de Vincennes',now)
+        except Exception as e:
+            print('BUS 325 Vincennes refresh failed; retaining the last available data: '+str(e),file=sys.stderr)
+            bus_vincennes=old_cards.get('bus-vincennes',{}).get('rows',[])
+            bus_complete=False
+        try:
             bus125_visits=fetch(token,BUS_STOPS['quai'],now,BUS125_LINE)
             bus_125=bus_departures_from_visits(bus125_visits,"Porte d'Orléans",'Jean Le Galleu',line='125')
+            print(f"New route rows: BUS 125={len(bus_125)}")
+        except Exception as e:
+            print('BUS 125 refresh failed; retaining the last available data: '+str(e),file=sys.stderr)
+            bus_125=old_cards.get('bus-125',{}).get('rows',[])
+            bus_complete=False
+        try:
             bus323_visits=fetch(token,BUS_STOPS['moliere'],now,BUS323_LINE)
             bus_323=bus_departures_from_visits(bus323_visits,'Châtillon - Montrouge - Métro','Hôpital Jean Rostand',line='323')
-            print(f"New route rows: BUS 125={len(bus_125)}, BUS 323={len(bus_323)}")
+            print(f"New route rows: BUS 323={len(bus_323)}")
+        except Exception as e:
+            print('BUS 323 refresh failed; retaining the last available data: '+str(e),file=sys.stderr)
+            bus_323=old_cards.get('bus-323',{}).get('rows',[])
+            bus_complete=False
+        if bus_complete:
             bus_updated=now
             print('Refreshed BUS 325, 125 and 323 data.')
-        except Exception as e:
-            print('BUS 325 refresh failed; retaining the last available bus data: '+str(e),file=sys.stderr)
-            bus_quai=old_cards.get('bus-quai',{}).get('rows',[])
-            bus_vincennes=old_cards.get('bus-vincennes',{}).get('rows',[])
-            bus_eglise=old_cards.get('bus-eglise',{}).get('rows',[])
-            bus_125=old_cards.get('bus-125',{}).get('rows',[])
-            bus_323=old_cards.get('bus-323',{}).get('rows',[])
-            if bus_updated is None: bus_updated=now
+        elif bus_updated is None:
+            bus_updated=now
     else:
         bus_quai=old_cards.get('bus-quai',{}).get('rows',[])
         bus_vincennes=old_cards.get('bus-vincennes',{}).get('rows',[])
