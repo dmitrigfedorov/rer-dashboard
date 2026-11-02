@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "02.11.2026, 12:06:14",
+  "fetchedAtParis": "02.11.2026, 12:11:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "12:13",
-          "to": "12:16",
+          "to": "12:15",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -22,7 +22,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:43",
+          "from": "12:44",
           "to": "12:45",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -44,7 +44,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:32",
+          "from": "12:31",
           "to": "12:34",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "12:13",
-          "to": "12:16",
+          "to": "12:15",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "12:05",
+          "from": "12:29",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:29",
+          "from": "12:35",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -129,7 +129,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:32",
+          "from": "12:31",
           "to": "12:34",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -189,6 +189,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-02T10:56:15.287467Z",
-  "busFetchedAtParis": "02.11.2026, 11:56:15"
+  "busFetchedAt": "2026-11-02T11:11:04.698326Z",
+  "busFetchedAtParis": "02.11.2026, 12:11:04"
 }
