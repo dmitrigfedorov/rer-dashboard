@@ -236,9 +236,9 @@ async function weatherLocation(){
 }
 function setWeatherHealth(){
  const element=document.getElementById("weather-health"),t=translations[currentLanguage];
- const pending=weatherStatus==="pending",fresh=weatherStatus==="fresh";
+ const pending=weatherStatus==="pending",fresh=weatherStatus==="fresh",failed=weatherStatus==="error";
  element.className="weather-health "+(pending?"":fresh?"fresh":"stale");
- const label=pending?t.weatherStatusLoading:fresh?t.weatherStatusFresh:t.weatherStatusStale;
+ const label=pending?t.weatherStatusLoading:fresh?t.weatherStatusFresh:failed?t.weatherStatusError:t.weatherStatusStale;
  element.setAttribute("aria-label",label);
  element.title=label;
 }
@@ -324,7 +324,7 @@ async function loadWeather(){
 
 const translations={
  ru:{
-  locale:"ru-FR",language:"Язык",weatherLoading:"Погода…",weatherUnavailable:"Нет данных о погоде",weatherStatusLoading:"Запрашиваем погоду",weatherStatusFresh:"Получен свежий прогноз",weatherStatusStale:"Показан последний сохранённый прогноз",precipUnavailable:"Прогноз осадков недоступен",precipLoading:"Прогноз осадков…",precipPrefix:"Осадки: ",precipNone:"Сегодня осадков не ожидается",tempMax:"макс. ",eyebrow:"RER C • BUS 325 • ближайшие отправления",title:"Расписание RER C и BUS 325",heading:'Расписание RER <span class="station-line title-badge">C</span> и BUS <span class="station-line bus-line title-badge">325</span>',
+  locale:"ru-FR",language:"Язык",weatherLoading:"Погода…",weatherUnavailable:"Нет данных о погоде",weatherStatusLoading:"Запрашиваем погоду",weatherStatusFresh:"Получен свежий прогноз",weatherStatusError:"Погода недоступна",weatherStatusStale:"Показан последний сохранённый прогноз",precipUnavailable:"Прогноз осадков недоступен",precipLoading:"Прогноз осадков…",precipPrefix:"Осадки: ",precipNone:"Сегодня осадков не ожидается",tempMax:"макс. ",eyebrow:"RER C • BUS 325 • ближайшие отправления",title:"Расписание RER C и BUS 325",heading:'Расписание RER <span class="station-line title-badge">C</span> и BUS <span class="station-line bus-line title-badge">325</span>',
   updatedLabel:"Время обновления",loading:"загрузка…",noData:"нет данных",nearest:"Ближайший поезд",nearestBus:"Ближайший автобус",
   to:"до ",departure:"Отправление ",platform:"Путь",empty:"Ближайшие отправления не найдены",
   refresh:"Обновление каждые 5 минут",data:"Данные Île-de-France Mobilités • Ivry-sur-Seine",
@@ -332,7 +332,7 @@ const translations={
   statuses:{onTime:"По расписанию"}
  },
  fr:{
-  locale:"fr-FR",language:"Langue",weatherLoading:"Météo…",weatherUnavailable:"Météo indisponible",weatherStatusLoading:"Chargement météo",weatherStatusFresh:"Prévisions actualisées",weatherStatusStale:"Dernières prévisions enregistrées",precipUnavailable:"Prévision des précipitations indisponible",precipLoading:"Prévision des précipitations…",precipPrefix:"Pluie : ",precipNone:"Pas de précipitations prévues aujourd’hui",tempMax:"max. ",eyebrow:"RER C • BUS 325 • prochains départs",title:"Horaires RER C et BUS 325",heading:'Horaires RER <span class="station-line title-badge">C</span> et BUS <span class="station-line bus-line title-badge">325</span>',
+  locale:"fr-FR",language:"Langue",weatherLoading:"Météo…",weatherUnavailable:"Météo indisponible",weatherStatusLoading:"Chargement météo",weatherStatusFresh:"Prévisions actualisées",weatherStatusError:"Météo indisponible",weatherStatusStale:"Dernières prévisions enregistrées",precipUnavailable:"Prévision des précipitations indisponible",precipLoading:"Prévision des précipitations…",precipPrefix:"Pluie : ",precipNone:"Pas de précipitations prévues aujourd’hui",tempMax:"max. ",eyebrow:"RER C • BUS 325 • prochains départs",title:"Horaires RER C et BUS 325",heading:'Horaires RER <span class="station-line title-badge">C</span> et BUS <span class="station-line bus-line title-badge">325</span>',
   updatedLabel:"Heure de mise à jour",loading:"chargement…",noData:"aucune donnée",nearest:"Prochain train",nearestBus:"Prochain bus",
   to:"vers ",departure:"Départ ",platform:"Voie",empty:"Aucun départ à venir",
   refresh:"Mise à jour toutes les 5 minutes",data:"Données Île-de-France Mobilités • Ivry-sur-Seine",
@@ -340,7 +340,7 @@ const translations={
   statuses:{onTime:"À l'heure"}
  },
  bg:{
-  locale:"bg-BG",language:"Език",weatherLoading:"Времето…",weatherUnavailable:"Няма данни за времето",weatherStatusLoading:"Зареждане на времето",weatherStatusFresh:"Времето е обновено",weatherStatusStale:"Показана е последната запазена прогноза",precipUnavailable:"Няма прогноза за валежите",precipLoading:"Прогноза за валежите…",precipPrefix:"Валежи: ",precipNone:"Днес не се очакват валежи",tempMax:"макс. ",eyebrow:"RER C • BUS 325 • предстоящи заминавания",title:"Разписание RER C и BUS 325",heading:'Разписание RER <span class="station-line title-badge">C</span> и BUS <span class="station-line bus-line title-badge">325</span>',
+  locale:"bg-BG",language:"Език",weatherLoading:"Времето…",weatherUnavailable:"Няма данни за времето",weatherStatusLoading:"Зареждане на времето",weatherStatusFresh:"Времето е обновено",weatherStatusError:"Времето е недостъпно",weatherStatusStale:"Показана е последната запазена прогноза",precipUnavailable:"Няма прогноза за валежите",precipLoading:"Прогноза за валежите…",precipPrefix:"Валежи: ",precipNone:"Днес не се очакват валежи",tempMax:"макс. ",eyebrow:"RER C • BUS 325 • предстоящи заминавания",title:"Разписание RER C и BUS 325",heading:'Разписание RER <span class="station-line title-badge">C</span> и BUS <span class="station-line bus-line title-badge">325</span>',
   updatedLabel:"Час на обновяване",loading:"зареждане…",noData:"няма данни",nearest:"Следващ влак",nearestBus:"Следващ автобус",
   to:"до ",departure:"Отпътуване ",platform:"Кол.",empty:"Няма намерени предстоящи влакове",
   refresh:"Обновяване на всеки 5 минути",data:"Данни от Île-de-France Mobilités • Ivry-sur-Seine",
