@@ -1,12 +1,12 @@
 {
-  "fetchedAtParis": "02.11.2026, 19:01:05",
+  "fetchedAtParis": "02.11.2026, 19:06:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "19:16",
+          "from": "19:15",
           "to": "19:18",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -36,14 +36,6 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "19:01",
-          "to": "19:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
-          "status": "onTime"
-        },
-        {
           "from": "19:06",
           "to": "19:09",
           "train": "BOBA",
@@ -53,9 +45,17 @@
         },
         {
           "from": "19:16",
-          "to": "19:18",
+          "to": "19:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "19:38",
+          "to": "19:40",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         }
@@ -71,7 +71,7 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "19:16",
+          "from": "19:15",
           "to": "19:18",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "19:45",
+          "from": "19:37",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "19:46",
+          "from": "19:42",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,19 +121,19 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "19:01",
-          "to": "19:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
-          "status": "onTime"
-        },
-        {
           "from": "19:06",
           "to": "19:09",
           "train": "BOBA",
           "destinationName": "Brétigny",
           "platform": "E",
+          "status": "onTime"
+        },
+        {
+          "from": "19:16",
+          "to": "19:19",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
           "status": "onTime"
         }
       ]
@@ -163,14 +163,6 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "18:58",
-          "to": "",
-          "train": "325",
-          "destinationName": "Église de Saint-Mandé",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
           "from": "20:24",
           "to": "",
           "train": "325",
@@ -186,7 +178,24 @@
       "line": "125",
       "title": "Jean-Jacques Rousseau",
       "destination": "Jean Le Galleu",
-      "rows": []
+      "rows": [
+        {
+          "from": "19:18",
+          "to": "",
+          "train": "125",
+          "destinationName": "Jean Le Galleu",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "19:25",
+          "to": "",
+          "train": "125",
+          "destinationName": "Jean Le Galleu",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-323",
