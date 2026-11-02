@@ -8,7 +8,7 @@ LINE = 'STIF:Line::C01727:'
 BUS_LINE = 'STIF:Line::C01288:'
 BUS125_LINE = 'STIF:Line::C01154:'
 BUS323_LINE = 'STIF:Line::C01287:'
-BUS_STOPS = {'quai': 'STIF:StopArea:SP:50401:', 'vincennes': 'STIF:StopArea:SP:473115:', 'moliere': 'STIF:StopArea:SP:73141:'}
+BUS_STOPS = {'quai': 'STIF:StopArea:SP:50401:', 'vincennes': 'STIF:StopArea:SP:473115:', 'moliere': 'STIF:StopArea:SP:46365:'}
 BUS_REFRESH = timedelta(minutes=5)
 STATIONS = [('Ivry-sur-Seine','STIF:StopArea:SP:46366:'),('Bibliothèque François-Mitterrand','STIF:StopArea:SP:45301:')]
 PARIS = ZoneInfo('Europe/Paris')
