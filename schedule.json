@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "02.11.2026, 09:16:06",
+  "fetchedAtParis": "02.11.2026, 09:21:07",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -15,7 +15,7 @@
         },
         {
           "from": "09:43",
-          "to": "09:45",
+          "to": "09:46",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -52,8 +52,8 @@
           "status": "onTime"
         },
         {
-          "from": "10:16",
-          "to": "10:18",
+          "from": "10:15",
+          "to": "10:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -80,7 +80,7 @@
         },
         {
           "from": "09:43",
-          "to": "09:45",
+          "to": "09:46",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "09:23",
+          "from": "09:21",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "09:23",
+          "from": "09:22",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -189,6 +189,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-02T08:11:06.249608Z",
-  "busFetchedAtParis": "02.11.2026, 09:11:06"
+  "busFetchedAt": "2026-11-02T08:21:07.470317Z",
+  "busFetchedAtParis": "02.11.2026, 09:21:07"
 }
