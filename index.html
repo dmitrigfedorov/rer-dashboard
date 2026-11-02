@@ -384,8 +384,24 @@ function tick(){document.getElementById("clock").textContent=new Intl.DateTimeFo
 async function loadSchedule(){try{const response=await fetch("schedule.json?ts="+Date.now(),{cache:"no-store"});currentData=response.ok?await response.json():fallback}catch(_){currentData=fallback}paint(currentData)}
 const languageToggle=document.getElementById("language-toggle");
 const languageOptions=document.getElementById("language-options");
-function closeLanguageMenu(restoreFocus){languageOptions.hidden=true;languageToggle.setAttribute("aria-expanded","false");if(restoreFocus)languageToggle.focus()}
-function openLanguageMenu(){languageOptions.hidden=false;languageToggle.setAttribute("aria-expanded","true");const selected=languageOptions.querySelector("[aria-selected=\"true\"]");if(selected)selected.focus()}
+let languageMenuHistoryEntry=false;
+function closeLanguageMenu(restoreFocus,fromHistory){
+ const wasOpen=!languageOptions.hidden;
+ languageOptions.hidden=true;languageToggle.setAttribute("aria-expanded","false");
+ if(wasOpen&&languageMenuHistoryEntry){
+  languageMenuHistoryEntry=false;
+  if(!fromHistory){try{history.back()}catch(_){}}
+ }
+ if(restoreFocus)languageToggle.focus();
+}
+function openLanguageMenu(){
+ languageOptions.hidden=false;languageToggle.setAttribute("aria-expanded","true");
+ try{history.pushState({rerLanguageMenu:true},"",location.href);languageMenuHistoryEntry=true}catch(_){}
+ const selected=languageOptions.querySelector("[aria-selected=\"true\"]");if(selected)selected.focus();
+}
+window.addEventListener("popstate",()=>{
+ if(languageMenuHistoryEntry){languageMenuHistoryEntry=false;if(!languageOptions.hidden)closeLanguageMenu(true,true)}
+});
 languageToggle.addEventListener("click",()=>{if(languageOptions.hidden)openLanguageMenu();else closeLanguageMenu(false)});
 languageOptions.addEventListener("click",event=>{
  const option=event.target.closest("[data-language]");
@@ -396,8 +412,9 @@ languageOptions.addEventListener("click",event=>{
 });
 document.addEventListener("click",event=>{if(!event.target.closest(".lang-menu"))closeLanguageMenu()});
 function remoteKey(event){
+ const code=event.keyCode||event.which||0;
  const byCode={13:"Enter",32:" ",37:"ArrowLeft",38:"ArrowUp",39:"ArrowRight",40:"ArrowDown",27:"Escape",8:"Back",461:"Back",10009:"Back"};
- if(byCode[event.keyCode])return byCode[event.keyCode];
+ if(byCode[code])return byCode[code];
  const key=String(event.key||"");
  if(key==="Back"||key==="BrowserBack"||key==="GoBack"||key==="XF86Back"||key==="Backspace")return "Back";
  if(key==="Escape")return "Escape";
@@ -405,12 +422,18 @@ function remoteKey(event){
 }
 languageToggle.addEventListener("keydown",event=>{const key=remoteKey(event);if(key==="Enter"||key===" "){event.preventDefault();openLanguageMenu()}});
 languageOptions.addEventListener("keydown",event=>{const key=remoteKey(event),options=Array.from(languageOptions.querySelectorAll(".language-option")),index=options.indexOf(document.activeElement);if(key==="ArrowDown"||key==="ArrowUp"){event.preventDefault();options[(index+(key==="ArrowDown"?1:options.length-1))%options.length].focus()}else if(key==="Enter"||key===" "){event.preventDefault();document.activeElement.click()}else if(key==="Escape"||key==="Backspace"){event.preventDefault();closeLanguageMenu(true)}});
+function handleRemoteBack(event){
+ const key=remoteKey(event);
+ if((key==="Back"||key==="Escape")&&!languageOptions.hidden){
+  event.preventDefault();event.stopPropagation();event.stopImmediatePropagation();
+  closeLanguageMenu(true);
+ }
+}
+window.addEventListener("keydown",handleRemoteBack,true);
+window.addEventListener("keyup",handleRemoteBack,true);
 document.addEventListener("keydown",event=>{
  const key=remoteKey(event);
- if(!languageOptions.hidden){
-  if(key==="Back"||key==="Escape"){event.preventDefault();event.stopPropagation();event.stopImmediatePropagation();closeLanguageMenu(true)}
-  return;
- }
+ if(!languageOptions.hidden)return;
  if(key==="ArrowDown"||key==="ArrowUp"){
   const height=Math.max(220,Math.round(window.innerHeight*.78));
   event.preventDefault();
