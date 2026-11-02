@@ -1,31 +1,31 @@
 {
-  "fetchedAtParis": "02.11.2026, 07:21:03",
+  "fetchedAtParis": "02.11.2026, 07:26:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "07:20",
-          "to": "07:22",
+          "from": "07:37",
+          "to": "07:39",
           "train": "NICO",
           "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "07:26",
-          "to": "07:29",
+          "from": "07:40",
+          "to": "07:43",
           "train": "GOTA",
-          "destinationName": "Choisy-le-Roi",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
-          "status": "cancelled"
+          "status": "onTime"
         },
         {
-          "from": "07:37",
-          "to": "07:39",
-          "train": "NICO",
-          "destinationName": "Pontoise",
+          "from": "07:52",
+          "to": "07:55",
+          "train": "ZANI",
+          "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         }
@@ -71,20 +71,20 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "07:20",
-          "to": "07:22",
+          "from": "07:37",
+          "to": "07:39",
           "train": "NICO",
           "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "07:26",
-          "to": "07:29",
+          "from": "07:40",
+          "to": "07:43",
           "train": "GOTA",
-          "destinationName": "Choisy-le-Roi",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
-          "status": "cancelled"
+          "status": "onTime"
         }
       ]
     },
