@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "02.11.2026, 20:36:05",
+  "fetchedAtParis": "02.11.2026, 20:41:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,8 +14,8 @@
           "status": "onTime"
         },
         {
-          "from": "20:58",
-          "to": "21:00",
+          "from": "20:59",
+          "to": "21:02",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -36,7 +36,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "20:45",
+          "from": "20:46",
           "to": "20:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -79,8 +79,8 @@
           "status": "onTime"
         },
         {
-          "from": "20:58",
-          "to": "21:00",
+          "from": "20:59",
+          "to": "21:02",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "20:34",
+          "from": "21:31",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:31",
+          "from": "21:41",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,7 +121,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "20:45",
+          "from": "20:46",
           "to": "20:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "20:33",
+          "from": "20:43",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:44",
+          "from": "20:46",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -239,6 +239,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-02T19:31:07.358626Z",
-  "busFetchedAtParis": "02.11.2026, 20:31:07"
+  "busFetchedAt": "2026-11-02T19:41:04.657081Z",
+  "busFetchedAtParis": "02.11.2026, 20:41:04"
 }
