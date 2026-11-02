@@ -97,7 +97,7 @@ def main():
 
     old_cards={c.get('card'):c for c in previous.get('cards',[]) if c.get('mode')=='bus'}
     bus_updated=dt(previous.get('busFetchedAt'))
-    if bus_updated is None or now-bus_updated>=BUS_REFRESH:
+    if bus_updated is None or now-bus_updated>=BUS_REFRESH or 'bus-125' not in old_cards or 'bus-323' not in old_cards:
         try:
             quai_visits=fetch(token,BUS_STOPS['quai'],now,BUS_LINE)
             bus_quai=bus_departures_from_visits(quai_visits,'Quai de la Gare')
