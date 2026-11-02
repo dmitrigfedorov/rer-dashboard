@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "02.11.2026, 17:26:06",
+  "fetchedAtParis": "02.11.2026, 17:31:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,8 +14,8 @@
           "status": "onTime"
         },
         {
-          "from": "17:44",
-          "to": "17:47",
+          "from": "17:43",
+          "to": "17:46",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -36,7 +36,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "17:36",
+          "from": "17:37",
           "to": "17:39",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -44,16 +44,16 @@
           "status": "onTime"
         },
         {
-          "from": "17:38",
-          "to": "17:40",
+          "from": "17:39",
+          "to": "17:41",
           "train": "BOBA",
           "destinationName": "Brétigny",
           "platform": "E",
           "status": "onTime"
         },
         {
-          "from": "17:46",
-          "to": "17:49",
+          "from": "17:48",
+          "to": "17:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -79,8 +79,8 @@
           "status": "onTime"
         },
         {
-          "from": "17:44",
-          "to": "17:47",
+          "from": "17:43",
+          "to": "17:46",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -121,7 +121,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "17:36",
+          "from": "17:37",
           "to": "17:39",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -129,8 +129,8 @@
           "status": "onTime"
         },
         {
-          "from": "17:38",
-          "to": "17:40",
+          "from": "17:39",
+          "to": "17:41",
           "train": "BOBA",
           "destinationName": "Brétigny",
           "platform": "E",
