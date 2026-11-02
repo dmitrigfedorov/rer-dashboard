@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "02.11.2026, 17:06:15",
+  "fetchedAtParis": "02.11.2026, 17:11:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -36,27 +36,27 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "17:07",
-          "to": "17:09",
-          "train": "BOBA",
-          "destinationName": "Brétigny",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
-          "from": "17:16",
-          "to": "17:18",
+          "from": "17:17",
+          "to": "17:20",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "17:22",
+          "from": "17:23",
           "to": "17:25",
           "train": "BOBA",
           "destinationName": "Brétigny",
           "platform": "E",
+          "status": "onTime"
+        },
+        {
+          "from": "17:34",
+          "to": "17:37",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
           "status": "onTime"
         }
       ]
@@ -121,19 +121,19 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "17:07",
-          "to": "17:09",
-          "train": "BOBA",
-          "destinationName": "Brétigny",
+          "from": "17:17",
+          "to": "17:20",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "17:16",
-          "to": "17:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "from": "17:23",
+          "to": "17:25",
+          "train": "BOBA",
+          "destinationName": "Brétigny",
+          "platform": "E",
           "status": "onTime"
         }
       ]
