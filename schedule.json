@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "02.11.2026, 11:51:04",
+  "fetchedAtParis": "02.11.2026, 11:56:15",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -36,7 +36,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "12:00",
+          "from": "12:01",
           "to": "12:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -53,7 +53,7 @@
         },
         {
           "from": "12:34",
-          "to": "12:37",
+          "to": "12:36",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "11:56",
+          "from": "12:05",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:05",
+          "from": "12:29",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,7 +121,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "12:00",
+          "from": "12:01",
           "to": "12:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -189,6 +189,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-02T10:46:04.805986Z",
-  "busFetchedAtParis": "02.11.2026, 11:46:04"
+  "busFetchedAt": "2026-11-02T10:56:15.287467Z",
+  "busFetchedAtParis": "02.11.2026, 11:56:15"
 }
