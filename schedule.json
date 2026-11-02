@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "02.11.2026, 16:21:05",
+  "fetchedAtParis": "02.11.2026, 16:26:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,7 +14,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:43",
+          "from": "16:44",
           "to": "16:46",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -79,7 +79,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:43",
+          "from": "16:44",
           "to": "16:46",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "16:45",
+          "from": "16:47",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "17:05",
+          "from": "16:55",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "16:15",
+          "from": "16:55",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:45",
+          "from": "17:16",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "16:21",
+          "from": "16:28",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:28",
+          "from": "17:09",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -189,6 +189,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-02T15:16:13.363557Z",
-  "busFetchedAtParis": "02.11.2026, 16:16:13"
+  "busFetchedAt": "2026-11-02T15:26:05.195879Z",
+  "busFetchedAtParis": "02.11.2026, 16:26:05"
 }
