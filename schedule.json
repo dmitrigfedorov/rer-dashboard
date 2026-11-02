@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "02.11.2026, 19:16:04",
+  "fetchedAtParis": "02.11.2026, 19:21:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -36,14 +36,6 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "19:17",
-          "to": "19:19",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "19:37",
           "to": "19:39",
           "train": "ROMI",
@@ -56,6 +48,14 @@
           "to": "19:52",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "20:00",
+          "to": "20:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         }
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "19:39",
+          "from": "19:40",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,18 +121,18 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "19:17",
-          "to": "19:19",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "19:37",
           "to": "19:39",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "19:49",
+          "to": "19:52",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         }
@@ -180,7 +180,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "19:19",
+          "from": "19:21",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -188,7 +188,7 @@
           "status": "onTime"
         },
         {
-          "from": "19:24",
+          "from": "19:23",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
