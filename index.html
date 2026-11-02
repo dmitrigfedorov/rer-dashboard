@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/svg+xml" href="favicon.svg?v=20261102-blue-train">
 <meta http-equiv="refresh" content="300">
 <title>RER C — ближайшие поезда</title>
 <style>
@@ -395,10 +395,28 @@ languageOptions.addEventListener("click",event=>{
  languageToggle.focus();
 });
 document.addEventListener("click",event=>{if(!event.target.closest(".lang-menu"))closeLanguageMenu()});
-function remoteKey(event){return event.key||({13:"Enter",32:" ",37:"ArrowLeft",38:"ArrowUp",39:"ArrowRight",40:"ArrowDown",10009:"Escape"})[event.keyCode]||""}
-languageToggle.addEventListener("keydown",event=>{const key=remoteKey(event);if(key==="Enter"||key===" "||key==="ArrowDown"){event.preventDefault();openLanguageMenu()}});
+function remoteKey(event){
+ const byCode={13:"Enter",32:" ",37:"ArrowLeft",38:"ArrowUp",39:"ArrowRight",40:"ArrowDown",27:"Escape",8:"Back",461:"Back",10009:"Back"};
+ if(byCode[event.keyCode])return byCode[event.keyCode];
+ const key=String(event.key||"");
+ if(key==="Back"||key==="BrowserBack"||key==="GoBack"||key==="XF86Back"||key==="Backspace")return "Back";
+ if(key==="Escape")return "Escape";
+ return key;
+}
+languageToggle.addEventListener("keydown",event=>{const key=remoteKey(event);if(key==="Enter"||key===" "){event.preventDefault();openLanguageMenu()}});
 languageOptions.addEventListener("keydown",event=>{const key=remoteKey(event),options=Array.from(languageOptions.querySelectorAll(".language-option")),index=options.indexOf(document.activeElement);if(key==="ArrowDown"||key==="ArrowUp"){event.preventDefault();options[(index+(key==="ArrowDown"?1:options.length-1))%options.length].focus()}else if(key==="Enter"||key===" "){event.preventDefault();document.activeElement.click()}else if(key==="Escape"||key==="Backspace"){event.preventDefault();closeLanguageMenu(true)}});
-document.addEventListener("keydown",event=>{const key=remoteKey(event);if((key==="Escape"||key==="Backspace")&&!languageOptions.hidden){event.preventDefault();closeLanguageMenu(true)}});
+document.addEventListener("keydown",event=>{
+ const key=remoteKey(event);
+ if(!languageOptions.hidden){
+  if(key==="Back"||key==="Escape"){event.preventDefault();event.stopPropagation();event.stopImmediatePropagation();closeLanguageMenu(true)}
+  return;
+ }
+ if(key==="ArrowDown"||key==="ArrowUp"){
+  const height=Math.max(220,Math.round(window.innerHeight*.78));
+  event.preventDefault();
+  window.scrollBy(0,key==="ArrowDown"?height:-height);
+ }
+},true);
 applyLanguage(getSavedLanguage(),false);
 window.addEventListener("load",()=>{try{languageToggle.focus()}catch(_){}});
 loadSchedule();
