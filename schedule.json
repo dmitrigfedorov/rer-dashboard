@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "03.11.2026, 00:21:04",
+  "fetchedAtParis": "03.11.2026, 00:26:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -28,14 +28,6 @@
       "title": "Jean-Jacques Rousseau",
       "destination": "Émile Durkheim",
       "rows": [
-        {
-          "from": "00:17",
-          "to": "",
-          "train": "325",
-          "destinationName": "Quai de la Gare",
-          "platform": "",
-          "status": "onTime"
-        },
         {
           "from": "01:07",
           "to": "",
@@ -79,14 +71,6 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "00:21",
-          "to": "",
-          "train": "325",
-          "destinationName": "Église de Saint-Mandé",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
           "from": "00:43",
           "to": "",
           "train": "325",
@@ -129,14 +113,6 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "00:17",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
           "from": "00:31",
           "to": "",
           "train": "323",
@@ -147,6 +123,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-02T23:16:05.209198Z",
-  "busFetchedAtParis": "03.11.2026, 00:16:05"
+  "busFetchedAt": "2026-11-02T23:26:03.298124Z",
+  "busFetchedAtParis": "03.11.2026, 00:26:03"
 }
