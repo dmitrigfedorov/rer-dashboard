@@ -371,6 +371,22 @@ function departureMarkup(time){
  return '<div class="departure-label">'+esc(t.departure.trim())+'</div><div class="countdown-text'+(departed?' past-departure':'')+'">'+esc(countdown(time))+'</div>';
 }
 function statusText(value){const key=String(value==null?"":value);return translations[currentLanguage].statuses[key]||key||"—"}
+let lastUpdatedTimestamp=null;
+function parseParisTimestamp(value){
+ const match=String(value||"").match(/^(\d{1,2})\.(\d{1,2})\.(\d{4}),\s*(\d{1,2}):(\d{2}):(\d{2})$/);
+ if(!match)return null;
+ const [,day,month,year,hour,minute,second]=match;
+ const wallClockAsUtc=Date.UTC(Number(year),Number(month)-1,Number(day),Number(hour),Number(minute),Number(second));
+ const parisParts=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Paris",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit",hourCycle:"h23"}).formatToParts(new Date(wallClockAsUtc));
+ const fields={};parisParts.forEach(part=>{if(part.type!=="literal")fields[part.type]=Number(part.value)});
+ const parisOffset=Date.UTC(fields.year,fields.month-1,fields.day,fields.hour,fields.minute,fields.second)-wallClockAsUtc;
+ return wallClockAsUtc-parisOffset;
+}
+function updateUpdatedColor(){
+ const element=document.getElementById("updated");
+ element.classList.toggle("updated-fresh",lastUpdatedTimestamp!==null&&Date.now()-lastUpdatedTimestamp<=5*60*1000);
+ element.classList.toggle("updated-stale",lastUpdatedTimestamp!==null&&Date.now()-lastUpdatedTimestamp>5*60*1000);
+}
 function setUpdated(value,label){
  const element=document.getElementById("updated");
  lastUpdatedTimestamp=parseParisTimestamp(value);
