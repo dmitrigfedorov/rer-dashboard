@@ -426,7 +426,7 @@ function closeLanguageMenu(restoreFocus,fromHistory){
   languageMenuHistoryEntry=false;
   if(!fromHistory){try{history.back()}catch(_){}}
  }
- if(restoreFocus)languageToggle.focus();
+ languageToggle.blur();
 }
 function openLanguageMenu(){
  languageOptions.hidden=false;languageToggle.setAttribute("aria-expanded","true");
@@ -442,8 +442,7 @@ languageOptions.addEventListener("click",event=>{
  if(!option)return;
  applyLanguage(option.dataset.language,true);
  closeLanguageMenu();
- languageToggle.focus();
-});
+ });
 document.addEventListener("click",event=>{if(!event.target.closest(".lang-menu"))closeLanguageMenu()});
 function remoteKey(event){
  const code=event.keyCode||event.which||0;
@@ -470,6 +469,7 @@ window.addEventListener("keyup",handleRemoteBack,true);
 document.addEventListener("keydown",event=>{
  const key=remoteKey(event);
  if(!languageOptions.hidden)return;
+ if(key==="ArrowUp"&&window.scrollY<=1){event.preventDefault();languageToggle.focus();return}
  if(key==="ArrowDown"||key==="ArrowUp"){
   const height=Math.max(220,Math.round(window.innerHeight*.78));
   event.preventDefault();
@@ -477,7 +477,6 @@ document.addEventListener("keydown",event=>{
  }
 },true);
 applyLanguage(getSavedLanguage(),false);
-window.addEventListener("load",()=>{try{languageToggle.focus()}catch(_){}});
 loadSchedule();
 loadWeather();
 setInterval(tick,1000);
