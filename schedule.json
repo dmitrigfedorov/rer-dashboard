@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "02.11.2026, 19:31:05",
+  "fetchedAtParis": "02.11.2026, 19:36:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -37,15 +37,15 @@
       "rows": [
         {
           "from": "19:37",
-          "to": "19:40",
+          "to": "19:39",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "19:51",
-          "to": "19:54",
+          "from": "19:53",
+          "to": "19:56",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "19:36",
+          "from": "19:37",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -122,15 +122,15 @@
       "rows": [
         {
           "from": "19:37",
-          "to": "19:40",
+          "to": "19:39",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "19:51",
-          "to": "19:54",
+          "from": "19:53",
+          "to": "19:56",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -177,6 +177,14 @@
           "destinationName": "Église de Saint-Mandé",
           "platform": "",
           "status": "onTime"
+        },
+        {
+          "from": "21:09",
+          "to": "",
+          "train": "325",
+          "destinationName": "Église de Saint-Mandé",
+          "platform": "",
+          "status": "onTime"
         }
       ]
     },
@@ -188,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "19:37",
+          "from": "19:36",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
