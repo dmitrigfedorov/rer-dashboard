@@ -36,6 +36,8 @@ body{padding:4.2vh 4.5vw}
 .clock{text-align:right;font-size:1vw;color:var(--muted);white-space:nowrap}
 .clock strong{display:block;color:var(--ink);font-size:2.7vw;font-weight:600;margin-bottom:.5vh}
 .clock #updated{display:block;font-size:1vw;margin-top:.3vh}
+.clock #updated.updated-fresh{color:#68c9a7}
+.clock #updated.updated-stale{color:#ff6b6b}
 .grid{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(2,minmax(0,1fr)) auto;grid-template-areas:"rer-ivry bus-quai" "rer-bfm bus-vincennes" ". bus-eglise";gap:2vw}
 .grid.legacy-grid{grid-template-areas:none}
 .grid.legacy-grid .panel{grid-area:auto}
@@ -371,9 +373,11 @@ function departureMarkup(time){
 function statusText(value){const key=String(value==null?"":value);return translations[currentLanguage].statuses[key]||key||"—"}
 function setUpdated(value,label){
  const element=document.getElementById("updated");
+ lastUpdatedTimestamp=parseParisTimestamp(value);
  element.setAttribute("aria-label",label+(value?" "+value:""));
  element.title=label+(value?" "+value:"");
  element.innerHTML='<svg class="refresh-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 7v5h-5M4 17v-5h5M5.64 9A7 7 0 0 1 17.5 6.5L20 12M4 12l2.5 5.5A7 7 0 0 0 18.36 15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>'+esc(value||"")+'</span>';
+ updateUpdatedColor();
 }
 function paint(data){
  const t=translations[currentLanguage],grid=document.getElementById("schedule");
@@ -414,7 +418,7 @@ function applyLanguage(language,persist){
  tick();
  paint(currentData);
 }
-function tick(){document.getElementById("clock").textContent=new Intl.DateTimeFormat(translations[currentLanguage].locale,{hour:"2-digit",minute:"2-digit",second:"2-digit",timeZone:"Europe/Paris"}).format(new Date())}
+function tick(){document.getElementById("clock").textContent=new Intl.DateTimeFormat(translations[currentLanguage].locale,{hour:"2-digit",minute:"2-digit",second:"2-digit",timeZone:"Europe/Paris"}).format(new Date());updateUpdatedColor()}
 async function loadSchedule(){try{const response=await fetch("schedule.json?ts="+Date.now(),{cache:"no-store"});currentData=response.ok?await response.json():fallback}catch(_){currentData=fallback}paint(currentData)}
 const languageToggle=document.getElementById("language-toggle");
 const languageOptions=document.getElementById("language-options");
