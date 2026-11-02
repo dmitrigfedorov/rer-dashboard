@@ -204,7 +204,6 @@ h1.title .station-line{display:inline-flex;vertical-align:middle}
 const fallback={fetchedAtParis:"",directions:[]};
 const storageKey="rer-dashboard-language";
 
-const weatherLocationKey="rer-dashboard-weather-location";
 const weatherDataKey="rer-dashboard-weather-data";
 let weatherSnapshot=null;
 let weatherStatus="pending";
@@ -218,17 +217,11 @@ const weatherConditions={
  95:["⛈️","Гроза","Orage","Гръмотевична буря"],96:["⛈️","Гроза с градом","Orage et grêle","Гръмотевична буря с град"],99:["⛈️","Сильная гроза с градом","Orage violent et grêle","Силна гръмотевична буря с град"]
 };
 async function weatherLocation(){
- try{
-  const saved=JSON.parse(localStorage.getItem(weatherLocationKey)||"null");
-  if(saved&&Number.isFinite(saved.latitude)&&Number.isFinite(saved.longitude)&&Date.now()-saved.savedAt<12*60*60*1000)return saved;
- }catch(_){}
  const response=await fetch("https://ipwho.is/",{cache:"no-store"});
  if(!response.ok)throw new Error("IP geolocation unavailable");
  const geo=await response.json();
  if(!geo.success||!Number.isFinite(Number(geo.latitude))||!Number.isFinite(Number(geo.longitude)))throw new Error("IP geolocation failed");
- const location={latitude:Number(geo.latitude),longitude:Number(geo.longitude),city:String(geo.city||geo.region||geo.country||""),savedAt:Date.now()};
- try{localStorage.setItem(weatherLocationKey,JSON.stringify(location))}catch(_){}
- return location;
+ return {latitude:Number(geo.latitude),longitude:Number(geo.longitude),city:String(geo.city||geo.region||geo.country||""),savedAt:Date.now()};
 }
 function setWeatherHealth(){
  const element=document.getElementById("weather-health"),t=translations[currentLanguage];
