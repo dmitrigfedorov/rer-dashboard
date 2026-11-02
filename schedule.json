@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "02.11.2026, 10:31:07",
+  "fetchedAtParis": "02.11.2026, 10:36:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,12 +14,12 @@
           "status": "cancelled"
         },
         {
-          "from": "10:49",
-          "to": "10:52",
+          "from": "10:50",
+          "to": "10:53",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
-          "status": "delayed"
+          "status": "onTime"
         },
         {
           "from": "11:04",
@@ -36,14 +36,6 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "10:34",
-          "to": "10:37",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "10:46",
           "to": "10:49",
           "train": "MONA",
@@ -56,6 +48,14 @@
           "to": "11:13",
           "train": "ROMI",
           "destinationName": "Orly Ville",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "11:28",
+          "to": "11:31",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         }
@@ -79,12 +79,12 @@
           "status": "cancelled"
         },
         {
-          "from": "10:49",
-          "to": "10:52",
+          "from": "10:50",
+          "to": "10:53",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
-          "status": "delayed"
+          "status": "onTime"
         }
       ]
     },
@@ -121,18 +121,18 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "10:34",
-          "to": "10:37",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "10:46",
           "to": "10:49",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "11:11",
+          "to": "11:13",
+          "train": "ROMI",
+          "destinationName": "Orly Ville",
           "platform": "F",
           "status": "onTime"
         }
