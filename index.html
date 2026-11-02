@@ -206,30 +206,6 @@ h1.title .station-line{display:inline-flex;vertical-align:middle}
 </footer>
 <script>
 const fallback={fetchedAtParis:"",directions:[]};
-const tvInputDebug=new URLSearchParams(location.search).get("tvInputDebug")==="1";
-let tvInputDebugPanel=null;
-function showTvInputDebug(kind,event){
- if(!tvInputDebug)return;
- if(!tvInputDebugPanel){
-  tvInputDebugPanel=document.createElement("div");
-  tvInputDebugPanel.id="tv-input-debug";
-  tvInputDebugPanel.setAttribute("aria-live","polite");
-  tvInputDebugPanel.style.cssText="position:fixed;left:16px;bottom:16px;z-index:99999;max-width:92vw;padding:14px 18px;border:2px solid #69b9f5;border-radius:8px;background:rgba(0,0,0,.9);color:#fff;font:20px/1.4 Arial,sans-serif;white-space:pre-wrap;pointer-events:none";
-  document.body.appendChild(tvInputDebugPanel);
- }
- const code=event?(event.keyCode||event.which||0):0;
- const key=event?(event.key||"(empty)"):"";
- const eventCode=event?(event.code||"(empty)"):"";
- const active=document.activeElement;
- const menu=document.getElementById("language-options");
- tvInputDebugPanel.textContent="TV INPUT DEBUG\n"+kind+"  key="+key+"  code="+eventCode+"  keyCode/which="+code+"\nfocus="+(active?(active.id||active.tagName):"none")+"  menu="+(menu&&!menu.hidden?"OPEN":"closed")+"  scrollY="+Math.round(window.scrollY)+"  history="+history.length;
-}
-if(tvInputDebug){
- window.addEventListener("keydown",event=>showTvInputDebug("keydown",event),true);
- window.addEventListener("keyup",event=>showTvInputDebug("keyup",event),true);
- window.addEventListener("popstate",event=>showTvInputDebug("popstate",event),true);
- setTimeout(()=>showTvInputDebug("READY — press remote keys",null),1000);
-}
 const storageKey="rer-dashboard-language";
 
 const weatherLocationKey="rer-dashboard-weather-location";
