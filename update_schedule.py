@@ -6,7 +6,9 @@ from zoneinfo import ZoneInfo
 API = 'https://prim.iledefrance-mobilites.fr/marketplace/stop-monitoring'
 LINE = 'STIF:Line::C01727:'
 BUS_LINE = 'STIF:Line::C01288:'
-BUS_STOPS = {'quai': 'STIF:StopArea:SP:50401:', 'vincennes': 'STIF:StopArea:SP:473115:'}
+BUS125_LINE = 'STIF:Line::C01154:'
+BUS323_LINE = 'STIF:Line::C01287:'
+BUS_STOPS = {'quai': 'STIF:StopArea:SP:50401:', 'vincennes': 'STIF:StopArea:SP:473115:', 'moliere': 'STIF:StopArea:SP:73141:'}
 BUS_REFRESH = timedelta(minutes=5)
 STATIONS = [('Ivry-sur-Seine','STIF:StopArea:SP:46366:'),('Bibliothèque François-Mitterrand','STIF:StopArea:SP:45301:')]
 PARIS = ZoneInfo('Europe/Paris')
@@ -57,13 +59,13 @@ def normalize(s):
     value=unicodedata.normalize('NFKD',s or '')
     return ''.join(c for c in value if not unicodedata.combining(c)).lower()
 
-def bus_departures_from_visits(visits, headsign, destination_name=None):
+def bus_departures_from_visits(visits, headsign, destination_name=None, line='325'):
     target=normalize(headsign)
     rows=[]
     for visit in visits:
         labels=normalize(' '.join((visit.get('dest',''),visit.get('direction',''),visit.get('display',''))))
         if target not in labels: continue
-        rows.append({'from':visit['dep'].astimezone(PARIS).strftime('%H:%M'),'to':'','train':'325','destinationName':destination_name or headsign,'platform':'','status':visit['status']})
+        rows.append({'from':visit['dep'].astimezone(PARIS).strftime('%H:%M'),'to':'','train':line,'destinationName':destination_name or headsign,'platform':'','status':visit['status']})
         if len(rows)==3: break
     return rows
 
@@ -101,25 +103,36 @@ def main():
             bus_quai=bus_departures_from_visits(quai_visits,'Quai de la Gare')
             bus_vincennes=bus_departures(token,BUS_STOPS['vincennes'],'Château de Vincennes',now)
             bus_eglise=bus_departures_from_visits(quai_visits,'Château de Vincennes','Église de Saint-Mandé')
+            bus125_visits=fetch(token,BUS_STOPS['quai'],now,BUS125_LINE)
+            bus_125=bus_departures_from_visits(bus125_visits,"Porte d'Orléans",'Jean Le Galleu',line='125')
+            bus323_visits=fetch(token,BUS_STOPS['moliere'],now,BUS323_LINE)
+            bus_323=bus_departures_from_visits(bus323_visits,'Châtillon - Montrouge - Métro','Hôpital Jean Rostand',line='323')
+            print(f"New route rows: BUS 125={len(bus_125)}, BUS 323={len(bus_323)}")
             bus_updated=now
-            print('Refreshed BUS 325 data.')
+            print('Refreshed BUS 325, 125 and 323 data.')
         except Exception as e:
             print('BUS 325 refresh failed; retaining the last available bus data: '+str(e),file=sys.stderr)
             bus_quai=old_cards.get('bus-quai',{}).get('rows',[])
             bus_vincennes=old_cards.get('bus-vincennes',{}).get('rows',[])
             bus_eglise=old_cards.get('bus-eglise',{}).get('rows',[])
+            bus_125=old_cards.get('bus-125',{}).get('rows',[])
+            bus_323=old_cards.get('bus-323',{}).get('rows',[])
             if bus_updated is None: bus_updated=now
     else:
         bus_quai=old_cards.get('bus-quai',{}).get('rows',[])
         bus_vincennes=old_cards.get('bus-vincennes',{}).get('rows',[])
         bus_eglise=old_cards.get('bus-eglise',{}).get('rows',[])
+        bus_125=old_cards.get('bus-125',{}).get('rows',[])
+        bus_323=old_cards.get('bus-323',{}).get('rows',[])
 
     cards=[
         {'card':'rer-ivry','mode':'rer','line':'C','title':STATIONS[0][0],'destination':STATIONS[1][0],'rows':directions[0]['rows'][:2]},
         {'card':'bus-quai','mode':'bus','line':'325','title':'Jean-Jacques Rousseau','destination':'Émile Durkheim','rows':bus_quai},
         {'card':'rer-bfm','mode':'rer','line':'C','title':STATIONS[1][0],'destination':STATIONS[0][0],'rows':directions[1]['rows'][:2]},
         {'card':'bus-vincennes','mode':'bus','line':'325','title':'Bibliothèque François-Mitterrand','destination':'Jean-Jacques Rousseau','rows':bus_vincennes},
-        {'card':'bus-eglise','mode':'bus','line':'325','title':'Jean-Jacques Rousseau','destination':'Église de Saint-Mandé','rows':bus_eglise}
+        {'card':'bus-eglise','mode':'bus','line':'325','title':'Jean-Jacques Rousseau','destination':'Église de Saint-Mandé','rows':bus_eglise},
+        {'card':'bus-125','mode':'bus','line':'125','title':'Jean-Jacques Rousseau','destination':'Jean Le Galleu','rows':bus_125},
+        {'card':'bus-323','mode':'bus','line':'323','title':'Molière','destination':'Hôpital Jean Rostand','rows':bus_323}
     ]
     stamp=now.astimezone(PARIS).strftime('%d.%m.%Y, %H:%M:%S')
     out={'fetchedAtParis':stamp,'directions':directions,'cards':cards,'busFetchedAt':bus_updated.isoformat().replace('+00:00','Z') if bus_updated else None,'busFetchedAtParis':bus_updated.astimezone(PARIS).strftime('%d.%m.%Y, %H:%M:%S') if bus_updated else None}
