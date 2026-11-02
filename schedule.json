@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "02.11.2026, 18:36:05",
+  "fetchedAtParis": "02.11.2026, 18:41:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -22,7 +22,7 @@
           "status": "onTime"
         },
         {
-          "from": "19:13",
+          "from": "19:14",
           "to": "19:15",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -36,16 +36,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "18:38",
-          "to": "18:40",
-          "train": "BOBA",
-          "destinationName": "Brétigny",
-          "platform": "E",
-          "status": "onTime"
-        },
-        {
-          "from": "18:51",
-          "to": "18:53",
+          "from": "18:52",
+          "to": "18:54",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -53,10 +45,18 @@
         },
         {
           "from": "18:54",
-          "to": "18:56",
+          "to": "18:57",
           "train": "BOBA",
           "destinationName": "Brétigny",
           "platform": "E",
+          "status": "onTime"
+        },
+        {
+          "from": "19:01",
+          "to": "19:04",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
           "status": "onTime"
         }
       ]
@@ -121,19 +121,19 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "18:38",
-          "to": "18:40",
-          "train": "BOBA",
-          "destinationName": "Brétigny",
-          "platform": "E",
-          "status": "onTime"
-        },
-        {
-          "from": "18:51",
-          "to": "18:53",
+          "from": "18:52",
+          "to": "18:54",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "18:54",
+          "to": "18:57",
+          "train": "BOBA",
+          "destinationName": "Brétigny",
+          "platform": "E",
           "status": "onTime"
         }
       ]
