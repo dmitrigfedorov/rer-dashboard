@@ -1,21 +1,13 @@
 {
-  "fetchedAtParis": "02.11.2026, 16:11:05",
+  "fetchedAtParis": "02.11.2026, 16:16:13",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "16:12",
-          "to": "16:15",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "16:28",
-          "to": "16:30",
+          "to": "16:31",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -24,6 +16,14 @@
         {
           "from": "16:43",
           "to": "16:45",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "16:58",
+          "to": "17:00",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "16:12",
-          "to": "16:15",
+          "from": "16:28",
+          "to": "16:31",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "16:28",
-          "to": "16:30",
+          "from": "16:43",
+          "to": "16:45",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "16:43",
+          "from": "16:45",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "16:14",
+          "from": "16:15",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:39",
+          "from": "16:45",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "16:15",
+          "from": "16:21",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:21",
+          "from": "16:28",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -189,6 +189,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-02T15:11:05.762443Z",
-  "busFetchedAtParis": "02.11.2026, 16:11:05"
+  "busFetchedAt": "2026-11-02T15:16:13.363557Z",
+  "busFetchedAtParis": "02.11.2026, 16:16:13"
 }
