@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "02.11.2026, 06:26:04",
+  "fetchedAtParis": "02.11.2026, 06:31:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "06:28",
-          "to": "06:30",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "06:45",
           "to": "06:48",
@@ -24,6 +16,14 @@
         {
           "from": "06:58",
           "to": "07:00",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "07:10",
+          "to": "07:13",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:28",
-          "to": "06:30",
+          "from": "06:45",
+          "to": "06:48",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "06:45",
-          "to": "06:48",
+          "from": "06:58",
+          "to": "07:00",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -163,7 +163,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "06:27",
+          "from": "06:49",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -171,7 +171,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:49",
+          "from": "07:02",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -181,6 +181,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-02T05:21:03.071986Z",
-  "busFetchedAtParis": "02.11.2026, 06:21:03"
+  "busFetchedAt": "2026-11-02T05:31:03.754882Z",
+  "busFetchedAtParis": "02.11.2026, 06:31:03"
 }
