@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "02.11.2026, 21:26:05",
+  "fetchedAtParis": "02.11.2026, 21:31:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "21:28",
-          "to": "21:31",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "21:58",
           "to": "22:00",
@@ -36,7 +28,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "21:30",
+          "from": "21:31",
           "to": "21:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -71,16 +63,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "21:28",
-          "to": "21:31",
+          "from": "21:58",
+          "to": "22:00",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "21:58",
-          "to": "22:00",
+          "from": "22:28",
+          "to": "22:30",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -96,7 +88,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "21:29",
+          "from": "21:39",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +96,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:41",
+          "from": "21:49",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,7 +113,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "21:30",
+          "from": "21:31",
           "to": "21:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -196,7 +188,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "21:38",
+          "from": "21:39",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -239,6 +231,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-02T20:21:06.515230Z",
-  "busFetchedAtParis": "02.11.2026, 21:21:06"
+  "busFetchedAt": "2026-11-02T20:31:05.529834Z",
+  "busFetchedAtParis": "02.11.2026, 21:31:05"
 }
