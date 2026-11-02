@@ -272,7 +272,7 @@ async function loadWeather(){
  const cached=readCachedWeather();
  if(cached){
   weatherSnapshot=cached;
-  weatherStatus=Date.now()-cached.savedAt<10*60*1000?"fresh":"stale";
+  weatherStatus="pending";
   renderWeather();
  }else{
   weatherSnapshot=null;
@@ -281,9 +281,6 @@ async function loadWeather(){
  }
  try{
   const location=await weatherLocation();
-  if(cached&&Array.isArray(cached.precipitationForecast)&&Number.isFinite(cached.maxTemperature)&&Date.now()-cached.savedAt<10*60*1000&&Math.abs(cached.latitude-location.latitude)<.05&&Math.abs(cached.longitude-location.longitude)<.05){
-   weatherSnapshot=cached;weatherStatus="fresh";renderWeather();return;
-  }
   const params=new URLSearchParams({latitude:String(location.latitude),longitude:String(location.longitude),current:"temperature_2m,weather_code,is_day",hourly:"precipitation_probability,precipitation,weather_code",daily:"temperature_2m_max",forecast_days:"1",temperature_unit:"celsius",timezone:"auto"});
   const response=await fetch("https://api.open-meteo.com/v1/forecast?"+params.toString(),{cache:"no-store"});
   if(!response.ok)throw new Error("Weather service unavailable");
