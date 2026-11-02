@@ -38,7 +38,7 @@ body{padding:4.2vh 4.5vw}
 .clock #updated{display:block;font-size:1vw;margin-top:.3vh}
 .clock #updated.updated-fresh{color:#68c9a7}
 .clock #updated.updated-stale{color:#ff6b6b}
-.grid{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(2,minmax(0,1fr)) auto auto auto auto;grid-template-areas:"rer-ivry bus-quai" "rer-bfm bus-vincennes" "brand-divider brand-divider" "bus-125 bus-323" ". eglise-logo" ". bus-eglise";gap:2vw}
+.grid{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(2,minmax(0,1fr)) auto auto auto auto;grid-template-areas:"rer-ivry bus-quai" "rer-bfm bus-vincennes" "brand-divider brand-divider" "bus-125 bus-323" "eglise-logo eglise-logo" ". bus-eglise";gap:2vw}
 .grid.legacy-grid{grid-template-areas:none}
 .grid.legacy-grid .panel{grid-area:auto}
 .panel[data-card="rer-ivry"]{grid-area:rer-ivry}
@@ -48,7 +48,7 @@ body{padding:4.2vh 4.5vw}
 .panel[data-card="bus-eglise"]{grid-area:bus-eglise}
 .panel[data-card="bus-125"]{grid-area:bus-125}
 .panel[data-card="bus-323"]{grid-area:bus-323}
-.school-logo{grid-area:eglise-logo;display:flex;align-items:center;justify-content:center;min-width:0}
+.school-logo{grid-area:eglise-logo;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:1.2vw;min-width:0}.school-logo::before,.school-logo::after{content:"";height:1px;background:var(--line)}
 .school-logo img{display:block;width:150px;height:126px;max-width:100%;object-fit:contain}
 .route-group-divider{grid-area:brand-divider;display:flex;align-items:center;gap:1.2vw;min-width:0;margin:.2vh 0}
 .route-group-divider span{height:1px;flex:1;background:var(--line)}
