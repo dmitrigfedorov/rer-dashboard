@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "02.11.2026, 20:51:04",
+  "fetchedAtParis": "02.11.2026, 20:56:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "20:58",
-          "to": "21:00",
+          "to": "21:01",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -15,7 +15,7 @@
         },
         {
           "from": "21:16",
-          "to": "21:18",
+          "to": "21:19",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -44,8 +44,8 @@
           "status": "onTime"
         },
         {
-          "from": "21:20",
-          "to": "21:23",
+          "from": "21:19",
+          "to": "21:22",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "20:58",
-          "to": "21:00",
+          "to": "21:01",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -80,7 +80,7 @@
         },
         {
           "from": "21:16",
-          "to": "21:18",
+          "to": "21:19",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -129,8 +129,8 @@
           "status": "onTime"
         },
         {
-          "from": "21:20",
-          "to": "21:23",
+          "from": "21:19",
+          "to": "21:22",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "20:56",
+          "from": "20:58",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "21:08",
+          "from": "21:09",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -194,7 +194,16 @@
       "line": "125",
       "title": "Jean-Jacques Rousseau",
       "destination": "Jean Le Galleu",
-      "rows": []
+      "rows": [
+        {
+          "from": "20:55",
+          "to": "",
+          "train": "125",
+          "destinationName": "Jean Le Galleu",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-323",
@@ -222,6 +231,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-02T19:51:04.563176Z",
-  "busFetchedAtParis": "02.11.2026, 20:51:04"
+  "busFetchedAt": "2026-11-02T19:56:05.030961Z",
+  "busFetchedAtParis": "02.11.2026, 20:56:05"
 }
