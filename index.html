@@ -38,7 +38,7 @@ body{padding:4.2vh 4.5vw}
 .clock #updated{display:block;font-size:1vw;margin-top:.3vh}
 .clock #updated.updated-fresh{color:#68c9a7}
 .clock #updated.updated-stale{color:#ff6b6b}
-.grid{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(2,minmax(0,1fr)) auto;grid-template-areas:"rer-ivry bus-quai" "rer-bfm bus-vincennes" ". bus-eglise";gap:2vw}
+.grid{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(2,minmax(0,1fr)) auto auto;grid-template-areas:"rer-ivry bus-quai" "rer-bfm bus-vincennes" ". bus-eglise" "bus-125 bus-323";gap:2vw}
 .grid.legacy-grid{grid-template-areas:none}
 .grid.legacy-grid .panel{grid-area:auto}
 .panel[data-card="rer-ivry"]{grid-area:rer-ivry}
@@ -46,6 +46,8 @@ body{padding:4.2vh 4.5vw}
 .panel[data-card="rer-bfm"]{grid-area:rer-bfm}
 .panel[data-card="bus-vincennes"]{grid-area:bus-vincennes}
 .panel[data-card="bus-eglise"]{grid-area:bus-eglise}
+.panel[data-card="bus-125"]{grid-area:bus-125}
+.panel[data-card="bus-323"]{grid-area:bus-323}
 .panel{background:var(--card);border:1px solid var(--line);border-radius:1.1vw;padding:1.6vw 2.3vw;min-height:0}
 .route-header{display:flex;align-items:flex-start;justify-content:space-between;gap:1.5vw}
 .route{font-size:1.55vw;color:var(--muted);line-height:1.35;min-height:4.4vw}
@@ -91,9 +93,9 @@ h1.title .station-line{display:inline-flex;vertical-align:middle}
  .clock strong,.clock #updated{grid-column:auto;grid-row:auto}
  .language{font-size:1.5vw}
  .language-trigger,.language-option{font-size:1.5vw}
- .grid{grid-template-columns:1fr;grid-template-rows:none;grid-template-areas:"rer-ivry" "rer-bfm" "bus-quai" "bus-vincennes" "bus-eglise"}
+ .grid{grid-template-columns:1fr;grid-template-rows:none;grid-template-areas:"rer-ivry" "rer-bfm" "bus-quai" "bus-vincennes" "bus-eglise" "bus-125" "bus-323"}
  .grid.legacy-grid{grid-template-areas:none}
- .panel[data-card="rer-ivry"],.panel[data-card="rer-bfm"],.panel[data-card="bus-quai"],.panel[data-card="bus-vincennes"],.panel[data-card="bus-eglise"]{grid-area:auto}
+ .panel[data-card="rer-ivry"],.panel[data-card="rer-bfm"],.panel[data-card="bus-quai"],.panel[data-card="bus-vincennes"],.panel[data-card="bus-eglise"],.panel[data-card="bus-125"],.panel[data-card="bus-323"]{grid-area:auto}
  .title{font-size:4.5vw}
  .eyebrow{font-size:2vw}
  .clock strong{font-size:3.4vw}
