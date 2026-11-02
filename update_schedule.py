@@ -7,7 +7,7 @@ API = 'https://prim.iledefrance-mobilites.fr/marketplace/stop-monitoring'
 LINE = 'STIF:Line::C01727:'
 BUS_LINE = 'STIF:Line::C01288:'
 BUS_STOPS = {'quai': 'STIF:StopArea:SP:50401:', 'vincennes': 'STIF:StopArea:SP:473115:'}
-BUS_REFRESH = timedelta(minutes=10)
+BUS_REFRESH = timedelta(minutes=5)
 STATIONS = [('Ivry-sur-Seine','STIF:StopArea:SP:46366:'),('Bibliothèque François-Mitterrand','STIF:StopArea:SP:45301:')]
 PARIS = ZoneInfo('Europe/Paris')
 
