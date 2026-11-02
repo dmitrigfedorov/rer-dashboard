@@ -1,31 +1,31 @@
 {
-  "fetchedAtParis": "02.11.2026, 07:56:03",
+  "fetchedAtParis": "02.11.2026, 08:01:11",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "07:56",
-          "to": "07:59",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
-          "from": "08:07",
-          "to": "08:09",
+          "from": "08:06",
+          "to": "08:08",
           "train": "ZANI",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "08:11",
+          "from": "08:10",
           "to": "08:13",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "08:21",
+          "to": "08:23",
+          "train": "ZANI",
+          "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         }
@@ -36,14 +36,6 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "07:56",
-          "to": "07:55",
-          "train": "JUNE",
-          "destinationName": "Juvisy",
-          "platform": "E",
-          "status": "onTime"
-        },
-        {
           "from": "08:00",
           "to": "08:03",
           "train": "ROMI",
@@ -52,11 +44,19 @@
           "status": "onTime"
         },
         {
-          "from": "08:11",
+          "from": "08:12",
           "to": "08:14",
           "train": "JUNE",
           "destinationName": "Juvisy",
           "platform": "E",
+          "status": "onTime"
+        },
+        {
+          "from": "08:15",
+          "to": "08:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
           "status": "onTime"
         }
       ]
@@ -71,18 +71,18 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "07:56",
-          "to": "07:59",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
+          "from": "08:06",
+          "to": "08:08",
+          "train": "ZANI",
+          "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "08:07",
-          "to": "08:09",
-          "train": "ZANI",
-          "destinationName": "Paris Austerlitz",
+          "from": "08:10",
+          "to": "08:13",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         }
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "07:50",
+          "from": "08:16",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "08:16",
+          "from": "08:53",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,19 +121,19 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "07:56",
-          "to": "07:55",
-          "train": "JUNE",
-          "destinationName": "Juvisy",
-          "platform": "E",
-          "status": "onTime"
-        },
-        {
           "from": "08:00",
           "to": "08:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "08:12",
+          "to": "08:14",
+          "train": "JUNE",
+          "destinationName": "Juvisy",
+          "platform": "E",
           "status": "onTime"
         }
       ]
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "08:20",
+          "from": "08:18",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "07:59",
+          "from": "08:18",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "08:17",
+          "from": "08:31",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -189,6 +189,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-02T06:51:04.850017Z",
-  "busFetchedAtParis": "02.11.2026, 07:51:04"
+  "busFetchedAt": "2026-11-02T07:01:11.581209Z",
+  "busFetchedAtParis": "02.11.2026, 08:01:11"
 }
