@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "02.11.2026, 10:41:14",
+  "fetchedAtParis": "02.11.2026, 10:46:33",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -22,8 +22,8 @@
           "status": "onTime"
         },
         {
-          "from": "11:04",
-          "to": "11:05",
+          "from": "11:06",
+          "to": "11:07",
           "train": "VICO",
           "destinationName": "Versailles Château Rive Gauche",
           "platform": "2B",
@@ -36,8 +36,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "10:46",
-          "to": "10:49",
+          "from": "10:47",
+          "to": "10:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -52,8 +52,8 @@
           "status": "onTime"
         },
         {
-          "from": "11:23",
-          "to": "11:25",
+          "from": "11:22",
+          "to": "11:24",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -121,8 +121,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "10:46",
-          "to": "10:49",
+          "from": "10:47",
+          "to": "10:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
