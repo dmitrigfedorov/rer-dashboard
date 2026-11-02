@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "02.11.2026, 23:01:04",
+  "fetchedAtParis": "02.11.2026, 23:06:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "23:05",
+          "from": "23:06",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -62,7 +62,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "22:55",
+          "from": "23:10",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -70,7 +70,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:10",
+          "from": "23:40",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -87,7 +87,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "23:05",
+          "from": "23:18",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -95,7 +95,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:18",
+          "from": "23:48",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -137,7 +137,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "22:55",
+          "from": "23:15",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -145,7 +145,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:15",
+          "from": "23:33",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -155,6 +155,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-02T21:56:05.288954Z",
-  "busFetchedAtParis": "02.11.2026, 22:56:05"
+  "busFetchedAt": "2026-11-02T22:06:04.995547Z",
+  "busFetchedAtParis": "02.11.2026, 23:06:04"
 }
