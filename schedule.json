@@ -1,21 +1,13 @@
 {
-  "fetchedAtParis": "03.11.2026, 05:11:03",
+  "fetchedAtParis": "03.11.2026, 05:16:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:15",
-          "to": "05:17",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "05:29",
-          "to": "05:31",
+          "to": "05:32",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -26,6 +18,14 @@
           "to": "05:47",
           "train": "NORA",
           "destinationName": "Pontoise",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "05:58",
+          "to": "06:01",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         }
@@ -71,18 +71,18 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:15",
-          "to": "05:17",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
+          "from": "05:29",
+          "to": "05:32",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "05:29",
-          "to": "05:31",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
+          "from": "05:44",
+          "to": "05:47",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         }
@@ -94,7 +94,16 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Émile Durkheim",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:05",
+          "to": "",
+          "train": "325",
+          "destinationName": "Quai de la Gare",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "rer-bfm",
@@ -163,7 +172,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "05:44",
+          "from": "05:48",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -181,6 +190,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-03T04:06:20.291921Z",
-  "busFetchedAtParis": "03.11.2026, 05:06:20"
+  "busFetchedAt": "2026-11-03T04:16:03.659318Z",
+  "busFetchedAtParis": "03.11.2026, 05:16:03"
 }
