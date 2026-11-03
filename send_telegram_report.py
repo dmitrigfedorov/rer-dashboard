@@ -98,15 +98,35 @@ def format_report(schedule: dict[str, Any]) -> str:
 def bot_api(method: str, values: dict[str, Any]) -> dict[str, Any]:
     token = required("TELEGRAM_BOT_TOKEN")
     url = f"https://api.telegram.org/bot{token}/{method}"
+    response = None
     try:
         response = requests.post(url, json=values, timeout=20)
         response.raise_for_status()
         result = response.json()
-    except requests.RequestException:
-        # Do not include the request URL: it contains the bot token.
-        raise RuntimeError("Telegram Bot API request failed") from None
+    except requests.RequestException as exc:
+        # Never print the request URL: it contains the bot token.
+        failed_response = getattr(exc, "response", None) or response
+        details = [type(exc).__name__]
+        if failed_response is not None:
+            details.append(f"HTTP {failed_response.status_code}")
+            try:
+                payload = failed_response.json()
+                error_code = payload.get("error_code")
+                description = str(payload.get("description", ""))
+                if error_code is not None:
+                    details.append(f"Telegram error {error_code}")
+                if description:
+                    details.append(description.replace(token, "[REDACTED]"))
+            except (ValueError, AttributeError):
+                pass
+        reason = str(exc).replace(token, "[REDACTED]")
+        if reason and reason not in details:
+            details.append(reason)
+        raise RuntimeError("Telegram Bot API request failed: " + "; ".join(details)) from None
     if not result.get("ok"):
-        raise RuntimeError("Telegram Bot API rejected the request")
+        error_code = result.get("error_code", "unknown")
+        description = str(result.get("description", "")).replace(token, "[REDACTED]")
+        raise RuntimeError(f"Telegram Bot API rejected request (error {error_code}): {description}")
     return result["result"]
 
 
@@ -114,11 +134,11 @@ def send(report: str, chat_id: int, old_message_id: int | None) -> int:
     if old_message_id is not None:
         try:
             bot_api("deleteMessage", {"chat_id": chat_id, "message_id": old_message_id})
-        except RuntimeError:
+        except RuntimeError as exc:
             # A saved message ID can become stale (for example, after Telegram's
             # deletion window has passed). Keep the scheduled report flowing and
             # replace the saved ID with the newly sent message below.
-            print("Warning: could not delete the previous Telegram report; continuing with the current report.")
+            print(f"Warning: could not delete the previous Telegram report ({exc}); continuing with the current report.")
     sent = bot_api("sendMessage", {"chat_id": chat_id, "text": report})
     return int(sent["message_id"])
 
