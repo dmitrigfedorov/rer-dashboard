@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "04.11.2026, 00:41:04",
+  "fetchedAtParis": "04.11.2026, 00:46:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -51,16 +51,7 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Église de Saint-Mandé",
-      "rows": [
-        {
-          "from": "00:43",
-          "to": "",
-          "train": "325",
-          "destinationName": "Église de Saint-Mandé",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-125",
@@ -79,6 +70,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-03T23:41:04.216349Z",
-  "busFetchedAtParis": "04.11.2026, 00:41:04"
+  "busFetchedAt": "2026-11-03T23:46:04.638349Z",
+  "busFetchedAtParis": "04.11.2026, 00:46:04"
 }
