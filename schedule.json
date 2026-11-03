@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "04.11.2026, 00:21:05",
+  "fetchedAtParis": "04.11.2026, 00:26:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -27,24 +27,7 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Émile Durkheim",
-      "rows": [
-        {
-          "from": "00:25",
-          "to": "",
-          "train": "325",
-          "destinationName": "Quai de la Gare",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
-          "from": "00:47",
-          "to": "",
-          "train": "325",
-          "destinationName": "Quai de la Gare",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "rer-bfm",
@@ -85,14 +68,6 @@
           "destinationName": "Église de Saint-Mandé",
           "platform": "",
           "status": "onTime"
-        },
-        {
-          "from": "00:43",
-          "to": "",
-          "train": "325",
-          "destinationName": "Église de Saint-Mandé",
-          "platform": "",
-          "status": "onTime"
         }
       ]
     },
@@ -103,14 +78,6 @@
       "title": "Jean-Jacques Rousseau",
       "destination": "Jean Le Galleu",
       "rows": [
-        {
-          "from": "00:19",
-          "to": "",
-          "train": "125",
-          "destinationName": "Jean Le Galleu",
-          "platform": "",
-          "status": "onTime"
-        },
         {
           "from": "00:39",
           "to": "",
@@ -127,18 +94,9 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": [
-        {
-          "from": "00:33",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-03T23:16:08.983114Z",
-  "busFetchedAtParis": "04.11.2026, 00:16:08"
+  "busFetchedAt": "2026-11-03T23:26:03.986910Z",
+  "busFetchedAtParis": "04.11.2026, 00:26:03"
 }
