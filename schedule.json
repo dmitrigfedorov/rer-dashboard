@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "03.11.2026, 16:06:11",
+  "fetchedAtParis": "03.11.2026, 16:11:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,8 +14,8 @@
           "status": "onTime"
         },
         {
-          "from": "16:28",
-          "to": "16:30",
+          "from": "16:29",
+          "to": "16:31",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -36,15 +36,15 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "16:15",
-          "to": "16:17",
+          "from": "16:16",
+          "to": "16:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "16:31",
+          "from": "16:30",
           "to": "16:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -79,8 +79,8 @@
           "status": "onTime"
         },
         {
-          "from": "16:28",
-          "to": "16:30",
+          "from": "16:29",
+          "to": "16:31",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -121,15 +121,15 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "16:15",
-          "to": "16:17",
+          "from": "16:16",
+          "to": "16:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "16:31",
+          "from": "16:30",
           "to": "16:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
