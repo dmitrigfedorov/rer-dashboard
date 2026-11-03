@@ -1,12 +1,12 @@
 {
-  "fetchedAtParis": "03.11.2026, 22:16:13",
+  "fetchedAtParis": "03.11.2026, 22:21:10",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "22:29",
+          "from": "22:28",
           "to": "22:31",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -19,14 +19,6 @@
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
       "rows": [
-        {
-          "from": "22:16",
-          "to": "22:19",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
         {
           "from": "22:30",
           "to": "22:33",
@@ -47,7 +39,7 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "22:29",
+          "from": "22:28",
           "to": "22:31",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -88,14 +80,6 @@
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
       "rows": [
-        {
-          "from": "22:16",
-          "to": "22:19",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
         {
           "from": "22:30",
           "to": "22:33",
