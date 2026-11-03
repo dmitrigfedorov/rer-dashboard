@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "03.11.2026, 08:31:03",
+  "fetchedAtParis": "03.11.2026, 08:36:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,8 +14,8 @@
           "status": "onTime"
         },
         {
-          "from": "08:52",
-          "to": "08:54",
+          "from": "08:53",
+          "to": "08:55",
           "train": "LULU",
           "destinationName": "Invalides",
           "platform": "2B",
@@ -45,15 +45,15 @@
         },
         {
           "from": "08:46",
-          "to": "08:49",
+          "to": "08:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "08:57",
-          "to": "08:59",
+          "from": "08:56",
+          "to": "08:58",
           "train": "JUNE",
           "destinationName": "Juvisy",
           "platform": "E",
@@ -79,8 +79,8 @@
           "status": "onTime"
         },
         {
-          "from": "08:52",
-          "to": "08:54",
+          "from": "08:53",
+          "to": "08:55",
           "train": "LULU",
           "destinationName": "Invalides",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "08:33",
+          "from": "08:44",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "08:35",
+          "from": "08:56",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -130,7 +130,7 @@
         },
         {
           "from": "08:46",
-          "to": "08:49",
+          "to": "08:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "08:35",
+          "from": "08:40",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "08:43",
+          "from": "08:49",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "08:35",
+          "from": "08:45",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "08:49",
+          "from": "08:54",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "08:40",
+          "from": "08:39",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "08:47",
+          "from": "08:50",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "08:30",
+          "from": "08:39",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -229,7 +229,7 @@
           "status": "onTime"
         },
         {
-          "from": "08:39",
+          "from": "09:07",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -239,6 +239,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-03T07:26:14.682946Z",
-  "busFetchedAtParis": "03.11.2026, 08:26:14"
+  "busFetchedAt": "2026-11-03T07:36:03.432238Z",
+  "busFetchedAtParis": "03.11.2026, 08:36:03"
 }
