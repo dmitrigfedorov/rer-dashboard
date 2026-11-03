@@ -1,23 +1,23 @@
 {
-  "fetchedAtParis": "03.11.2026, 08:01:04",
+  "fetchedAtParis": "03.11.2026, 08:06:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "08:11",
-          "to": "08:14",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
+          "from": "08:10",
+          "to": "08:12",
+          "train": "ZANI",
+          "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "08:11",
-          "to": "08:13",
-          "train": "ZANI",
-          "destinationName": "Paris Austerlitz",
+          "from": "08:13",
+          "to": "08:16",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         },
@@ -71,18 +71,18 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "08:11",
-          "to": "08:14",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
+          "from": "08:10",
+          "to": "08:12",
+          "train": "ZANI",
+          "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "08:11",
-          "to": "08:13",
-          "train": "ZANI",
-          "destinationName": "Paris Austerlitz",
+          "from": "08:13",
+          "to": "08:16",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         }
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "08:02",
+          "from": "08:12",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "08:10",
+          "from": "08:22",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "08:03",
+          "from": "08:14",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "08:14",
+          "from": "08:25",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "08:02",
+          "from": "08:15",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "08:16",
+          "from": "08:28",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "08:03",
+          "from": "08:13",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "08:10",
+          "from": "08:21",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,7 +221,15 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "08:19",
+          "from": "08:20",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "08:30",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -231,6 +239,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-03T06:56:04.824494Z",
-  "busFetchedAtParis": "03.11.2026, 07:56:04"
+  "busFetchedAt": "2026-11-03T07:06:02.937415Z",
+  "busFetchedAtParis": "03.11.2026, 08:06:02"
 }
