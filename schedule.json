@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "04.11.2026, 00:06:04",
+  "fetchedAtParis": "04.11.2026, 00:11:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "00:00",
+          "from": "00:25",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -37,7 +37,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:26",
+          "from": "00:47",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -87,7 +87,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "00:02",
+          "from": "00:43",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -95,7 +95,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:23",
+          "from": "00:43",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -120,7 +120,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:49",
+          "from": "00:40",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -137,15 +137,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "00:17",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
-          "from": "00:31",
+          "from": "00:34",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -155,6 +147,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-03T23:01:18.120942Z",
-  "busFetchedAtParis": "04.11.2026, 00:01:18"
+  "busFetchedAt": "2026-11-03T23:11:04.286597Z",
+  "busFetchedAtParis": "04.11.2026, 00:11:04"
 }
