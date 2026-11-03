@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "03.11.2026, 05:46:04",
+  "fetchedAtParis": "03.11.2026, 05:51:11",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,8 +14,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:16",
-          "to": "06:19",
+          "from": "06:15",
+          "to": "06:18",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -36,16 +36,16 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "06:19",
-          "to": "06:22",
+          "from": "06:18",
+          "to": "06:20",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "06:47",
-          "to": "06:49",
+          "from": "06:46",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -79,8 +79,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:16",
-          "to": "06:19",
+          "from": "06:15",
+          "to": "06:18",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "06:00",
+          "from": "06:01",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -113,16 +113,16 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "06:19",
-          "to": "06:22",
+          "from": "06:18",
+          "to": "06:20",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "06:47",
-          "to": "06:49",
+          "from": "06:46",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -163,7 +163,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "05:50",
+          "from": "06:00",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -171,7 +171,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:01",
+          "from": "06:13",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -213,7 +213,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "05:47",
+          "from": "06:01",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -221,7 +221,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:01",
+          "from": "06:09",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -231,6 +231,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-03T04:46:04.946426Z",
-  "busFetchedAtParis": "03.11.2026, 05:46:04"
+  "busFetchedAt": "2026-11-03T04:51:11.692797Z",
+  "busFetchedAtParis": "03.11.2026, 05:51:11"
 }
