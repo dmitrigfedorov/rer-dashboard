@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "04.11.2026, 00:11:04",
+  "fetchedAtParis": "04.11.2026, 00:16:08",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -62,14 +62,6 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "00:14",
-          "to": "",
-          "train": "325",
-          "destinationName": "Château de Vincennes",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
           "from": "00:35",
           "to": "",
           "train": "325",
@@ -120,7 +112,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:40",
+          "from": "00:39",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -137,7 +129,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "00:34",
+          "from": "00:33",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -147,6 +139,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-03T23:11:04.286597Z",
-  "busFetchedAtParis": "04.11.2026, 00:11:04"
+  "busFetchedAt": "2026-11-03T23:16:08.983114Z",
+  "busFetchedAtParis": "04.11.2026, 00:16:08"
 }
