@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "04.11.2026, 00:36:03",
+  "fetchedAtParis": "04.11.2026, 00:41:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -43,16 +43,7 @@
       "line": "325",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Jean-Jacques Rousseau",
-      "rows": [
-        {
-          "from": "00:35",
-          "to": "",
-          "train": "325",
-          "destinationName": "Château de Vincennes",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-eglise",
@@ -77,16 +68,7 @@
       "line": "125",
       "title": "Jean-Jacques Rousseau",
       "destination": "Jean Le Galleu",
-      "rows": [
-        {
-          "from": "00:39",
-          "to": "",
-          "train": "125",
-          "destinationName": "Jean Le Galleu",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-323",
@@ -97,6 +79,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-03T23:31:04.238740Z",
-  "busFetchedAtParis": "04.11.2026, 00:31:04"
+  "busFetchedAt": "2026-11-03T23:41:04.216349Z",
+  "busFetchedAtParis": "04.11.2026, 00:41:04"
 }
