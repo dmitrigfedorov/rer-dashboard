@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "03.11.2026, 10:46:04",
+  "fetchedAtParis": "03.11.2026, 10:51:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "10:58",
-          "to": "11:01",
+          "to": "11:00",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -36,14 +36,6 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "10:45",
-          "to": "10:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "11:01",
           "to": "11:03",
           "train": "ROMI",
@@ -56,6 +48,14 @@
           "to": "11:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "11:31",
+          "to": "11:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         }
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "10:58",
-          "to": "11:01",
+          "to": "11:00",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -121,18 +121,18 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "10:45",
-          "to": "10:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "11:01",
           "to": "11:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "11:17",
+          "to": "11:19",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         }
