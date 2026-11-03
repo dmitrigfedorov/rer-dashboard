@@ -1,12 +1,12 @@
 {
-  "fetchedAtParis": "03.11.2026, 06:36:03",
+  "fetchedAtParis": "03.11.2026, 06:41:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:42",
+          "from": "06:43",
           "to": "06:45",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -22,8 +22,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:10",
-          "to": "07:13",
+          "from": "07:11",
+          "to": "07:14",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -52,11 +52,11 @@
           "status": "onTime"
         },
         {
-          "from": "07:33",
-          "to": "07:34",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "from": "07:26",
+          "to": "07:28",
+          "train": "JUNE",
+          "destinationName": "Juvisy",
+          "platform": "E",
           "status": "onTime"
         }
       ]
@@ -71,7 +71,7 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:42",
+          "from": "06:43",
           "to": "06:45",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "06:37",
+          "from": "06:47",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:46",
+          "from": "06:57",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "06:36",
+          "from": "06:49",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:49",
+          "from": "07:04",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "06:37",
+          "from": "06:45",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -229,7 +229,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:45",
+          "from": "06:55",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -239,6 +239,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-03T05:36:03.519884Z",
-  "busFetchedAtParis": "03.11.2026, 06:36:03"
+  "busFetchedAt": "2026-11-03T05:41:04.406058Z",
+  "busFetchedAtParis": "03.11.2026, 06:41:04"
 }
