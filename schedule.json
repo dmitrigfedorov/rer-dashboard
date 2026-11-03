@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "03.11.2026, 22:31:11",
+  "fetchedAtParis": "03.11.2026, 22:36:12",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -9,16 +9,7 @@
     {
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
-      "rows": [
-        {
-          "from": "22:31",
-          "to": "22:34",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
   "cards": [
@@ -38,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "22:35",
+          "from": "22:48",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -46,7 +37,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:49",
+          "from": "23:05",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -61,16 +52,7 @@
       "line": "C",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
-      "rows": [
-        {
-          "from": "22:31",
-          "to": "22:34",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-vincennes",
@@ -105,7 +87,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "22:35",
+          "from": "22:48",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -113,7 +95,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:48",
+          "from": "23:03",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -130,7 +112,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "22:39",
+          "from": "22:40",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -173,6 +155,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-03T21:31:11.703512Z",
-  "busFetchedAtParis": "03.11.2026, 22:31:11"
+  "busFetchedAt": "2026-11-03T21:36:12.525362Z",
+  "busFetchedAtParis": "03.11.2026, 22:36:12"
 }
