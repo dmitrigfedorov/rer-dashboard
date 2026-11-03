@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "03.11.2026, 05:31:05",
+  "fetchedAtParis": "03.11.2026, 05:36:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:44",
-          "to": "05:47",
+          "from": "05:45",
+          "to": "05:48",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -36,15 +36,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "05:32",
-          "to": "05:34",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
-          "from": "06:19",
+          "from": "06:20",
           "to": "06:22",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -52,8 +44,16 @@
           "status": "onTime"
         },
         {
-          "from": "06:46",
-          "to": "06:48",
+          "from": "06:47",
+          "to": "06:49",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "07:16",
+          "to": "07:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:44",
-          "to": "05:47",
+          "from": "05:45",
+          "to": "05:48",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -113,16 +113,16 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "05:32",
-          "to": "05:34",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "06:20",
+          "to": "06:22",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "06:19",
-          "to": "06:22",
+          "from": "06:47",
+          "to": "06:49",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
