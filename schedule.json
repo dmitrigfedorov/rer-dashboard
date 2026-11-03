@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "03.11.2026, 08:16:09",
+  "fetchedAtParis": "03.11.2026, 08:21:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,8 +14,8 @@
           "status": "onTime"
         },
         {
-          "from": "08:40",
-          "to": "08:43",
+          "from": "08:41",
+          "to": "08:44",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -36,14 +36,6 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "08:15",
-          "to": "08:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "08:26",
           "to": "08:28",
           "train": "JUNE",
@@ -57,6 +49,14 @@
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "08:40",
+          "to": "08:42",
+          "train": "JUNE",
+          "destinationName": "Juvisy",
+          "platform": "E",
           "status": "onTime"
         }
       ]
@@ -79,8 +79,8 @@
           "status": "onTime"
         },
         {
-          "from": "08:40",
-          "to": "08:43",
+          "from": "08:41",
+          "to": "08:44",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -121,19 +121,19 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "08:15",
-          "to": "08:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "08:26",
           "to": "08:28",
           "train": "JUNE",
           "destinationName": "Juvisy",
           "platform": "E",
+          "status": "onTime"
+        },
+        {
+          "from": "08:30",
+          "to": "08:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
           "status": "onTime"
         }
       ]
