@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "03.11.2026, 21:01:16",
+  "fetchedAtParis": "03.11.2026, 21:06:16",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "21:13",
-          "to": "21:15",
+          "to": "21:16",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -36,15 +36,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "21:00",
-          "to": "21:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
-          "from": "21:16",
+          "from": "21:15",
           "to": "21:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -52,10 +44,18 @@
           "status": "onTime"
         },
         {
-          "from": "21:31",
+          "from": "21:32",
           "to": "21:34",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "21:54",
+          "to": "21:56",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         }
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "21:13",
-          "to": "21:15",
+          "to": "21:16",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "21:03",
+          "from": "21:22",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:20",
+          "from": "21:31",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,18 +121,18 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "21:00",
-          "to": "21:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "21:15",
+          "to": "21:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "21:16",
-          "to": "21:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "21:32",
+          "to": "21:34",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         }
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "21:05",
+          "from": "21:16",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:07",
+          "from": "21:27",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -219,9 +219,26 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "21:26",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "22:01",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
-  "busFetchedAt": "2026-11-03T20:01:16.026847Z",
-  "busFetchedAtParis": "03.11.2026, 21:01:16"
+  "busFetchedAt": "2026-11-03T20:06:16.104878Z",
+  "busFetchedAtParis": "03.11.2026, 21:06:16"
 }
