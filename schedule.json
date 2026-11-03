@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "03.11.2026, 11:46:03",
+  "fetchedAtParis": "03.11.2026, 11:51:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "11:58",
-          "to": "12:01",
+          "to": "12:00",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -15,7 +15,7 @@
         },
         {
           "from": "12:13",
-          "to": "12:15",
+          "to": "12:16",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -45,14 +45,14 @@
         },
         {
           "from": "12:16",
-          "to": "12:19",
+          "to": "12:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "12:30",
+          "from": "12:31",
           "to": "12:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "11:58",
-          "to": "12:01",
+          "to": "12:00",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -80,7 +80,7 @@
         },
         {
           "from": "12:13",
-          "to": "12:15",
+          "to": "12:16",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -130,7 +130,7 @@
         },
         {
           "from": "12:16",
-          "to": "12:19",
+          "to": "12:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
