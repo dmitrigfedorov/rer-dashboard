@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "04.11.2026, 18:41:06",
+  "fetchedAtParis": "04.11.2026, 18:46:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "18:43",
-          "to": "18:45",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "18:58",
           "to": "19:00",
@@ -22,10 +14,18 @@
           "status": "onTime"
         },
         {
-          "from": "19:14",
-          "to": "19:15",
+          "from": "19:15",
+          "to": "19:18",
           "train": "NORA",
           "destinationName": "Pontoise",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "19:28",
+          "to": "19:30",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         }
@@ -36,15 +36,15 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "18:48",
-          "to": "18:50",
+          "from": "18:47",
+          "to": "18:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
-          "from": "18:53",
+          "from": "18:52",
           "to": "18:55",
           "train": "BOBA",
           "destinationName": "Brétigny",
@@ -71,18 +71,18 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "18:43",
-          "to": "18:45",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "18:58",
           "to": "19:00",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "19:15",
+          "to": "19:18",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         }
@@ -121,15 +121,15 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "18:48",
-          "to": "18:50",
+          "from": "18:47",
+          "to": "18:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
-          "from": "18:53",
+          "from": "18:52",
           "to": "18:55",
           "train": "BOBA",
           "destinationName": "Brétigny",
