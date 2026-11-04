@@ -1,21 +1,13 @@
 {
-  "fetchedAtParis": "04.11.2026, 16:26:04",
+  "fetchedAtParis": "04.11.2026, 16:31:17",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "16:28",
-          "to": "16:30",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
-          "from": "16:43",
-          "to": "16:45",
+          "from": "16:44",
+          "to": "16:47",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -24,6 +16,14 @@
         {
           "from": "16:58",
           "to": "17:00",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "17:13",
+          "to": "17:15",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "16:28",
-          "to": "16:30",
+          "from": "16:44",
+          "to": "16:47",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "16:43",
-          "to": "16:45",
+          "from": "16:58",
+          "to": "17:00",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "16:23",
+          "from": "16:41",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:43",
+          "from": "16:54",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "16:26",
+          "from": "16:41",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:41",
+          "from": "16:47",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "16:24",
+          "from": "16:38",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:39",
+          "from": "16:54",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "16:26",
+          "from": "16:33",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:36",
+          "from": "16:44",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,14 +221,6 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "16:27",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
           "from": "16:35",
           "to": "",
           "train": "323",
@@ -239,6 +231,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-04T15:21:10.463263Z",
-  "busFetchedAtParis": "04.11.2026, 16:21:10"
+  "busFetchedAt": "2026-11-04T15:31:17.173286Z",
+  "busFetchedAtParis": "04.11.2026, 16:31:17"
 }
