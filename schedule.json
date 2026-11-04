@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "04.11.2026, 11:46:06",
+  "fetchedAtParis": "04.11.2026, 11:51:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,19 +7,19 @@
       "rows": [
         {
           "from": "11:58",
-          "to": "12:01",
+          "to": "12:00",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "12:19",
-          "to": "12:21",
+          "from": "12:24",
+          "to": "12:26",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
-          "status": "onTime"
+          "status": "delayed"
         },
         {
           "from": "12:58",
@@ -72,19 +72,19 @@
       "rows": [
         {
           "from": "11:58",
-          "to": "12:01",
+          "to": "12:00",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "12:19",
-          "to": "12:21",
+          "from": "12:24",
+          "to": "12:26",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
-          "status": "onTime"
+          "status": "delayed"
         }
       ]
     },
