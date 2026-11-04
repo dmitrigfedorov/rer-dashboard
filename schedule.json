@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "04.11.2026, 09:06:05",
+  "fetchedAtParis": "04.11.2026, 09:11:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "09:13",
-          "to": "09:16",
+          "from": "09:14",
+          "to": "09:17",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -23,7 +23,7 @@
         },
         {
           "from": "09:43",
-          "to": "09:45",
+          "to": "09:46",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -36,8 +36,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "09:12",
-          "to": "09:14",
+          "from": "09:10",
+          "to": "09:13",
           "train": "JUNE",
           "destinationName": "Juvisy",
           "platform": "E",
@@ -45,7 +45,7 @@
         },
         {
           "from": "09:19",
-          "to": "09:21",
+          "to": "09:22",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -53,7 +53,7 @@
         },
         {
           "from": "09:30",
-          "to": "09:33",
+          "to": "09:34",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "09:13",
-          "to": "09:16",
+          "from": "09:14",
+          "to": "09:17",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:07",
+          "from": "09:44",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,8 +121,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "09:12",
-          "to": "09:14",
+          "from": "09:10",
+          "to": "09:13",
           "train": "JUNE",
           "destinationName": "Juvisy",
           "platform": "E",
@@ -130,7 +130,7 @@
         },
         {
           "from": "09:19",
-          "to": "09:21",
+          "to": "09:22",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "09:08",
+          "from": "09:10",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:12",
+          "from": "09:17",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "09:07",
+          "from": "09:24",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:21",
+          "from": "09:30",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "09:10",
+          "from": "09:12",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:25",
+          "from": "09:24",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -239,6 +239,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-04T08:06:05.077901Z",
-  "busFetchedAtParis": "04.11.2026, 09:06:05"
+  "busFetchedAt": "2026-11-04T08:11:05.332354Z",
+  "busFetchedAtParis": "04.11.2026, 09:11:05"
 }
