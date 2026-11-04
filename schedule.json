@@ -1,12 +1,12 @@
 {
-  "fetchedAtParis": "04.11.2026, 07:06:05",
+  "fetchedAtParis": "04.11.2026, 07:11:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "07:13",
+          "from": "07:14",
           "to": "07:16",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -14,16 +14,16 @@
           "status": "onTime"
         },
         {
-          "from": "07:21",
-          "to": "07:23",
+          "from": "07:22",
+          "to": "07:24",
           "train": "NICO",
           "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "07:25",
-          "to": "07:28",
+          "from": "07:27",
+          "to": "07:30",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -52,8 +52,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:32",
-          "to": "07:35",
+          "from": "07:31",
+          "to": "07:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -71,7 +71,7 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "07:13",
+          "from": "07:14",
           "to": "07:16",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -79,8 +79,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:21",
-          "to": "07:23",
+          "from": "07:22",
+          "to": "07:24",
           "train": "NICO",
           "destinationName": "Pontoise",
           "platform": "2B",
