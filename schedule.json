@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "04.11.2026, 21:51:05",
+  "fetchedAtParis": "04.11.2026, 21:56:06",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "rows": [
         {
           "from": "22:01",
-          "to": "22:03",
+          "to": "22:04",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -88,7 +88,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "22:03",
+          "from": "22:04",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -96,7 +96,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:08",
+          "from": "22:09",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -114,7 +114,7 @@
       "rows": [
         {
           "from": "22:01",
-          "to": "22:03",
+          "to": "22:04",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -188,7 +188,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "21:52",
+          "from": "22:06",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -196,7 +196,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:01",
+          "from": "22:17",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -231,6 +231,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-04T20:51:05.464323Z",
-  "busFetchedAtParis": "04.11.2026, 21:51:05"
+  "busFetchedAt": "2026-11-04T20:56:06.105967Z",
+  "busFetchedAtParis": "04.11.2026, 21:56:06"
 }
