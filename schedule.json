@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "04.11.2026, 12:16:05",
+  "fetchedAtParis": "04.11.2026, 12:21:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -23,7 +23,7 @@
         },
         {
           "from": "12:43",
-          "to": "12:45",
+          "to": "12:46",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -37,7 +37,7 @@
       "rows": [
         {
           "from": "12:31",
-          "to": "12:33",
+          "to": "12:34",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:37",
+          "from": "12:39",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -122,7 +122,7 @@
       "rows": [
         {
           "from": "12:31",
-          "to": "12:33",
+          "to": "12:34",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "12:20",
+          "from": "12:42",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:42",
+          "from": "13:03",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -227,10 +227,18 @@
           "destinationName": "Hôpital Jean Rostand",
           "platform": "",
           "status": "onTime"
+        },
+        {
+          "from": "12:32",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
         }
       ]
     }
   ],
-  "busFetchedAt": "2026-11-04T11:16:05.290985Z",
-  "busFetchedAtParis": "04.11.2026, 12:16:05"
+  "busFetchedAt": "2026-11-04T11:21:05.500357Z",
+  "busFetchedAtParis": "04.11.2026, 12:21:05"
 }
