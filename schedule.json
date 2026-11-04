@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "04.11.2026, 20:56:04",
+  "fetchedAtParis": "04.11.2026, 21:01:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "20:58",
-          "to": "21:00",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "21:13",
           "to": "21:15",
@@ -28,6 +20,14 @@
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
+        },
+        {
+          "from": "21:58",
+          "to": "22:00",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
+          "platform": "2B",
+          "status": "onTime"
         }
       ]
     },
@@ -36,15 +36,15 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "21:00",
+          "from": "21:01",
           "to": "21:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
-          "from": "21:15",
+          "from": "21:16",
           "to": "21:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -71,18 +71,18 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "20:58",
-          "to": "21:00",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "21:13",
           "to": "21:15",
           "train": "NORA",
           "destinationName": "Pontoise",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "21:28",
+          "to": "21:30",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         }
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "21:00",
+          "from": "21:01",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:10",
+          "from": "21:12",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,15 +121,15 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "21:00",
+          "from": "21:01",
           "to": "21:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
-          "from": "21:15",
+          "from": "21:16",
           "to": "21:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "20:55",
+          "from": "21:19",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:19",
+          "from": "21:38",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "21:00",
+          "from": "21:42",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:42",
+          "from": "21:53",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -239,6 +239,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-04T19:51:05.462197Z",
-  "busFetchedAtParis": "04.11.2026, 20:51:05"
+  "busFetchedAt": "2026-11-04T20:01:04.177373Z",
+  "busFetchedAtParis": "04.11.2026, 21:01:04"
 }
