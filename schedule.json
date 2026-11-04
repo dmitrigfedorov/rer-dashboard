@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "04.11.2026, 03:16:03",
+  "fetchedAtParis": "04.11.2026, 03:21:06",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -40,6 +40,14 @@
           "to": "05:34",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "06:16",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         }
@@ -94,6 +102,14 @@
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
+        },
+        {
+          "from": "06:16",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
         }
       ]
     },
@@ -130,6 +146,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-04T02:11:07.301912Z",
-  "busFetchedAtParis": "04.11.2026, 03:11:07"
+  "busFetchedAt": "2026-11-04T02:21:06.995974Z",
+  "busFetchedAtParis": "04.11.2026, 03:21:06"
 }
