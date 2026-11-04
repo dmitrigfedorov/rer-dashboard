@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "04.11.2026, 05:21:03",
+  "fetchedAtParis": "04.11.2026, 05:26:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -44,8 +44,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:17",
-          "to": "06:19",
+          "from": "06:18",
+          "to": "06:20",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "06:01",
+          "from": "06:00",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,8 +121,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:17",
-          "to": "06:19",
+          "from": "06:18",
+          "to": "06:20",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -144,6 +144,14 @@
           "destinationName": "Château de Vincennes",
           "platform": "",
           "status": "onTime"
+        },
+        {
+          "from": "06:50",
+          "to": "",
+          "train": "325",
+          "destinationName": "Château de Vincennes",
+          "platform": "",
+          "status": "onTime"
         }
       ]
     },
@@ -155,7 +163,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "05:28",
+          "from": "05:26",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -187,18 +195,9 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": [
-        {
-          "from": "05:42",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-04T04:21:03.447972Z",
-  "busFetchedAtParis": "04.11.2026, 05:21:03"
+  "busFetchedAt": "2026-11-04T04:26:03.999485Z",
+  "busFetchedAtParis": "04.11.2026, 05:26:03"
 }
