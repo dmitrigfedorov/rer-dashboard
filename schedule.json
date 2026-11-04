@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "04.11.2026, 13:36:04",
+  "fetchedAtParis": "04.11.2026, 13:41:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "13:43",
-          "to": "13:46",
+          "from": "13:44",
+          "to": "13:47",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -53,7 +53,7 @@
         },
         {
           "from": "14:16",
-          "to": "14:18",
+          "to": "14:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "13:43",
-          "to": "13:46",
+          "from": "13:44",
+          "to": "13:47",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "13:43",
+          "from": "13:44",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "13:56",
+          "from": "13:57",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "13:36",
+          "from": "13:45",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -229,7 +229,7 @@
           "status": "onTime"
         },
         {
-          "from": "13:45",
+          "from": "13:56",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -239,6 +239,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-04T12:36:04.295667Z",
-  "busFetchedAtParis": "04.11.2026, 13:36:04"
+  "busFetchedAt": "2026-11-04T12:41:04.296667Z",
+  "busFetchedAtParis": "04.11.2026, 13:41:04"
 }
