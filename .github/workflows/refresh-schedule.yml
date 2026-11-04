@@ -1,14 +1,14 @@
-name: Refresh dashboard and send Telegram RER report
+name: Refresh RER dashboard
 on:
   workflow_dispatch:
 permissions:
   actions: read
   contents: write
 concurrency:
-  group: rer-refresh-and-send
+  group: rer-dashboard-refresh
   cancel-in-progress: false
 jobs:
-  refresh-and-send:
+  refresh-dashboard:
     runs-on: ubuntu-latest
     steps:
       - name: Check out site
@@ -60,25 +60,3 @@ jobs:
               await new Promise(resolve => setTimeout(resolve, 5000));
             }
             throw new Error("Timed out waiting for GitHub Pages to publish the refreshed schedule.");
-      - name: Send report to Telegram bot
-        id: telegram
-        if: ${{ vars.TELEGRAM_AUTOMATION_ENABLED == 'true' }}
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
-          GITHUB_TOKEN: ${{ github.token }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_RUN_ID: ${{ github.run_id }}
-          GITHUB_REF_NAME: ${{ github.ref_name }}
-          GITHUB_WORKFLOW_FILE: refresh-schedule.yml
-        run: |
-          python3 -m pip install --disable-pip-version-check -r requirements-telegram.txt
-          python3 send_telegram_report.py
-      - name: Save Telegram message ID for the next run
-        if: ${{ steps.telegram.outcome == 'success' }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: rer-message-state
-          path: message_state.json
-          retention-days: 1
-          if-no-files-found: error
