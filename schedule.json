@@ -1,20 +1,12 @@
 {
-  "fetchedAtParis": "05.11.2026, 12:26:03",
+  "fetchedAtParis": "05.11.2026, 12:31:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "12:29",
-          "to": "12:31",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
-          "from": "12:43",
+          "from": "12:44",
           "to": "12:46",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -26,6 +18,14 @@
           "to": "13:30",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "13:43",
+          "to": "13:45",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         }
@@ -44,7 +44,7 @@
           "status": "onTime"
         },
         {
-          "from": "13:15",
+          "from": "13:17",
           "to": "13:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -71,18 +71,18 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "12:29",
-          "to": "12:31",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
+          "from": "12:44",
+          "to": "12:46",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "12:43",
-          "to": "12:46",
-          "train": "NORA",
-          "destinationName": "Pontoise",
+          "from": "13:28",
+          "to": "13:30",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         }
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "12:26",
+          "from": "12:37",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:33",
+          "from": "12:50",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -129,7 +129,7 @@
           "status": "onTime"
         },
         {
-          "from": "13:15",
+          "from": "13:17",
           "to": "13:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "12:20",
+          "from": "12:34",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:35",
+          "from": "12:49",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "12:32",
+          "from": "12:33",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:48",
+          "from": "12:46",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "12:33",
+          "from": "12:37",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:37",
+          "from": "12:45",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -239,6 +239,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-05T11:21:05.198974Z",
-  "busFetchedAtParis": "05.11.2026, 12:21:05"
+  "busFetchedAt": "2026-11-05T11:31:05.287518Z",
+  "busFetchedAtParis": "05.11.2026, 12:31:05"
 }
