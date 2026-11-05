@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "05.11.2026, 08:56:03",
+  "fetchedAtParis": "05.11.2026, 09:01:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -36,7 +36,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "09:10",
+          "from": "09:11",
           "to": "09:13",
           "train": "JUNE",
           "destinationName": "Juvisy",
@@ -52,7 +52,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:32",
+          "from": "09:31",
           "to": "09:34",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:19",
+          "from": "09:17",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,7 +121,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "09:10",
+          "from": "09:11",
           "to": "09:13",
           "train": "JUNE",
           "destinationName": "Juvisy",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "08:58",
+          "from": "09:10",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:10",
+          "from": "09:22",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "09:08",
+          "from": "09:07",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -239,6 +239,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-05T07:56:03.381715Z",
-  "busFetchedAtParis": "05.11.2026, 08:56:03"
+  "busFetchedAt": "2026-11-05T08:01:03.554652Z",
+  "busFetchedAtParis": "05.11.2026, 09:01:03"
 }
