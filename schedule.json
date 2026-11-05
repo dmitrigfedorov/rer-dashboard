@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "05.11.2026, 09:01:03",
+  "fetchedAtParis": "05.11.2026, 09:06:09",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -52,8 +52,8 @@
           "status": "onTime"
         },
         {
-          "from": "09:31",
-          "to": "09:34",
+          "from": "09:30",
+          "to": "09:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "09:11",
+          "from": "09:10",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:16",
+          "from": "09:15",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -239,6 +239,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-05T08:01:03.554652Z",
-  "busFetchedAtParis": "05.11.2026, 09:01:03"
+  "busFetchedAt": "2026-11-05T08:06:09.214862Z",
+  "busFetchedAtParis": "05.11.2026, 09:06:09"
 }
