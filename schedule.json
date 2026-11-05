@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "05.11.2026, 22:01:03",
+  "fetchedAtParis": "05.11.2026, 22:06:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -28,7 +28,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:33",
+          "from": "22:32",
           "to": "22:35",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -64,7 +64,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "22:00",
+          "from": "22:21",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -72,7 +72,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:20",
+          "from": "22:28",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -97,7 +97,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:33",
+          "from": "22:32",
           "to": "22:35",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -114,7 +114,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "21:59",
+          "from": "22:13",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -122,7 +122,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:13",
+          "from": "22:25",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -139,7 +139,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "22:06",
+          "from": "22:07",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -164,7 +164,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "22:27",
+          "from": "22:30",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -172,7 +172,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:37",
+          "from": "22:39",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -207,6 +207,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-05T20:56:04.447837Z",
-  "busFetchedAtParis": "05.11.2026, 21:56:04"
+  "busFetchedAt": "2026-11-05T21:06:04.888825Z",
+  "busFetchedAtParis": "05.11.2026, 22:06:04"
 }
