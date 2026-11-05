@@ -1,12 +1,12 @@
 {
-  "fetchedAtParis": "05.11.2026, 08:36:10",
+  "fetchedAtParis": "05.11.2026, 08:41:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "08:41",
+          "from": "08:42",
           "to": "08:44",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -14,18 +14,18 @@
           "status": "onTime"
         },
         {
-          "from": "08:47",
-          "to": "08:49",
+          "from": "08:48",
+          "to": "08:51",
           "train": "ZANI",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "08:48",
-          "to": "08:49",
-          "train": "ZANI",
-          "destinationName": "Paris Austerlitz",
+          "from": "09:28",
+          "to": "09:30",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         }
@@ -37,26 +37,26 @@
       "rows": [
         {
           "from": "08:42",
-          "to": "08:45",
+          "to": "08:43",
           "train": "JUNE",
           "destinationName": "Juvisy",
           "platform": "E",
           "status": "onTime"
         },
         {
-          "from": "09:09",
+          "from": "08:43",
+          "to": "08:48",
+          "train": "ZANI",
+          "destinationName": "Paris Austerlitz",
+          "platform": "A",
+          "status": "onTime"
+        },
+        {
+          "from": "09:10",
           "to": "09:12",
           "train": "JUNE",
           "destinationName": "Juvisy",
           "platform": "E",
-          "status": "onTime"
-        },
-        {
-          "from": "09:15",
-          "to": "09:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
           "status": "onTime"
         }
       ]
@@ -71,7 +71,7 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "08:41",
+          "from": "08:42",
           "to": "08:44",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -79,8 +79,8 @@
           "status": "onTime"
         },
         {
-          "from": "08:47",
-          "to": "08:49",
+          "from": "08:48",
+          "to": "08:51",
           "train": "ZANI",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -122,18 +122,18 @@
       "rows": [
         {
           "from": "08:42",
-          "to": "08:45",
+          "to": "08:43",
           "train": "JUNE",
           "destinationName": "Juvisy",
           "platform": "E",
           "status": "onTime"
         },
         {
-          "from": "09:09",
-          "to": "09:12",
-          "train": "JUNE",
-          "destinationName": "Juvisy",
-          "platform": "E",
+          "from": "08:43",
+          "to": "08:48",
+          "train": "ZANI",
+          "destinationName": "Paris Austerlitz",
+          "platform": "A",
           "status": "onTime"
         }
       ]
