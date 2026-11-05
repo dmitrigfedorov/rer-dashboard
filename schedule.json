@@ -1,10 +1,19 @@
 {
-  "fetchedAtParis": "05.11.2026, 02:31:03",
+  "fetchedAtParis": "05.11.2026, 02:36:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:29",
+          "to": "05:31",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
+          "platform": "2B",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "title": "Bibliothèque François-Mitterrand",
@@ -19,7 +28,16 @@
       "line": "C",
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:29",
+          "to": "05:31",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
+          "platform": "2B",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-quai",
@@ -70,6 +88,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-05T01:26:04.149001Z",
-  "busFetchedAtParis": "05.11.2026, 02:26:04"
+  "busFetchedAt": "2026-11-05T01:36:03.575929Z",
+  "busFetchedAtParis": "05.11.2026, 02:36:03"
 }
