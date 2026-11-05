@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "05.11.2026, 05:06:03",
+  "fetchedAtParis": "05.11.2026, 05:11:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -170,7 +170,16 @@
       "line": "125",
       "title": "Jean-Jacques Rousseau",
       "destination": "Jean Le Galleu",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:44",
+          "to": "",
+          "train": "125",
+          "destinationName": "Jean Le Galleu",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-323",
@@ -178,9 +187,18 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:32",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
-  "busFetchedAt": "2026-11-05T04:01:05.220658Z",
-  "busFetchedAtParis": "05.11.2026, 05:01:05"
+  "busFetchedAt": "2026-11-05T04:11:04.344236Z",
+  "busFetchedAtParis": "05.11.2026, 05:11:04"
 }
