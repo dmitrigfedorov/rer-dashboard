@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "06.11.2026, 00:36:03",
+  "fetchedAtParis": "06.11.2026, 00:41:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -27,16 +27,7 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Émile Durkheim",
-      "rows": [
-        {
-          "from": "01:06",
-          "to": "",
-          "train": "325",
-          "destinationName": "Quai de la Gare",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "rer-bfm",
@@ -70,7 +61,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "00:39",
+          "from": "01:06",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -78,7 +69,7 @@
           "status": "onTime"
         },
         {
-          "from": "01:06",
+          "from": "01:31",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -93,18 +84,9 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": [
-        {
-          "from": "00:34",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-05T23:31:05.061742Z",
-  "busFetchedAtParis": "06.11.2026, 00:31:05"
+  "busFetchedAt": "2026-11-05T23:41:03.640078Z",
+  "busFetchedAtParis": "06.11.2026, 00:41:03"
 }
