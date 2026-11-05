@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "05.11.2026, 05:31:02",
+  "fetchedAtParis": "05.11.2026, 05:36:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "05:33",
-          "to": "05:35",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "05:44",
           "to": "05:47",
@@ -24,6 +16,14 @@
         {
           "from": "06:28",
           "to": "06:30",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "06:40",
+          "to": "06:43",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -71,18 +71,18 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:33",
-          "to": "05:35",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "05:44",
           "to": "05:47",
           "train": "NORA",
           "destinationName": "Pontoise",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "06:28",
+          "to": "06:30",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         }
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "06:00",
+          "from": "05:59",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -163,7 +163,15 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "05:29",
+          "from": "05:49",
+          "to": "",
+          "train": "325",
+          "destinationName": "Église de Saint-Mandé",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "06:02",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -180,7 +188,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "05:44",
+          "from": "05:42",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -195,9 +203,26 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:50",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "06:09",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
-  "busFetchedAt": "2026-11-05T04:26:03.086662Z",
-  "busFetchedAtParis": "05.11.2026, 05:26:03"
+  "busFetchedAt": "2026-11-05T04:36:04.017178Z",
+  "busFetchedAtParis": "05.11.2026, 05:36:04"
 }
