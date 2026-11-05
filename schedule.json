@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "05.11.2026, 09:51:04",
+  "fetchedAtParis": "05.11.2026, 09:56:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -44,18 +44,18 @@
           "status": "onTime"
         },
         {
-          "from": "11:15",
-          "to": "11:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "10:30",
+          "to": "10:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "11:30",
-          "to": "11:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "11:15",
+          "to": "11:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         }
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "09:56",
+          "from": "10:02",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:21",
+          "from": "10:19",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -129,10 +129,10 @@
           "status": "onTime"
         },
         {
-          "from": "11:15",
-          "to": "11:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "10:30",
+          "to": "10:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         }
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "09:52",
+          "from": "09:58",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:01",
+          "from": "10:11",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -227,10 +227,18 @@
           "destinationName": "Hôpital Jean Rostand",
           "platform": "",
           "status": "onTime"
+        },
+        {
+          "from": "10:18",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
         }
       ]
     }
   ],
-  "busFetchedAt": "2026-11-05T08:51:04.376448Z",
-  "busFetchedAtParis": "05.11.2026, 09:51:04"
+  "busFetchedAt": "2026-11-05T08:56:04.649130Z",
+  "busFetchedAtParis": "05.11.2026, 09:56:04"
 }
