@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "05.11.2026, 12:06:03",
+  "fetchedAtParis": "05.11.2026, 12:11:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:27",
+          "from": "12:28",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "12:05",
+          "from": "12:21",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:21",
+          "from": "12:35",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "12:18",
+          "from": "12:19",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -239,6 +239,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-05T11:06:03.358407Z",
-  "busFetchedAtParis": "05.11.2026, 12:06:03"
+  "busFetchedAt": "2026-11-05T11:11:03.510916Z",
+  "busFetchedAtParis": "05.11.2026, 12:11:03"
 }
