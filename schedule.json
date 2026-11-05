@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "05.11.2026, 03:16:04",
+  "fetchedAtParis": "05.11.2026, 03:21:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -26,7 +26,16 @@
     {
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:16",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "cards": [
@@ -69,7 +78,16 @@
       "line": "C",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:16",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-vincennes",
@@ -104,6 +122,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-05T02:16:04.476516Z",
-  "busFetchedAtParis": "05.11.2026, 03:16:04"
+  "busFetchedAt": "2026-11-05T02:21:05.359485Z",
+  "busFetchedAtParis": "05.11.2026, 03:21:05"
 }
