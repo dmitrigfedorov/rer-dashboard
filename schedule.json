@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "05.11.2026, 22:11:04",
+  "fetchedAtParis": "05.11.2026, 22:16:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "22:28",
-          "to": "22:30",
+          "to": "22:31",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -28,8 +28,8 @@
           "status": "onTime"
         },
         {
-          "from": "22:32",
-          "to": "22:35",
+          "from": "22:31",
+          "to": "22:34",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -48,7 +48,7 @@
       "rows": [
         {
           "from": "22:28",
-          "to": "22:30",
+          "to": "22:31",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -72,7 +72,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:28",
+          "from": "22:31",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -97,8 +97,8 @@
           "status": "onTime"
         },
         {
-          "from": "22:32",
-          "to": "22:35",
+          "from": "22:31",
+          "to": "22:34",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -114,7 +114,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "22:13",
+          "from": "22:25",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -122,7 +122,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:25",
+          "from": "22:54",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -139,7 +139,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "22:07",
+          "from": "22:21",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -147,7 +147,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:21",
+          "from": "22:34",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -164,7 +164,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "22:30",
+          "from": "22:31",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -172,7 +172,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:39",
+          "from": "22:38",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -207,6 +207,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-05T21:06:04.888825Z",
-  "busFetchedAtParis": "05.11.2026, 22:06:04"
+  "busFetchedAt": "2026-11-05T21:16:03.841400Z",
+  "busFetchedAtParis": "05.11.2026, 22:16:03"
 }
