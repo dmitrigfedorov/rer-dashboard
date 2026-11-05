@@ -1,20 +1,20 @@
 {
-  "fetchedAtParis": "05.11.2026, 07:11:05",
+  "fetchedAtParis": "05.11.2026, 07:16:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "07:21",
-          "to": "07:23",
+          "from": "07:20",
+          "to": "07:22",
           "train": "NICO",
           "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "07:25",
+          "from": "07:26",
           "to": "07:28",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -22,8 +22,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:40",
-          "to": "07:43",
+          "from": "07:41",
+          "to": "07:44",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -40,7 +40,7 @@
           "to": "07:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -71,15 +71,15 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "07:21",
-          "to": "07:23",
+          "from": "07:20",
+          "to": "07:22",
           "train": "NICO",
           "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "07:25",
+          "from": "07:26",
           "to": "07:28",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -125,7 +125,7 @@
           "to": "07:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
