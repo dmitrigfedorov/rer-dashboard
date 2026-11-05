@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "05.11.2026, 21:31:05",
+  "fetchedAtParis": "05.11.2026, 21:36:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -20,23 +20,15 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "21:30",
-          "to": "21:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
-          "status": "onTime"
-        },
-        {
-          "from": "22:25",
-          "to": "22:28",
+          "from": "22:27",
+          "to": "22:30",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "22:30",
+          "from": "22:31",
           "to": "22:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -72,7 +64,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "21:34",
+          "from": "21:40",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -80,7 +72,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:41",
+          "from": "21:50",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -97,18 +89,18 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "21:30",
-          "to": "21:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
+          "from": "22:27",
+          "to": "22:30",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "22:25",
-          "to": "22:28",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "22:31",
+          "to": "22:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         }
@@ -122,7 +114,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "21:28",
+          "from": "21:39",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -130,7 +122,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:38",
+          "from": "21:48",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -147,7 +139,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "21:29",
+          "from": "21:38",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -155,7 +147,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:38",
+          "from": "21:48",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -172,7 +164,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "21:26",
+          "from": "21:43",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -180,7 +172,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:35",
+          "from": "21:49",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -205,7 +197,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:01",
+          "from": "22:38",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -215,6 +207,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-05T20:26:06.915296Z",
-  "busFetchedAtParis": "05.11.2026, 21:26:06"
+  "busFetchedAt": "2026-11-05T20:36:05.068255Z",
+  "busFetchedAtParis": "05.11.2026, 21:36:05"
 }
