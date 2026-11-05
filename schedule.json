@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "05.11.2026, 08:21:03",
+  "fetchedAtParis": "05.11.2026, 08:26:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "08:27",
-          "to": "08:29",
+          "from": "08:25",
+          "to": "08:28",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -15,17 +15,17 @@
         },
         {
           "from": "08:37",
-          "to": "08:39",
+          "to": "08:40",
           "train": "ZANI",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "08:39",
-          "to": "08:39",
-          "train": "ZANI",
-          "destinationName": "Paris Austerlitz",
+          "from": "08:40",
+          "to": "08:43",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         }
@@ -44,16 +44,16 @@
           "status": "onTime"
         },
         {
-          "from": "08:40",
-          "to": "08:42",
-          "train": "JUNE",
-          "destinationName": "Juvisy",
-          "platform": "E",
+          "from": "08:41",
+          "to": "08:41",
+          "train": "ZANI",
+          "destinationName": "Paris Austerlitz",
+          "platform": "B",
           "status": "onTime"
         },
         {
-          "from": "09:09",
-          "to": "09:12",
+          "from": "08:41",
+          "to": "08:44",
           "train": "JUNE",
           "destinationName": "Juvisy",
           "platform": "E",
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "08:27",
-          "to": "08:29",
+          "from": "08:25",
+          "to": "08:28",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -80,7 +80,7 @@
         },
         {
           "from": "08:37",
-          "to": "08:39",
+          "to": "08:40",
           "train": "ZANI",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "08:24",
+          "from": "08:26",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -129,11 +129,11 @@
           "status": "onTime"
         },
         {
-          "from": "08:40",
-          "to": "08:42",
-          "train": "JUNE",
-          "destinationName": "Juvisy",
-          "platform": "E",
+          "from": "08:41",
+          "to": "08:41",
+          "train": "ZANI",
+          "destinationName": "Paris Austerlitz",
+          "platform": "B",
           "status": "onTime"
         }
       ]
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "08:23",
+          "from": "08:31",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "08:34",
+          "from": "08:45",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -239,6 +239,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-05T07:21:03.307197Z",
-  "busFetchedAtParis": "05.11.2026, 08:21:03"
+  "busFetchedAt": "2026-11-05T07:26:04.371947Z",
+  "busFetchedAtParis": "05.11.2026, 08:26:04"
 }
