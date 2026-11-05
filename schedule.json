@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "05.11.2026, 06:51:03",
+  "fetchedAtParis": "05.11.2026, 06:56:06",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "07:20",
-          "to": "07:22",
+          "to": "07:23",
           "train": "NICO",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "07:20",
-          "to": "07:22",
+          "to": "07:23",
           "train": "NICO",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "06:57",
+          "from": "06:59",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "07:08",
+          "from": "07:09",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "06:51",
+          "from": "07:01",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "07:02",
+          "from": "07:13",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "06:55",
+          "from": "06:57",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -239,6 +239,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-05T05:51:03.710932Z",
-  "busFetchedAtParis": "05.11.2026, 06:51:03"
+  "busFetchedAt": "2026-11-05T05:56:06.388062Z",
+  "busFetchedAtParis": "05.11.2026, 06:56:06"
 }
