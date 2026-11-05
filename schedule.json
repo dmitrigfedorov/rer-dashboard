@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "05.11.2026, 19:26:05",
+  "fetchedAtParis": "05.11.2026, 19:31:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "19:31",
-          "to": "19:34",
+          "from": "19:33",
+          "to": "19:36",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -57,7 +57,7 @@
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
-          "status": "delayed"
+          "status": "onTime"
         }
       ]
     }
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "19:31",
-          "to": "19:34",
+          "from": "19:33",
+          "to": "19:36",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
