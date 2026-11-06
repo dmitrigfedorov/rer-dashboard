@@ -1,20 +1,12 @@
 {
-  "fetchedAtParis": "06.11.2026, 07:21:04",
+  "fetchedAtParis": "06.11.2026, 07:26:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "07:20",
-          "to": "07:22",
-          "train": "NICO",
-          "destinationName": "Pontoise",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
-          "from": "07:27",
+          "from": "07:26",
           "to": "07:29",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -22,10 +14,18 @@
           "status": "onTime"
         },
         {
-          "from": "07:37",
-          "to": "07:39",
+          "from": "07:36",
+          "to": "07:38",
           "train": "NICO",
           "destinationName": "Pontoise",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "07:41",
+          "to": "07:44",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         }
@@ -40,7 +40,7 @@
           "to": "07:28",
           "train": "JUNE",
           "destinationName": "Juvisy",
-          "platform": "E",
+          "platform": "F",
           "status": "onTime"
         },
         {
@@ -71,18 +71,18 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "07:20",
-          "to": "07:22",
-          "train": "NICO",
-          "destinationName": "Pontoise",
+          "from": "07:26",
+          "to": "07:29",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "07:27",
-          "to": "07:29",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
+          "from": "07:36",
+          "to": "07:38",
+          "train": "NICO",
+          "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         }
@@ -125,7 +125,7 @@
           "to": "07:28",
           "train": "JUNE",
           "destinationName": "Juvisy",
-          "platform": "E",
+          "platform": "F",
           "status": "onTime"
         },
         {
