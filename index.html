@@ -567,7 +567,8 @@ function remoteKey(event){
  const key=String(event.key||"");
  if(key==="Back"||key==="BrowserBack"||key==="GoBack"||key==="XF86Back"||key==="Backspace")return "Back";
  // Tizen reports Back as keyCode 0 while a custom list option owns focus.
- if(code===0&&languageOptions&&!languageOptions.hidden)return "Back";
+ const stationOptions=document.getElementById("rer-station-options");
+ if(code===0&&((languageOptions&&!languageOptions.hidden)||(stationOptions&&!stationOptions.hidden)))return "Back";
  if(key==="Escape")return "Escape";
  return key;
 }
