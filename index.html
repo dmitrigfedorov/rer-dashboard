@@ -493,9 +493,13 @@ document.addEventListener("click",event=>{
  if(!event.target.closest(".station-picker"))closeStationMenu(false);
 });
 document.addEventListener("keydown",event=>{
+ const key=remoteKey(event);
+ if(event.target.closest&&event.target.closest("#rer-station-toggle")&&key==="ArrowDown"){
+  event.preventDefault();event.stopPropagation();openStationMenu();return
+ }
  const options=document.getElementById("rer-station-options");
  if(!options||options.hidden)return;
- const key=remoteKey(event),items=Array.from(options.querySelectorAll(".station-option")),index=items.indexOf(document.activeElement);
+ const items=Array.from(options.querySelectorAll(".station-option")),index=items.indexOf(document.activeElement);
  if(key==="ArrowDown"||key==="ArrowUp"){
   event.preventDefault();event.stopPropagation();
   const next=Math.max(0,Math.min(items.length-1,index+(key==="ArrowDown"?1:-1)));
@@ -506,6 +510,13 @@ document.addEventListener("keydown",event=>{
   event.preventDefault();event.stopPropagation();closeStationMenu(true);
  }
 },true);
+window.addEventListener("popstate",()=>{
+ if(stationMenuHistoryEntry){
+  stationMenuHistoryEntry=false;
+  const options=document.getElementById("rer-station-options");
+  if(options&&!options.hidden)closeStationMenu(false,true);
+ }
+});
 let languageMenuHistoryEntry=false;
 function closeLanguageMenu(restoreFocus,fromHistory){
  const wasOpen=!languageOptions.hidden;
