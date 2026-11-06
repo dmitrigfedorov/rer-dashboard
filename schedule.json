@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "06.11.2026, 09:01:04",
+  "fetchedAtParis": "06.11.2026, 09:06:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "09:09",
-          "to": "09:12",
+          "from": "09:10",
+          "to": "09:13",
           "train": "LULU",
           "destinationName": "Invalides",
           "platform": "2B",
@@ -36,8 +36,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "09:13",
-          "to": "09:15",
+          "from": "09:12",
+          "to": "09:14",
           "train": "JUNE",
           "destinationName": "Juvisy",
           "platform": "E",
@@ -45,7 +45,7 @@
         },
         {
           "from": "09:20",
-          "to": "09:22",
+          "to": "09:23",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -53,7 +53,7 @@
         },
         {
           "from": "09:27",
-          "to": "09:30",
+          "to": "09:31",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "09:09",
-          "to": "09:12",
+          "from": "09:10",
+          "to": "09:13",
           "train": "LULU",
           "destinationName": "Invalides",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "09:13",
+          "from": "09:10",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:23",
+          "from": "09:21",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,8 +121,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "09:13",
-          "to": "09:15",
+          "from": "09:12",
+          "to": "09:14",
           "train": "JUNE",
           "destinationName": "Juvisy",
           "platform": "E",
@@ -130,7 +130,7 @@
         },
         {
           "from": "09:20",
-          "to": "09:22",
+          "to": "09:23",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "09:12",
+          "from": "09:11",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "09:24",
+          "from": "09:27",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:25",
+          "from": "09:27",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "09:07",
+          "from": "09:06",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -239,6 +239,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-06T08:01:04.096091Z",
-  "busFetchedAtParis": "06.11.2026, 09:01:04"
+  "busFetchedAt": "2026-11-06T08:06:04.146737Z",
+  "busFetchedAtParis": "06.11.2026, 09:06:04"
 }
