@@ -1,12 +1,12 @@
 {
-  "fetchedAtParis": "06.11.2026, 22:06:03",
+  "fetchedAtParis": "06.11.2026, 22:11:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "22:18",
+          "from": "22:19",
           "to": "22:31",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -14,8 +14,8 @@
           "status": "onTime"
         },
         {
-          "from": "22:28",
-          "to": "22:30",
+          "from": "22:30",
+          "to": "22:33",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -28,8 +28,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "22:15",
-          "to": "22:18",
+          "from": "22:16",
+          "to": "22:19",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -55,7 +55,7 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "22:18",
+          "from": "22:19",
           "to": "22:31",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -63,8 +63,8 @@
           "status": "onTime"
         },
         {
-          "from": "22:28",
-          "to": "22:30",
+          "from": "22:30",
+          "to": "22:33",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -80,7 +80,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "22:11",
+          "from": "22:12",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -88,7 +88,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:21",
+          "from": "22:20",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -105,8 +105,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "22:15",
-          "to": "22:18",
+          "from": "22:16",
+          "to": "22:19",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -155,7 +155,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "22:09",
+          "from": "22:22",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -163,7 +163,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:22",
+          "from": "22:34",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -188,7 +188,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:16",
+          "from": "22:18",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -230,7 +230,7 @@
       "rows": [
         {
           "from": "22:14",
-          "to": "22:18",
+          "to": "22:19",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -238,7 +238,7 @@
         },
         {
           "from": "22:19",
-          "to": "22:27",
+          "to": "22:29",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2",
@@ -252,7 +252,7 @@
       "rows": [
         {
           "from": "22:16",
-          "to": "22:18",
+          "to": "22:19",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -260,7 +260,7 @@
         },
         {
           "from": "22:17",
-          "to": "22:27",
+          "to": "22:29",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2",
@@ -274,15 +274,15 @@
       "rows": [
         {
           "from": "22:15",
-          "to": "22:27",
+          "to": "22:29",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "4",
           "status": "onTime"
         },
         {
-          "from": "22:18",
-          "to": "22:18",
+          "from": "22:19",
+          "to": "22:19",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "3",
@@ -296,7 +296,7 @@
       "rows": [
         {
           "from": "22:12",
-          "to": "22:27",
+          "to": "22:29",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "4",
@@ -317,19 +317,11 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "22:08",
-          "to": "22:18",
+          "from": "22:24",
+          "to": "22:34",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
-          "status": "onTime"
-        },
-        {
-          "from": "22:09",
-          "to": "22:27",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2",
           "status": "onTime"
         }
       ]
@@ -339,8 +331,8 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "22:12",
-          "to": "22:18",
+          "from": "22:13",
+          "to": "22:19",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "D",
@@ -361,8 +353,8 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "22:15",
-          "to": "22:18",
+          "from": "22:16",
+          "to": "22:19",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -379,6 +371,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-06T21:06:03.680367Z",
-  "busFetchedAtParis": "06.11.2026, 22:06:03"
+  "busFetchedAt": "2026-11-06T21:11:03.980097Z",
+  "busFetchedAtParis": "06.11.2026, 22:11:03"
 }
