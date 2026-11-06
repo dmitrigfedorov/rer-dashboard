@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "06.11.2026, 12:06:03",
+  "fetchedAtParis": "06.11.2026, 12:11:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "12:22",
-          "to": "12:25",
+          "from": "12:23",
+          "to": "12:26",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -22,7 +22,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:43",
+          "from": "12:44",
           "to": "12:45",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -45,15 +45,15 @@
         },
         {
           "from": "12:42",
-          "to": "12:44",
+          "to": "12:45",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "12:47",
-          "to": "12:50",
+          "from": "12:46",
+          "to": "12:49",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "12:22",
-          "to": "12:25",
+          "from": "12:23",
+          "to": "12:26",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -130,7 +130,7 @@
         },
         {
           "from": "12:42",
-          "to": "12:44",
+          "to": "12:45",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "12:13",
+          "from": "12:12",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "12:07",
+          "from": "12:12",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:13",
+          "from": "12:25",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -239,6 +239,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-06T11:06:03.736865Z",
-  "busFetchedAtParis": "06.11.2026, 12:06:03"
+  "busFetchedAt": "2026-11-06T11:11:04.144238Z",
+  "busFetchedAtParis": "06.11.2026, 12:11:04"
 }
