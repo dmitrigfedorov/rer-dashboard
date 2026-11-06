@@ -57,7 +57,16 @@ body{padding:4.2vh 4.5vw}
 .panel{background:var(--card);border:1px solid var(--line);border-radius:1.1vw;padding:1.6vw 2.3vw;min-height:0}
 .route-header{display:flex;align-items:flex-start;justify-content:space-between;gap:1.5vw}
 .route{font-size:1.55vw;color:var(--muted);line-height:1.35;min-height:4.4vw}
+.station-options{font-size:1.2vw}
 .route b{color:var(--ink);font-weight:600}
+.station-picker{position:relative;display:inline-block}
+.station-picker-trigger{display:inline-flex;align-items:center;gap:.55em;padding:0;border:0;background:transparent;color:inherit;font:inherit;text-align:left;cursor:pointer}
+.station-picker-trigger:focus,.station-option:focus{outline:3px solid var(--blue);outline-offset:3px;border-radius:.25em}
+.station-picker-trigger .chevron{width:.36em;height:.36em;margin:0 .15em .18em .1em;flex:none;transform:rotate(45deg)}
+.station-options{position:absolute;z-index:30;top:calc(100% + .35em);left:0;min-width:100%;max-width:min(72vw,24em);max-height:8.8em;overflow-y:auto;padding:.2em 0;background:var(--card);border:1px solid #69737d;box-shadow:0 4px 14px #0008}
+.station-options[hidden]{display:none}
+.station-option{display:block;width:100%;padding:.5em .75em;border:0;background:transparent;color:var(--ink);font:inherit;text-align:left;white-space:nowrap;cursor:pointer}
+.station-option:hover,.station-option[aria-selected="true"]{background:#263541}
 .station-line{display:flex;align-items:center;justify-content:center;width:5.5vw;height:5.5vw;min-width:42px;min-height:42px;border-radius:1.2vw;background:#f4cc00;color:#171d24;font-size:3.8vw;line-height:1;font-weight:700;flex:none}
 .station-line.bus-line{width:8.2vw;height:5.5vw;min-width:58px;min-height:40px;border-radius:1.2vw;background:#8bd3df;color:#101619;font-size:3.8vw;letter-spacing:-.04em}.station-line.bus-line-125{background:#0055C9;color:#fff}.station-line.bus-line-323{background:#D2D103;color:#111}
 h1.title .station-line{display:inline-flex;vertical-align:middle}
@@ -108,7 +117,7 @@ h1.title .station-line{display:inline-flex;vertical-align:middle}
  .clock{font-size:1.8vw}
  .clock #updated{font-size:1.4vw}
  .panel{padding:3vw;min-height:auto}
- .route{font-size:2.3vw;min-height:auto}
+ .route{font-size:2.3vw;min-height:auto}.station-options{font-size:1.9vw}
  .station-line{width:8vw;height:8vw;border-radius:1.8vw;font-size:5vw}
  .station-line.bus-line{width:12vw;height:8vw;min-width:48px;min-height:40px;border-radius:1.8vw;font-size:5vw}
  .countdown-icon{width:3vw;height:3vw}
@@ -144,7 +153,7 @@ h1.title .station-line{display:inline-flex;vertical-align:middle}
  .clock #updated{font-size:10px}
  .grid{gap:12px}
  .panel{padding:18px;min-height:auto;border-radius:14px}
- .route{font-size:16px;min-height:0}
+ .route{font-size:16px;min-height:0}.station-options{font-size:14px}
  .station-line{width:48px;height:48px;min-width:48px;min-height:48px;border-radius:12px;font-size:32px}
  .station-line.bus-line{width:62px;height:46px;min-width:62px;min-height:46px;border-radius:11px;font-size:32px}
  .countdown-icon{width:18px;height:18px}
@@ -214,6 +223,8 @@ h1.title .station-line{display:inline-flex;vertical-align:middle}
 <script>
 const fallback={fetchedAtParis:"",directions:[]};
 const storageKey="rer-dashboard-language";
+const stationStorageKey="rer-dashboard-rer-station";
+let selectedRerStation="bfm";
 
 const weatherDataKey="rer-dashboard-weather-data";
 let weatherSnapshot=null;
@@ -329,7 +340,7 @@ async function loadWeather(){
 const translations={
  ru:{
   locale:"ru-FR",language:"Язык",weatherLoading:"Погода…",weatherUnavailable:"Нет данных о погоде",weatherStatusLoading:"Запрашиваем погоду",weatherStatusFresh:"Получен свежий прогноз",weatherStatusError:"Погода недоступна",weatherStatusStale:"Показан последний сохранённый прогноз",precipUnavailable:"Прогноз осадков недоступен",precipLoading:"Прогноз осадков…",precipPrefix:"Осадки: ",precipNone:"Сегодня осадков не ожидается",tempMax:"макс. ",eyebrow:"Ближайшие отправления",title:"Расписание RER C и BUS 325",heading:'Расписание RER <span class="station-line title-badge">C</span> и BUS <span class="station-line bus-line title-badge">325</span>',
-  updatedLabel:"Время обновления",loading:"загрузка…",noData:"нет данных",nearest:"Ближайший поезд",nearestBus:"Ближайший автобус",
+  updatedLabel:"Время обновления",loading:"загрузка…",noData:"нет данных",nearest:"Ближайший поезд",nearestBus:"Ближайший автобус",chooseStation:"Выбрать станцию RER C",
   to:"до ",departure:"Отправление ",platform:"Путь",empty:"Ближайшие отправления не найдены",
   refresh:"Обновление каждые 5 минут",data:"Данные Île-de-France Mobilités • Ivry-sur-Seine",
   now:"сейчас",inMinutes:"через ",minutes:" мин",ago:"ушёл ",agoEnd:" мин назад",
@@ -337,7 +348,7 @@ const translations={
  },
  fr:{
   locale:"fr-FR",language:"Langue",weatherLoading:"Météo…",weatherUnavailable:"Météo indisponible",weatherStatusLoading:"Chargement météo",weatherStatusFresh:"Prévisions actualisées",weatherStatusError:"Météo indisponible",weatherStatusStale:"Dernières prévisions enregistrées",precipUnavailable:"Prévision des précipitations indisponible",precipLoading:"Prévision des précipitations…",precipPrefix:"Pluie : ",precipNone:"Pas de précipitations prévues aujourd’hui",tempMax:"max. ",eyebrow:"Prochains départs",title:"Horaires RER C et BUS 325",heading:'Horaires RER <span class="station-line title-badge">C</span> et BUS <span class="station-line bus-line title-badge">325</span>',
-  updatedLabel:"Heure de mise à jour",loading:"chargement…",noData:"aucune donnée",nearest:"Prochain train",nearestBus:"Prochain bus",
+  updatedLabel:"Heure de mise à jour",loading:"chargement…",noData:"aucune donnée",nearest:"Prochain train",nearestBus:"Prochain bus",chooseStation:"Choisir une station du RER C",
   to:"vers ",departure:"Départ ",platform:"Voie",empty:"Aucun départ à venir",
   refresh:"Mise à jour toutes les 5 minutes",data:"Données Île-de-France Mobilités • Ivry-sur-Seine",
   now:"maintenant",inMinutes:"dans ",minutes:" min",ago:"parti il y a ",agoEnd:" min",
@@ -345,7 +356,7 @@ const translations={
  },
  bg:{
   locale:"bg-BG",language:"Език",weatherLoading:"Времето…",weatherUnavailable:"Няма данни за времето",weatherStatusLoading:"Зареждане на времето",weatherStatusFresh:"Времето е обновено",weatherStatusError:"Времето е недостъпно",weatherStatusStale:"Показана е последната запазена прогноза",precipUnavailable:"Няма прогноза за валежите",precipLoading:"Прогноза за валежите…",precipPrefix:"Валежи: ",precipNone:"Днес не се очакват валежи",tempMax:"макс. ",eyebrow:"Предстоящи заминавания",title:"Разписание RER C и BUS 325",heading:'Разписание RER <span class="station-line title-badge">C</span> и BUS <span class="station-line bus-line title-badge">325</span>',
-  updatedLabel:"Час на обновяване",loading:"зареждане…",noData:"няма данни",nearest:"Следващ влак",nearestBus:"Следващ автобус",
+  updatedLabel:"Час на обновяване",loading:"зареждане…",noData:"няма данни",nearest:"Следващ влак",nearestBus:"Следващ автобус",chooseStation:"Изберете станция на RER C",
   to:"до ",departure:"Отпътуване ",platform:"Кол.",empty:"Няма намерени предстоящи влакове",
   refresh:"Обновяване на всеки 5 минути",data:"Данни от Île-de-France Mobilités • Ivry-sur-Seine",
   now:"сега",inMinutes:"след ",minutes:" мин",ago:"заминал преди ",agoEnd:" мин",
@@ -405,12 +416,17 @@ function setUpdated(value,label){
 }
 function paint(data){
  const t=translations[currentLanguage],grid=document.getElementById("schedule");
- const dashboardCards=Array.isArray(data.cards),panels=dashboardCards?data.cards:(data.directions||[]);
+ const dashboardCards=Array.isArray(data.cards),rerStations=Array.isArray(data.rerStations)?data.rerStations:[];
+ try{const stored=localStorage.getItem(stationStorageKey);if(rerStations.some(s=>s.id===stored))selectedRerStation=stored}catch(_){}
+ const selectedStation=rerStations.find(s=>s.id===selectedRerStation)||rerStations.find(s=>s.id==="bfm");
+ const sourcePanels=dashboardCards?data.cards:(data.directions||[]);
+ const panels=sourcePanels.map(d=>d.card==="rer-bfm"&&selectedStation?{...d,title:selectedStation.title,rows:selectedStation.rows}:d);
  grid.classList.toggle("legacy-grid",!dashboardCards);
  grid.innerHTML=panels.map(d=>{
   const bus=d.mode==="bus",line=d.line||(bus?"325":"C"),badgeClass=bus?("station-line bus-line bus-line-"+line):"station-line";
   const modeLabel=bus?"BUS "+line:"RER C",cardClass=bus?"panel bus-panel":"panel";
-  return '<section class="'+cardClass+'" data-card="'+esc(d.card||"")+'"><div class="route-header"><div class="route"><b>'+esc(d.title)+'</b><br>'+t.to+esc(d.destination)+'</div><span class="'+badgeClass+'" aria-label="'+modeLabel+'">'+esc(line)+'</span></div>'+
+  const stationPicker=d.card==="rer-bfm"&&rerStations.length?'<div class="station-picker"><button id="rer-station-toggle" class="station-picker-trigger" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="'+esc(t.chooseStation)+'"><b>'+esc(d.title)+'</b><span class="chevron" aria-hidden="true"></span></button><div id="rer-station-options" class="station-options" role="listbox" aria-label="'+esc(t.chooseStation)+'" hidden>'+rerStations.map(station=>'<button class="station-option" type="button" role="option" data-station="'+esc(station.id)+'" aria-selected="'+String(station.id===selectedRerStation)+'">'+esc(station.title)+'</button>').join('')+'</div></div>':'<b>'+esc(d.title)+'</b>';
+  return '<section class="'+cardClass+'" data-card="'+esc(d.card||"")+'"><div class="route-header"><div class="route">'+stationPicker+'<br>'+t.to+esc(d.destination)+'</div><span class="'+badgeClass+'" aria-label="'+modeLabel+'">'+esc(line)+'</span></div>'+
   '<div class="direction">'+(bus?t.nearestBus:t.nearest)+'</div>'+
   ((d.rows||[]).map(r=>{
    const trainName=bus?'<div class="train-name"><b>'+esc(r.train||line)+'</b> · '+esc(r.destinationName||d.destination)+'</div>':'<div class="train-name"><b>'+esc(r.train)+'</b> · '+esc(r.destinationName)+'</div>';
@@ -449,6 +465,47 @@ function tick(){document.getElementById("clock").textContent=new Intl.DateTimeFo
 async function loadSchedule(){try{const response=await fetch("schedule.json?ts="+Date.now(),{cache:"no-store"});currentData=response.ok?await response.json():fallback}catch(_){currentData=fallback}paint(currentData)}
 const languageToggle=document.getElementById("language-toggle");
 const languageOptions=document.getElementById("language-options");
+let stationMenuHistoryEntry=false;
+function closeStationMenu(restoreFocus,fromHistory){
+ const toggle=document.getElementById("rer-station-toggle"),options=document.getElementById("rer-station-options");
+ if(!toggle||!options||options.hidden)return;
+ options.hidden=true;toggle.setAttribute("aria-expanded","false");
+ if(stationMenuHistoryEntry){stationMenuHistoryEntry=false;if(!fromHistory){try{history.back()}catch(_){}}}
+ if(restoreFocus)toggle.focus();
+}
+function openStationMenu(){
+ const toggle=document.getElementById("rer-station-toggle"),options=document.getElementById("rer-station-options");
+ if(!toggle||!options)return;
+ options.hidden=false;toggle.setAttribute("aria-expanded","true");
+ try{history.pushState({rerStationMenu:true},"",location.href);stationMenuHistoryEntry=true}catch(_){}
+ const selected=options.querySelector('[aria-selected="true"]');
+ if(selected){selected.scrollIntoView({block:"end"});selected.focus()}
+}
+document.addEventListener("click",event=>{
+ const toggle=event.target.closest("#rer-station-toggle");
+ if(toggle){if(document.getElementById("rer-station-options").hidden)openStationMenu();else closeStationMenu(false);return}
+ const option=event.target.closest(".station-option");
+ if(option){
+  selectedRerStation=option.dataset.station;
+  try{localStorage.setItem(stationStorageKey,selectedRerStation)}catch(_){}
+  closeStationMenu(false);paint(currentData);return
+ }
+ if(!event.target.closest(".station-picker"))closeStationMenu(false);
+});
+document.addEventListener("keydown",event=>{
+ const options=document.getElementById("rer-station-options");
+ if(!options||options.hidden)return;
+ const key=remoteKey(event),items=Array.from(options.querySelectorAll(".station-option")),index=items.indexOf(document.activeElement);
+ if(key==="ArrowDown"||key==="ArrowUp"){
+  event.preventDefault();event.stopPropagation();
+  const next=Math.max(0,Math.min(items.length-1,index+(key==="ArrowDown"?1:-1)));
+  items[next].focus();items[next].scrollIntoView({block:"nearest"});
+ }else if(key==="Enter"||key===" "){
+  event.preventDefault();event.stopPropagation();document.activeElement.click();
+ }else if(key==="Escape"||key==="Backspace"||key==="Back"){
+  event.preventDefault();event.stopPropagation();closeStationMenu(true);
+ }
+},true);
 let languageMenuHistoryEntry=false;
 function closeLanguageMenu(restoreFocus,fromHistory){
  const wasOpen=!languageOptions.hidden;
@@ -500,6 +557,8 @@ window.addEventListener("keyup",handleRemoteBack,true);
 document.addEventListener("keydown",event=>{
  const key=remoteKey(event);
  if(!languageOptions.hidden)return;
+ const stationMenu=document.getElementById("rer-station-options");
+ if(stationMenu&&!stationMenu.hidden)return;
  if(key==="ArrowUp"&&window.scrollY<=1){event.preventDefault();languageToggle.focus();return}
  if(key==="ArrowDown"||key==="ArrowUp"){
   const height=Math.max(220,Math.round(window.innerHeight*.78));
