@@ -449,7 +449,7 @@ function paint(data,preserveStationFocus=true){
  if(stationToggle&&stationOptions){
   if(stationMenuWasOpen){
    stationOptions.hidden=false;stationToggle.setAttribute("aria-expanded","true");
-   const focusTarget=stationOptions.querySelector('[data-station="'+CSS.escape(focusedStationId||selectedRerStation)+'"]')||stationOptions.querySelector('[aria-selected="true"]');
+   const focusTarget=Array.from(stationOptions.querySelectorAll(".station-option")).find(option=>option.dataset.station===(focusedStationId||selectedRerStation))||stationOptions.querySelector('[aria-selected="true"]');
    if(focusTarget)focusTarget.focus();
   }else if(stationWasFocused||focusedStationId||shouldAutoFocusStation){
    stationToggle.focus();
