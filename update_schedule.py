@@ -11,6 +11,16 @@ BUS323_LINE = 'STIF:Line::C01287:'
 BUS_STOPS = {'quai': 'STIF:StopArea:SP:50401:', 'vincennes': 'STIF:StopArea:SP:473115:', 'moliere': 'STIF:StopArea:SP:46365:'}
 BUS_REFRESH = timedelta(minutes=5)
 STATIONS = [('Ivry-sur-Seine','STIF:StopArea:SP:46366:'),('Bibliothèque François-Mitterrand','STIF:StopArea:SP:45301:')]
+# Ordered from the western RER C branch toward Ivry, so BFM opens with its three preceding stations visible.
+RER_STATIONS = [
+    ('champ-de-mars','Champ de Mars - Tour Eiffel','STIF:StopArea:SP:58757:'),
+    ('pont-de-lalma',"Pont de l'Alma",'STIF:StopArea:SP:415091:'),
+    ('invalides','Invalides','STIF:StopArea:SP:470540:'),
+    ('musee-dorsay',"Musée d'Orsay",'STIF:StopArea:SP:45705:'),
+    ('saint-michel','Saint-Michel Notre-Dame','STIF:StopArea:SP:44877:'),
+    ('austerlitz',"Gare d'Austerlitz",'STIF:StopArea:SP:43072:'),
+    ('bfm',STATIONS[1][0],STATIONS[1][1]),
+]
 PARIS = ZoneInfo('Europe/Paris')
 
 def many(v): return v if isinstance(v,list) else ([] if v is None else [v])
@@ -79,7 +89,7 @@ def prior_schedule(path):
 def pair(a,b):
     result=[]; seen=set()
     for x in a:
-        matches=[y for y in b if y['train']==x['train'] and y['dest']==x['dest'] and x['dep']<y['dep']<=x['dep']+timedelta(minutes=7)]
+        matches=[y for y in b if y['train']==x['train'] and y['dest']==x['dest'] and x['dep']<y['dep']<=x['dep']+timedelta(minutes=90)]
         if not matches: continue
         y=matches[0]; row={'from':x['dep'].astimezone(PARIS).strftime('%H:%M'),'to':y['arr'].astimezone(PARIS).strftime('%H:%M'),'train':x['train'],'destinationName':x['dest'],'platform':x['platform'],'status':x['status']}
         key=tuple(row[k] for k in ('from','to','train','destinationName'))
@@ -94,6 +104,21 @@ def main():
     previous=prior_schedule(schedule_path)
     data=[fetch(token,s,now) for _,s in STATIONS]
     directions=[{'title':STATIONS[0][0],'destination':STATIONS[1][0],'rows':pair(data[0],data[1])},{'title':STATIONS[1][0],'destination':STATIONS[0][0],'rows':pair(data[1],data[0])}]
+
+    old_rer_stations={s.get('id'):s for s in previous.get('rerStations',[]) if s.get('id')}
+    rer_station_rows={}
+    for station_id, station_name, stop_ref in RER_STATIONS:
+        if station_id == 'bfm':
+            station_visits=data[1]
+        else:
+            try:
+                station_visits=fetch(token,stop_ref,now)
+            except Exception as e:
+                print(f'RER station refresh failed for {station_name}; retaining last available rows: {e}',file=sys.stderr)
+                rer_station_rows[station_id]=old_rer_stations.get(station_id,{}).get('rows',[])
+                continue
+        rer_station_rows[station_id]=pair(station_visits,data[0])[:2]
+    rer_stations=[{'id':station_id,'title':station_name,'rows':rer_station_rows.get(station_id,[])} for station_id,station_name,_ in RER_STATIONS]
 
     old_cards={c.get('card'):c for c in previous.get('cards',[]) if c.get('mode')=='bus'}
     bus_updated=dt(previous.get('busFetchedAt'))
@@ -152,7 +177,7 @@ def main():
         {'card':'bus-323','mode':'bus','line':'323','title':'Molière','destination':'Hôpital Jean Rostand','rows':bus_323}
     ]
     stamp=now.astimezone(PARIS).strftime('%d.%m.%Y, %H:%M:%S')
-    out={'fetchedAtParis':stamp,'directions':directions,'cards':cards,'busFetchedAt':bus_updated.isoformat().replace('+00:00','Z') if bus_updated else None,'busFetchedAtParis':bus_updated.astimezone(PARIS).strftime('%d.%m.%Y, %H:%M:%S') if bus_updated else None}
+    out={'fetchedAtParis':stamp,'directions':directions,'cards':cards,'rerStations':rer_stations,'busFetchedAt':bus_updated.isoformat().replace('+00:00','Z') if bus_updated else None,'busFetchedAtParis':bus_updated.astimezone(PARIS).strftime('%d.%m.%Y, %H:%M:%S') if bus_updated else None}
     schedule_path.write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
     print('Updated schedule.json at '+stamp+' Paris time')
 if __name__=='__main__':
