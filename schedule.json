@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "06.11.2026, 10:01:04",
+  "fetchedAtParis": "06.11.2026, 10:06:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,8 +14,8 @@
           "status": "cancelled"
         },
         {
-          "from": "10:16",
-          "to": "10:19",
+          "from": "10:15",
+          "to": "10:18",
           "train": "IORA",
           "destinationName": "Ermont - Eaubonne",
           "platform": "2B",
@@ -36,16 +36,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "10:03",
-          "to": "10:05",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "10:09",
-          "to": "10:11",
+          "to": "10:12",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -53,9 +45,17 @@
         },
         {
           "from": "10:26",
-          "to": "10:29",
+          "to": "10:28",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "10:37",
+          "to": "10:39",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         }
@@ -79,8 +79,8 @@
           "status": "cancelled"
         },
         {
-          "from": "10:16",
-          "to": "10:19",
+          "from": "10:15",
+          "to": "10:18",
           "train": "IORA",
           "destinationName": "Ermont - Eaubonne",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "10:04",
+          "from": "10:13",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:13",
+          "from": "10:28",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,16 +121,16 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "10:03",
-          "to": "10:05",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "10:09",
+          "to": "10:12",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "10:09",
-          "to": "10:11",
+          "from": "10:26",
+          "to": "10:28",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "09:57",
+          "from": "10:24",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:24",
+          "from": "10:33",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "09:56",
+          "from": "10:12",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:13",
+          "from": "10:24",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -219,26 +219,9 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": [
-        {
-          "from": "10:09",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
-          "from": "10:18",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-06T08:56:04.797097Z",
-  "busFetchedAtParis": "06.11.2026, 09:56:04"
+  "busFetchedAt": "2026-11-06T09:06:04.818695Z",
+  "busFetchedAtParis": "06.11.2026, 10:06:04"
 }
