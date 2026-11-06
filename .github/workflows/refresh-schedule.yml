@@ -26,37 +26,8 @@ jobs:
           if git diff --cached --quiet; then
             echo 'Schedule content is unchanged.'
             echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "commit_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git commit -m 'Update RER schedule'
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
-          echo "commit_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
-      - name: Wait for dashboard deployment
-        if: ${{ steps.publish.outputs.changed == 'true' }}
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const targetSha = "${{ steps.publish.outputs.commit_sha }}";
-            const deadline = Date.now() + 240_000;
-            while (Date.now() < deadline) {
-              const { data } = await github.rest.actions.listWorkflowRunsForRepo({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                per_page: 100,
-              });
-              const deployment = data.workflow_runs.find(run =>
-                run.path === "dynamic/pages/pages-build-deployment" &&
-                run.head_sha === targetSha
-              );
-              if (deployment?.status === "completed") {
-                if (deployment.conclusion !== "success") {
-                  throw new Error("GitHub Pages deployment did not succeed.");
-                }
-                core.info("Dashboard deployment completed for the refreshed schedule.");
-                return;
-              }
-              await new Promise(resolve => setTimeout(resolve, 5000));
-            }
-            throw new Error("Timed out waiting for GitHub Pages to publish the refreshed schedule.");
