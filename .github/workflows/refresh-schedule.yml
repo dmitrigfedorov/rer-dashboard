@@ -28,6 +28,27 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          git commit -m 'Update RER schedule'
-          git push
-          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+          schedule_file="$(mktemp)"
+          cp schedule.json "$schedule_file"
+          for attempt in 1 2 3; do
+            git commit -m 'Update RER schedule'
+            if git push; then
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+
+            echo "Push attempt $attempt failed; rebasing refreshed schedule on the latest main."
+            git fetch origin main
+            git reset --hard origin/main
+            cp "$schedule_file" schedule.json
+            git add schedule.json
+            if git diff --cached --quiet; then
+              echo 'The latest main already contains the refreshed schedule.'
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          done
+
+          echo 'Unable to publish schedule after three attempts.'
+          exit 1
