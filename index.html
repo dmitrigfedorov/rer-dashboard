@@ -450,8 +450,10 @@ function paint(data,preserveStationFocus=true){
   if(stationMenuWasOpen){
    stationOptions.hidden=false;stationToggle.setAttribute("aria-expanded","true");
    const focusTarget=Array.from(stationOptions.querySelectorAll(".station-option")).find(option=>option.dataset.station===(focusedStationId||selectedRerStation))||stationOptions.querySelector('[aria-selected="true"]');
-   if(focusTarget)focusTarget.focus();
-  }else if(stationWasFocused||focusedStationId||shouldAutoFocusStation){
+   if(focusTarget)focusWithoutPageScroll(focusTarget);
+  }else if(stationWasFocused||focusedStationId){
+   focusWithoutPageScroll(stationToggle);
+  }else if(shouldAutoFocusStation){
    stationToggle.focus();
   }
  }
@@ -483,12 +485,17 @@ async function loadSchedule(){try{const response=await fetch("schedule.json?ts="
 const languageToggle=document.getElementById("language-toggle");
 const languageOptions=document.getElementById("language-options");
 let stationMenuHistoryEntry=false;
+function focusWithoutPageScroll(element){
+ const pageX=window.pageXOffset||document.documentElement.scrollLeft||0,pageY=window.pageYOffset||document.documentElement.scrollTop||0;
+ try{element.focus({preventScroll:true})}catch(_){element.focus()}
+ if((window.pageXOffset||document.documentElement.scrollLeft||0)!==pageX||(window.pageYOffset||document.documentElement.scrollTop||0)!==pageY)window.scrollTo(pageX,pageY);
+}
 function closeStationMenu(restoreFocus,fromHistory){
  const toggle=document.getElementById("rer-station-toggle"),options=document.getElementById("rer-station-options");
  if(!toggle||!options||options.hidden)return;
  options.hidden=true;toggle.setAttribute("aria-expanded","false");
  if(stationMenuHistoryEntry){stationMenuHistoryEntry=false;if(!fromHistory){try{history.back()}catch(_){}}}
- if(restoreFocus)toggle.focus();
+ if(restoreFocus)focusWithoutPageScroll(toggle);
 }
 function openStationMenu(){
  const toggle=document.getElementById("rer-station-toggle"),options=document.getElementById("rer-station-options");
@@ -496,7 +503,10 @@ function openStationMenu(){
  options.hidden=false;toggle.setAttribute("aria-expanded","true");
  try{history.pushState({rerStationMenu:true},"",location.href);stationMenuHistoryEntry=true}catch(_){}
  const selected=options.querySelector('[aria-selected="true"]');
- if(selected){selected.scrollIntoView({block:"end"});selected.focus()}
+ if(selected){
+  options.scrollTop=Math.max(0,selected.offsetTop+selected.offsetHeight-options.clientHeight);
+  focusWithoutPageScroll(selected);
+ }
 }
 document.addEventListener("click",event=>{
  const toggle=event.target.closest("#rer-station-toggle");
@@ -505,7 +515,7 @@ document.addEventListener("click",event=>{
  if(option){
   selectedRerStation=option.dataset.station;
   try{localStorage.setItem(stationStorageKey,selectedRerStation)}catch(_){}
-  closeStationMenu(false);paint(currentData,false);const toggle=document.getElementById("rer-station-toggle");if(toggle)toggle.focus();return
+  closeStationMenu(false);paint(currentData,false);const toggle=document.getElementById("rer-station-toggle");if(toggle)focusWithoutPageScroll(toggle);return
  }
  if(!event.target.closest(".station-picker"))closeStationMenu(false);
 });
