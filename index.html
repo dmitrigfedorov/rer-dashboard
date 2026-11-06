@@ -530,7 +530,10 @@ document.addEventListener("keydown",event=>{
  if(key==="ArrowDown"||key==="ArrowUp"){
   event.preventDefault();event.stopPropagation();
   const next=Math.max(0,Math.min(items.length-1,index+(key==="ArrowDown"?1:-1)));
-  items[next].focus();items[next].scrollIntoView({block:"nearest"});
+  const option=items[next],optionTop=option.offsetTop;
+  if(optionTop<options.scrollTop)options.scrollTop=optionTop;
+  else if(optionTop+option.offsetHeight>options.scrollTop+options.clientHeight)options.scrollTop=optionTop+option.offsetHeight-options.clientHeight;
+  focusWithoutPageScroll(option);
  }else if(key==="Enter"||key===" "){
   event.preventDefault();event.stopPropagation();document.activeElement.click();
  }else if(key==="Escape"||key==="Backspace"||key==="Back"){
