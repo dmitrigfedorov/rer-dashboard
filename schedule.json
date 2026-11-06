@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "06.11.2026, 09:56:04",
+  "fetchedAtParis": "06.11.2026, 10:01:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,8 +14,8 @@
           "status": "cancelled"
         },
         {
-          "from": "10:14",
-          "to": "10:17",
+          "from": "10:16",
+          "to": "10:19",
           "train": "IORA",
           "destinationName": "Ermont - Eaubonne",
           "platform": "2B",
@@ -36,7 +36,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "10:02",
+          "from": "10:03",
           "to": "10:05",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -45,7 +45,7 @@
         },
         {
           "from": "10:09",
-          "to": "10:12",
+          "to": "10:11",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -79,8 +79,8 @@
           "status": "cancelled"
         },
         {
-          "from": "10:14",
-          "to": "10:17",
+          "from": "10:16",
+          "to": "10:19",
           "train": "IORA",
           "destinationName": "Ermont - Eaubonne",
           "platform": "2B",
@@ -121,7 +121,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "10:02",
+          "from": "10:03",
           "to": "10:05",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -130,7 +130,7 @@
         },
         {
           "from": "10:09",
-          "to": "10:12",
+          "to": "10:11",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
