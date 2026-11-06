@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "06.11.2026, 07:11:04",
+  "fetchedAtParis": "06.11.2026, 07:16:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -36,14 +36,6 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "07:11",
-          "to": "07:13",
-          "train": "JUJU",
-          "destinationName": "Juvisy",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "07:16",
           "to": "07:18",
           "train": "MONA",
@@ -53,11 +45,19 @@
         },
         {
           "from": "07:26",
-          "to": "07:29",
+          "to": "07:28",
           "train": "JUNE",
           "destinationName": "Juvisy",
           "platform": "E",
           "status": "onTime"
+        },
+        {
+          "from": "07:39",
+          "to": "07:42",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "cancelled"
         }
       ]
     }
@@ -121,20 +121,20 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "07:11",
-          "to": "07:13",
-          "train": "JUJU",
-          "destinationName": "Juvisy",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "07:16",
           "to": "07:18",
           "train": "MONA",
           "destinationName": "Avenue Henri Martin",
           "platform": "F",
           "status": "cancelled"
+        },
+        {
+          "from": "07:26",
+          "to": "07:28",
+          "train": "JUNE",
+          "destinationName": "Juvisy",
+          "platform": "E",
+          "status": "onTime"
         }
       ]
     },
