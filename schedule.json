@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "06.11.2026, 05:01:04",
+  "fetchedAtParis": "06.11.2026, 05:06:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -44,7 +44,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:16",
+          "from": "06:17",
           "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -121,7 +121,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:16",
+          "from": "06:17",
           "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -170,7 +170,16 @@
       "line": "125",
       "title": "Jean-Jacques Rousseau",
       "destination": "Jean Le Galleu",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:44",
+          "to": "",
+          "train": "125",
+          "destinationName": "Jean Le Galleu",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-323",
@@ -178,9 +187,18 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:18",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
-  "busFetchedAt": "2026-11-06T04:01:04.207044Z",
-  "busFetchedAtParis": "06.11.2026, 05:01:04"
+  "busFetchedAt": "2026-11-06T04:06:04.278730Z",
+  "busFetchedAtParis": "06.11.2026, 05:06:04"
 }
