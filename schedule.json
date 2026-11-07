@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "07.11.2026, 02:31:04",
+  "fetchedAtParis": "07.11.2026, 02:36:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -18,7 +18,16 @@
     {
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:31",
+          "to": "05:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "cards": [
@@ -53,7 +62,16 @@
       "line": "C",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:31",
+          "to": "05:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-vincennes",
@@ -117,12 +135,30 @@
     {
       "id": "austerlitz",
       "title": "Gare d'Austerlitz",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:27",
+          "to": "05:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "E",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "id": "bfm",
       "title": "Bibliothèque François-Mitterrand",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:31",
+          "to": "05:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "busFetchedAt": "2026-11-07T01:31:04.786537Z",
