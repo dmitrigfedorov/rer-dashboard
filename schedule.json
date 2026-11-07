@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "07.11.2026, 14:51:02",
+  "fetchedAtParis": "07.11.2026, 14:56:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -96,7 +96,15 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "15:04",
+          "from": "15:06",
+          "to": "",
+          "train": "325",
+          "destinationName": "Quai de la Gare",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "15:16",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "15:14",
+          "from": "15:18",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -188,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "14:52",
+          "from": "15:07",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -196,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "15:07",
+          "from": "15:32",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -245,19 +253,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "14:55",
-          "to": "15:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "C",
-          "status": "onTime"
-        },
-        {
           "from": "15:10",
           "to": "15:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "D",
+          "status": "onTime"
+        },
+        {
+          "from": "15:25",
+          "to": "15:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "C",
           "status": "onTime"
         }
       ]
@@ -285,6 +293,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-07T13:51:02.442458Z",
-  "busFetchedAtParis": "07.11.2026, 14:51:02"
+  "busFetchedAt": "2026-11-07T13:56:03.260511Z",
+  "busFetchedAtParis": "07.11.2026, 14:56:03"
 }
