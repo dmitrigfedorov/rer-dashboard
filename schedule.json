@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "07.11.2026, 08:11:04",
+  "fetchedAtParis": "07.11.2026, 08:16:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "08:13",
-          "to": "08:15",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "08:19",
           "to": "08:43",
@@ -24,6 +16,14 @@
         {
           "from": "08:28",
           "to": "08:30",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "08:45",
+          "to": "08:47",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -40,7 +40,7 @@
           "to": "08:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -53,7 +53,7 @@
         },
         {
           "from": "08:31",
-          "to": "08:43",
+          "to": "08:44",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -71,19 +71,19 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "08:13",
-          "to": "08:15",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "08:19",
           "to": "08:43",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1B",
+          "status": "onTime"
+        },
+        {
+          "from": "08:28",
+          "to": "08:30",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
           "status": "onTime"
         }
       ]
@@ -125,7 +125,7 @@
           "to": "08:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -279,7 +279,7 @@
           "to": "08:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
