@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "07.11.2026, 05:36:02",
+  "fetchedAtParis": "07.11.2026, 05:41:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,8 +14,8 @@
           "status": "onTime"
         },
         {
-          "from": "05:58",
-          "to": "06:00",
+          "from": "05:59",
+          "to": "06:01",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -37,7 +37,7 @@
       "rows": [
         {
           "from": "05:46",
-          "to": "05:57",
+          "to": "05:58",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -52,8 +52,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:01",
-          "to": "06:12",
+          "from": "06:02",
+          "to": "06:13",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -79,8 +79,8 @@
           "status": "onTime"
         },
         {
-          "from": "05:58",
-          "to": "06:00",
+          "from": "05:59",
+          "to": "06:01",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "06:23",
+          "from": "06:09",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -114,7 +114,7 @@
       "rows": [
         {
           "from": "05:46",
-          "to": "05:57",
+          "to": "05:58",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -146,7 +146,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:57",
+          "from": "06:35",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
           "status": "onTime"
         },
         {
-          "from": "07:06",
+          "from": "06:44",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -203,16 +203,7 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": [
-        {
-          "from": "05:32",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
   "rerStations": [
@@ -269,7 +260,7 @@
       "rows": [
         {
           "from": "05:46",
-          "to": "05:57",
+          "to": "05:58",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -286,6 +277,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-07T04:31:03.594174Z",
-  "busFetchedAtParis": "07.11.2026, 05:31:03"
+  "busFetchedAt": "2026-11-07T04:41:02.788472Z",
+  "busFetchedAtParis": "07.11.2026, 05:41:02"
 }
