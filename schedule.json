@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "07.11.2026, 03:01:03",
+  "fetchedAtParis": "07.11.2026, 03:06:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,11 +14,19 @@
           "status": "onTime"
         },
         {
-          "from": "05:43",
-          "to": "05:45",
+          "from": "05:28",
+          "to": "05:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "05:33",
+          "to": "05:58",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1B",
           "status": "onTime"
         }
       ]
@@ -29,7 +37,7 @@
       "rows": [
         {
           "from": "05:16",
-          "to": "05:42",
+          "to": "05:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -44,8 +52,8 @@
           "status": "onTime"
         },
         {
-          "from": "05:46",
-          "to": "05:57",
+          "from": "05:31",
+          "to": "05:42",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -71,8 +79,8 @@
           "status": "onTime"
         },
         {
-          "from": "05:43",
-          "to": "05:45",
+          "from": "05:28",
+          "to": "05:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -97,7 +105,7 @@
       "rows": [
         {
           "from": "05:16",
-          "to": "05:42",
+          "to": "05:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -183,6 +191,14 @@
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "E",
           "status": "onTime"
+        },
+        {
+          "from": "05:55",
+          "to": "06:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "C",
+          "status": "onTime"
         }
       ]
     },
@@ -192,7 +208,7 @@
       "rows": [
         {
           "from": "05:16",
-          "to": "05:42",
+          "to": "05:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -209,6 +225,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-07T01:56:05.207757Z",
-  "busFetchedAtParis": "07.11.2026, 02:56:05"
+  "busFetchedAt": "2026-11-07T02:06:02.602053Z",
+  "busFetchedAtParis": "07.11.2026, 03:06:02"
 }
