@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "07.11.2026, 02:56:05",
+  "fetchedAtParis": "07.11.2026, 03:01:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -12,6 +12,14 @@
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
+        },
+        {
+          "from": "05:43",
+          "to": "05:45",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
         }
       ]
     },
@@ -20,11 +28,27 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
+          "from": "05:16",
+          "to": "05:42",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "A",
+          "status": "onTime"
+        },
+        {
           "from": "05:31",
           "to": "05:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "05:46",
+          "to": "05:57",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "A",
           "status": "onTime"
         }
       ]
@@ -41,6 +65,14 @@
         {
           "from": "05:13",
           "to": "05:15",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "05:43",
+          "to": "05:45",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -63,6 +95,14 @@
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
       "rows": [
+        {
+          "from": "05:16",
+          "to": "05:42",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "A",
+          "status": "onTime"
+        },
         {
           "from": "05:31",
           "to": "05:33",
@@ -150,6 +190,14 @@
       "id": "bfm",
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
+        {
+          "from": "05:16",
+          "to": "05:42",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "A",
+          "status": "onTime"
+        },
         {
           "from": "05:31",
           "to": "05:33",
