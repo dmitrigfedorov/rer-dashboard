@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "07.11.2026, 22:41:03",
+  "fetchedAtParis": "07.11.2026, 22:46:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,7 +14,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:59",
+          "from": "22:58",
           "to": "23:01",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -79,7 +79,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:59",
+          "from": "22:58",
           "to": "23:01",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "22:44",
+          "from": "22:45",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "22:52",
+          "from": "22:53",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "22:42",
+          "from": "23:00",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:00",
+          "from": "23:11",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -219,16 +219,7 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": [
-        {
-          "from": "22:49",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
   "rerStations": [
@@ -302,6 +293,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-07T21:41:03.309348Z",
-  "busFetchedAtParis": "07.11.2026, 22:41:03"
+  "busFetchedAt": "2026-11-07T21:46:03.610036Z",
+  "busFetchedAtParis": "07.11.2026, 22:46:03"
 }
