@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "07.11.2026, 14:56:03",
+  "fetchedAtParis": "07.11.2026, 15:01:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "14:58",
-          "to": "15:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "15:04",
           "to": "15:28",
@@ -27,6 +19,14 @@
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "15:19",
+          "to": "15:43",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "1B",
           "status": "onTime"
         }
       ]
@@ -71,19 +71,19 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "14:58",
-          "to": "15:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "15:04",
           "to": "15:28",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1B",
+          "status": "onTime"
+        },
+        {
+          "from": "15:13",
+          "to": "15:15",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
           "status": "onTime"
         }
       ]
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "14:58",
+          "from": "15:18",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "15:18",
+          "from": "15:25",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,15 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "14:59",
-          "to": "",
-          "train": "325",
-          "destinationName": "Église de Saint-Mandé",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
-          "from": "15:09",
+          "from": "15:10",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +188,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "15:07",
+          "from": "15:10",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -293,6 +285,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-07T13:56:03.260511Z",
-  "busFetchedAtParis": "07.11.2026, 14:56:03"
+  "busFetchedAt": "2026-11-07T14:01:04.935618Z",
+  "busFetchedAtParis": "07.11.2026, 15:01:04"
 }
