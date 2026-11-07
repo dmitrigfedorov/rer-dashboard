@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "07.11.2026, 09:36:03",
+  "fetchedAtParis": "07.11.2026, 09:41:01",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "09:43",
-          "to": "09:45",
+          "to": "09:46",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -44,7 +44,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:46",
+          "from": "09:47",
           "to": "09:57",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "09:43",
-          "to": "09:45",
+          "to": "09:46",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -129,7 +129,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:46",
+          "from": "09:47",
           "to": "09:57",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -262,19 +262,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "09:40",
-          "to": "09:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "D",
-          "status": "onTime"
-        },
-        {
           "from": "09:55",
           "to": "10:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "C",
+          "status": "onTime"
+        },
+        {
+          "from": "10:10",
+          "to": "10:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "D",
           "status": "onTime"
         }
       ]
@@ -292,7 +292,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:46",
+          "from": "09:47",
           "to": "09:57",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
