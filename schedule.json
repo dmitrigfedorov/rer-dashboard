@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "07.11.2026, 19:41:03",
+  "fetchedAtParis": "07.11.2026, 19:46:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "19:43",
-          "to": "19:45",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "19:49",
           "to": "20:13",
@@ -27,6 +19,14 @@
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "20:04",
+          "to": "20:28",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1B",
           "status": "onTime"
         }
       ]
@@ -44,7 +44,7 @@
           "status": "onTime"
         },
         {
-          "from": "19:46",
+          "from": "19:47",
           "to": "19:57",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -71,19 +71,19 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "19:43",
-          "to": "19:45",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "19:49",
           "to": "20:13",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1B",
+          "status": "onTime"
+        },
+        {
+          "from": "19:58",
+          "to": "20:00",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
           "status": "onTime"
         }
       ]
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "19:44",
+          "from": "19:52",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "19:49",
+          "from": "19:58",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -129,7 +129,7 @@
           "status": "onTime"
         },
         {
-          "from": "19:46",
+          "from": "19:47",
           "to": "19:57",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "19:40",
+          "from": "19:53",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "19:53",
+          "from": "20:04",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "19:51",
+          "from": "19:52",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "19:44",
+          "from": "19:46",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "19:54",
+          "from": "19:55",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -300,7 +300,7 @@
           "status": "onTime"
         },
         {
-          "from": "19:46",
+          "from": "19:47",
           "to": "19:57",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-07T18:41:03.385194Z",
-  "busFetchedAtParis": "07.11.2026, 19:41:03"
+  "busFetchedAt": "2026-11-07T18:46:03.428109Z",
+  "busFetchedAtParis": "07.11.2026, 19:46:03"
 }
