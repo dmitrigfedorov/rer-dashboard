@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "07.11.2026, 05:46:03",
+  "fetchedAtParis": "07.11.2026, 05:51:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "05:58",
-          "to": "06:01",
+          "to": "06:00",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -36,14 +36,6 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "05:46",
-          "to": "05:58",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "A",
-          "status": "onTime"
-        },
-        {
           "from": "06:00",
           "to": "06:03",
           "train": "ROMI",
@@ -52,11 +44,19 @@
           "status": "onTime"
         },
         {
-          "from": "06:02",
+          "from": "06:01",
           "to": "06:12",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
+          "status": "onTime"
+        },
+        {
+          "from": "06:15",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
           "status": "onTime"
         }
       ]
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "05:58",
-          "to": "06:01",
+          "to": "06:00",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -113,19 +113,19 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "05:46",
-          "to": "05:58",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "A",
-          "status": "onTime"
-        },
-        {
           "from": "06:00",
           "to": "06:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "06:01",
+          "to": "06:12",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "A",
           "status": "onTime"
         }
       ]
@@ -284,19 +284,19 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:46",
-          "to": "05:58",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "A",
-          "status": "onTime"
-        },
-        {
           "from": "06:00",
           "to": "06:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "06:01",
+          "to": "06:12",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "A",
           "status": "onTime"
         }
       ]
