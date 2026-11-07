@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "07.11.2026, 23:21:03",
+  "fetchedAtParis": "07.11.2026, 23:26:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:53",
+          "from": "23:58",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:02",
+          "from": "00:07",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "23:25",
+          "from": "23:40",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:40",
+          "from": "00:00",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -270,16 +270,16 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "23:25",
-          "to": "23:33",
+          "from": "23:55",
+          "to": "00:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "C",
           "status": "onTime"
         },
         {
-          "from": "23:55",
-          "to": "00:03",
+          "from": "00:25",
+          "to": "00:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "C",
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-07T22:21:03.724091Z",
-  "busFetchedAtParis": "07.11.2026, 23:21:03"
+  "busFetchedAt": "2026-11-07T22:26:04.236522Z",
+  "busFetchedAtParis": "07.11.2026, 23:26:04"
 }
