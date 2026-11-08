@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "08.11.2026, 22:46:02",
+  "fetchedAtParis": "08.11.2026, 22:51:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "22:49",
-          "to": "22:58",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1B",
-          "status": "onTime"
-        },
         {
           "from": "22:58",
           "to": "23:00",
@@ -24,6 +16,14 @@
         {
           "from": "23:04",
           "to": "23:13",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1B",
+          "status": "onTime"
+        },
+        {
+          "from": "23:19",
+          "to": "23:28",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1B",
@@ -71,19 +71,19 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "22:49",
-          "to": "22:58",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1B",
-          "status": "onTime"
-        },
-        {
           "from": "22:58",
           "to": "23:00",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "23:04",
+          "to": "23:13",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1B",
           "status": "onTime"
         }
       ]
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "22:43",
+          "from": "23:02",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:02",
+          "from": "23:24",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "22:52",
+          "from": "22:53",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-08T21:41:04.382888Z",
-  "busFetchedAtParis": "08.11.2026, 22:41:04"
+  "busFetchedAt": "2026-11-08T21:51:04.474151Z",
+  "busFetchedAtParis": "08.11.2026, 22:51:04"
 }
