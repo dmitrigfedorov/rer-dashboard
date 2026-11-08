@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "08.11.2026, 18:06:02",
+  "fetchedAtParis": "08.11.2026, 18:11:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "18:13",
+          "from": "18:28",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "18:26",
+          "from": "18:39",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "18:10",
+          "from": "18:12",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "18:04",
+          "from": "18:41",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "18:05",
+          "from": "18:54",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "18:11",
+          "from": "18:12",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -270,7 +270,7 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "18:10",
+          "from": "18:11",
           "to": "18:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-08T17:01:03.940787Z",
-  "busFetchedAtParis": "08.11.2026, 18:01:03"
+  "busFetchedAt": "2026-11-08T17:11:03.490766Z",
+  "busFetchedAtParis": "08.11.2026, 18:11:03"
 }
