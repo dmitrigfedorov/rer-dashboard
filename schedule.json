@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "08.11.2026, 10:26:02",
+  "fetchedAtParis": "08.11.2026, 10:31:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "10:28",
-          "to": "10:30",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "10:34",
           "to": "10:58",
@@ -28,6 +20,14 @@
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
+        },
+        {
+          "from": "10:49",
+          "to": "11:13",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "1B",
+          "status": "onTime"
         }
       ]
     },
@@ -37,10 +37,10 @@
       "rows": [
         {
           "from": "10:30",
-          "to": "10:33",
+          "to": "10:30",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -71,19 +71,19 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "10:28",
-          "to": "10:30",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "10:34",
           "to": "10:58",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1B",
+          "status": "onTime"
+        },
+        {
+          "from": "10:43",
+          "to": "10:45",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
           "status": "onTime"
         }
       ]
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "10:26",
+          "from": "10:54",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:51",
+          "from": "11:06",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -122,10 +122,10 @@
       "rows": [
         {
           "from": "10:30",
-          "to": "10:33",
+          "to": "10:30",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "10:31",
+          "from": "10:32",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "10:26",
+          "from": "10:42",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:42",
+          "from": "11:13",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -222,6 +222,14 @@
       "rows": [
         {
           "from": "10:46",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "11:09",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -285,10 +293,10 @@
       "rows": [
         {
           "from": "10:30",
-          "to": "10:33",
+          "to": "10:30",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -302,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-08T09:26:02.713490Z",
-  "busFetchedAtParis": "08.11.2026, 10:26:02"
+  "busFetchedAt": "2026-11-08T09:31:04.977840Z",
+  "busFetchedAtParis": "08.11.2026, 10:31:04"
 }
