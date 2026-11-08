@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "08.11.2026, 23:51:02",
+  "fetchedAtParis": "08.11.2026, 23:56:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -80,7 +80,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "00:03",
+          "from": "00:05",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -147,7 +147,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "23:55",
+          "from": "23:56",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -172,7 +172,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "23:59",
+          "from": "00:05",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -196,14 +196,6 @@
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
       "rows": [
-        {
-          "from": "23:52",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        },
         {
           "from": "00:12",
           "to": "",
@@ -246,14 +238,6 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "23:55",
-          "to": "00:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "C",
-          "status": "onTime"
-        },
-        {
           "from": "00:25",
           "to": "00:33",
           "train": "ROMI",
@@ -286,6 +270,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-08T22:51:02.441443Z",
-  "busFetchedAtParis": "08.11.2026, 23:51:02"
+  "busFetchedAt": "2026-11-08T22:56:02.647072Z",
+  "busFetchedAtParis": "08.11.2026, 23:56:02"
 }
