@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "08.11.2026, 17:56:04",
+  "fetchedAtParis": "08.11.2026, 18:01:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "17:58",
-          "to": "18:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "18:04",
           "to": "18:28",
@@ -27,6 +19,14 @@
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "18:19",
+          "to": "18:43",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "1B",
           "status": "onTime"
         }
       ]
@@ -71,19 +71,19 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "17:58",
-          "to": "18:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "18:04",
           "to": "18:28",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1B",
+          "status": "onTime"
+        },
+        {
+          "from": "18:13",
+          "to": "18:15",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
           "status": "onTime"
         }
       ]
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "17:56",
+          "from": "18:13",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "18:13",
+          "from": "18:26",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "17:58",
+          "from": "18:12",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "18:10",
+          "from": "18:27",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "18:08",
+          "from": "18:10",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "18:20",
+          "from": "18:22",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "18:02",
+          "from": "18:04",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -219,7 +219,24 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "18:11",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "18:27",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "rerStations": [
@@ -293,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-08T16:51:07.436983Z",
-  "busFetchedAtParis": "08.11.2026, 17:51:07"
+  "busFetchedAt": "2026-11-08T17:01:03.940787Z",
+  "busFetchedAtParis": "08.11.2026, 18:01:03"
 }
