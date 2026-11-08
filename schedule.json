@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "08.11.2026, 09:36:03",
+  "fetchedAtParis": "08.11.2026, 09:41:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,19 +14,19 @@
           "status": "onTime"
         },
         {
+          "from": "09:58",
+          "to": "10:00",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
           "from": "10:04",
           "to": "10:28",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1B",
-          "status": "onTime"
-        },
-        {
-          "from": "10:13",
-          "to": "10:15",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
           "status": "onTime"
         }
       ]
@@ -37,7 +37,7 @@
       "rows": [
         {
           "from": "09:46",
-          "to": "10:12",
+          "to": "09:57",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -52,11 +52,11 @@
           "status": "onTime"
         },
         {
-          "from": "10:15",
-          "to": "10:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "from": "10:01",
+          "to": "10:12",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "A",
           "status": "onTime"
         }
       ]
@@ -79,11 +79,11 @@
           "status": "onTime"
         },
         {
-          "from": "10:04",
-          "to": "10:28",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1B",
+          "from": "09:58",
+          "to": "10:00",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
           "status": "onTime"
         }
       ]
@@ -122,7 +122,7 @@
       "rows": [
         {
           "from": "09:46",
-          "to": "10:12",
+          "to": "09:57",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -293,7 +293,7 @@
       "rows": [
         {
           "from": "09:46",
-          "to": "10:12",
+          "to": "09:57",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
