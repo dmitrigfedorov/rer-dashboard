@@ -1,21 +1,13 @@
 {
-  "fetchedAtParis": "08.11.2026, 19:41:03",
+  "fetchedAtParis": "08.11.2026, 19:46:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "19:43",
-          "to": "19:45",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
-          "from": "19:58",
-          "to": "20:00",
+          "from": "19:59",
+          "to": "20:01",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -28,6 +20,14 @@
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1B",
           "status": "onTime"
+        },
+        {
+          "from": "20:28",
+          "to": "20:30",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
         }
       ]
     },
@@ -36,19 +36,19 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "19:45",
-          "to": "19:48",
-          "train": "XYLO",
-          "destinationName": "Choisy-le-Roi",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "19:46",
-          "to": "19:57",
+          "to": "19:58",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
+          "status": "onTime"
+        },
+        {
+          "from": "19:48",
+          "to": "19:50",
+          "train": "XYLO",
+          "destinationName": "Choisy-le-Roi",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -71,19 +71,19 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "19:43",
-          "to": "19:45",
+          "from": "19:59",
+          "to": "20:01",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "19:58",
-          "to": "20:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
+          "from": "20:04",
+          "to": "20:28",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1B",
           "status": "onTime"
         }
       ]
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "19:41",
+          "from": "19:51",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "19:52",
+          "from": "20:26",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,19 +121,19 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "19:45",
-          "to": "19:48",
-          "train": "XYLO",
-          "destinationName": "Choisy-le-Roi",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "19:46",
-          "to": "19:57",
+          "to": "19:58",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
+          "status": "onTime"
+        },
+        {
+          "from": "19:48",
+          "to": "19:50",
+          "train": "XYLO",
+          "destinationName": "Choisy-le-Roi",
+          "platform": "E",
           "status": "onTime"
         }
       ]
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "19:41",
+          "from": "19:52",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "19:52",
+          "from": "20:18",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "19:38",
+          "from": "19:53",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "19:50",
+          "from": "20:02",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "19:45",
+          "from": "20:07",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:07",
+          "from": "20:27",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -219,16 +219,7 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": [
-        {
-          "from": "19:59",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
   "rerStations": [
@@ -262,19 +253,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "19:41",
-          "to": "19:48",
-          "train": "XYLO",
-          "destinationName": "Choisy-le-Roi",
-          "platform": "C",
-          "status": "onTime"
-        },
-        {
           "from": "19:55",
           "to": "20:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "D",
+          "status": "onTime"
+        },
+        {
+          "from": "20:10",
+          "to": "20:18",
+          "train": "YONA",
+          "destinationName": "Orly Ville",
+          "platform": "C",
           "status": "onTime"
         }
       ]
@@ -284,24 +275,24 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "19:45",
-          "to": "19:48",
-          "train": "XYLO",
-          "destinationName": "Choisy-le-Roi",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "19:46",
-          "to": "19:57",
+          "to": "19:58",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
+          "status": "onTime"
+        },
+        {
+          "from": "19:48",
+          "to": "19:50",
+          "train": "XYLO",
+          "destinationName": "Choisy-le-Roi",
+          "platform": "E",
           "status": "onTime"
         }
       ]
     }
   ],
-  "busFetchedAt": "2026-11-08T18:36:03.295682Z",
-  "busFetchedAtParis": "08.11.2026, 19:36:03"
+  "busFetchedAt": "2026-11-08T18:46:04.056400Z",
+  "busFetchedAtParis": "08.11.2026, 19:46:04"
 }
