@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "08.11.2026, 22:21:02",
+  "fetchedAtParis": "08.11.2026, 22:26:06",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "22:24",
+          "from": "23:18",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:18",
+          "from": "23:39",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -270,7 +270,7 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "22:25",
+          "from": "22:26",
           "to": "22:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-08T21:21:02.176265Z",
-  "busFetchedAtParis": "08.11.2026, 22:21:02"
+  "busFetchedAt": "2026-11-08T21:26:06.219520Z",
+  "busFetchedAtParis": "08.11.2026, 22:26:06"
 }
