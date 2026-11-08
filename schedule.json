@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "08.11.2026, 23:11:02",
+  "fetchedAtParis": "08.11.2026, 23:16:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -40,7 +40,7 @@
           "to": "23:18",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
+          "platform": "F",
           "status": "onTime"
         },
         {
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "23:23",
+          "from": "23:25",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -125,7 +125,7 @@
           "to": "23:18",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
+          "platform": "F",
           "status": "onTime"
         },
         {
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "23:09",
+          "from": "23:30",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:30",
+          "from": "23:50",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "23:12",
+          "from": "23:32",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -229,7 +229,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:02",
+          "from": "00:01",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -296,7 +296,7 @@
           "to": "23:18",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
+          "platform": "F",
           "status": "onTime"
         },
         {
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-08T22:06:03.120799Z",
-  "busFetchedAtParis": "08.11.2026, 23:06:03"
+  "busFetchedAt": "2026-11-08T22:16:03.333344Z",
+  "busFetchedAtParis": "08.11.2026, 23:16:03"
 }
