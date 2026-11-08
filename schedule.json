@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "08.11.2026, 02:06:02",
+  "fetchedAtParis": "08.11.2026, 02:11:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -27,16 +27,7 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Émile Durkheim",
-      "rows": [
-        {
-          "from": "02:04",
-          "to": "",
-          "train": "325",
-          "destinationName": "Quai de la Gare",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "rer-bfm",
@@ -52,16 +43,7 @@
       "line": "325",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Jean-Jacques Rousseau",
-      "rows": [
-        {
-          "from": "02:38",
-          "to": "",
-          "train": "325",
-          "destinationName": "Château de Vincennes",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-eglise",
@@ -79,15 +61,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "02:04",
-          "to": "",
-          "train": "125",
-          "destinationName": "Jean Le Galleu",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
-          "from": "02:31",
+          "from": "02:30",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -142,6 +116,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-08T01:01:03.486045Z",
-  "busFetchedAtParis": "08.11.2026, 02:01:03"
+  "busFetchedAt": "2026-11-08T01:11:04.705587Z",
+  "busFetchedAtParis": "08.11.2026, 02:11:04"
 }
