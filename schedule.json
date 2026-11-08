@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "08.11.2026, 23:56:02",
+  "fetchedAtParis": "09.11.2026, 00:01:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "23:58",
-          "to": "00:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "00:04",
           "to": "00:28",
@@ -32,7 +24,7 @@
           "to": "00:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -55,14 +47,6 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "23:58",
-          "to": "00:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "00:04",
           "to": "00:28",
           "train": "ROMI",
@@ -80,7 +64,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "00:05",
+          "from": "00:03",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -88,7 +72,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:23",
+          "from": "00:26",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -109,7 +93,7 @@
           "to": "00:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -147,14 +131,6 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "23:56",
-          "to": "",
-          "train": "325",
-          "destinationName": "Église de Saint-Mandé",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
           "from": "00:44",
           "to": "",
           "train": "325",
@@ -172,7 +148,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "00:05",
+          "from": "00:06",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -256,7 +232,7 @@
           "to": "00:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -270,6 +246,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-08T22:56:02.647072Z",
-  "busFetchedAtParis": "08.11.2026, 23:56:02"
+  "busFetchedAt": "2026-11-08T23:01:03.261827Z",
+  "busFetchedAtParis": "09.11.2026, 00:01:03"
 }
