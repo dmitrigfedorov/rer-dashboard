@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "08.11.2026, 06:06:03",
+  "fetchedAtParis": "08.11.2026, 06:11:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -94,7 +94,16 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Émile Durkheim",
-      "rows": []
+      "rows": [
+        {
+          "from": "07:02",
+          "to": "",
+          "train": "325",
+          "destinationName": "Quai de la Gare",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "rer-bfm",
@@ -163,7 +172,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "06:30",
+          "from": "06:31",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -212,19 +221,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "06:10",
-          "to": "06:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "C",
-          "status": "onTime"
-        },
-        {
           "from": "06:25",
           "to": "06:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "D",
+          "status": "onTime"
+        },
+        {
+          "from": "06:40",
+          "to": "06:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "C",
           "status": "onTime"
         }
       ]
@@ -252,6 +261,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-08T05:01:04.594500Z",
-  "busFetchedAtParis": "08.11.2026, 06:01:04"
+  "busFetchedAt": "2026-11-08T05:11:04.275353Z",
+  "busFetchedAtParis": "08.11.2026, 06:11:04"
 }
