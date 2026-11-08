@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "08.11.2026, 13:11:02",
+  "fetchedAtParis": "08.11.2026, 13:16:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "13:13",
-          "to": "13:15",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "13:19",
           "to": "13:43",
@@ -28,6 +20,14 @@
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
+        },
+        {
+          "from": "13:34",
+          "to": "13:58",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1B",
+          "status": "onTime"
         }
       ]
     },
@@ -40,7 +40,7 @@
           "to": "13:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -71,19 +71,19 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "13:13",
-          "to": "13:15",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "13:19",
           "to": "13:43",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1B",
+          "status": "onTime"
+        },
+        {
+          "from": "13:28",
+          "to": "13:30",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
           "status": "onTime"
         }
       ]
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "13:13",
+          "from": "13:15",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "13:25",
+          "from": "13:34",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -125,7 +125,7 @@
           "to": "13:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -296,7 +296,7 @@
           "to": "13:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-08T12:11:02.974554Z",
-  "busFetchedAtParis": "08.11.2026, 13:11:02"
+  "busFetchedAt": "2026-11-08T12:16:03.688093Z",
+  "busFetchedAtParis": "08.11.2026, 13:16:03"
 }
