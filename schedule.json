@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "09.11.2026, 23:26:05",
+  "fetchedAtParis": "09.11.2026, 23:31:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "23:35",
+          "from": "23:36",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -62,7 +62,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "23:24",
+          "from": "23:39",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -70,7 +70,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:39",
+          "from": "23:54",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -87,7 +87,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "23:21",
+          "from": "23:36",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -95,7 +95,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:33",
+          "from": "23:48",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -112,7 +112,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "23:21",
+          "from": "23:41",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -120,7 +120,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:41",
+          "from": "00:00",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -184,6 +184,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-09T22:21:05.740437Z",
-  "busFetchedAtParis": "09.11.2026, 23:21:05"
+  "busFetchedAt": "2026-11-09T22:31:05.628385Z",
+  "busFetchedAtParis": "09.11.2026, 23:31:05"
 }
