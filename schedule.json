@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "09.11.2026, 23:41:03",
+  "fetchedAtParis": "09.11.2026, 23:46:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -62,7 +62,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "23:40",
+          "from": "23:49",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -87,7 +87,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "23:42",
+          "from": "23:51",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -95,7 +95,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:48",
+          "from": "23:58",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -112,7 +112,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "23:41",
+          "from": "00:00",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -120,7 +120,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:00",
+          "from": "00:20",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -175,6 +175,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-09T22:41:03.054624Z",
-  "busFetchedAtParis": "09.11.2026, 23:41:03"
+  "busFetchedAt": "2026-11-09T22:46:03.515192Z",
+  "busFetchedAtParis": "09.11.2026, 23:46:03"
 }
