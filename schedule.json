@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "09.11.2026, 01:21:03",
+  "fetchedAtParis": "09.11.2026, 01:26:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -59,16 +59,7 @@
       "line": "125",
       "title": "Jean-Jacques Rousseau",
       "destination": "Jean Le Galleu",
-      "rows": [
-        {
-          "from": "01:25",
-          "to": "",
-          "train": "125",
-          "destinationName": "Jean Le Galleu",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-323",
@@ -116,6 +107,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-09T00:21:03.113692Z",
-  "busFetchedAtParis": "09.11.2026, 01:21:03"
+  "busFetchedAt": "2026-11-09T00:26:04.022642Z",
+  "busFetchedAtParis": "09.11.2026, 01:26:04"
 }
