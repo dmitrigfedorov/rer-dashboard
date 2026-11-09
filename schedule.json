@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "09.11.2026, 21:51:03",
+  "fetchedAtParis": "09.11.2026, 21:56:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -15,15 +15,15 @@
         },
         {
           "from": "22:04",
-          "to": "22:16",
+          "to": "22:17",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1B",
           "status": "onTime"
         },
         {
-          "from": "22:20",
-          "to": "22:31",
+          "from": "22:21",
+          "to": "22:30",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1B",
@@ -52,8 +52,8 @@
           "status": "onTime"
         },
         {
-          "from": "22:17",
-          "to": "22:19",
+          "from": "22:18",
+          "to": "22:20",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -80,7 +80,7 @@
         },
         {
           "from": "22:04",
-          "to": "22:16",
+          "to": "22:17",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "21:52",
+          "from": "21:59",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:02",
+          "from": "22:19",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "21:53",
+          "from": "22:21",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:21",
+          "from": "22:34",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "22:01",
+          "from": "22:03",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -219,7 +219,16 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "22:01",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "rerStations": [
@@ -228,7 +237,7 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "21:59",
+          "from": "22:00",
           "to": "22:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -236,8 +245,8 @@
           "status": "onTime"
         },
         {
-          "from": "22:14",
-          "to": "22:19",
+          "from": "22:13",
+          "to": "22:20",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -250,7 +259,7 @@
       "title": "Pont de l'Alma",
       "rows": [
         {
-          "from": "22:01",
+          "from": "22:02",
           "to": "22:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -259,7 +268,7 @@
         },
         {
           "from": "22:16",
-          "to": "22:19",
+          "to": "22:20",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -272,8 +281,8 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "22:03",
-          "to": "22:03",
+          "from": "22:04",
+          "to": "22:20",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "3",
@@ -294,8 +303,8 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "22:06",
-          "to": "22:19",
+          "from": "22:07",
+          "to": "22:20",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "3",
@@ -316,16 +325,16 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "21:53",
-          "to": "22:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1",
+          "from": "22:09",
+          "to": "22:27",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
+          "platform": "2",
           "status": "onTime"
         },
         {
-          "from": "22:09",
-          "to": "22:19",
+          "from": "22:10",
+          "to": "22:20",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -378,6 +387,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-09T20:51:03.956762Z",
-  "busFetchedAtParis": "09.11.2026, 21:51:03"
+  "busFetchedAt": "2026-11-09T20:56:04.666631Z",
+  "busFetchedAtParis": "09.11.2026, 21:56:04"
 }
