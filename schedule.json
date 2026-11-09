@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "09.11.2026, 23:46:03",
+  "fetchedAtParis": "09.11.2026, 23:51:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "23:46",
+          "from": "00:26",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -37,7 +37,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:26",
+          "from": "00:46",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -62,14 +62,6 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "23:49",
-          "to": "",
-          "train": "325",
-          "destinationName": "Château de Vincennes",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
           "from": "00:15",
           "to": "",
           "train": "325",
@@ -87,7 +79,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "23:51",
+          "from": "23:55",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -175,6 +167,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-09T22:46:03.515192Z",
-  "busFetchedAtParis": "09.11.2026, 23:46:03"
+  "busFetchedAt": "2026-11-09T22:51:04.036550Z",
+  "busFetchedAtParis": "09.11.2026, 23:51:04"
 }
