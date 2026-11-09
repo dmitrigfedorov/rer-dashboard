@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "09.11.2026, 22:21:08",
+  "fetchedAtParis": "09.11.2026, 22:26:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "22:22",
-          "to": "22:29",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1B",
-          "status": "onTime"
-        },
         {
           "from": "22:28",
           "to": "22:30",
@@ -28,7 +20,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "22:30",
+          "from": "22:31",
           "to": "22:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -46,14 +38,6 @@
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "22:22",
-          "to": "22:29",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1B",
-          "status": "onTime"
-        },
         {
           "from": "22:28",
           "to": "22:30",
@@ -97,7 +81,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "22:30",
+          "from": "22:31",
           "to": "22:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -231,16 +215,7 @@
     {
       "id": "saint-michel",
       "title": "Saint-Michel Notre-Dame",
-      "rows": [
-        {
-          "from": "22:23",
-          "to": "22:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "id": "austerlitz",
@@ -261,7 +236,7 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "22:30",
+          "from": "22:31",
           "to": "22:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
