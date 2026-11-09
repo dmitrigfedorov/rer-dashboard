@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "09.11.2026, 16:06:04",
+  "fetchedAtParis": "09.11.2026, 16:11:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -23,7 +23,7 @@
         },
         {
           "from": "16:28",
-          "to": "16:30",
+          "to": "16:31",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -37,7 +37,7 @@
       "rows": [
         {
           "from": "16:15",
-          "to": "16:17",
+          "to": "16:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -45,7 +45,7 @@
         },
         {
           "from": "16:16",
-          "to": "16:27",
+          "to": "16:28",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "A",
@@ -122,7 +122,7 @@
       "rows": [
         {
           "from": "16:15",
-          "to": "16:17",
+          "to": "16:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -130,7 +130,7 @@
         },
         {
           "from": "16:16",
-          "to": "16:27",
+          "to": "16:28",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "A",
@@ -245,19 +245,19 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "16:07",
-          "to": "16:11",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "2",
-          "status": "onTime"
-        },
-        {
           "from": "16:12",
           "to": "16:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
+          "status": "onTime"
+        },
+        {
+          "from": "16:19",
+          "to": "16:28",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "2",
           "status": "onTime"
         }
       ]
@@ -275,8 +275,8 @@
           "status": "onTime"
         },
         {
-          "from": "16:16",
-          "to": "16:27",
+          "from": "16:17",
+          "to": "16:28",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2",
@@ -290,7 +290,7 @@
       "rows": [
         {
           "from": "16:14",
-          "to": "16:27",
+          "to": "16:28",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "4",
@@ -333,16 +333,16 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "16:07",
-          "to": "16:17",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "16:23",
+          "to": "16:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "16:09",
-          "to": "16:11",
+          "from": "16:23",
+          "to": "16:28",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2",
@@ -355,8 +355,8 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "16:11",
-          "to": "16:17",
+          "from": "16:12",
+          "to": "16:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "E",
@@ -364,7 +364,7 @@
         },
         {
           "from": "16:19",
-          "to": "16:27",
+          "to": "16:28",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "C",
@@ -378,7 +378,7 @@
       "rows": [
         {
           "from": "16:15",
-          "to": "16:17",
+          "to": "16:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -386,7 +386,7 @@
         },
         {
           "from": "16:16",
-          "to": "16:27",
+          "to": "16:28",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "A",
