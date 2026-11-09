@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "09.11.2026, 12:06:04",
+  "fetchedAtParis": "09.11.2026, 12:11:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -333,18 +333,18 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "12:07",
-          "to": "12:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "12:23",
+          "to": "12:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "12:09",
-          "to": "12:27",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
+          "from": "12:24",
+          "to": "12:42",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "2",
           "status": "onTime"
         }
