@@ -421,7 +421,6 @@ function paint(data,preserveStationFocus=true){
  const focusedStationId=activeBeforePaint&&activeBeforePaint.dataset?activeBeforePaint.dataset.station:"";
  const priorOptions=document.getElementById("rer-station-options");
  const stationMenuWasOpen=preserveStationFocus&&priorOptions&&!priorOptions.hidden;
- const shouldAutoFocusStation=isTvRemote&&(activeBeforePaint===document.body||activeBeforePaint===document.documentElement);
  const t=translations[currentLanguage],grid=document.getElementById("schedule");
  const dashboardCards=Array.isArray(data.cards),rerStations=Array.isArray(data.rerStations)?data.rerStations:[];
  try{const stored=localStorage.getItem(stationStorageKey);if(rerStations.some(s=>s.id===stored))selectedRerStation=stored}catch(_){}
@@ -453,8 +452,6 @@ function paint(data,preserveStationFocus=true){
    if(focusTarget)focusWithoutPageScroll(focusTarget);
   }else if(stationWasFocused||focusedStationId){
    focusWithoutPageScroll(stationToggle);
-  }else if(shouldAutoFocusStation){
-   stationToggle.focus();
   }
  }
  setUpdated(data.fetchedAtParis,t.updatedLabel);
@@ -521,9 +518,6 @@ document.addEventListener("click",event=>{
 });
 document.addEventListener("keydown",event=>{
  const key=remoteKey(event);
- if(event.target.closest&&event.target.closest("#rer-station-toggle")&&key==="ArrowDown"){
-  event.preventDefault();event.stopPropagation();openStationMenu();return
- }
  const options=document.getElementById("rer-station-options");
  if(!options||options.hidden)return;
  const items=Array.from(options.querySelectorAll(".station-option")),index=items.indexOf(document.activeElement);
@@ -596,25 +590,37 @@ function handleRemoteBack(event){
 }
 window.addEventListener("keydown",handleRemoteBack,true);
 window.addEventListener("keyup",handleRemoteBack,true);
+let remoteScrollFrame=0;
+function scrollPageByRemote(direction){
+ const root=document.documentElement,body=document.body;
+ const current=window.pageYOffset||root.scrollTop||body.scrollTop||0;
+ const maxScroll=Math.max(0,Math.max(root.scrollHeight,body.scrollHeight)-window.innerHeight);
+ const distance=Math.max(120,Math.round(window.innerHeight*.28));
+ const target=Math.max(0,Math.min(maxScroll,current+direction*distance));
+ if(target===current)return;
+ if(remoteScrollFrame)cancelAnimationFrame(remoteScrollFrame);
+ const start=current,startedAt=performance.now(),duration=360;
+ function frame(now){
+  const progress=Math.min(1,(now-startedAt)/duration),eased=progress<.5?4*progress*progress*progress:1-Math.pow(-2*progress+2,3)/2;
+  window.scrollTo(0,start+(target-start)*eased);
+  if(progress<1){remoteScrollFrame=requestAnimationFrame(frame);return}
+  remoteScrollFrame=0;
+  const toggle=document.getElementById("rer-station-toggle"),active=document.activeElement;
+  if(toggle&&(active===document.body||active===document.documentElement||active===languageToggle||active===toggle)){
+   const rect=toggle.getBoundingClientRect();
+   if(rect.bottom>0&&rect.top<window.innerHeight)focusWithoutPageScroll(toggle);
+  }
+ }
+ remoteScrollFrame=requestAnimationFrame(frame);
+}
 document.addEventListener("keydown",event=>{
  const key=remoteKey(event);
  if(!languageOptions.hidden)return;
- if(isTvRemote&&(key==="ArrowDown"||key==="ArrowUp")){
-  const stationToggle=document.getElementById("rer-station-toggle");
-  if(stationToggle&&key==="ArrowDown"&&(document.activeElement===document.body||document.activeElement===document.documentElement||document.activeElement===languageToggle)){
-   event.preventDefault();stationToggle.focus();return
-  }
-  if(stationToggle&&key==="ArrowUp"&&document.activeElement===stationToggle){
-   event.preventDefault();languageToggle.focus();return
-  }
- }
  const stationMenu=document.getElementById("rer-station-options");
  if(stationMenu&&!stationMenu.hidden)return;
- if(key==="ArrowUp"&&window.scrollY<=1){event.preventDefault();languageToggle.focus();return}
  if(key==="ArrowDown"||key==="ArrowUp"){
-  const height=Math.max(220,Math.round(window.innerHeight*.78));
-  event.preventDefault();
-  window.scrollBy(0,key==="ArrowDown"?height:-height);
+  event.preventDefault();event.stopPropagation();
+  scrollPageByRemote(key==="ArrowDown"?1:-1);
  }
 },true);
 applyLanguage(getSavedLanguage(),false);
