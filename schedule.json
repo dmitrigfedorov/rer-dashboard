@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "10.11.2026, 16:21:03",
+  "fetchedAtParis": "10.11.2026, 16:26:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -23,7 +23,7 @@
         },
         {
           "from": "16:43",
-          "to": "16:46",
+          "to": "16:45",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -45,14 +45,14 @@
         },
         {
           "from": "16:31",
-          "to": "16:43",
+          "to": "16:42",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "B",
           "status": "onTime"
         },
         {
-          "from": "16:46",
+          "from": "16:45",
           "to": "16:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "16:22",
+          "from": "16:37",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:37",
+          "from": "16:40",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -130,7 +130,7 @@
         },
         {
           "from": "16:31",
-          "to": "16:43",
+          "to": "16:42",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "B",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "16:20",
+          "from": "16:38",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:38",
+          "from": "16:47",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "16:16",
+          "from": "16:32",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:33",
+          "from": "16:51",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "16:25",
+          "from": "16:27",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -229,7 +229,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:43",
+          "from": "16:38",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -245,7 +245,7 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "16:27",
+          "from": "16:26",
           "to": "16:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -254,7 +254,7 @@
         },
         {
           "from": "16:34",
-          "to": "16:43",
+          "to": "16:42",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2",
@@ -267,7 +267,7 @@
       "title": "Pont de l'Alma",
       "rows": [
         {
-          "from": "16:30",
+          "from": "16:29",
           "to": "16:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -276,7 +276,7 @@
         },
         {
           "from": "16:32",
-          "to": "16:43",
+          "to": "16:42",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2",
@@ -289,15 +289,15 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "16:29",
-          "to": "16:43",
+          "from": "16:30",
+          "to": "16:42",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "4",
           "status": "onTime"
         },
         {
-          "from": "16:32",
+          "from": "16:31",
           "to": "16:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -319,7 +319,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:34",
+          "from": "16:33",
           "to": "16:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -333,16 +333,16 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "16:23",
-          "to": "16:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "16:37",
+          "to": "16:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "16:24",
-          "to": "16:27",
+          "from": "16:38",
+          "to": "16:42",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2",
@@ -364,7 +364,7 @@
         },
         {
           "from": "16:34",
-          "to": "16:43",
+          "to": "16:42",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "C",
@@ -386,7 +386,7 @@
         },
         {
           "from": "16:31",
-          "to": "16:43",
+          "to": "16:42",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "B",
@@ -395,6 +395,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-10T15:16:04.605569Z",
-  "busFetchedAtParis": "10.11.2026, 16:16:04"
+  "busFetchedAt": "2026-11-10T15:26:04.812923Z",
+  "busFetchedAtParis": "10.11.2026, 16:26:04"
 }
