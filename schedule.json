@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "10.11.2026, 06:11:04",
+  "fetchedAtParis": "10.11.2026, 06:16:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:15",
-          "to": "06:18",
+          "from": "06:16",
+          "to": "06:19",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -45,14 +45,14 @@
         },
         {
           "from": "06:31",
-          "to": "06:39",
+          "to": "06:40",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "A",
           "status": "onTime"
         },
         {
-          "from": "06:44",
+          "from": "06:45",
           "to": "06:57",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:15",
-          "to": "06:18",
+          "from": "06:16",
+          "to": "06:19",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -130,7 +130,7 @@
         },
         {
           "from": "06:31",
-          "to": "06:39",
+          "to": "06:40",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "A",
@@ -281,19 +281,19 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "06:15",
-          "to": "06:27",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "4",
-          "status": "onTime"
-        },
-        {
           "from": "06:32",
           "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
+          "status": "onTime"
+        },
+        {
+          "from": "06:45",
+          "to": "06:57",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
+          "platform": "4",
           "status": "onTime"
         }
       ]
@@ -303,19 +303,19 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "06:13",
-          "to": "06:27",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "4",
-          "status": "onTime"
-        },
-        {
           "from": "06:34",
           "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
+          "status": "onTime"
+        },
+        {
+          "from": "06:42",
+          "to": "06:57",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
+          "platform": "4",
           "status": "onTime"
         }
       ]
@@ -334,7 +334,7 @@
         },
         {
           "from": "06:39",
-          "to": "06:39",
+          "to": "06:40",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2",
@@ -347,19 +347,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "06:13",
-          "to": "06:19",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "D",
-          "status": "onTime"
-        },
-        {
           "from": "06:35",
-          "to": "06:39",
+          "to": "06:40",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "B",
+          "status": "onTime"
+        },
+        {
+          "from": "06:42",
+          "to": "06:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "D",
           "status": "onTime"
         }
       ]
@@ -378,7 +378,7 @@
         },
         {
           "from": "06:31",
-          "to": "06:39",
+          "to": "06:40",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "A",
