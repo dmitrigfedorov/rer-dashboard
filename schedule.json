@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "10.11.2026, 03:16:04",
+  "fetchedAtParis": "10.11.2026, 03:21:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -168,11 +168,11 @@
           "status": "onTime"
         },
         {
-          "from": "06:04",
-          "to": "06:12",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "2",
+          "from": "05:57",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "1",
           "status": "onTime"
         }
       ]
@@ -190,11 +190,11 @@
           "status": "onTime"
         },
         {
-          "from": "06:02",
-          "to": "06:12",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "2",
+          "from": "05:59",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "1",
           "status": "onTime"
         }
       ]
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-10T02:11:09.001708Z",
-  "busFetchedAtParis": "10.11.2026, 03:11:09"
+  "busFetchedAt": "2026-11-10T02:21:03.482661Z",
+  "busFetchedAtParis": "10.11.2026, 03:21:03"
 }
