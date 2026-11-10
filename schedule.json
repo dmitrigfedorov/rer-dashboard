@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "10.11.2026, 23:31:03",
+  "fetchedAtParis": "10.11.2026, 23:36:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "23:30",
+          "from": "23:52",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -37,7 +37,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:32",
+          "from": "00:26",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -87,7 +87,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "23:37",
+          "from": "00:03",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -95,7 +95,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:03",
+          "from": "00:23",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -112,7 +112,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "23:40",
+          "from": "23:46",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -137,7 +137,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "23:35",
+          "from": "00:12",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -145,7 +145,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:12",
+          "from": "00:31",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -192,6 +192,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-10T22:31:03.113037Z",
-  "busFetchedAtParis": "10.11.2026, 23:31:03"
+  "busFetchedAt": "2026-11-10T22:36:03.114484Z",
+  "busFetchedAtParis": "10.11.2026, 23:36:03"
 }
