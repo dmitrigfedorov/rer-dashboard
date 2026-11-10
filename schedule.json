@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "10.11.2026, 20:06:03",
+  "fetchedAtParis": "10.11.2026, 20:11:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "20:14",
-          "to": "20:17",
+          "from": "20:15",
+          "to": "20:18",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -44,7 +44,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:18",
+          "from": "20:19",
           "to": "20:42",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "20:14",
-          "to": "20:17",
+          "from": "20:15",
+          "to": "20:18",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "20:05",
+          "from": "20:11",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:10",
+          "from": "20:16",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -129,7 +129,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:18",
+          "from": "20:19",
           "to": "20:42",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "20:06",
+          "from": "20:20",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:11",
+          "from": "20:29",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:26",
+          "from": "20:27",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "20:10",
+          "from": "20:15",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -333,18 +333,18 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "20:08",
-          "to": "20:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "20:23",
+          "to": "20:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "20:09",
-          "to": "20:27",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
+          "from": "20:27",
+          "to": "20:42",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "2",
           "status": "onTime"
         }
@@ -363,7 +363,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:21",
+          "from": "20:23",
           "to": "20:42",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -385,7 +385,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:18",
+          "from": "20:19",
           "to": "20:42",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -395,6 +395,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-10T19:06:03.845379Z",
-  "busFetchedAtParis": "10.11.2026, 20:06:03"
+  "busFetchedAt": "2026-11-10T19:11:04.326722Z",
+  "busFetchedAtParis": "10.11.2026, 20:11:04"
 }
