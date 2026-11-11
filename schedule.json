@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "11.11.2026, 04:51:03",
+  "fetchedAtParis": "11.11.2026, 04:56:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:13",
-          "to": "05:15",
+          "from": "05:15",
+          "to": "05:17",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -36,7 +36,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "05:16",
+          "from": "05:18",
           "to": "05:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:13",
-          "to": "05:15",
+          "from": "05:15",
+          "to": "05:17",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -104,7 +104,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "05:16",
+          "from": "05:18",
           "to": "05:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -135,7 +135,16 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Église de Saint-Mandé",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:30",
+          "to": "",
+          "train": "325",
+          "destinationName": "Église de Saint-Mandé",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-125",
@@ -207,7 +216,7 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:16",
+          "from": "05:18",
           "to": "05:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -225,6 +234,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-11T03:46:03.758111Z",
-  "busFetchedAtParis": "11.11.2026, 04:46:03"
+  "busFetchedAt": "2026-11-11T03:56:02.920089Z",
+  "busFetchedAtParis": "11.11.2026, 04:56:02"
 }
