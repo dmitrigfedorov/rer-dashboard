@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "11.11.2026, 17:55:38",
+  "fetchedAtParis": "11.11.2026, 17:56:09",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -40,7 +40,7 @@
           "to": "18:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -125,7 +125,7 @@
           "to": "18:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -296,7 +296,7 @@
           "to": "18:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-11T16:55:38.885596Z",
-  "busFetchedAtParis": "11.11.2026, 17:55:38"
+  "busFetchedAt": "2026-11-11T16:56:09.874481Z",
+  "busFetchedAtParis": "11.11.2026, 17:56:09"
 }
