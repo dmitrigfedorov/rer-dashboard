@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "11.11.2026, 21:06:03",
+  "fetchedAtParis": "11.11.2026, 21:11:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:40",
+          "from": "21:38",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "21:10",
+          "from": "21:21",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:21",
+          "from": "21:34",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "21:12",
+          "from": "21:13",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -270,19 +270,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "21:10",
-          "to": "21:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "C",
-          "status": "onTime"
-        },
-        {
           "from": "21:25",
           "to": "21:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "D",
+          "status": "onTime"
+        },
+        {
+          "from": "21:40",
+          "to": "21:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "C",
           "status": "onTime"
         }
       ]
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-11T20:02:48.575307Z",
-  "busFetchedAtParis": "11.11.2026, 21:02:48"
+  "busFetchedAt": "2026-11-11T20:11:04.318983Z",
+  "busFetchedAtParis": "11.11.2026, 21:11:04"
 }
