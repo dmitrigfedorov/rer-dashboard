@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "11.11.2026, 23:57:20",
+  "fetchedAtParis": "12.11.2026, 00:01:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "23:58",
-          "to": "00:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "00:04",
           "to": "00:28",
@@ -54,14 +46,6 @@
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "23:58",
-          "to": "00:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "00:04",
           "to": "00:28",
@@ -180,7 +164,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "23:59",
+          "from": "00:19",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -188,7 +172,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:19",
+          "from": "00:39",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -286,6 +270,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-11T22:54:31.999203Z",
-  "busFetchedAtParis": "11.11.2026, 23:54:31"
+  "busFetchedAt": "2026-11-11T23:01:03.821429Z",
+  "busFetchedAtParis": "12.11.2026, 00:01:03"
 }
