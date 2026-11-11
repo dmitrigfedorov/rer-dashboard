@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "12.11.2026, 00:21:32",
+  "fetchedAtParis": "12.11.2026, 00:28:14",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -106,7 +106,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "00:21",
+          "from": "00:41",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -114,7 +114,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:43",
+          "from": "01:04",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -170,16 +170,7 @@
     {
       "id": "austerlitz",
       "title": "Gare d'Austerlitz",
-      "rows": [
-        {
-          "from": "00:25",
-          "to": "00:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "B",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "id": "bfm",
@@ -196,6 +187,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-11T23:21:32.099200Z",
-  "busFetchedAtParis": "12.11.2026, 00:21:32"
+  "busFetchedAt": "2026-11-11T23:28:14.223044Z",
+  "busFetchedAtParis": "12.11.2026, 00:28:14"
 }
