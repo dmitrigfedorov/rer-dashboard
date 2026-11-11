@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "11.11.2026, 12:26:03",
+  "fetchedAtParis": "11.11.2026, 12:31:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "12:28",
-          "to": "12:30",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "12:34",
           "to": "12:58",
@@ -27,6 +19,14 @@
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "12:49",
+          "to": "13:13",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "1B",
           "status": "onTime"
         }
       ]
@@ -71,19 +71,19 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "12:28",
-          "to": "12:30",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "12:34",
           "to": "12:58",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1B",
+          "status": "onTime"
+        },
+        {
+          "from": "12:43",
+          "to": "12:45",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
           "status": "onTime"
         }
       ]
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "12:33",
+          "from": "12:34",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:42",
+          "from": "12:41",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "12:30",
+          "from": "12:41",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:42",
+          "from": "12:54",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "12:39",
+          "from": "12:38",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:52",
+          "from": "12:50",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "12:30",
+          "from": "12:31",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:43",
+          "from": "12:44",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-11T11:26:03.801969Z",
-  "busFetchedAtParis": "11.11.2026, 12:26:03"
+  "busFetchedAt": "2026-11-11T11:31:03.860106Z",
+  "busFetchedAtParis": "11.11.2026, 12:31:03"
 }
