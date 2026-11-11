@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "11.11.2026, 02:46:03",
+  "fetchedAtParis": "11.11.2026, 02:51:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -16,6 +16,14 @@
         {
           "from": "05:28",
           "to": "05:30",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "05:43",
+          "to": "05:45",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -41,6 +49,14 @@
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
+          "status": "onTime"
+        },
+        {
+          "from": "05:45",
+          "to": "05:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
           "status": "onTime"
         }
       ]
@@ -167,7 +183,16 @@
     {
       "id": "austerlitz",
       "title": "Gare d'Austerlitz",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:40",
+          "to": "05:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "C",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "id": "bfm",
@@ -192,6 +217,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-11T01:41:04.354891Z",
-  "busFetchedAtParis": "11.11.2026, 02:41:04"
+  "busFetchedAt": "2026-11-11T01:51:03.659916Z",
+  "busFetchedAtParis": "11.11.2026, 02:51:03"
 }
