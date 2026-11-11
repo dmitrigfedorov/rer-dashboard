@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "11.11.2026, 10:11:03",
+  "fetchedAtParis": "11.11.2026, 10:16:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "10:13",
-          "to": "10:15",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "10:19",
           "to": "10:43",
@@ -27,6 +19,14 @@
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "10:34",
+          "to": "10:58",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1B",
           "status": "onTime"
         }
       ]
@@ -44,7 +44,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:16",
+          "from": "10:17",
           "to": "10:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -71,19 +71,19 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "10:13",
-          "to": "10:15",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "10:19",
           "to": "10:43",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1B",
+          "status": "onTime"
+        },
+        {
+          "from": "10:28",
+          "to": "10:30",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
           "status": "onTime"
         }
       ]
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:34",
+          "from": "10:33",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -129,7 +129,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:16",
+          "from": "10:17",
           "to": "10:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "10:13",
+          "from": "10:28",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:27",
+          "from": "10:33",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -300,7 +300,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:16",
+          "from": "10:17",
           "to": "10:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-11T09:11:03.620745Z",
-  "busFetchedAtParis": "11.11.2026, 10:11:03"
+  "busFetchedAt": "2026-11-11T09:16:04.728731Z",
+  "busFetchedAtParis": "11.11.2026, 10:16:04"
 }
