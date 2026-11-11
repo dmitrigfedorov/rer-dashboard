@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "11.11.2026, 05:51:03",
+  "fetchedAtParis": "11.11.2026, 05:56:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:58",
-          "to": "06:00",
+          "from": "05:59",
+          "to": "06:01",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -44,7 +44,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:01",
+          "from": "06:02",
           "to": "06:15",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:58",
-          "to": "06:00",
+          "from": "05:59",
+          "to": "06:01",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -112,7 +112,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:01",
+          "from": "06:02",
           "to": "06:15",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -143,7 +143,16 @@
       "line": "125",
       "title": "Jean-Jacques Rousseau",
       "destination": "Jean Le Galleu",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:30",
+          "to": "",
+          "train": "125",
+          "destinationName": "Jean Le Galleu",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-323",
@@ -185,19 +194,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "05:55",
-          "to": "06:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "D",
-          "status": "onTime"
-        },
-        {
           "from": "06:10",
           "to": "06:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "C",
+          "status": "onTime"
+        },
+        {
+          "from": "06:25",
+          "to": "06:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "D",
           "status": "onTime"
         }
       ]
@@ -215,7 +224,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:01",
+          "from": "06:02",
           "to": "06:15",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -225,6 +234,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-11T04:46:04.115480Z",
-  "busFetchedAtParis": "11.11.2026, 05:46:04"
+  "busFetchedAt": "2026-11-11T04:56:03.673500Z",
+  "busFetchedAtParis": "11.11.2026, 05:56:03"
 }
