@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "12.11.2026, 05:16:03",
+  "fetchedAtParis": "12.11.2026, 05:21:06",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:30",
-          "to": "05:32",
+          "from": "05:31",
+          "to": "05:33",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -36,7 +36,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "05:33",
+          "from": "05:34",
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:30",
-          "to": "05:32",
+          "from": "05:31",
+          "to": "05:33",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -113,7 +113,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "05:33",
+          "from": "05:34",
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -138,7 +138,15 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "05:20",
+          "from": "05:49",
+          "to": "",
+          "train": "325",
+          "destinationName": "Château de Vincennes",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "06:29",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -155,7 +163,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "05:29",
+          "from": "05:28",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -189,7 +197,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "05:37",
+          "from": "05:32",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -205,7 +213,7 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "05:50",
+          "from": "05:51",
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -227,7 +235,7 @@
       "title": "Pont de l'Alma",
       "rows": [
         {
-          "from": "05:48",
+          "from": "05:49",
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -249,7 +257,7 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "05:46",
+          "from": "05:47",
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -271,7 +279,7 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "05:43",
+          "from": "05:44",
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -337,7 +345,7 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:33",
+          "from": "05:34",
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -355,6 +363,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-12T04:16:03.877651Z",
-  "busFetchedAtParis": "12.11.2026, 05:16:03"
+  "busFetchedAt": "2026-11-12T04:21:06.784517Z",
+  "busFetchedAtParis": "12.11.2026, 05:21:06"
 }
