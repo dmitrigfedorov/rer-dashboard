@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="icon" type="image/svg+xml" href="favicon.svg?v=20261102-blue-train">
+<link rel="icon" type="image/svg+xml" href="favicon.svg?v=20261112-white-blue">
 <meta http-equiv="refresh" content="300">
 <title>RER C — ближайшие поезда</title>
 <style>
@@ -369,11 +369,16 @@ let currentData=fallback;
 let currentLanguage="ru";
 function getSavedLanguage(){try{const value=localStorage.getItem(storageKey);return translations[value]?value:"ru"}catch(_){return "ru"}}
 function departureTimestamp(time){
- const p=time.split(":").map(Number),d=new Date();
- d.setHours(p[0],p[1],0,0);
- const now=new Date();
- if(d<now&&now-d>12*60*60*1000)d.setDate(d.getDate()+1);
- return d;
+ const now=Date.now(),parts=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Paris",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit",hourCycle:"h23"}).formatToParts(new Date(now));
+ const paris={};parts.forEach(part=>{if(part.type!=="literal")paris[part.type]=Number(part.value)});
+ const [hour,minute]=time.split(":").map(Number);
+ const timestampFor=(year,month,day)=>parseParisTimestamp(String(day).padStart(2,"0")+"."+String(month).padStart(2,"0")+"."+year+", "+String(hour).padStart(2,"0")+":"+String(minute).padStart(2,"0")+":00");
+ let timestamp=timestampFor(paris.year,paris.month,paris.day);
+ if(timestamp<now&&now-timestamp>12*60*60*1000){
+  const tomorrow=new Date(Date.UTC(paris.year,paris.month-1,paris.day+1));
+  timestamp=timestampFor(tomorrow.getUTCFullYear(),tomorrow.getUTCMonth()+1,tomorrow.getUTCDate());
+ }
+ return new Date(timestamp);
 }
 function minutesUntil(time){return Math.round((departureTimestamp(time)-Date.now())/60000)}
 function countdown(time){
