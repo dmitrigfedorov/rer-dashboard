@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "12.11.2026, 23:21:04",
+  "fetchedAtParis": "12.11.2026, 23:26:09",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "23:52",
+          "from": "23:51",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -62,7 +62,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "23:25",
+          "from": "23:55",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -70,7 +70,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:55",
+          "from": "00:15",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -87,7 +87,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "23:21",
+          "from": "23:35",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -95,7 +95,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:33",
+          "from": "00:03",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -112,7 +112,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "23:21",
+          "from": "23:40",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -120,7 +120,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:40",
+          "from": "00:01",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -145,7 +145,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:52",
+          "from": "23:54",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -192,6 +192,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-12T22:21:04.838061Z",
-  "busFetchedAtParis": "12.11.2026, 23:21:04"
+  "busFetchedAt": "2026-11-12T22:26:09.516969Z",
+  "busFetchedAtParis": "12.11.2026, 23:26:09"
 }
