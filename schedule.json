@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "12.11.2026, 23:06:04",
+  "fetchedAtParis": "12.11.2026, 23:11:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -62,7 +62,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "23:10",
+          "from": "23:25",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -70,7 +70,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:25",
+          "from": "23:55",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -112,7 +112,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "23:07",
+          "from": "23:21",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -120,7 +120,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:20",
+          "from": "23:42",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -192,6 +192,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-12T22:01:05.910047Z",
-  "busFetchedAtParis": "12.11.2026, 23:01:05"
+  "busFetchedAt": "2026-11-12T22:11:04.225653Z",
+  "busFetchedAtParis": "12.11.2026, 23:11:04"
 }
