@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "12.11.2026, 22:21:04",
+  "fetchedAtParis": "12.11.2026, 22:26:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "22:28",
-          "to": "22:30",
+          "to": "22:31",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -40,7 +40,7 @@
       "rows": [
         {
           "from": "22:28",
-          "to": "22:30",
+          "to": "22:31",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -212,7 +212,7 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "22:26",
+          "from": "22:27",
           "to": "22:27",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -224,24 +224,7 @@
     {
       "id": "saint-michel",
       "title": "Saint-Michel Notre-Dame",
-      "rows": [
-        {
-          "from": "22:23",
-          "to": "22:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1",
-          "status": "onTime"
-        },
-        {
-          "from": "22:23",
-          "to": "22:27",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "id": "austerlitz",
