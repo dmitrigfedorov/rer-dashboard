@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "13.11.2026, 00:46:04",
+  "fetchedAtParis": "13.11.2026, 00:51:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -27,16 +27,7 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Émile Durkheim",
-      "rows": [
-        {
-          "from": "00:41",
-          "to": "",
-          "train": "325",
-          "destinationName": "Quai de la Gare",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "rer-bfm",
@@ -60,16 +51,7 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Église de Saint-Mandé",
-      "rows": [
-        {
-          "from": "00:42",
-          "to": "",
-          "train": "325",
-          "destinationName": "Église de Saint-Mandé",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-125",
@@ -142,6 +124,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-12T23:41:04.213435Z",
-  "busFetchedAtParis": "13.11.2026, 00:41:04"
+  "busFetchedAt": "2026-11-12T23:51:04.248839Z",
+  "busFetchedAtParis": "13.11.2026, 00:51:04"
 }
