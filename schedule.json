@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "12.11.2026, 23:41:03",
+  "fetchedAtParis": "12.11.2026, 23:46:11",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -37,7 +37,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:06",
+          "from": "00:05",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -192,6 +192,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-12T22:41:03.252469Z",
-  "busFetchedAtParis": "12.11.2026, 23:41:03"
+  "busFetchedAt": "2026-11-12T22:46:11.178017Z",
+  "busFetchedAtParis": "12.11.2026, 23:46:11"
 }
