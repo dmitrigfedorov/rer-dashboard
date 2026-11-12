@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "12.11.2026, 03:11:03",
+  "fetchedAtParis": "12.11.2026, 03:16:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -40,6 +40,14 @@
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
+          "platform": "A",
+          "status": "onTime"
+        },
+        {
+          "from": "05:47",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "A",
           "status": "onTime"
         }
@@ -94,6 +102,14 @@
           "destinationName": "Montigny - Beauchamp",
           "platform": "A",
           "status": "onTime"
+        },
+        {
+          "from": "05:47",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "A",
+          "status": "onTime"
         }
       ]
     },
@@ -142,6 +158,14 @@
           "destinationName": "Montigny - Beauchamp",
           "platform": "2",
           "status": "onTime"
+        },
+        {
+          "from": "06:04",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "2",
+          "status": "onTime"
         }
       ]
     },
@@ -154,6 +178,14 @@
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
+          "platform": "2",
+          "status": "onTime"
+        },
+        {
+          "from": "06:02",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "2",
           "status": "onTime"
         }
@@ -170,6 +202,14 @@
           "destinationName": "Montigny - Beauchamp",
           "platform": "4",
           "status": "onTime"
+        },
+        {
+          "from": "06:00",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "4",
+          "status": "onTime"
         }
       ]
     },
@@ -182,6 +222,14 @@
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
+          "platform": "4",
+          "status": "onTime"
+        },
+        {
+          "from": "05:57",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "4",
           "status": "onTime"
         }
@@ -198,6 +246,14 @@
           "destinationName": "Montigny - Beauchamp",
           "platform": "2",
           "status": "onTime"
+        },
+        {
+          "from": "05:54",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "2",
+          "status": "onTime"
         }
       ]
     },
@@ -210,6 +266,14 @@
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
+          "platform": "C",
+          "status": "onTime"
+        },
+        {
+          "from": "05:50",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "C",
           "status": "onTime"
         }
@@ -226,10 +290,18 @@
           "destinationName": "Montigny - Beauchamp",
           "platform": "A",
           "status": "onTime"
+        },
+        {
+          "from": "05:47",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "A",
+          "status": "onTime"
         }
       ]
     }
   ],
-  "busFetchedAt": "2026-11-12T02:11:03.789664Z",
-  "busFetchedAtParis": "12.11.2026, 03:11:03"
+  "busFetchedAt": "2026-11-12T02:16:04.943536Z",
+  "busFetchedAtParis": "12.11.2026, 03:16:04"
 }
