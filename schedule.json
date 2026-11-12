@@ -1,33 +1,15 @@
 {
-  "fetchedAtParis": "12.11.2026, 22:26:03",
+  "fetchedAtParis": "12.11.2026, 22:31:12",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
-      "rows": [
-        {
-          "from": "22:28",
-          "to": "22:31",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2B",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
-      "rows": [
-        {
-          "from": "22:30",
-          "to": "22:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
   "cards": [
@@ -37,16 +19,7 @@
       "line": "C",
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
-      "rows": [
-        {
-          "from": "22:28",
-          "to": "22:31",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2B",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-quai",
@@ -56,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "22:39",
+          "from": "22:40",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -64,7 +37,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:53",
+          "from": "22:51",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -79,16 +52,7 @@
       "line": "C",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
-      "rows": [
-        {
-          "from": "22:30",
-          "to": "22:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-vincennes",
@@ -98,7 +62,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "22:26",
+          "from": "22:40",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -106,7 +70,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:40",
+          "from": "23:10",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -123,7 +87,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "22:34",
+          "from": "22:35",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -148,7 +112,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "22:21",
+          "from": "22:31",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -156,7 +120,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:22",
+          "from": "22:40",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -210,16 +174,7 @@
     {
       "id": "musee-dorsay",
       "title": "Musée d'Orsay",
-      "rows": [
-        {
-          "from": "22:27",
-          "to": "22:27",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "4",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "id": "saint-michel",
@@ -229,32 +184,14 @@
     {
       "id": "austerlitz",
       "title": "Gare d'Austerlitz",
-      "rows": [
-        {
-          "from": "22:27",
-          "to": "22:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "id": "bfm",
       "title": "Bibliothèque François-Mitterrand",
-      "rows": [
-        {
-          "from": "22:30",
-          "to": "22:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-12T21:21:04.180084Z",
-  "busFetchedAtParis": "12.11.2026, 22:21:04"
+  "busFetchedAt": "2026-11-12T21:31:12.901136Z",
+  "busFetchedAtParis": "12.11.2026, 22:31:12"
 }
