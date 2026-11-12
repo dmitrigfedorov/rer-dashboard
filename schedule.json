@@ -1,12 +1,12 @@
 {
-  "fetchedAtParis": "12.11.2026, 05:21:06",
+  "fetchedAtParis": "12.11.2026, 05:26:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:31",
+          "from": "05:30",
           "to": "05:33",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -15,7 +15,7 @@
         },
         {
           "from": "05:44",
-          "to": "05:46",
+          "to": "05:47",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -44,7 +44,7 @@
           "status": "onTime"
         },
         {
-          "from": "05:47",
+          "from": "05:48",
           "to": "06:12",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -71,7 +71,7 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:31",
+          "from": "05:30",
           "to": "05:33",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -80,7 +80,7 @@
         },
         {
           "from": "05:44",
-          "to": "05:46",
+          "to": "05:47",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -121,7 +121,7 @@
           "status": "onTime"
         },
         {
-          "from": "05:47",
+          "from": "05:48",
           "to": "06:12",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -221,11 +221,11 @@
           "status": "onTime"
         },
         {
-          "from": "06:05",
-          "to": "06:12",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "2",
+          "from": "05:57",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "1",
           "status": "onTime"
         }
       ]
@@ -243,11 +243,11 @@
           "status": "onTime"
         },
         {
-          "from": "06:03",
-          "to": "06:12",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "2",
+          "from": "05:59",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "1",
           "status": "onTime"
         }
       ]
@@ -257,7 +257,7 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "05:47",
+          "from": "05:46",
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -265,7 +265,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:00",
+          "from": "06:01",
           "to": "06:12",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -331,7 +331,7 @@
           "status": "onTime"
         },
         {
-          "from": "05:50",
+          "from": "05:51",
           "to": "06:12",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -353,7 +353,7 @@
           "status": "onTime"
         },
         {
-          "from": "05:47",
+          "from": "05:48",
           "to": "06:12",
           "train": "NORA",
           "destinationName": "Pontoise",
