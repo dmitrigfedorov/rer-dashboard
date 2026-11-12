@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "13.11.2026, 00:26:04",
+  "fetchedAtParis": "13.11.2026, 00:31:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "00:42",
+          "from": "00:43",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -96,7 +96,7 @@
           "status": "onTime"
         },
         {
-          "from": "01:08",
+          "from": "01:13",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -160,6 +160,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-12T23:26:04.014689Z",
-  "busFetchedAtParis": "13.11.2026, 00:26:04"
+  "busFetchedAt": "2026-11-12T23:31:04.313562Z",
+  "busFetchedAtParis": "13.11.2026, 00:31:04"
 }
