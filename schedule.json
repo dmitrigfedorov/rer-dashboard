@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "13.11.2026, 15:36:04",
+  "fetchedAtParis": "13.11.2026, 15:41:34",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "15:43",
-          "to": "15:46",
+          "to": "15:45",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -44,7 +44,7 @@
           "status": "onTime"
         },
         {
-          "from": "15:47",
+          "from": "15:46",
           "to": "15:57",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "15:43",
-          "to": "15:46",
+          "to": "15:45",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "15:51",
+          "from": "15:50",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -129,7 +129,7 @@
           "status": "onTime"
         },
         {
-          "from": "15:47",
+          "from": "15:46",
           "to": "15:57",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "15:36",
+          "from": "15:46",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "15:44",
+          "from": "15:53",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "15:47",
+          "from": "15:50",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "15:57",
+          "from": "15:58",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "15:47",
+          "from": "15:49",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "16:02",
+          "from": "16:05",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -311,7 +311,7 @@
           "status": "onTime"
         },
         {
-          "from": "15:58",
+          "from": "15:57",
           "to": "15:57",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -325,19 +325,19 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "15:37",
-          "to": "15:47",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "1",
-          "status": "onTime"
-        },
-        {
           "from": "15:53",
           "to": "16:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
+          "status": "onTime"
+        },
+        {
+          "from": "15:54",
+          "to": "15:57",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "2",
           "status": "onTime"
         }
       ]
@@ -377,7 +377,7 @@
           "status": "onTime"
         },
         {
-          "from": "15:47",
+          "from": "15:46",
           "to": "15:57",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -387,6 +387,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-13T14:31:24.200629Z",
-  "busFetchedAtParis": "13.11.2026, 15:31:24"
+  "busFetchedAt": "2026-11-13T14:41:34.569075Z",
+  "busFetchedAtParis": "13.11.2026, 15:41:34"
 }
