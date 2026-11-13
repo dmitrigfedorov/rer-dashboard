@@ -1,12 +1,12 @@
 {
-  "fetchedAtParis": "13.11.2026, 05:01:04",
+  "fetchedAtParis": "13.11.2026, 05:06:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:14",
+          "from": "05:13",
           "to": "05:16",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -71,7 +71,7 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:14",
+          "from": "05:13",
           "to": "05:16",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -178,8 +178,8 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "05:57",
-          "to": "06:18",
+          "from": "05:58",
+          "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -200,8 +200,8 @@
       "title": "Pont de l'Alma",
       "rows": [
         {
-          "from": "05:59",
-          "to": "06:18",
+          "from": "06:00",
+          "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -231,7 +231,7 @@
         },
         {
           "from": "06:02",
-          "to": "06:18",
+          "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
@@ -252,8 +252,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:04",
-          "to": "06:18",
+          "from": "06:05",
+          "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
@@ -274,8 +274,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:07",
-          "to": "06:18",
+          "from": "06:08",
+          "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
