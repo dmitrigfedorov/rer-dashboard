@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "13.11.2026, 16:21:47",
+  "fetchedAtParis": "13.11.2026, 16:26:06",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -23,7 +23,7 @@
         },
         {
           "from": "16:43",
-          "to": "16:46",
+          "to": "16:45",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -36,7 +36,15 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "16:30",
+          "from": "16:31",
+          "to": "16:42",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "B",
+          "status": "onTime"
+        },
+        {
+          "from": "16:31",
           "to": "16:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -44,15 +52,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:31",
-          "to": "16:43",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "B",
-          "status": "onTime"
-        },
-        {
-          "from": "16:46",
+          "from": "16:45",
           "to": "16:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -121,19 +121,19 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "16:30",
-          "to": "16:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "from": "16:31",
+          "to": "16:42",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "B",
           "status": "onTime"
         },
         {
           "from": "16:31",
-          "to": "16:43",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "B",
+          "to": "16:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
           "status": "onTime"
         }
       ]
@@ -254,7 +254,7 @@
         },
         {
           "from": "16:33",
-          "to": "16:43",
+          "to": "16:42",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2",
@@ -267,7 +267,7 @@
       "title": "Pont de l'Alma",
       "rows": [
         {
-          "from": "16:30",
+          "from": "16:29",
           "to": "16:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -276,7 +276,7 @@
         },
         {
           "from": "16:31",
-          "to": "16:43",
+          "to": "16:42",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2",
@@ -290,14 +290,14 @@
       "rows": [
         {
           "from": "16:29",
-          "to": "16:43",
+          "to": "16:42",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "4",
           "status": "onTime"
         },
         {
-          "from": "16:32",
+          "from": "16:31",
           "to": "16:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -333,19 +333,19 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "16:23",
-          "to": "16:27",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "2",
+          "from": "16:37",
+          "to": "16:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "16:23",
-          "to": "16:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1",
+          "from": "16:38",
+          "to": "16:42",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "2",
           "status": "onTime"
         }
       ]
@@ -355,7 +355,7 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "16:27",
+          "from": "16:28",
           "to": "16:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -364,7 +364,7 @@
         },
         {
           "from": "16:34",
-          "to": "16:43",
+          "to": "16:42",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "C",
@@ -377,19 +377,19 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "16:30",
-          "to": "16:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "from": "16:31",
+          "to": "16:42",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "B",
           "status": "onTime"
         },
         {
           "from": "16:31",
-          "to": "16:43",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "B",
+          "to": "16:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
           "status": "onTime"
         }
       ]
