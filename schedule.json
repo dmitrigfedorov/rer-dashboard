@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "13.11.2026, 14:21:34",
+  "fetchedAtParis": "13.11.2026, 14:26:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "14:34",
-          "to": "15:29",
+          "to": "15:59",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1B",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "14:34",
-          "to": "15:29",
+          "to": "15:59",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1B",
@@ -333,18 +333,18 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "14:23",
-          "to": "14:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "14:37",
+          "to": "14:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "14:24",
-          "to": "15:12",
-          "train": "NORA",
-          "destinationName": "Pontoise",
+          "from": "15:09",
+          "to": "15:27",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2",
           "status": "onTime"
         }
