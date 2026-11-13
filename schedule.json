@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "13.11.2026, 21:51:03",
+  "fetchedAtParis": "13.11.2026, 21:56:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -36,7 +36,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "22:00",
+          "from": "22:01",
           "to": "22:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "22:00",
+          "from": "22:01",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:17",
+          "from": "22:15",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,7 +121,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "22:00",
+          "from": "22:01",
           "to": "22:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "21:50",
+          "from": "22:08",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:05",
+          "from": "22:17",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -219,7 +219,24 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "22:06",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "22:38",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "rerStations": [
@@ -316,19 +333,19 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "21:53",
-          "to": "22:03",
+          "from": "22:08",
+          "to": "22:18",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "22:08",
-          "to": "22:18",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1",
+          "from": "22:09",
+          "to": "22:27",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
+          "platform": "2",
           "status": "onTime"
         }
       ]
@@ -360,7 +377,7 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "22:00",
+          "from": "22:01",
           "to": "22:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -378,6 +395,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-13T20:51:03.258654Z",
-  "busFetchedAtParis": "13.11.2026, 21:51:03"
+  "busFetchedAt": "2026-11-13T20:56:04.899534Z",
+  "busFetchedAtParis": "13.11.2026, 21:56:04"
 }
