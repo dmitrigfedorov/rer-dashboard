@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "13.11.2026, 03:11:02",
+  "fetchedAtParis": "13.11.2026, 03:16:12",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -41,6 +41,14 @@
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "05:48",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "A",
           "status": "onTime"
         }
       ]
@@ -94,6 +102,14 @@
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
+        },
+        {
+          "from": "05:48",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "A",
+          "status": "onTime"
         }
       ]
     },
@@ -134,27 +150,72 @@
     {
       "id": "champ-de-mars",
       "title": "Champ de Mars - Tour Eiffel",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:04",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "2",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "id": "pont-de-lalma",
       "title": "Pont de l'Alma",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:02",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "2",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "id": "invalides",
       "title": "Invalides",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:00",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "4",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "id": "musee-dorsay",
       "title": "Musée d'Orsay",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:58",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "4",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "id": "saint-michel",
       "title": "Saint-Michel Notre-Dame",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:54",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "2",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "id": "austerlitz",
@@ -166,6 +227,14 @@
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "D",
+          "status": "onTime"
+        },
+        {
+          "from": "05:50",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "C",
           "status": "onTime"
         }
       ]
@@ -181,10 +250,18 @@
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
+        },
+        {
+          "from": "05:48",
+          "to": "06:12",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "A",
+          "status": "onTime"
         }
       ]
     }
   ],
-  "busFetchedAt": "2026-11-13T02:11:02.981508Z",
-  "busFetchedAtParis": "13.11.2026, 03:11:02"
+  "busFetchedAt": "2026-11-13T02:16:12.267708Z",
+  "busFetchedAtParis": "13.11.2026, 03:16:12"
 }
