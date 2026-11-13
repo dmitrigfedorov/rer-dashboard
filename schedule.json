@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "13.11.2026, 03:16:12",
+  "fetchedAtParis": "13.11.2026, 03:21:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -49,6 +49,14 @@
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "A",
+          "status": "onTime"
+        },
+        {
+          "from": "06:16",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
           "status": "onTime"
         }
       ]
@@ -152,6 +160,14 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
+          "from": "05:57",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "1",
+          "status": "onTime"
+        },
+        {
           "from": "06:04",
           "to": "06:12",
           "train": "NORA",
@@ -165,6 +181,14 @@
       "id": "pont-de-lalma",
       "title": "Pont de l'Alma",
       "rows": [
+        {
+          "from": "05:59",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "1",
+          "status": "onTime"
+        },
         {
           "from": "06:02",
           "to": "06:12",
@@ -186,6 +210,14 @@
           "destinationName": "Pontoise",
           "platform": "4",
           "status": "onTime"
+        },
+        {
+          "from": "06:02",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "3",
+          "status": "onTime"
         }
       ]
     },
@@ -200,6 +232,14 @@
           "destinationName": "Pontoise",
           "platform": "4",
           "status": "onTime"
+        },
+        {
+          "from": "06:04",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "3",
+          "status": "onTime"
         }
       ]
     },
@@ -213,6 +253,14 @@
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2",
+          "status": "onTime"
+        },
+        {
+          "from": "06:07",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "1",
           "status": "onTime"
         }
       ]
