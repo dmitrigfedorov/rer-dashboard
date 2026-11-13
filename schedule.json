@@ -1,12 +1,12 @@
 {
-  "fetchedAtParis": "13.11.2026, 06:41:04",
+  "fetchedAtParis": "13.11.2026, 06:46:08",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:51",
+          "from": "06:50",
           "to": "07:20",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -22,8 +22,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:11",
-          "to": "07:14",
+          "from": "07:12",
+          "to": "07:15",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -36,15 +36,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "06:44",
-          "to": "06:58",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "A",
-          "status": "onTime"
-        },
-        {
-          "from": "06:48",
+          "from": "06:47",
           "to": "06:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -53,7 +45,15 @@
         },
         {
           "from": "07:03",
-          "to": "07:10",
+          "to": "07:11",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
+          "platform": "A",
+          "status": "onTime"
+        },
+        {
+          "from": "07:16",
+          "to": "07:24",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "A",
@@ -71,7 +71,7 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:51",
+          "from": "06:50",
           "to": "07:20",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -121,19 +121,19 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "06:44",
-          "to": "06:58",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "A",
-          "status": "onTime"
-        },
-        {
-          "from": "06:48",
+          "from": "06:47",
           "to": "06:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "07:03",
+          "to": "07:11",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
+          "platform": "A",
           "status": "onTime"
         }
       ]
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "07:15",
+          "from": "07:16",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "06:54",
+          "from": "06:49",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "07:14",
+          "from": "07:20",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -220,14 +220,6 @@
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
       "rows": [
-        {
-          "from": "06:45",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        },
         {
           "from": "06:55",
           "to": "",
@@ -245,8 +237,8 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "06:49",
-          "to": "06:58",
+          "from": "06:50",
+          "to": "06:59",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2",
@@ -254,7 +246,7 @@
         },
         {
           "from": "07:01",
-          "to": "07:10",
+          "to": "07:11",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2",
@@ -267,8 +259,8 @@
       "title": "Pont de l'Alma",
       "rows": [
         {
-          "from": "06:47",
-          "to": "06:58",
+          "from": "06:48",
+          "to": "06:59",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2",
@@ -276,7 +268,7 @@
         },
         {
           "from": "06:59",
-          "to": "07:10",
+          "to": "06:59",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2",
@@ -289,19 +281,19 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "06:45",
-          "to": "06:58",
+          "from": "06:57",
+          "to": "06:59",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "4",
           "status": "onTime"
         },
         {
-          "from": "06:57",
-          "to": "06:58",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "4",
+          "from": "07:07",
+          "to": "07:23",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "3",
           "status": "onTime"
         }
       ]
@@ -311,19 +303,19 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "06:42",
-          "to": "06:58",
+          "from": "06:54",
+          "to": "06:59",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "4",
           "status": "onTime"
         },
         {
-          "from": "06:54",
-          "to": "06:58",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "4",
+          "from": "07:09",
+          "to": "07:23",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "3",
           "status": "onTime"
         }
       ]
@@ -334,15 +326,15 @@
       "rows": [
         {
           "from": "06:51",
-          "to": "06:58",
+          "to": "06:59",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2",
           "status": "onTime"
         },
         {
-          "from": "07:10",
-          "to": "07:10",
+          "from": "07:11",
+          "to": "07:11",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2",
@@ -355,16 +347,16 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "06:44",
-          "to": "06:50",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "D",
+          "from": "06:47",
+          "to": "06:59",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
+          "platform": "B",
           "status": "onTime"
         },
         {
-          "from": "06:47",
-          "to": "06:58",
+          "from": "07:07",
+          "to": "07:11",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "C",
@@ -377,24 +369,24 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:44",
-          "to": "06:58",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "A",
-          "status": "onTime"
-        },
-        {
-          "from": "06:48",
+          "from": "06:47",
           "to": "06:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
+        },
+        {
+          "from": "07:03",
+          "to": "07:11",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
+          "platform": "A",
+          "status": "onTime"
         }
       ]
     }
   ],
-  "busFetchedAt": "2026-11-13T05:41:04.061197Z",
-  "busFetchedAtParis": "13.11.2026, 06:41:04"
+  "busFetchedAt": "2026-11-13T05:46:08.070360Z",
+  "busFetchedAtParis": "13.11.2026, 06:46:08"
 }
