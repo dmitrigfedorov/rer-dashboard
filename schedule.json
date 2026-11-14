@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "14.11.2026, 01:31:08",
+  "fetchedAtParis": "14.11.2026, 01:36:11",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "01:45",
+          "from": "01:46",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -60,16 +60,7 @@
       "line": "325",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Jean-Jacques Rousseau",
-      "rows": [
-        {
-          "from": "01:35",
-          "to": "",
-          "train": "325",
-          "destinationName": "Château de Vincennes",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-eglise",
@@ -79,7 +70,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "01:43",
+          "from": "01:42",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -96,7 +87,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "01:43",
+          "from": "01:42",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -151,6 +142,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-14T00:31:08.338397Z",
-  "busFetchedAtParis": "14.11.2026, 01:31:08"
+  "busFetchedAt": "2026-11-14T00:36:11.001691Z",
+  "busFetchedAtParis": "14.11.2026, 01:36:11"
 }
