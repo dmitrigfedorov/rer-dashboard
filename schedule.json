@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "14.11.2026, 07:51:06",
+  "fetchedAtParis": "14.11.2026, 07:56:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -22,8 +22,8 @@
           "status": "onTime"
         },
         {
-          "from": "08:14",
-          "to": "08:16",
+          "from": "08:15",
+          "to": "08:17",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -45,7 +45,7 @@
         },
         {
           "from": "08:01",
-          "to": "08:13",
+          "to": "08:14",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -130,7 +130,7 @@
         },
         {
           "from": "08:01",
-          "to": "08:13",
+          "to": "08:14",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -262,7 +262,7 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "07:55",
+          "from": "07:56",
           "to": "08:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -293,7 +293,7 @@
         },
         {
           "from": "08:01",
-          "to": "08:13",
+          "to": "08:14",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
