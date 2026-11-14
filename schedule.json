@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "14.11.2026, 12:21:03",
+  "fetchedAtParis": "14.11.2026, 12:26:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,19 +14,19 @@
           "status": "onTime"
         },
         {
+          "from": "12:34",
+          "to": "12:58",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1B",
+          "status": "onTime"
+        },
+        {
           "from": "12:43",
           "to": "12:45",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
-          "status": "onTime"
-        },
-        {
-          "from": "12:49",
-          "to": "13:13",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "1B",
           "status": "onTime"
         }
       ]
@@ -35,6 +35,14 @@
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
       "rows": [
+        {
+          "from": "12:30",
+          "to": "12:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        },
         {
           "from": "12:31",
           "to": "12:42",
@@ -49,14 +57,6 @@
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
-          "status": "onTime"
-        },
-        {
-          "from": "12:46",
-          "to": "12:57",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "A",
           "status": "onTime"
         }
       ]
@@ -79,11 +79,11 @@
           "status": "onTime"
         },
         {
-          "from": "12:43",
-          "to": "12:45",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
+          "from": "12:34",
+          "to": "12:58",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1B",
           "status": "onTime"
         }
       ]
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:42",
+          "from": "12:43",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,19 +121,19 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
+          "from": "12:30",
+          "to": "12:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
           "from": "12:31",
           "to": "12:42",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
-          "status": "onTime"
-        },
-        {
-          "from": "12:45",
-          "to": "12:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
           "status": "onTime"
         }
       ]
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "12:21",
+          "from": "12:35",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:36",
+          "from": "12:50",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "12:16",
+          "from": "12:29",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:31",
+          "from": "12:46",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "12:36",
+          "from": "12:25",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "12:18",
+          "from": "12:36",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -229,7 +229,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:35",
+          "from": "12:57",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -292,24 +292,24 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
+          "from": "12:30",
+          "to": "12:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
           "from": "12:31",
           "to": "12:42",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
           "status": "onTime"
-        },
-        {
-          "from": "12:45",
-          "to": "12:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "onTime"
         }
       ]
     }
   ],
-  "busFetchedAt": "2026-11-14T11:16:06.112188Z",
-  "busFetchedAtParis": "14.11.2026, 12:16:06"
+  "busFetchedAt": "2026-11-14T11:26:02.888149Z",
+  "busFetchedAtParis": "14.11.2026, 12:26:02"
 }
