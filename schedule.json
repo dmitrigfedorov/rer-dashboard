@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "14.11.2026, 06:06:03",
+  "fetchedAtParis": "14.11.2026, 06:11:08",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "06:15",
-          "to": "06:18",
+          "to": "06:17",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -44,7 +44,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:19",
+          "from": "06:18",
           "to": "06:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "06:15",
-          "to": "06:18",
+          "to": "06:17",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "06:26",
+          "from": "06:23",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,7 +121,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:19",
+          "from": "06:18",
           "to": "06:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -138,7 +138,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "06:10",
+          "from": "06:35",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -146,7 +146,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:35",
+          "from": "06:57",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -188,7 +188,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "06:03",
+          "from": "06:21",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -196,7 +196,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:21",
+          "from": "06:39",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -213,7 +213,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "06:45",
+          "from": "06:12",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -254,7 +254,7 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "06:10",
+          "from": "06:11",
           "to": "06:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -284,7 +284,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:19",
+          "from": "06:18",
           "to": "06:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -294,6 +294,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-14T05:01:03.773298Z",
-  "busFetchedAtParis": "14.11.2026, 06:01:03"
+  "busFetchedAt": "2026-11-14T05:11:08.480085Z",
+  "busFetchedAtParis": "14.11.2026, 06:11:08"
 }
