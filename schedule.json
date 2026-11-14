@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "14.11.2026, 10:46:03",
+  "fetchedAtParis": "14.11.2026, 10:51:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "10:50",
-          "to": "11:13",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "1B",
-          "status": "onTime"
-        },
         {
           "from": "10:58",
           "to": "11:00",
@@ -28,6 +20,14 @@
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1B",
           "status": "onTime"
+        },
+        {
+          "from": "11:13",
+          "to": "11:15",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
         }
       ]
     },
@@ -36,26 +36,26 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "10:46",
-          "to": "10:49",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "E",
+          "from": "11:00",
+          "to": "11:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "10:47",
-          "to": "10:57",
+          "from": "11:01",
+          "to": "11:12",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
           "status": "onTime"
         },
         {
-          "from": "11:00",
-          "to": "11:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "11:15",
+          "to": "11:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         }
@@ -71,19 +71,19 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "10:50",
-          "to": "11:13",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "1B",
-          "status": "onTime"
-        },
-        {
           "from": "10:58",
           "to": "11:00",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "11:04",
+          "to": "11:28",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1B",
           "status": "onTime"
         }
       ]
@@ -121,16 +121,16 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "10:46",
-          "to": "10:49",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "E",
+          "from": "11:00",
+          "to": "11:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "10:47",
-          "to": "10:57",
+          "from": "11:01",
+          "to": "11:12",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -292,16 +292,16 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "10:46",
-          "to": "10:49",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "E",
+          "from": "11:00",
+          "to": "11:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "10:47",
-          "to": "10:57",
+          "from": "11:01",
+          "to": "11:12",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
