@@ -1,32 +1,15 @@
 {
-  "fetchedAtParis": "15.11.2026, 00:01:03",
+  "fetchedAtParis": "15.11.2026, 00:06:07",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
-      "rows": [
-        {
-          "from": "00:04",
-          "to": "00:28",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1B",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
       "rows": [
-        {
-          "from": "00:00",
-          "to": "00:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
-          "status": "onTime"
-        },
         {
           "from": "00:30",
           "to": "00:33",
@@ -45,16 +28,7 @@
       "line": "C",
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
-      "rows": [
-        {
-          "from": "00:04",
-          "to": "00:28",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1B",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-quai",
@@ -64,7 +38,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "00:32",
+          "from": "00:28",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -88,14 +62,6 @@
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
       "rows": [
-        {
-          "from": "00:00",
-          "to": "00:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
-          "status": "onTime"
-        },
         {
           "from": "00:30",
           "to": "00:33",
@@ -139,7 +105,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "00:08",
+          "from": "00:09",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -172,7 +138,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:42",
+          "from": "00:43",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -187,16 +153,7 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": [
-        {
-          "from": "00:30",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
   "rerStations": [
@@ -244,14 +201,6 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "00:00",
-          "to": "00:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
-          "status": "onTime"
-        },
-        {
           "from": "00:30",
           "to": "00:33",
           "train": "ROMI",
@@ -262,6 +211,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-14T23:01:03.331803Z",
-  "busFetchedAtParis": "15.11.2026, 00:01:03"
+  "busFetchedAt": "2026-11-14T23:06:07.105663Z",
+  "busFetchedAtParis": "15.11.2026, 00:06:07"
 }
