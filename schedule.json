@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "15.11.2026, 00:31:04",
+  "fetchedAtParis": "15.11.2026, 00:36:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -9,16 +9,7 @@
     {
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
-      "rows": [
-        {
-          "from": "00:30",
-          "to": "00:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
   "cards": [
@@ -38,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "00:30",
+          "from": "00:43",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -46,7 +37,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:42",
+          "from": "01:08",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -61,16 +52,7 @@
       "line": "C",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
-      "rows": [
-        {
-          "from": "00:30",
-          "to": "00:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-vincennes",
@@ -130,7 +112,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "00:43",
+          "from": "00:46",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -155,7 +137,15 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "00:31",
+          "from": "00:35",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "00:53",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -199,18 +189,9 @@
     {
       "id": "bfm",
       "title": "Bibliothèque François-Mitterrand",
-      "rows": [
-        {
-          "from": "00:30",
-          "to": "00:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-14T23:26:07.926503Z",
-  "busFetchedAtParis": "15.11.2026, 00:26:07"
+  "busFetchedAt": "2026-11-14T23:36:03.393697Z",
+  "busFetchedAtParis": "15.11.2026, 00:36:03"
 }
