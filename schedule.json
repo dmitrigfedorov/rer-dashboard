@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "15.11.2026, 23:51:03",
+  "fetchedAtParis": "15.11.2026, 23:56:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -80,7 +80,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "00:02",
+          "from": "00:01",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -155,7 +155,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "23:59",
+          "from": "23:58",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -205,7 +205,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "23:53",
+          "from": "23:57",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -254,14 +254,6 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "23:55",
-          "to": "00:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "C",
-          "status": "onTime"
-        },
-        {
           "from": "00:25",
           "to": "00:33",
           "train": "ROMI",
@@ -294,6 +286,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-15T22:51:03.547977Z",
-  "busFetchedAtParis": "15.11.2026, 23:51:03"
+  "busFetchedAt": "2026-11-15T22:56:03.766500Z",
+  "busFetchedAtParis": "15.11.2026, 23:56:03"
 }
