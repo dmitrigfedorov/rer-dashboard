@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "15.11.2026, 17:21:03",
+  "fetchedAtParis": "15.11.2026, 17:26:06",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -15,7 +15,7 @@
         },
         {
           "from": "17:43",
-          "to": "17:46",
+          "to": "17:45",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -37,7 +37,7 @@
       "rows": [
         {
           "from": "17:31",
-          "to": "17:43",
+          "to": "17:42",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -52,7 +52,7 @@
           "status": "onTime"
         },
         {
-          "from": "17:47",
+          "from": "17:46",
           "to": "17:57",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -80,7 +80,7 @@
         },
         {
           "from": "17:43",
-          "to": "17:46",
+          "to": "17:45",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "17:24",
+          "from": "17:37",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "17:37",
+          "from": "17:46",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -122,7 +122,7 @@
       "rows": [
         {
           "from": "17:31",
-          "to": "17:43",
+          "to": "17:42",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "17:25",
+          "from": "17:35",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "17:36",
+          "from": "17:46",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "17:36",
+          "from": "17:37",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -276,7 +276,7 @@
       "rows": [
         {
           "from": "17:31",
-          "to": "17:43",
+          "to": "17:42",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -293,6 +293,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-15T16:21:03.630035Z",
-  "busFetchedAtParis": "15.11.2026, 17:21:03"
+  "busFetchedAt": "2026-11-15T16:26:06.735676Z",
+  "busFetchedAtParis": "15.11.2026, 17:26:06"
 }
