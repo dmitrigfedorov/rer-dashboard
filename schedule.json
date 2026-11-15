@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "15.11.2026, 06:36:02",
+  "fetchedAtParis": "15.11.2026, 06:41:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "07:01",
+          "from": "06:59",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -211,7 +211,24 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:52",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "07:16",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "rerStations": [
@@ -245,19 +262,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "06:40",
-          "to": "06:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "C",
-          "status": "onTime"
-        },
-        {
           "from": "06:55",
           "to": "07:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "D",
+          "status": "onTime"
+        },
+        {
+          "from": "07:10",
+          "to": "07:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "C",
           "status": "onTime"
         }
       ]
@@ -285,6 +302,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-15T05:36:02.655067Z",
-  "busFetchedAtParis": "15.11.2026, 06:36:02"
+  "busFetchedAt": "2026-11-15T05:41:04.848826Z",
+  "busFetchedAtParis": "15.11.2026, 06:41:04"
 }
