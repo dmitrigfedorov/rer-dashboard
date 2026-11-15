@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "15.11.2026, 11:06:03",
+  "fetchedAtParis": "15.11.2026, 11:11:07",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -45,7 +45,7 @@
         },
         {
           "from": "11:16",
-          "to": "11:42",
+          "to": "11:43",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "11:06",
+          "from": "11:18",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "11:18",
+          "from": "11:37",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -130,7 +130,7 @@
         },
         {
           "from": "11:16",
-          "to": "11:42",
+          "to": "11:43",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "11:14",
+          "from": "11:13",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -253,19 +253,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "11:10",
-          "to": "11:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "C",
-          "status": "onTime"
-        },
-        {
           "from": "11:25",
           "to": "11:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "D",
+          "status": "onTime"
+        },
+        {
+          "from": "11:40",
+          "to": "11:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "C",
           "status": "onTime"
         }
       ]
@@ -284,7 +284,7 @@
         },
         {
           "from": "11:16",
-          "to": "11:42",
+          "to": "11:43",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -293,6 +293,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-15T10:06:03.435976Z",
-  "busFetchedAtParis": "15.11.2026, 11:06:03"
+  "busFetchedAt": "2026-11-15T10:11:07.283393Z",
+  "busFetchedAtParis": "15.11.2026, 11:11:07"
 }
