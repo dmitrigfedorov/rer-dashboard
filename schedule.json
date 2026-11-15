@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "15.11.2026, 05:46:02",
+  "fetchedAtParis": "15.11.2026, 05:51:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "05:50",
-          "to": "06:43",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "1B",
-          "status": "onTime"
-        },
         {
           "from": "05:58",
           "to": "06:00",
@@ -28,6 +20,14 @@
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
+        },
+        {
+          "from": "06:28",
+          "to": "06:30",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
         }
       ]
     },
@@ -35,14 +35,6 @@
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
       "rows": [
-        {
-          "from": "05:47",
-          "to": "05:49",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "onTime"
-        },
         {
           "from": "06:01",
           "to": "06:12",
@@ -58,6 +50,14 @@
           "destinationName": "Paris Austerlitz",
           "platform": "A",
           "status": "onTime"
+        },
+        {
+          "from": "06:30",
+          "to": "06:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
         }
       ]
     }
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:50",
-          "to": "06:43",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "1B",
+          "from": "05:58",
+          "to": "06:00",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "05:58",
-          "to": "06:00",
+          "from": "06:13",
+          "to": "06:15",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -104,16 +104,16 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "05:47",
-          "to": "05:49",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "from": "06:01",
+          "to": "06:12",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "A",
           "status": "onTime"
         },
         {
-          "from": "06:01",
-          "to": "06:12",
+          "from": "06:16",
+          "to": "06:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -143,7 +143,16 @@
       "line": "125",
       "title": "Jean-Jacques Rousseau",
       "destination": "Jean Le Galleu",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:30",
+          "to": "",
+          "train": "125",
+          "destinationName": "Jean Le Galleu",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-323",
@@ -207,16 +216,16 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:47",
-          "to": "05:49",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "from": "06:01",
+          "to": "06:12",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "A",
           "status": "onTime"
         },
         {
-          "from": "06:01",
-          "to": "06:12",
+          "from": "06:16",
+          "to": "06:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -225,6 +234,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-15T04:41:09.221596Z",
-  "busFetchedAtParis": "15.11.2026, 05:41:09"
+  "busFetchedAt": "2026-11-15T04:51:04.298695Z",
+  "busFetchedAtParis": "15.11.2026, 05:51:04"
 }
