@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "15.11.2026, 12:41:02",
+  "fetchedAtParis": "15.11.2026, 12:46:01",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "12:43",
-          "to": "12:45",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "12:49",
           "to": "13:13",
@@ -24,6 +16,14 @@
         {
           "from": "12:58",
           "to": "13:01",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "13:13",
+          "to": "13:15",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -45,7 +45,7 @@
         },
         {
           "from": "12:46",
-          "to": "12:58",
+          "to": "12:57",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -71,19 +71,19 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "12:43",
-          "to": "12:45",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "12:49",
           "to": "13:13",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1B",
+          "status": "onTime"
+        },
+        {
+          "from": "12:58",
+          "to": "13:01",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
           "status": "onTime"
         }
       ]
@@ -130,7 +130,7 @@
         },
         {
           "from": "12:46",
-          "to": "12:58",
+          "to": "12:57",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -301,7 +301,7 @@
         },
         {
           "from": "12:46",
-          "to": "12:58",
+          "to": "12:57",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
