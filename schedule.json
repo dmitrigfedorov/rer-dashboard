@@ -1,20 +1,20 @@
 {
-  "fetchedAtParis": "15.11.2026, 06:16:04",
+  "fetchedAtParis": "15.11.2026, 06:21:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:21",
-          "to": "06:23",
+          "from": "06:22",
+          "to": "06:24",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "06:28",
+          "from": "06:29",
           "to": "06:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -36,8 +36,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "06:24",
-          "to": "06:27",
+          "from": "06:25",
+          "to": "06:28",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -71,15 +71,15 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:21",
-          "to": "06:23",
+          "from": "06:22",
+          "to": "06:24",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "06:28",
+          "from": "06:29",
           "to": "06:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -113,8 +113,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "06:24",
-          "to": "06:27",
+          "from": "06:25",
+          "to": "06:28",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -172,7 +172,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "06:31",
+          "from": "06:30",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -243,8 +243,8 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:24",
-          "to": "06:27",
+          "from": "06:25",
+          "to": "06:28",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -261,6 +261,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-15T05:16:04.176041Z",
-  "busFetchedAtParis": "15.11.2026, 06:16:04"
+  "busFetchedAt": "2026-11-15T05:21:04.464322Z",
+  "busFetchedAtParis": "15.11.2026, 06:21:04"
 }
