@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "15.11.2026, 22:21:08",
+  "fetchedAtParis": "15.11.2026, 22:26:08",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "22:28",
-          "to": "22:30",
+          "to": "22:31",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -44,7 +44,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:31",
+          "from": "22:32",
           "to": "23:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "22:28",
-          "to": "22:30",
+          "to": "22:31",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -129,7 +129,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:31",
+          "from": "22:32",
           "to": "23:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -262,19 +262,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "22:25",
-          "to": "22:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
-          "status": "onTime"
-        },
-        {
           "from": "22:40",
           "to": "22:48",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "C",
+          "status": "onTime"
+        },
+        {
+          "from": "22:55",
+          "to": "23:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "D",
           "status": "onTime"
         }
       ]
@@ -292,7 +292,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:31",
+          "from": "22:32",
           "to": "23:27",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
