@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "15.11.2026, 23:26:03",
+  "fetchedAtParis": "15.11.2026, 23:31:07",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "23:29",
-          "to": "23:31",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "23:58",
           "to": "00:00",
@@ -71,19 +63,19 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "23:29",
-          "to": "23:31",
+          "from": "23:58",
+          "to": "00:00",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "23:58",
-          "to": "00:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
+          "from": "00:04",
+          "to": "00:28",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1B",
           "status": "onTime"
         }
       ]
@@ -96,7 +88,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "23:27",
+          "from": "23:47",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +96,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:50",
+          "from": "00:05",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +138,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "23:29",
+          "from": "23:50",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +146,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:50",
+          "from": "00:14",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +163,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "23:40",
+          "from": "23:39",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -219,24 +211,7 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": [
-        {
-          "from": "23:32",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
-          "from": "23:52",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
   "rerStations": [
@@ -310,6 +285,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-15T22:26:03.645284Z",
-  "busFetchedAtParis": "15.11.2026, 23:26:03"
+  "busFetchedAt": "2026-11-15T22:31:07.128107Z",
+  "busFetchedAtParis": "15.11.2026, 23:31:07"
 }
