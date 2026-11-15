@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "15.11.2026, 23:06:06",
+  "fetchedAtParis": "15.11.2026, 23:11:07",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "23:05",
+          "from": "23:25",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:24",
+          "from": "23:45",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "23:07",
+          "from": "23:29",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:29",
+          "from": "23:50",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -219,7 +219,16 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "23:12",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "rerStations": [
@@ -253,7 +262,7 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "23:10",
+          "from": "23:11",
           "to": "23:18",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -293,6 +302,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-15T22:06:06.430619Z",
-  "busFetchedAtParis": "15.11.2026, 23:06:06"
+  "busFetchedAt": "2026-11-15T22:11:07.626549Z",
+  "busFetchedAtParis": "15.11.2026, 23:11:07"
 }
