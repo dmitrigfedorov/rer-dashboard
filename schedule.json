@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "15.11.2026, 15:36:08",
+  "fetchedAtParis": "15.11.2026, 15:41:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -22,8 +22,8 @@
           "status": "onTime"
         },
         {
-          "from": "15:58",
-          "to": "16:00",
+          "from": "15:59",
+          "to": "16:01",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -45,14 +45,14 @@
         },
         {
           "from": "15:46",
-          "to": "15:57",
+          "to": "15:58",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
           "status": "onTime"
         },
         {
-          "from": "16:01",
+          "from": "16:02",
           "to": "16:12",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -130,7 +130,7 @@
         },
         {
           "from": "15:46",
-          "to": "15:57",
+          "to": "15:58",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
@@ -253,19 +253,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "15:40",
-          "to": "15:48",
+          "from": "16:10",
+          "to": "16:16",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "C",
           "status": "onTime"
         },
         {
-          "from": "16:10",
-          "to": "16:16",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "C",
+          "from": "16:25",
+          "to": "16:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "D",
           "status": "onTime"
         }
       ]
@@ -284,7 +284,7 @@
         },
         {
           "from": "15:46",
-          "to": "15:57",
+          "to": "15:58",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "A",
