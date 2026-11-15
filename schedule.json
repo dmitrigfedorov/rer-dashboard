@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "15.11.2026, 23:56:03",
+  "fetchedAtParis": "16.11.2026, 00:01:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "23:58",
-          "to": "00:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "00:04",
           "to": "00:28",
@@ -55,14 +47,6 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "23:58",
-          "to": "00:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "00:04",
           "to": "00:28",
           "train": "ROMI",
@@ -80,7 +64,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "00:01",
+          "from": "00:03",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -88,7 +72,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:24",
+          "from": "00:22",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -155,7 +139,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "23:58",
+          "from": "00:23",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -163,7 +147,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:23",
+          "from": "00:44",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -205,7 +189,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "23:57",
+          "from": "00:02",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -258,7 +242,7 @@
           "to": "00:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "D",
+          "platform": "C",
           "status": "onTime"
         }
       ]
@@ -286,6 +270,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-15T22:56:03.766500Z",
-  "busFetchedAtParis": "15.11.2026, 23:56:03"
+  "busFetchedAt": "2026-11-15T23:01:04.910836Z",
+  "busFetchedAtParis": "16.11.2026, 00:01:04"
 }
