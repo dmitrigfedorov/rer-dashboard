@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "16.11.2026, 21:41:03",
+  "fetchedAtParis": "16.11.2026, 21:46:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -28,11 +28,11 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "21:46",
-          "to": "21:49",
+          "from": "21:45",
+          "to": "21:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -88,7 +88,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "21:44",
+          "from": "21:46",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -96,7 +96,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:56",
+          "from": "21:57",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -113,11 +113,11 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "21:46",
-          "to": "21:49",
+          "from": "21:45",
+          "to": "21:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -188,7 +188,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "21:48",
+          "from": "21:50",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -213,7 +213,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "21:42",
+          "from": "22:01",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -221,7 +221,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:01",
+          "from": "22:19",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -237,16 +237,16 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "21:42",
-          "to": "22:03",
+          "from": "21:57",
+          "to": "22:18",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "21:57",
-          "to": "22:18",
+          "from": "22:13",
+          "to": "22:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -259,16 +259,16 @@
       "title": "Pont de l'Alma",
       "rows": [
         {
-          "from": "21:45",
-          "to": "22:03",
+          "from": "21:59",
+          "to": "22:18",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "21:59",
-          "to": "22:18",
+          "from": "22:15",
+          "to": "22:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -347,19 +347,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "21:42",
-          "to": "21:49",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "E",
-          "status": "onTime"
-        },
-        {
           "from": "21:57",
           "to": "22:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "E",
+          "status": "onTime"
+        },
+        {
+          "from": "22:12",
+          "to": "22:18",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "D",
           "status": "onTime"
         }
       ]
@@ -369,11 +369,11 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "21:46",
-          "to": "21:49",
+          "from": "21:45",
+          "to": "21:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -387,6 +387,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-16T20:41:03.828814Z",
-  "busFetchedAtParis": "16.11.2026, 21:41:03"
+  "busFetchedAt": "2026-11-16T20:46:04.188891Z",
+  "busFetchedAtParis": "16.11.2026, 21:46:04"
 }
