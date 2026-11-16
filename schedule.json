@@ -1,31 +1,31 @@
 {
-  "fetchedAtParis": "16.11.2026, 05:16:08",
+  "fetchedAtParis": "16.11.2026, 05:21:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:16",
-          "to": "05:18",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
-          "from": "05:30",
-          "to": "05:32",
+          "from": "05:29",
+          "to": "05:31",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "05:43",
-          "to": "05:46",
+          "from": "05:44",
+          "to": "05:47",
           "train": "NORA",
           "destinationName": "Pontoise",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "05:58",
+          "to": "06:01",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         }
@@ -44,7 +44,7 @@
           "status": "onTime"
         },
         {
-          "from": "05:33",
+          "from": "05:32",
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -52,7 +52,7 @@
           "status": "onTime"
         },
         {
-          "from": "05:47",
+          "from": "05:48",
           "to": "06:12",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -71,18 +71,18 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:16",
-          "to": "05:18",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
+          "from": "05:29",
+          "to": "05:31",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "05:30",
-          "to": "05:32",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
+          "from": "05:44",
+          "to": "05:47",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         }
@@ -121,7 +121,7 @@
           "status": "onTime"
         },
         {
-          "from": "05:33",
+          "from": "05:32",
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -196,7 +196,7 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "05:50",
+          "from": "05:49",
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -204,8 +204,8 @@
           "status": "onTime"
         },
         {
-          "from": "05:57",
-          "to": "06:18",
+          "from": "05:59",
+          "to": "06:20",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -218,7 +218,7 @@
       "title": "Pont de l'Alma",
       "rows": [
         {
-          "from": "05:48",
+          "from": "05:47",
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -226,8 +226,8 @@
           "status": "onTime"
         },
         {
-          "from": "05:59",
-          "to": "06:18",
+          "from": "06:01",
+          "to": "06:20",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -240,7 +240,7 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "05:46",
+          "from": "05:45",
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -248,7 +248,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:00",
+          "from": "06:01",
           "to": "06:12",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -270,7 +270,7 @@
           "status": "onTime"
         },
         {
-          "from": "05:57",
+          "from": "05:58",
           "to": "06:12",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -284,7 +284,7 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "05:40",
+          "from": "05:39",
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -292,7 +292,7 @@
           "status": "onTime"
         },
         {
-          "from": "05:54",
+          "from": "05:55",
           "to": "06:12",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -314,7 +314,7 @@
           "status": "onTime"
         },
         {
-          "from": "05:36",
+          "from": "05:35",
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
@@ -336,7 +336,7 @@
           "status": "onTime"
         },
         {
-          "from": "05:33",
+          "from": "05:32",
           "to": "05:58",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
