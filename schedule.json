@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "16.11.2026, 05:06:10",
+  "fetchedAtParis": "16.11.2026, 05:11:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "05:15",
-          "to": "05:18",
+          "to": "05:17",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -22,8 +22,8 @@
           "status": "onTime"
         },
         {
-          "from": "05:43",
-          "to": "05:46",
+          "from": "05:44",
+          "to": "05:47",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -52,7 +52,7 @@
           "status": "onTime"
         },
         {
-          "from": "05:47",
+          "from": "05:48",
           "to": "06:12",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "05:15",
-          "to": "05:18",
+          "to": "05:17",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -187,7 +187,7 @@
         },
         {
           "from": "05:58",
-          "to": "06:18",
+          "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -209,7 +209,7 @@
         },
         {
           "from": "06:00",
-          "to": "06:18",
+          "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -252,7 +252,7 @@
           "status": "onTime"
         },
         {
-          "from": "05:57",
+          "from": "05:58",
           "to": "06:12",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -274,7 +274,7 @@
           "status": "onTime"
         },
         {
-          "from": "05:54",
+          "from": "05:55",
           "to": "06:12",
           "train": "NORA",
           "destinationName": "Pontoise",
