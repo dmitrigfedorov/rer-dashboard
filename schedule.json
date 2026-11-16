@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "16.11.2026, 19:01:04",
+  "fetchedAtParis": "16.11.2026, 19:06:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "19:13",
-          "to": "19:16",
+          "to": "19:15",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -36,8 +36,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "19:03",
-          "to": "19:06",
+          "from": "19:05",
+          "to": "19:07",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -45,14 +45,14 @@
         },
         {
           "from": "19:09",
-          "to": "19:11",
+          "to": "19:12",
           "train": "BOBA",
           "destinationName": "Brétigny",
           "platform": "E",
           "status": "onTime"
         },
         {
-          "from": "19:17",
+          "from": "19:18",
           "to": "19:20",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "19:13",
-          "to": "19:16",
+          "to": "19:15",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -121,8 +121,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "19:03",
-          "to": "19:06",
+          "from": "19:05",
+          "to": "19:07",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -130,7 +130,7 @@
         },
         {
           "from": "19:09",
-          "to": "19:11",
+          "to": "19:12",
           "train": "BOBA",
           "destinationName": "Brétigny",
           "platform": "E",
@@ -245,8 +245,8 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "19:13",
-          "to": "19:34",
+          "from": "19:12",
+          "to": "19:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -267,18 +267,18 @@
       "title": "Pont de l'Alma",
       "rows": [
         {
-          "from": "19:01",
-          "to": "19:20",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "19:14",
+          "to": "19:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "19:15",
-          "to": "19:34",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "19:32",
+          "to": "19:50",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
         }
@@ -289,18 +289,18 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "19:03",
-          "to": "19:20",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "19:17",
+          "to": "19:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "3",
           "status": "onTime"
         },
         {
-          "from": "19:17",
-          "to": "19:34",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "19:34",
+          "to": "19:50",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "3",
           "status": "onTime"
         }
@@ -319,8 +319,8 @@
           "status": "onTime"
         },
         {
-          "from": "19:20",
-          "to": "19:34",
+          "from": "19:19",
+          "to": "19:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "3",
@@ -333,18 +333,18 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "19:01",
-          "to": "19:11",
-          "train": "BOBA",
-          "destinationName": "Brétigny",
-          "platform": "1",
-          "status": "onTime"
-        },
-        {
           "from": "19:09",
           "to": "19:20",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "1",
+          "status": "onTime"
+        },
+        {
+          "from": "19:22",
+          "to": "19:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
           "status": "onTime"
         }
@@ -355,8 +355,8 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "19:05",
-          "to": "19:11",
+          "from": "19:06",
+          "to": "19:12",
           "train": "BOBA",
           "destinationName": "Brétigny",
           "platform": "D",
@@ -377,8 +377,8 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "19:03",
-          "to": "19:06",
+          "from": "19:05",
+          "to": "19:07",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -386,7 +386,7 @@
         },
         {
           "from": "19:09",
-          "to": "19:11",
+          "to": "19:12",
           "train": "BOBA",
           "destinationName": "Brétigny",
           "platform": "E",
