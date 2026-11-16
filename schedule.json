@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "16.11.2026, 13:41:07",
+  "fetchedAtParis": "16.11.2026, 13:42:51",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -23,7 +23,7 @@
         },
         {
           "from": "14:14",
-          "to": "14:16",
+          "to": "14:17",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "13:47",
+          "from": "13:46",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "13:45",
+          "from": "13:42",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "13:59",
+          "from": "14:00",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -395,6 +395,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-16T12:41:07.623832Z",
-  "busFetchedAtParis": "16.11.2026, 13:41:07"
+  "busFetchedAt": "2026-11-16T12:42:51.417369Z",
+  "busFetchedAtParis": "16.11.2026, 13:42:51"
 }
