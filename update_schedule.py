@@ -10,6 +10,7 @@ BUS125_LINE = 'STIF:Line::C01154:'
 BUS323_LINE = 'STIF:Line::C01287:'
 BUS_STOPS = {'quai': 'STIF:StopArea:SP:50401:', 'vincennes': 'STIF:StopArea:SP:473115:', 'moliere': 'STIF:StopArea:SP:46365:'}
 BUS_REFRESH = timedelta(minutes=5)
+RER_MAX_STOP_VISITS = 10
 STATIONS = [('Ivry-sur-Seine','STIF:StopArea:SP:46366:'),('Bibliothèque François-Mitterrand','STIF:StopArea:SP:45301:')]
 # Ordered from the western RER C branch toward Ivry, so BFM opens with its three preceding stations visible.
 RER_STATIONS = [
@@ -39,8 +40,8 @@ def dt(v):
     x=datetime.fromisoformat(str(v).replace('Z','+00:00'))
     if x.tzinfo is None: x=x.replace(tzinfo=timezone.utc)
     return x.astimezone(timezone.utc)
-def fetch(token, stop, now, line=LINE):
-    q=urllib.parse.urlencode({'MonitoringRef':stop,'LineRef':line,'MaximumStopVisits':3})
+def fetch(token, stop, now, line=LINE, max_visits=3):
+    q=urllib.parse.urlencode({'MonitoringRef':stop,'LineRef':line,'MaximumStopVisits':max_visits})
     req=urllib.request.Request(API+'?'+q,headers={'apikey':token,'Accept':'application/json','User-Agent':'rer-dashboard/1.0'})
     try:
         with urllib.request.urlopen(req,timeout=25) as r: data=json.load(r)
@@ -61,9 +62,12 @@ def fetch(token, stop, now, line=LINE):
     rows=[]
     for v in visits:
         j=v.get('MonitoredVehicleJourney') or {}; c=j.get('MonitoredCall') or {}
+        framed=j.get('FramedVehicleJourneyRef') or {}
+        journey_id=val(framed.get('DatedVehicleJourneyRef')) if isinstance(framed,dict) else val(framed)
+        journey_id=journey_id or val(j.get('VehicleJourneyRef'))
         dep=dt(c.get('ExpectedDepartureTime') or c.get('AimedDepartureTime'))
         if not dep or dep < now-timedelta(minutes=1): continue
-        rows.append({'dep':dep,'arr':dt(c.get('ExpectedArrivalTime')) or dep,'train':val(j.get('JourneyNote')),'dest':val(j.get('DestinationName')),'direction':val(j.get('DirectionName')),'display':val(j.get('DestinationDisplay')),'platform':val(c.get('DeparturePlatformName')),'status':val(c.get('DepartureStatus'))})
+        rows.append({'dep':dep,'arr':dt(c.get('ExpectedArrivalTime')) or dep,'train':val(j.get('JourneyNote')),'dest':val(j.get('DestinationName')),'direction':val(j.get('DirectionName')),'display':val(j.get('DestinationDisplay')),'platform':val(c.get('DeparturePlatformName')),'status':val(c.get('DepartureStatus')),'journey_id':journey_id})
     return sorted(rows,key=lambda x:x['dep'])
 def normalize(s):
     value=unicodedata.normalize('NFKD',s or '')
@@ -88,8 +92,14 @@ def prior_schedule(path):
 
 def pair(a,b):
     result=[]; seen=set()
+    by_journey={}
+    for y in b:
+        journey_id=y.get('journey_id')
+        if journey_id: by_journey.setdefault(journey_id,[]).append(y)
     for x in a:
-        matches=[y for y in b if y['train']==x['train'] and y['dest']==x['dest'] and x['dep']<y['dep']<=x['dep']+timedelta(minutes=90)]
+        journey_id=x.get('journey_id')
+        if not journey_id: continue
+        matches=[y for y in by_journey.get(journey_id,[]) if x['dep']<y['dep']<=x['dep']+timedelta(minutes=90)]
         if not matches: continue
         y=matches[0]; row={'from':x['dep'].astimezone(PARIS).strftime('%H:%M'),'to':y['arr'].astimezone(PARIS).strftime('%H:%M'),'train':x['train'],'destinationName':x['dest'],'platform':x['platform'],'status':x['status']}
         key=tuple(row[k] for k in ('from','to','train','destinationName'))
@@ -102,7 +112,7 @@ def main():
     now=datetime.now(timezone.utc)
     schedule_path=Path(__file__).with_name('schedule.json')
     previous=prior_schedule(schedule_path)
-    data=[fetch(token,s,now) for _,s in STATIONS]
+    data=[fetch(token,s,now,max_visits=RER_MAX_STOP_VISITS) for _,s in STATIONS]
     directions=[{'title':STATIONS[0][0],'destination':STATIONS[1][0],'rows':pair(data[0],data[1])},{'title':STATIONS[1][0],'destination':STATIONS[0][0],'rows':pair(data[1],data[0])}]
 
     old_rer_stations={s.get('id'):s for s in previous.get('rerStations',[]) if s.get('id')}
@@ -112,7 +122,7 @@ def main():
             station_visits=data[1]
         else:
             try:
-                station_visits=fetch(token,stop_ref,now)
+                station_visits=fetch(token,stop_ref,now,max_visits=RER_MAX_STOP_VISITS)
             except Exception as e:
                 print(f'RER station refresh failed for {station_name}; retaining last available rows: {e}',file=sys.stderr)
                 rer_station_rows[station_id]=old_rer_stations.get(station_id,{}).get('rows',[])
