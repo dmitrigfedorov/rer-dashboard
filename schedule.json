@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "17.11.2026, 00:31:02",
+  "fetchedAtParis": "17.11.2026, 00:36:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -30,6 +30,14 @@
       "rows": [
         {
           "from": "00:45",
+          "to": "",
+          "train": "325",
+          "destinationName": "Quai de la Gare",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "02:11",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -93,16 +101,7 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": [
-        {
-          "from": "00:32",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
   "rerStations": [
@@ -142,6 +141,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-16T23:31:02.801752Z",
-  "busFetchedAtParis": "17.11.2026, 00:31:02"
+  "busFetchedAt": "2026-11-16T23:36:03.256382Z",
+  "busFetchedAtParis": "17.11.2026, 00:36:03"
 }
