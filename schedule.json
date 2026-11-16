@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "16.11.2026, 16:16:14",
+  "fetchedAtParis": "16.11.2026, 16:21:06",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "16:28",
-          "to": "16:31",
+          "to": "16:30",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "16:28",
-          "to": "16:31",
+          "to": "16:30",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -245,7 +245,7 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "16:27",
+          "from": "16:26",
           "to": "16:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -275,7 +275,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:44",
+          "from": "16:45",
           "to": "17:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -289,19 +289,19 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "16:17",
-          "to": "16:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "3",
-          "status": "onTime"
-        },
-        {
           "from": "16:31",
           "to": "16:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
+          "status": "onTime"
+        },
+        {
+          "from": "16:38",
+          "to": "16:54",
+          "train": "BOBA",
+          "destinationName": "Brétigny",
+          "platform": "1",
           "status": "onTime"
         }
       ]
@@ -311,19 +311,19 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "16:19",
-          "to": "16:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "3",
-          "status": "onTime"
-        },
-        {
           "from": "16:33",
           "to": "16:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
+          "status": "onTime"
+        },
+        {
+          "from": "16:40",
+          "to": "16:54",
+          "train": "BOBA",
+          "destinationName": "Brétigny",
+          "platform": "1",
           "status": "onTime"
         }
       ]
