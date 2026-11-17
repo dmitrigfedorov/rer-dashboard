@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "17.11.2026, 23:21:03",
+  "fetchedAtParis": "17.11.2026, 23:26:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "23:22",
+          "from": "23:51",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -37,7 +37,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:52",
+          "from": "00:27",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -87,7 +87,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "23:18",
+          "from": "23:48",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -95,7 +95,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:48",
+          "from": "00:03",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -112,7 +112,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "23:28",
+          "from": "23:33",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -120,7 +120,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:42",
+          "from": "23:47",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -137,7 +137,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "23:15",
+          "from": "23:52",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -145,7 +145,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:33",
+          "from": "23:52",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -192,6 +192,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-17T22:16:04.027692Z",
-  "busFetchedAtParis": "17.11.2026, 23:16:04"
+  "busFetchedAt": "2026-11-17T22:26:02.909107Z",
+  "busFetchedAtParis": "17.11.2026, 23:26:02"
 }
