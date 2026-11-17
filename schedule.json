@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "17.11.2026, 06:56:04",
+  "fetchedAtParis": "17.11.2026, 07:01:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -44,19 +44,19 @@
           "status": "onTime"
         },
         {
-          "from": "07:32",
-          "to": "07:34",
+          "from": "07:31",
+          "to": "07:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "07:47",
-          "to": "07:49",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
+          "from": "07:41",
+          "to": "07:44",
+          "train": "JILL",
+          "destinationName": "Juvisy",
+          "platform": "E",
           "status": "onTime"
         }
       ]
@@ -129,8 +129,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:32",
-          "to": "07:34",
+          "from": "07:31",
+          "to": "07:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -245,18 +245,18 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "07:00",
-          "to": "07:20",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "07:11",
+          "to": "07:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "07:12",
-          "to": "07:34",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "07:23",
+          "to": "07:44",
+          "train": "JILL",
+          "destinationName": "Juvisy",
           "platform": "1",
           "status": "onTime"
         }
@@ -275,8 +275,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:15",
-          "to": "07:34",
+          "from": "07:14",
+          "to": "07:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -297,8 +297,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:17",
-          "to": "07:34",
+          "from": "07:16",
+          "to": "07:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "3",
@@ -319,8 +319,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:20",
-          "to": "07:34",
+          "from": "07:19",
+          "to": "07:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -341,8 +341,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:23",
-          "to": "07:34",
+          "from": "07:22",
+          "to": "07:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -363,8 +363,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:28",
-          "to": "07:34",
+          "from": "07:27",
+          "to": "07:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "D",
@@ -385,8 +385,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:32",
-          "to": "07:34",
+          "from": "07:31",
+          "to": "07:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
