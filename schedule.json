@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "17.11.2026, 04:51:03",
+  "fetchedAtParis": "17.11.2026, 04:56:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:13",
-          "to": "05:15",
+          "from": "05:14",
+          "to": "05:16",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:13",
-          "to": "05:15",
+          "from": "05:14",
+          "to": "05:16",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -127,7 +127,16 @@
       "line": "325",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Jean-Jacques Rousseau",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:22",
+          "to": "",
+          "train": "325",
+          "destinationName": "Château de Vincennes",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-eglise",
@@ -135,7 +144,16 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Église de Saint-Mandé",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:31",
+          "to": "",
+          "train": "325",
+          "destinationName": "Église de Saint-Mandé",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-125",
@@ -310,6 +328,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-17T03:46:03.868749Z",
-  "busFetchedAtParis": "17.11.2026, 04:46:03"
+  "busFetchedAt": "2026-11-17T03:56:02.870033Z",
+  "busFetchedAtParis": "17.11.2026, 04:56:02"
 }
