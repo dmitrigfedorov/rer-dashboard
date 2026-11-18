@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "18.11.2026, 05:41:03",
+  "fetchedAtParis": "18.11.2026, 05:46:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "05:44",
-          "to": "05:47",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "05:58",
           "to": "06:01",
@@ -23,9 +15,17 @@
         },
         {
           "from": "06:13",
-          "to": "06:16",
+          "to": "06:15",
           "train": "NORA",
           "destinationName": "Pontoise",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "06:28",
+          "to": "06:30",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         }
@@ -44,8 +44,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:46",
-          "to": "06:48",
+          "from": "06:47",
+          "to": "06:49",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -71,18 +71,18 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:44",
-          "to": "05:47",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "05:58",
           "to": "06:01",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "06:13",
+          "to": "06:15",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         }
@@ -121,8 +121,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:46",
-          "to": "06:48",
+          "from": "06:47",
+          "to": "06:49",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -146,7 +146,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:05",
+          "from": "06:07",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:14",
+          "from": "06:15",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -188,7 +188,15 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "05:44",
+          "from": "06:13",
+          "to": "",
+          "train": "125",
+          "destinationName": "Jean Le Galleu",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "06:23",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -205,7 +213,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "05:57",
+          "from": "05:47",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -229,8 +237,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:27",
-          "to": "06:48",
+          "from": "06:28",
+          "to": "06:49",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -252,7 +260,7 @@
         },
         {
           "from": "06:30",
-          "to": "06:48",
+          "to": "06:49",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -273,8 +281,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:32",
-          "to": "06:48",
+          "from": "06:33",
+          "to": "06:49",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
@@ -295,8 +303,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:34",
-          "to": "06:48",
+          "from": "06:35",
+          "to": "06:49",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
@@ -318,7 +326,7 @@
         },
         {
           "from": "06:38",
-          "to": "06:48",
+          "to": "06:49",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -339,8 +347,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:42",
-          "to": "06:48",
+          "from": "06:43",
+          "to": "06:49",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "D",
@@ -361,8 +369,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:46",
-          "to": "06:48",
+          "from": "06:47",
+          "to": "06:49",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -371,6 +379,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-18T04:41:03.247012Z",
-  "busFetchedAtParis": "18.11.2026, 05:41:03"
+  "busFetchedAt": "2026-11-18T04:46:04.264709Z",
+  "busFetchedAtParis": "18.11.2026, 05:46:04"
 }
