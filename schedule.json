@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "18.11.2026, 23:36:03",
+  "fetchedAtParis": "18.11.2026, 23:41:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "23:52",
+          "from": "23:51",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -37,7 +37,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:07",
+          "from": "00:03",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -62,7 +62,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "23:40",
+          "from": "23:55",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -70,7 +70,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:55",
+          "from": "00:15",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -112,7 +112,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "23:47",
+          "from": "23:51",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -120,7 +120,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:02",
+          "from": "00:04",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -192,6 +192,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-18T22:31:04.327254Z",
-  "busFetchedAtParis": "18.11.2026, 23:31:04"
+  "busFetchedAt": "2026-11-18T22:41:02.771267Z",
+  "busFetchedAtParis": "18.11.2026, 23:41:02"
 }
