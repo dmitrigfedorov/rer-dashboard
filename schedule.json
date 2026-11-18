@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "18.11.2026, 21:16:04",
+  "fetchedAtParis": "18.11.2026, 21:21:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "21:28",
-          "to": "21:31",
+          "to": "21:30",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "21:28",
-          "to": "21:31",
+          "to": "21:30",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "21:18",
+          "from": "21:31",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:29",
+          "from": "21:54",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "21:16",
+          "from": "21:28",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:28",
+          "from": "21:38",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "21:27",
+          "from": "21:26",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "21:37",
+          "from": "21:31",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -289,18 +289,18 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "21:17",
-          "to": "21:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "3",
-          "status": "onTime"
-        },
-        {
           "from": "21:31",
           "to": "21:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "3",
+          "status": "onTime"
+        },
+        {
+          "from": "21:47",
+          "to": "22:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "3",
           "status": "onTime"
         }
@@ -311,18 +311,18 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "21:19",
-          "to": "21:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "3",
-          "status": "onTime"
-        },
-        {
           "from": "21:33",
           "to": "21:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "3",
+          "status": "onTime"
+        },
+        {
+          "from": "21:49",
+          "to": "22:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "3",
           "status": "onTime"
         }
@@ -395,6 +395,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-18T20:11:11.230417Z",
-  "busFetchedAtParis": "18.11.2026, 21:11:11"
+  "busFetchedAt": "2026-11-18T20:21:04.627787Z",
+  "busFetchedAtParis": "18.11.2026, 21:21:04"
 }
