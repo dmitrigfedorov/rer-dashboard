@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "18.11.2026, 05:06:02",
+  "fetchedAtParis": "18.11.2026, 05:11:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:16",
-          "to": "05:18",
+          "from": "05:15",
+          "to": "05:17",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -44,7 +44,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:16",
+          "from": "06:17",
           "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:16",
-          "to": "05:18",
+          "from": "05:15",
+          "to": "05:17",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -94,7 +94,16 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Émile Durkheim",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:07",
+          "to": "",
+          "train": "325",
+          "destinationName": "Quai de la Gare",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "rer-bfm",
@@ -112,7 +121,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:16",
+          "from": "06:17",
           "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -127,7 +136,16 @@
       "line": "325",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Jean-Jacques Rousseau",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:25",
+          "to": "",
+          "train": "325",
+          "destinationName": "Château de Vincennes",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-eglise",
@@ -151,7 +169,16 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:32",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "rerStations": [
@@ -204,7 +231,7 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "06:02",
+          "from": "06:03",
           "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -300,7 +327,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:16",
+          "from": "06:17",
           "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -310,6 +337,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-18T04:01:03.374681Z",
-  "busFetchedAtParis": "18.11.2026, 05:01:03"
+  "busFetchedAt": "2026-11-18T04:11:04.507773Z",
+  "busFetchedAtParis": "18.11.2026, 05:11:04"
 }
