@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "18.11.2026, 03:46:03",
+  "fetchedAtParis": "18.11.2026, 03:51:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -46,6 +46,14 @@
         {
           "from": "06:16",
           "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "06:46",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -158,6 +166,14 @@
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
+        },
+        {
+          "from": "06:27",
+          "to": "06:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "1",
+          "status": "onTime"
         }
       ]
     },
@@ -168,6 +184,14 @@
         {
           "from": "05:59",
           "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "1",
+          "status": "onTime"
+        },
+        {
+          "from": "06:29",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -186,6 +210,14 @@
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
           "status": "onTime"
+        },
+        {
+          "from": "06:32",
+          "to": "06:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "3",
+          "status": "onTime"
         }
       ]
     },
@@ -200,6 +232,14 @@
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
           "status": "onTime"
+        },
+        {
+          "from": "06:34",
+          "to": "06:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "3",
+          "status": "onTime"
         }
       ]
     },
@@ -210,6 +250,14 @@
         {
           "from": "06:07",
           "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "1",
+          "status": "onTime"
+        },
+        {
+          "from": "06:37",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
