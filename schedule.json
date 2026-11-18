@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "18.11.2026, 11:16:03",
+  "fetchedAtParis": "18.11.2026, 11:21:08",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,7 +14,7 @@
           "status": "onTime"
         },
         {
-          "from": "11:43",
+          "from": "11:44",
           "to": "11:46",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -52,7 +52,7 @@
           "status": "cancelled"
         },
         {
-          "from": "12:01",
+          "from": "12:00",
           "to": "12:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -79,7 +79,7 @@
           "status": "onTime"
         },
         {
-          "from": "11:43",
+          "from": "11:44",
           "to": "11:46",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "11:15",
+          "from": "11:50",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "11:18",
+          "from": "12:00",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "11:14",
+          "from": "11:21",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "11:29",
+          "from": "11:39",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -253,7 +253,7 @@
           "status": "cancelled"
         },
         {
-          "from": "11:42",
+          "from": "11:41",
           "to": "12:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -289,20 +289,20 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "11:16",
-          "to": "11:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "3",
-          "status": "onTime"
-        },
-        {
           "from": "11:31",
           "to": "11:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
           "status": "cancelled"
+        },
+        {
+          "from": "11:46",
+          "to": "12:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "3",
+          "status": "onTime"
         }
       ]
     },
@@ -311,20 +311,20 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "11:18",
-          "to": "11:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "3",
-          "status": "onTime"
-        },
-        {
           "from": "11:33",
           "to": "11:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
           "status": "cancelled"
+        },
+        {
+          "from": "11:48",
+          "to": "12:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "3",
+          "status": "onTime"
         }
       ]
     },
@@ -395,6 +395,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-18T10:11:04.227839Z",
-  "busFetchedAtParis": "18.11.2026, 11:11:04"
+  "busFetchedAt": "2026-11-18T10:21:08.136046Z",
+  "busFetchedAtParis": "18.11.2026, 11:21:08"
 }
