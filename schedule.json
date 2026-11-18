@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "18.11.2026, 19:36:04",
+  "fetchedAtParis": "18.11.2026, 19:41:11",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -22,8 +22,8 @@
           "status": "onTime"
         },
         {
-          "from": "20:13",
-          "to": "20:15",
+          "from": "20:14",
+          "to": "20:16",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "19:44",
+          "from": "19:51",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "19:51",
+          "from": "20:11",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "19:58",
+          "from": "20:04",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:04",
+          "from": "20:24",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "19:48",
+          "from": "19:49",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "19:55",
+          "from": "19:58",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -222,6 +222,14 @@
       "rows": [
         {
           "from": "19:52",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "20:05",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -325,18 +333,18 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "19:37",
-          "to": "19:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "1",
-          "status": "onTime"
-        },
-        {
           "from": "19:53",
           "to": "20:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1",
+          "status": "onTime"
+        },
+        {
+          "from": "20:07",
+          "to": "20:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
         }
@@ -387,6 +395,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-18T18:36:04.677367Z",
-  "busFetchedAtParis": "18.11.2026, 19:36:04"
+  "busFetchedAt": "2026-11-18T18:41:11.035254Z",
+  "busFetchedAtParis": "18.11.2026, 19:41:11"
 }
