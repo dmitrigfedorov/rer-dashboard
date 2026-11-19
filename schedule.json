@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "19.11.2026, 05:06:03",
+  "fetchedAtParis": "19.11.2026, 05:11:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -94,7 +94,16 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Émile Durkheim",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:07",
+          "to": "",
+          "train": "325",
+          "destinationName": "Quai de la Gare",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "rer-bfm",
@@ -127,7 +136,16 @@
       "line": "325",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Jean-Jacques Rousseau",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:20",
+          "to": "",
+          "train": "325",
+          "destinationName": "Château de Vincennes",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-eglise",
@@ -151,7 +169,16 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:32",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "rerStations": [
@@ -310,6 +337,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-19T04:01:04.106954Z",
-  "busFetchedAtParis": "19.11.2026, 05:01:04"
+  "busFetchedAt": "2026-11-19T04:11:03.531763Z",
+  "busFetchedAtParis": "19.11.2026, 05:11:03"
 }
