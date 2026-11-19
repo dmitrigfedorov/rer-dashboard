@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "19.11.2026, 15:06:02",
+  "fetchedAtParis": "19.11.2026, 15:11:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "15:13",
-          "to": "15:15",
+          "to": "15:16",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "15:13",
-          "to": "15:15",
+          "to": "15:16",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "15:08",
+          "from": "15:11",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "15:09",
+          "from": "15:13",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "15:03",
+          "from": "15:24",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "15:24",
+          "from": "15:33",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "15:08",
+          "from": "15:12",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "15:16",
+          "from": "15:37",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -194,24 +194,7 @@
       "line": "125",
       "title": "Jean-Jacques Rousseau",
       "destination": "Jean Le Galleu",
-      "rows": [
-        {
-          "from": "15:02",
-          "to": "",
-          "train": "125",
-          "destinationName": "Jean Le Galleu",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
-          "from": "15:12",
-          "to": "",
-          "train": "125",
-          "destinationName": "Jean Le Galleu",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-323",
@@ -221,7 +204,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "15:09",
+          "from": "15:11",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -229,7 +212,7 @@
           "status": "onTime"
         },
         {
-          "from": "15:19",
+          "from": "15:21",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -333,18 +316,18 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "15:07",
-          "to": "15:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "1",
-          "status": "onTime"
-        },
-        {
           "from": "15:23",
           "to": "15:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1",
+          "status": "onTime"
+        },
+        {
+          "from": "15:37",
+          "to": "15:47",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
         }
@@ -395,6 +378,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-19T14:01:11.743740Z",
-  "busFetchedAtParis": "19.11.2026, 15:01:11"
+  "busFetchedAt": "2026-11-19T14:11:05.945083Z",
+  "busFetchedAtParis": "19.11.2026, 15:11:05"
 }
