@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "19.11.2026, 13:06:05",
+  "fetchedAtParis": "19.11.2026, 13:11:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -23,7 +23,7 @@
         },
         {
           "from": "13:43",
-          "to": "13:45",
+          "to": "13:46",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -253,7 +253,7 @@
           "status": "onTime"
         },
         {
-          "from": "13:27",
+          "from": "13:26",
           "to": "13:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -319,7 +319,7 @@
           "status": "onTime"
         },
         {
-          "from": "13:34",
+          "from": "13:33",
           "to": "13:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -333,18 +333,18 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "13:07",
-          "to": "13:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "1",
-          "status": "onTime"
-        },
-        {
           "from": "13:23",
           "to": "13:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1",
+          "status": "onTime"
+        },
+        {
+          "from": "13:37",
+          "to": "13:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
         }
