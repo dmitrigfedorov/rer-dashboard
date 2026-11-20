@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "20.11.2026, 22:31:02",
+  "fetchedAtParis": "20.11.2026, 22:36:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -9,16 +9,7 @@
     {
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
-      "rows": [
-        {
-          "from": "22:31",
-          "to": "22:34",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
   "cards": [
@@ -38,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "22:39",
+          "from": "22:40",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -61,16 +52,7 @@
       "line": "C",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
-      "rows": [
-        {
-          "from": "22:31",
-          "to": "22:34",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-vincennes",
@@ -80,7 +62,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "22:34",
+          "from": "22:40",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -88,7 +70,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:40",
+          "from": "22:54",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -207,18 +189,9 @@
     {
       "id": "bfm",
       "title": "Bibliothèque François-Mitterrand",
-      "rows": [
-        {
-          "from": "22:31",
-          "to": "22:34",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-20T21:31:02.468385Z",
-  "busFetchedAtParis": "20.11.2026, 22:31:02"
+  "busFetchedAt": "2026-11-20T21:36:02.594585Z",
+  "busFetchedAtParis": "20.11.2026, 22:36:02"
 }
