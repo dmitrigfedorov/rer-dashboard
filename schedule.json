@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "20.11.2026, 15:21:02",
+  "fetchedAtParis": "20.11.2026, 15:26:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "15:22",
+          "from": "15:38",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "15:39",
+          "from": "15:51",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "15:21",
+          "from": "15:57",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "15:45",
+          "from": "15:57",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "15:30",
+          "from": "15:29",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "15:24",
+          "from": "15:25",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -333,20 +333,20 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "15:23",
-          "to": "15:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1",
-          "status": "onTime"
-        },
-        {
           "from": "15:37",
           "to": "15:47",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
+        },
+        {
+          "from": "15:53",
+          "to": "16:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1",
+          "status": "cancelled"
         }
       ]
     },
@@ -395,6 +395,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-20T14:21:02.974173Z",
-  "busFetchedAtParis": "20.11.2026, 15:21:02"
+  "busFetchedAt": "2026-11-20T14:26:03.452384Z",
+  "busFetchedAtParis": "20.11.2026, 15:26:03"
 }
