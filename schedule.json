@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "21.11.2026, 00:36:02",
+  "fetchedAtParis": "21.11.2026, 00:41:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -37,7 +37,7 @@
           "status": "onTime"
         },
         {
-          "from": "01:07",
+          "from": "01:06",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -87,7 +87,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "00:44",
+          "from": "00:43",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -112,7 +112,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "00:44",
+          "from": "00:46",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -192,6 +192,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-20T23:36:02.899838Z",
-  "busFetchedAtParis": "21.11.2026, 00:36:02"
+  "busFetchedAt": "2026-11-20T23:41:03.871803Z",
+  "busFetchedAtParis": "21.11.2026, 00:41:03"
 }
