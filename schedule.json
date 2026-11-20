@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "20.11.2026, 22:21:10",
+  "fetchedAtParis": "20.11.2026, 22:26:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -215,16 +215,7 @@
     {
       "id": "saint-michel",
       "title": "Saint-Michel Notre-Dame",
-      "rows": [
-        {
-          "from": "22:24",
-          "to": "22:34",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "id": "austerlitz",
