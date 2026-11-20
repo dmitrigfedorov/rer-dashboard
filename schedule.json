@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "20.11.2026, 23:21:03",
+  "fetchedAtParis": "20.11.2026, 23:26:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "23:18",
+          "from": "23:51",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -37,7 +37,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:53",
+          "from": "00:07",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -62,14 +62,6 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "23:24",
-          "to": "",
-          "train": "325",
-          "destinationName": "Château de Vincennes",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
           "from": "23:39",
           "to": "",
           "train": "325",
@@ -87,7 +79,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "23:19",
+          "from": "23:34",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -95,7 +87,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:33",
+          "from": "23:48",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -112,7 +104,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "23:33",
+          "from": "23:37",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -137,7 +129,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "23:52",
+          "from": "23:54",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -192,6 +184,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-20T22:16:03.988394Z",
-  "busFetchedAtParis": "20.11.2026, 23:16:03"
+  "busFetchedAt": "2026-11-20T22:26:02.200131Z",
+  "busFetchedAtParis": "20.11.2026, 23:26:02"
 }
