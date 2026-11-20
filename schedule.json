@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "20.11.2026, 20:21:03",
+  "fetchedAtParis": "20.11.2026, 20:26:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "20:28",
-          "to": "20:31",
+          "to": "20:30",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -52,8 +52,8 @@
           "status": "onTime"
         },
         {
-          "from": "21:17",
-          "to": "21:20",
+          "from": "21:18",
+          "to": "21:21",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "20:28",
-          "to": "20:31",
+          "to": "20:30",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -245,7 +245,7 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "20:26",
+          "from": "20:27",
           "to": "20:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
