@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "20.11.2026, 21:21:08",
+  "fetchedAtParis": "20.11.2026, 21:26:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -275,7 +275,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:45",
+          "from": "21:44",
           "to": "22:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -333,18 +333,18 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "21:23",
-          "to": "21:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1",
-          "status": "onTime"
-        },
-        {
           "from": "21:37",
           "to": "21:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "1",
+          "status": "onTime"
+        },
+        {
+          "from": "21:53",
+          "to": "22:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
           "status": "onTime"
         }
@@ -355,7 +355,7 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "21:27",
+          "from": "21:28",
           "to": "21:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
