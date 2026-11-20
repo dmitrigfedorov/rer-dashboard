@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "20.11.2026, 13:06:08",
+  "fetchedAtParis": "20.11.2026, 13:11:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -22,8 +22,8 @@
           "status": "onTime"
         },
         {
-          "from": "13:43",
-          "to": "13:45",
+          "from": "13:44",
+          "to": "13:46",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -311,18 +311,18 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "13:07",
-          "to": "13:21",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "3",
-          "status": "onTime"
-        },
-        {
           "from": "13:19",
           "to": "13:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "3",
+          "status": "onTime"
+        },
+        {
+          "from": "13:33",
+          "to": "13:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "3",
           "status": "onTime"
         }
