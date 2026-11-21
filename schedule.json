@@ -1,29 +1,29 @@
 {
-  "fetchedAtParis": "21.11.2026, 21:11:02",
+  "fetchedAtParis": "21.11.2026, 21:16:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "21:13",
-          "to": "21:16",
+          "from": "21:35",
+          "to": "21:36",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
-          "status": "onTime"
-        },
-        {
-          "from": "21:30",
-          "to": "21:31",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
+          "status": "delayed"
         },
         {
           "from": "21:58",
           "to": "22:00",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "22:28",
+          "to": "22:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "21:13",
-          "to": "21:16",
+          "from": "21:35",
+          "to": "21:36",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
-          "status": "onTime"
+          "status": "delayed"
         },
         {
-          "from": "21:30",
-          "to": "21:31",
+          "from": "21:58",
+          "to": "22:00",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "21:05",
+          "from": "21:23",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:13",
+          "from": "21:31",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "21:20",
+          "from": "21:18",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:26",
+          "from": "21:27",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -222,6 +222,14 @@
       "rows": [
         {
           "from": "21:30",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "21:50",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -302,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-21T20:06:09.091685Z",
-  "busFetchedAtParis": "21.11.2026, 21:06:09"
+  "busFetchedAt": "2026-11-21T20:16:02.521858Z",
+  "busFetchedAtParis": "21.11.2026, 21:16:02"
 }
