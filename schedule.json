@@ -1,20 +1,12 @@
 {
-  "fetchedAtParis": "21.11.2026, 14:11:08",
+  "fetchedAtParis": "21.11.2026, 14:16:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "14:13",
-          "to": "14:15",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
-          "from": "14:29",
+          "from": "14:28",
           "to": "14:31",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -24,6 +16,14 @@
         {
           "from": "14:43",
           "to": "14:45",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "14:58",
+          "to": "15:00",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "14:13",
-          "to": "14:15",
+          "from": "14:28",
+          "to": "14:31",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "14:29",
-          "to": "14:31",
+          "from": "14:43",
+          "to": "14:45",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
