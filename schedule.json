@@ -1,12 +1,12 @@
 {
-  "fetchedAtParis": "21.11.2026, 22:41:09",
+  "fetchedAtParis": "21.11.2026, 22:46:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "22:58",
+          "from": "22:59",
           "to": "23:01",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -36,12 +36,12 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "22:45",
+          "from": "22:46",
           "to": "22:48",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "E",
-          "status": "onTime"
+          "status": "delayed"
         },
         {
           "from": "23:00",
@@ -71,7 +71,7 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "22:58",
+          "from": "22:59",
           "to": "23:01",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -121,12 +121,12 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "22:45",
+          "from": "22:46",
           "to": "22:48",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "E",
-          "status": "onTime"
+          "status": "delayed"
         },
         {
           "from": "23:00",
@@ -253,16 +253,16 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "22:41",
-          "to": "22:48",
+          "from": "22:55",
+          "to": "23:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "D",
           "status": "onTime"
         },
         {
-          "from": "22:55",
-          "to": "23:03",
+          "from": "23:10",
+          "to": "23:18",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "D",
@@ -275,12 +275,12 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "22:45",
+          "from": "22:46",
           "to": "22:48",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "E",
-          "status": "onTime"
+          "status": "delayed"
         },
         {
           "from": "23:00",
