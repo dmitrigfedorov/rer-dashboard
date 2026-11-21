@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "22.11.2026, 00:26:02",
+  "fetchedAtParis": "22.11.2026, 00:31:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -15,7 +15,7 @@
           "to": "00:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         }
       ]
@@ -38,7 +38,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "00:23",
+          "from": "01:05",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -46,7 +46,7 @@
           "status": "onTime"
         },
         {
-          "from": "01:05",
+          "from": "01:25",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -67,7 +67,7 @@
           "to": "00:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         }
       ]
@@ -105,7 +105,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "00:27",
+          "from": "00:31",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -155,7 +155,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "00:50",
+          "from": "01:11",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -205,12 +205,12 @@
           "to": "00:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         }
       ]
     }
   ],
-  "busFetchedAt": "2026-11-21T23:21:02.636797Z",
-  "busFetchedAtParis": "22.11.2026, 00:21:02"
+  "busFetchedAt": "2026-11-21T23:31:03.311716Z",
+  "busFetchedAtParis": "22.11.2026, 00:31:03"
 }
