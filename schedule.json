@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "21.11.2026, 22:21:02",
+  "fetchedAtParis": "21.11.2026, 22:26:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "22:56",
+          "from": "23:02",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:02",
+          "from": "23:09",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "22:30",
+          "from": "22:31",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -270,16 +270,16 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "22:25",
-          "to": "22:33",
+          "from": "22:40",
+          "to": "22:48",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "C",
+          "platform": "D",
           "status": "onTime"
         },
         {
-          "from": "22:40",
-          "to": "22:48",
+          "from": "22:55",
+          "to": "23:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "C",
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-21T21:21:02.032808Z",
-  "busFetchedAtParis": "21.11.2026, 22:21:02"
+  "busFetchedAt": "2026-11-21T21:26:02.441406Z",
+  "busFetchedAtParis": "21.11.2026, 22:26:02"
 }
