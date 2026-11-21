@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "21.11.2026, 20:26:08",
+  "fetchedAtParis": "21.11.2026, 20:31:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "20:28",
-          "to": "20:30",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "20:58",
           "to": "21:00",
@@ -24,6 +16,14 @@
         {
           "from": "21:13",
           "to": "21:15",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "21:28",
+          "to": "21:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "20:28",
-          "to": "20:30",
+          "from": "20:58",
+          "to": "21:00",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "20:58",
-          "to": "21:00",
+          "from": "21:13",
+          "to": "21:15",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -262,19 +262,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "20:26",
-          "to": "20:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "C",
-          "status": "onTime"
-        },
-        {
           "from": "20:40",
           "to": "20:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "D",
+          "status": "onTime"
+        },
+        {
+          "from": "20:55",
+          "to": "21:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "C",
           "status": "onTime"
         }
       ]
