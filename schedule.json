@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "21.11.2026, 05:46:02",
+  "fetchedAtParis": "21.11.2026, 05:51:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,8 +14,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:13",
-          "to": "06:15",
+          "from": "06:14",
+          "to": "06:16",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -79,8 +79,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:13",
-          "to": "06:15",
+          "from": "06:14",
+          "to": "06:16",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "06:07",
+          "from": "06:05",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -138,7 +138,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "05:44",
+          "from": "06:12",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -163,7 +163,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "05:52",
+          "from": "05:54",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -171,7 +171,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:44",
+          "from": "06:21",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -205,7 +205,15 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "05:56",
+          "from": "06:12",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "06:32",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -258,7 +266,7 @@
           "to": "06:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "E",
+          "platform": "D",
           "status": "onTime"
         }
       ]
@@ -286,6 +294,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-21T04:41:04.035225Z",
-  "busFetchedAtParis": "21.11.2026, 05:41:04"
+  "busFetchedAt": "2026-11-21T04:51:02.396822Z",
+  "busFetchedAtParis": "21.11.2026, 05:51:02"
 }
