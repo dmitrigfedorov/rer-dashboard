@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "21.11.2026, 23:26:02",
+  "fetchedAtParis": "21.11.2026, 23:31:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "23:28",
-          "to": "23:31",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "23:58",
           "to": "00:00",
@@ -32,7 +24,7 @@
           "to": "23:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -63,14 +55,6 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "23:28",
-          "to": "23:31",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
           "from": "23:58",
           "to": "00:00",
           "train": "ZORA",
@@ -88,7 +72,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "23:26",
+          "from": "23:53",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -96,7 +80,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:52",
+          "from": "00:09",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -117,7 +101,7 @@
           "to": "23:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -138,7 +122,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "23:22",
+          "from": "23:45",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -146,7 +130,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:30",
+          "from": "00:15",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -163,7 +147,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "23:32",
+          "from": "23:33",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -171,7 +155,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:39",
+          "from": "23:37",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -213,7 +197,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "23:28",
+          "from": "23:33",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -262,16 +246,16 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "23:26",
-          "to": "23:33",
+          "from": "23:55",
+          "to": "00:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "C",
           "status": "onTime"
         },
         {
-          "from": "23:55",
-          "to": "00:03",
+          "from": "00:25",
+          "to": "00:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "C",
@@ -288,7 +272,7 @@
           "to": "23:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -302,6 +286,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-21T22:21:04.020974Z",
-  "busFetchedAtParis": "21.11.2026, 23:21:04"
+  "busFetchedAt": "2026-11-21T22:31:03.154175Z",
+  "busFetchedAtParis": "21.11.2026, 23:31:03"
 }
