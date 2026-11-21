@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "22.11.2026, 00:51:03",
+  "fetchedAtParis": "22.11.2026, 00:56:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -37,7 +37,7 @@
           "status": "onTime"
         },
         {
-          "from": "01:25",
+          "from": "01:27",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -62,14 +62,6 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "00:54",
-          "to": "",
-          "train": "325",
-          "destinationName": "Château de Vincennes",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
           "from": "01:35",
           "to": "",
           "train": "325",
@@ -87,7 +79,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "01:05",
+          "from": "01:03",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -137,7 +129,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "00:50",
+          "from": "01:16",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -145,7 +137,7 @@
           "status": "onTime"
         },
         {
-          "from": "01:17",
+          "from": "01:32",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -192,6 +184,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-21T23:51:03.141489Z",
-  "busFetchedAtParis": "22.11.2026, 00:51:03"
+  "busFetchedAt": "2026-11-21T23:56:03.283418Z",
+  "busFetchedAtParis": "22.11.2026, 00:56:03"
 }
