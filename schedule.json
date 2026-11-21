@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "21.11.2026, 01:31:02",
+  "fetchedAtParis": "21.11.2026, 01:36:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "02:07",
+          "from": "02:03",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -52,16 +52,7 @@
       "line": "325",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Jean-Jacques Rousseau",
-      "rows": [
-        {
-          "from": "01:35",
-          "to": "",
-          "train": "325",
-          "destinationName": "Château de Vincennes",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-eglise",
@@ -88,7 +79,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "01:48",
+          "from": "01:57",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -96,7 +87,7 @@
           "status": "onTime"
         },
         {
-          "from": "02:18",
+          "from": "02:10",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -111,16 +102,7 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": [
-        {
-          "from": "01:31",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
   "rerStations": [
@@ -160,6 +142,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-21T00:26:03.025048Z",
-  "busFetchedAtParis": "21.11.2026, 01:26:03"
+  "busFetchedAt": "2026-11-21T00:36:02.909411Z",
+  "busFetchedAtParis": "21.11.2026, 01:36:02"
 }
