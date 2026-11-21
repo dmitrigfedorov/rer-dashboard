@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "21.11.2026, 08:26:04",
+  "fetchedAtParis": "21.11.2026, 08:31:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "08:28",
-          "to": "08:30",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "08:43",
           "to": "08:45",
@@ -24,6 +16,14 @@
         {
           "from": "08:58",
           "to": "09:00",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "09:13",
+          "to": "09:15",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "08:28",
-          "to": "08:30",
+          "from": "08:43",
+          "to": "08:45",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "08:43",
-          "to": "08:45",
+          "from": "08:58",
+          "to": "09:00",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "08:54",
+          "from": "08:55",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "08:44",
+          "from": "08:45",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -219,7 +219,16 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "08:35",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "rerStations": [
@@ -293,6 +302,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-21T07:26:04.570343Z",
-  "busFetchedAtParis": "21.11.2026, 08:26:04"
+  "busFetchedAt": "2026-11-21T07:31:04.624607Z",
+  "busFetchedAtParis": "21.11.2026, 08:31:04"
 }
