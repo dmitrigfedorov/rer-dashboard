@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "22.11.2026, 00:01:03",
+  "fetchedAtParis": "22.11.2026, 00:06:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -10,14 +10,6 @@
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
       "rows": [
-        {
-          "from": "00:00",
-          "to": "00:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
         {
           "from": "00:30",
           "to": "00:33",
@@ -70,14 +62,6 @@
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
       "rows": [
-        {
-          "from": "00:00",
-          "to": "00:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
         {
           "from": "00:30",
           "to": "00:33",
@@ -146,7 +130,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "00:05",
+          "from": "00:23",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -154,7 +138,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:23",
+          "from": "00:43",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -171,7 +155,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "00:30",
+          "from": "00:32",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -234,14 +218,6 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "00:00",
-          "to": "00:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "00:30",
           "to": "00:33",
           "train": "ROMI",
@@ -252,6 +228,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-21T23:01:03.233416Z",
-  "busFetchedAtParis": "22.11.2026, 00:01:03"
+  "busFetchedAt": "2026-11-21T23:06:03.276218Z",
+  "busFetchedAtParis": "22.11.2026, 00:06:03"
 }
