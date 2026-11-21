@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "21.11.2026, 22:26:02",
+  "fetchedAtParis": "21.11.2026, 22:31:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "22:28",
-          "to": "22:30",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "22:58",
           "to": "23:00",
@@ -24,6 +16,14 @@
         {
           "from": "23:28",
           "to": "23:30",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "23:58",
+          "to": "00:00",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "22:28",
-          "to": "22:30",
+          "from": "22:58",
+          "to": "23:00",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "22:58",
-          "to": "23:00",
+          "from": "23:28",
+          "to": "23:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "22:31",
+          "from": "22:55",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:45",
+          "from": "23:23",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:55",
+          "from": "23:04",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "22:49",
+          "from": "22:48",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-21T21:26:02.441406Z",
-  "busFetchedAtParis": "21.11.2026, 22:26:02"
+  "busFetchedAt": "2026-11-21T21:31:03.609881Z",
+  "busFetchedAtParis": "21.11.2026, 22:31:03"
 }
