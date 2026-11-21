@@ -1,19 +1,10 @@
 {
-  "fetchedAtParis": "21.11.2026, 23:56:02",
+  "fetchedAtParis": "22.11.2026, 00:01:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
-      "rows": [
-        {
-          "from": "23:58",
-          "to": "00:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "title": "Bibliothèque François-Mitterrand",
@@ -45,16 +36,7 @@
       "line": "C",
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
-      "rows": [
-        {
-          "from": "23:58",
-          "to": "00:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-quai",
@@ -64,7 +46,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "23:52",
+          "from": "00:09",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -72,7 +54,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:09",
+          "from": "00:25",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -139,7 +121,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "23:56",
+          "from": "00:25",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -147,7 +129,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:25",
+          "from": "00:44",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -164,7 +146,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "00:03",
+          "from": "00:05",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -270,6 +252,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-21T22:51:03.350038Z",
-  "busFetchedAtParis": "21.11.2026, 23:51:03"
+  "busFetchedAt": "2026-11-21T23:01:03.233416Z",
+  "busFetchedAtParis": "22.11.2026, 00:01:03"
 }
