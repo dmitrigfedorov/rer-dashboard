@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "22.11.2026, 09:36:06",
+  "fetchedAtParis": "22.11.2026, 09:41:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,15 @@
       "rows": [
         {
           "from": "09:43",
-          "to": "09:45",
+          "to": "09:46",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "09:59",
+          "to": "10:01",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -16,14 +24,6 @@
         {
           "from": "10:13",
           "to": "10:15",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
-          "from": "10:28",
-          "to": "10:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -72,15 +72,15 @@
       "rows": [
         {
           "from": "09:43",
-          "to": "09:45",
+          "to": "09:46",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "10:13",
-          "to": "10:15",
+          "from": "09:59",
+          "to": "10:01",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -270,19 +270,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "09:40",
-          "to": "09:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "C",
-          "status": "onTime"
-        },
-        {
           "from": "09:55",
           "to": "10:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "D",
+          "status": "onTime"
+        },
+        {
+          "from": "10:10",
+          "to": "10:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "C",
           "status": "onTime"
         }
       ]
