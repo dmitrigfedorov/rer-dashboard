@@ -1,15 +1,65 @@
 {
-  "fetchedAtParis": "22.11.2026, 02:56:02",
+  "fetchedAtParis": "22.11.2026, 03:01:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:13",
+          "to": "05:15",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "05:28",
+          "to": "05:30",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "05:43",
+          "to": "05:45",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:15",
+          "to": "05:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "05:31",
+          "to": "05:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "05:45",
+          "to": "05:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "cards": [
@@ -19,7 +69,24 @@
       "line": "C",
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:13",
+          "to": "05:15",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "05:28",
+          "to": "05:30",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-quai",
@@ -35,7 +102,24 @@
       "line": "C",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:15",
+          "to": "05:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "05:31",
+          "to": "05:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-vincennes",
@@ -99,14 +183,48 @@
     {
       "id": "austerlitz",
       "title": "Gare d'Austerlitz",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:10",
+          "to": "05:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "B",
+          "status": "onTime"
+        },
+        {
+          "from": "05:27",
+          "to": "05:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "B",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "id": "bfm",
       "title": "Bibliothèque François-Mitterrand",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:15",
+          "to": "05:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "05:31",
+          "to": "05:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        }
+      ]
     }
   ],
-  "busFetchedAt": "2026-11-22T01:51:02.693461Z",
-  "busFetchedAtParis": "22.11.2026, 02:51:02"
+  "busFetchedAt": "2026-11-22T02:01:03.085541Z",
+  "busFetchedAtParis": "22.11.2026, 03:01:03"
 }
