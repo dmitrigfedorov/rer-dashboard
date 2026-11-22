@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "22.11.2026, 06:41:02",
+  "fetchedAtParis": "22.11.2026, 06:46:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "06:44",
-          "to": "06:46",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "06:58",
           "to": "07:00",
@@ -24,6 +16,14 @@
         {
           "from": "07:13",
           "to": "07:15",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "07:28",
+          "to": "07:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:44",
-          "to": "06:46",
+          "from": "06:58",
+          "to": "07:00",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "06:58",
-          "to": "07:00",
+          "from": "07:13",
+          "to": "07:15",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -138,7 +138,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "06:50",
+          "from": "06:49",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -146,7 +146,7 @@
           "status": "onTime"
         },
         {
-          "from": "07:24",
+          "from": "07:07",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
           "status": "onTime"
         },
         {
-          "from": "07:32",
+          "from": "07:15",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -285,6 +285,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-22T05:41:02.889488Z",
-  "busFetchedAtParis": "22.11.2026, 06:41:02"
+  "busFetchedAt": "2026-11-22T05:46:03.096483Z",
+  "busFetchedAtParis": "22.11.2026, 06:46:03"
 }
