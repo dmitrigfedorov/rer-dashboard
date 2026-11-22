@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "22.11.2026, 01:26:02",
+  "fetchedAtParis": "22.11.2026, 01:31:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "01:27",
+          "from": "01:49",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -111,7 +111,16 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "01:31",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "rerStations": [
@@ -151,6 +160,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-22T00:26:02.808227Z",
-  "busFetchedAtParis": "22.11.2026, 01:26:02"
+  "busFetchedAt": "2026-11-22T00:31:04.297855Z",
+  "busFetchedAtParis": "22.11.2026, 01:31:04"
 }
