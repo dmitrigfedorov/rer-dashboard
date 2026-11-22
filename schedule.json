@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "22.11.2026, 06:01:03",
+  "fetchedAtParis": "22.11.2026, 06:06:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -36,14 +36,6 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "06:00",
-          "to": "06:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "06:15",
           "to": "06:18",
           "train": "MONA",
@@ -56,6 +48,14 @@
           "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "07:00",
+          "to": "07:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         }
@@ -104,16 +104,16 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "06:00",
-          "to": "06:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "06:15",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "06:15",
-          "to": "06:18",
+          "from": "06:45",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -129,7 +129,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "06:25",
+          "from": "06:31",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -146,7 +146,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "06:32",
+          "from": "06:38",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -163,7 +163,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "06:36",
+          "from": "06:35",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -178,7 +178,16 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:32",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "rerStations": [
@@ -234,16 +243,16 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:00",
-          "to": "06:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "06:15",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "06:15",
-          "to": "06:18",
+          "from": "06:45",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -252,6 +261,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-22T05:01:03.688415Z",
-  "busFetchedAtParis": "22.11.2026, 06:01:03"
+  "busFetchedAt": "2026-11-22T05:06:03.776193Z",
+  "busFetchedAtParis": "22.11.2026, 06:06:03"
 }
