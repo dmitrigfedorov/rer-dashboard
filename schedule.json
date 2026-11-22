@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "22.11.2026, 05:56:02",
+  "fetchedAtParis": "22.11.2026, 06:01:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "05:58",
-          "to": "06:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "06:43",
           "to": "06:45",
@@ -24,6 +16,14 @@
         {
           "from": "06:58",
           "to": "07:00",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "07:13",
+          "to": "07:15",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:58",
-          "to": "06:00",
+          "from": "06:43",
+          "to": "06:45",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "06:43",
-          "to": "06:45",
+          "from": "06:58",
+          "to": "07:00",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -127,7 +127,16 @@
       "line": "325",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Jean-Jacques Rousseau",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:25",
+          "to": "",
+          "train": "325",
+          "destinationName": "Château de Vincennes",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-eglise",
@@ -135,7 +144,16 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Église de Saint-Mandé",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:32",
+          "to": "",
+          "train": "325",
+          "destinationName": "Église de Saint-Mandé",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-125",
@@ -143,7 +161,16 @@
       "line": "125",
       "title": "Jean-Jacques Rousseau",
       "destination": "Jean Le Galleu",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:36",
+          "to": "",
+          "train": "125",
+          "destinationName": "Jean Le Galleu",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-323",
@@ -225,6 +252,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-22T04:51:03.046828Z",
-  "busFetchedAtParis": "22.11.2026, 05:51:03"
+  "busFetchedAt": "2026-11-22T05:01:03.688415Z",
+  "busFetchedAtParis": "22.11.2026, 06:01:03"
 }
