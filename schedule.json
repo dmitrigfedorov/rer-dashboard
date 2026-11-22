@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "22.11.2026, 19:51:03",
+  "fetchedAtParis": "22.11.2026, 19:56:06",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,7 +14,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:14",
+          "from": "20:13",
           "to": "20:16",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -79,7 +79,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:14",
+          "from": "20:13",
           "to": "20:16",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "19:50",
+          "from": "19:56",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "19:51",
+          "from": "20:06",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:06",
+          "from": "20:23",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -270,19 +270,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "19:55",
-          "to": "20:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "D",
-          "status": "onTime"
-        },
-        {
           "from": "20:10",
           "to": "20:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "C",
+          "status": "onTime"
+        },
+        {
+          "from": "20:25",
+          "to": "20:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "D",
           "status": "onTime"
         }
       ]
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-22T18:51:03.725261Z",
-  "busFetchedAtParis": "22.11.2026, 19:51:03"
+  "busFetchedAt": "2026-11-22T18:56:06.610887Z",
+  "busFetchedAtParis": "22.11.2026, 19:56:06"
 }
