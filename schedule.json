@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "22.11.2026, 07:06:03",
+  "fetchedAtParis": "22.11.2026, 07:11:07",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,8 +14,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:28",
-          "to": "07:30",
+          "from": "07:29",
+          "to": "07:31",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -79,8 +79,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:28",
-          "to": "07:30",
+          "from": "07:29",
+          "to": "07:31",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "07:51",
+          "from": "07:38",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "07:17",
+          "from": "07:16",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -253,19 +253,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "07:10",
-          "to": "07:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "C",
-          "status": "onTime"
-        },
-        {
           "from": "07:25",
           "to": "07:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "D",
+          "status": "onTime"
+        },
+        {
+          "from": "07:40",
+          "to": "07:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "C",
           "status": "onTime"
         }
       ]
@@ -293,6 +293,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-22T06:06:03.209613Z",
-  "busFetchedAtParis": "22.11.2026, 07:06:03"
+  "busFetchedAt": "2026-11-22T06:11:07.621446Z",
+  "busFetchedAtParis": "22.11.2026, 07:11:07"
 }
