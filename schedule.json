@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "22.11.2026, 13:21:03",
+  "fetchedAtParis": "22.11.2026, 13:26:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "13:39",
+          "from": "13:38",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "13:20",
+          "from": "13:34",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "13:34",
+          "from": "13:47",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "13:29",
+          "from": "13:30",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "13:30",
+          "from": "13:26",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "13:37",
+          "from": "13:43",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -270,7 +270,7 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "13:25",
+          "from": "13:26",
           "to": "13:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-22T12:21:03.234208Z",
-  "busFetchedAtParis": "22.11.2026, 13:21:03"
+  "busFetchedAt": "2026-11-22T12:26:03.733354Z",
+  "busFetchedAtParis": "22.11.2026, 13:26:03"
 }
