@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "22.11.2026, 08:56:03",
+  "fetchedAtParis": "22.11.2026, 09:01:08",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "08:58",
-          "to": "09:00",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "09:13",
           "to": "09:15",
@@ -24,6 +16,14 @@
         {
           "from": "09:28",
           "to": "09:30",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "09:43",
+          "to": "09:45",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "08:58",
-          "to": "09:00",
+          "from": "09:13",
+          "to": "09:15",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "09:13",
-          "to": "09:15",
+          "from": "09:28",
+          "to": "09:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "09:14",
+          "from": "09:35",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -302,6 +302,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-22T07:56:03.421195Z",
-  "busFetchedAtParis": "22.11.2026, 08:56:03"
+  "busFetchedAt": "2026-11-22T08:01:08.694873Z",
+  "busFetchedAtParis": "22.11.2026, 09:01:08"
 }
