@@ -1,31 +1,31 @@
 {
-  "fetchedAtParis": "23.11.2026, 11:41:04",
+  "fetchedAtParis": "23.11.2026, 11:46:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "11:43",
-          "to": "11:45",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
-          "from": "12:00",
-          "to": "12:02",
+          "from": "12:05",
+          "to": "12:07",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
-          "status": "onTime"
+          "status": "delayed"
         },
         {
           "from": "12:13",
           "to": "12:15",
           "train": "NORA",
           "destinationName": "Pontoise",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "12:28",
+          "to": "12:30",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         }
@@ -36,14 +36,6 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "11:45",
-          "to": "11:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "delayed"
-        },
-        {
           "from": "11:50",
           "to": "11:52",
           "train": "DEBO",
@@ -53,9 +45,17 @@
         },
         {
           "from": "11:52",
-          "to": "11:55",
+          "to": "11:56",
           "train": "MONA",
           "destinationName": "Orly Ville",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "12:01",
+          "to": "12:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         }
@@ -71,18 +71,18 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "11:43",
-          "to": "11:45",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
-          "from": "12:00",
-          "to": "12:02",
+          "from": "12:05",
+          "to": "12:07",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
+          "platform": "2B",
+          "status": "delayed"
+        },
+        {
+          "from": "12:13",
+          "to": "12:15",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         }
@@ -121,19 +121,19 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "11:45",
-          "to": "11:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "delayed"
-        },
-        {
           "from": "11:50",
           "to": "11:52",
           "train": "DEBO",
           "destinationName": "Dourdan la Forêt",
           "platform": "E",
+          "status": "onTime"
+        },
+        {
+          "from": "11:52",
+          "to": "11:56",
+          "train": "MONA",
+          "destinationName": "Orly Ville",
+          "platform": "F",
           "status": "onTime"
         }
       ]
@@ -245,8 +245,8 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "11:43",
-          "to": "12:04",
+          "from": "11:47",
+          "to": "12:08",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -267,18 +267,18 @@
       "title": "Pont de l'Alma",
       "rows": [
         {
-          "from": "11:41",
-          "to": "12:00",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "11:49",
+          "to": "12:08",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "11:45",
-          "to": "12:04",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "11:51",
+          "to": "12:10",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
           "status": "onTime"
         }
@@ -289,16 +289,16 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "11:43",
-          "to": "12:00",
+          "from": "11:46",
+          "to": "12:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "3",
+          "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "11:47",
-          "to": "12:04",
+          "from": "11:52",
+          "to": "12:08",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
@@ -311,18 +311,18 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "11:40",
-          "to": "11:52",
-          "train": "DEBO",
-          "destinationName": "Dourdan la Forêt",
+          "from": "11:49",
+          "to": "12:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "3",
-          "status": "cancelled"
+          "status": "onTime"
         },
         {
-          "from": "11:41",
-          "to": "11:55",
+          "from": "11:54",
+          "to": "12:08",
           "train": "MONA",
-          "destinationName": "Orly Ville",
+          "destinationName": "Massy-Palaiseau",
           "platform": "3",
           "status": "onTime"
         }
@@ -333,18 +333,18 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "11:43",
-          "to": "11:52",
-          "train": "DEBO",
-          "destinationName": "Dourdan la Forêt",
+          "from": "11:52",
+          "to": "12:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
-          "status": "cancelled"
+          "status": "onTime"
         },
         {
-          "from": "11:44",
-          "to": "11:55",
+          "from": "11:57",
+          "to": "12:08",
           "train": "MONA",
-          "destinationName": "Orly Ville",
+          "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
         }
@@ -355,19 +355,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "11:41",
-          "to": "11:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "E",
-          "status": "delayed"
-        },
-        {
           "from": "11:45",
           "to": "11:52",
           "train": "DEBO",
           "destinationName": "Dourdan la Forêt",
           "platform": "21",
+          "status": "onTime"
+        },
+        {
+          "from": "11:49",
+          "to": "11:56",
+          "train": "MONA",
+          "destinationName": "Orly Ville",
+          "platform": "E",
           "status": "onTime"
         }
       ]
@@ -377,19 +377,19 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "11:45",
-          "to": "11:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "delayed"
-        },
-        {
           "from": "11:50",
           "to": "11:52",
           "train": "DEBO",
           "destinationName": "Dourdan la Forêt",
           "platform": "E",
+          "status": "onTime"
+        },
+        {
+          "from": "11:52",
+          "to": "11:56",
+          "train": "MONA",
+          "destinationName": "Orly Ville",
+          "platform": "F",
           "status": "onTime"
         }
       ]
