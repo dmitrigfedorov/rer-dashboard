@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "23.11.2026, 04:56:03",
+  "fetchedAtParis": "23.11.2026, 05:01:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "05:14",
-          "to": "05:15",
+          "to": "05:16",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "05:14",
-          "to": "05:15",
+          "to": "05:16",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -161,7 +161,16 @@
       "line": "125",
       "title": "Jean-Jacques Rousseau",
       "destination": "Jean Le Galleu",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:45",
+          "to": "",
+          "train": "125",
+          "destinationName": "Jean Le Galleu",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-323",
@@ -328,6 +337,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-23T03:56:03.772957Z",
-  "busFetchedAtParis": "23.11.2026, 04:56:03"
+  "busFetchedAt": "2026-11-23T04:01:03.938321Z",
+  "busFetchedAtParis": "23.11.2026, 05:01:03"
 }
