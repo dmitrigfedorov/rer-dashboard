@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "23.11.2026, 22:36:02",
+  "fetchedAtParis": "23.11.2026, 22:41:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "22:40",
+          "from": "22:50",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -37,7 +37,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:51",
+          "from": "23:05",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -61,14 +61,6 @@
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Jean-Jacques Rousseau",
       "rows": [
-        {
-          "from": "22:40",
-          "to": "",
-          "train": "325",
-          "destinationName": "Château de Vincennes",
-          "platform": "",
-          "status": "onTime"
-        },
         {
           "from": "22:54",
           "to": "",
@@ -137,7 +129,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "22:37",
+          "from": "23:15",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -145,7 +137,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:15",
+          "from": "23:33",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -192,6 +184,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-23T21:36:02.919843Z",
-  "busFetchedAtParis": "23.11.2026, 22:36:02"
+  "busFetchedAt": "2026-11-23T21:41:02.932251Z",
+  "busFetchedAtParis": "23.11.2026, 22:41:02"
 }
