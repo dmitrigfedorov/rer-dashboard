@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "23.11.2026, 22:16:04",
+  "fetchedAtParis": "23.11.2026, 22:21:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -20,7 +20,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "22:32",
+          "from": "22:31",
           "to": "22:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -81,7 +81,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "22:32",
+          "from": "22:31",
           "to": "22:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -205,30 +205,12 @@
     {
       "id": "invalides",
       "title": "Invalides",
-      "rows": [
-        {
-          "from": "22:17",
-          "to": "22:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "3",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "id": "musee-dorsay",
       "title": "Musée d'Orsay",
-      "rows": [
-        {
-          "from": "22:20",
-          "to": "22:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "3",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "id": "saint-michel",
@@ -263,7 +245,7 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "22:32",
+          "from": "22:31",
           "to": "22:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
