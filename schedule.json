@@ -1,21 +1,13 @@
 {
-  "fetchedAtParis": "23.11.2026, 05:11:03",
+  "fetchedAtParis": "23.11.2026, 05:16:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:14",
-          "to": "05:15",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
-        {
-          "from": "05:29",
-          "to": "05:31",
+          "from": "05:30",
+          "to": "05:33",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -26,6 +18,14 @@
           "to": "05:46",
           "train": "NORA",
           "destinationName": "Pontoise",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "05:58",
+          "to": "06:01",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         }
@@ -71,18 +71,18 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:14",
-          "to": "05:15",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
+          "from": "05:30",
+          "to": "05:33",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "05:29",
-          "to": "05:31",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
+          "from": "05:43",
+          "to": "05:46",
+          "train": "NORA",
+          "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         }
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "06:02",
+          "from": "06:03",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -187,7 +187,16 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:33",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "rerStations": [
@@ -346,6 +355,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-23T04:06:07.376172Z",
-  "busFetchedAtParis": "23.11.2026, 05:06:07"
+  "busFetchedAt": "2026-11-23T04:16:04.868500Z",
+  "busFetchedAtParis": "23.11.2026, 05:16:04"
 }
