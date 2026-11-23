@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "23.11.2026, 11:21:03",
+  "fetchedAtParis": "23.11.2026, 11:26:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -36,12 +36,12 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "11:26",
-          "to": "11:27",
+          "from": "11:30",
+          "to": "11:32",
           "train": "DOLE",
           "destinationName": "Dourdan",
           "platform": "E",
-          "status": "onTime"
+          "status": "delayed"
         },
         {
           "from": "11:32",
@@ -121,12 +121,12 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "11:26",
-          "to": "11:27",
+          "from": "11:30",
+          "to": "11:32",
           "train": "DOLE",
           "destinationName": "Dourdan",
           "platform": "E",
-          "status": "onTime"
+          "status": "delayed"
         },
         {
           "from": "11:32",
@@ -267,20 +267,20 @@
       "title": "Pont de l'Alma",
       "rows": [
         {
-          "from": "11:21",
-          "to": "11:39",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "1",
-          "status": "delayed"
-        },
-        {
           "from": "11:29",
           "to": "11:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "delayed"
+        },
+        {
+          "from": "11:43",
+          "to": "12:03",
+          "train": "ROMI",
+          "destinationName": "Épinay-sur-Seine",
+          "platform": "1",
+          "status": "cancelled"
         }
       ]
     },
@@ -289,20 +289,20 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "11:23",
-          "to": "11:39",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "3",
-          "status": "delayed"
-        },
-        {
           "from": "11:31",
           "to": "11:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
           "status": "delayed"
+        },
+        {
+          "from": "11:38",
+          "to": "11:52",
+          "train": "DEBO",
+          "destinationName": "Dourdan",
+          "platform": "1",
+          "status": "cancelled"
         }
       ]
     },
@@ -311,16 +311,16 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "11:20",
-          "to": "11:35",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "11:25",
+          "to": "11:39",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "3",
           "status": "delayed"
         },
         {
-          "from": "11:25",
-          "to": "11:39",
+          "from": "11:33",
+          "to": "11:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
@@ -333,16 +333,16 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "11:24",
-          "to": "11:35",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "11:29",
+          "to": "11:39",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "delayed"
         },
         {
-          "from": "11:29",
-          "to": "11:39",
+          "from": "11:37",
+          "to": "11:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -355,12 +355,12 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "11:21",
-          "to": "11:27",
+          "from": "11:26",
+          "to": "11:32",
           "train": "DOLE",
           "destinationName": "Dourdan",
           "platform": "20",
-          "status": "onTime"
+          "status": "delayed"
         },
         {
           "from": "11:28",
@@ -377,12 +377,12 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "11:26",
-          "to": "11:27",
+          "from": "11:30",
+          "to": "11:32",
           "train": "DOLE",
           "destinationName": "Dourdan",
           "platform": "E",
-          "status": "onTime"
+          "status": "delayed"
         },
         {
           "from": "11:32",
