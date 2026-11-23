@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "23.11.2026, 16:21:03",
+  "fetchedAtParis": "23.11.2026, 16:26:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "16:28",
-          "to": "16:30",
+          "to": "16:31",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "16:28",
-          "to": "16:30",
+          "to": "16:31",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:42",
+          "from": "16:43",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:39",
+          "from": "16:41",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -222,6 +222,14 @@
       "rows": [
         {
           "from": "16:26",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "16:34",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -325,18 +333,18 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "16:23",
-          "to": "16:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1",
-          "status": "onTime"
-        },
-        {
           "from": "16:37",
           "to": "16:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "1",
+          "status": "onTime"
+        },
+        {
+          "from": "16:43",
+          "to": "16:54",
+          "train": "BOBA",
+          "destinationName": "Brétigny",
           "platform": "1",
           "status": "onTime"
         }
@@ -387,6 +395,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-23T15:21:03.509005Z",
-  "busFetchedAtParis": "23.11.2026, 16:21:03"
+  "busFetchedAt": "2026-11-23T15:26:03.839450Z",
+  "busFetchedAtParis": "23.11.2026, 16:26:03"
 }
