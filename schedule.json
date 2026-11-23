@@ -1,12 +1,12 @@
 {
-  "fetchedAtParis": "23.11.2026, 17:36:09",
+  "fetchedAtParis": "23.11.2026, 17:41:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "17:43",
+          "from": "17:44",
           "to": "17:46",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -36,14 +36,6 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "17:37",
-          "to": "17:40",
-          "train": "BOBA",
-          "destinationName": "Brétigny",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "17:46",
           "to": "17:48",
           "train": "MONA",
@@ -58,6 +50,14 @@
           "destinationName": "Brétigny",
           "platform": "E",
           "status": "onTime"
+        },
+        {
+          "from": "18:02",
+          "to": "18:04",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
         }
       ]
     }
@@ -71,7 +71,7 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "17:43",
+          "from": "17:44",
           "to": "17:46",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -121,19 +121,19 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "17:37",
-          "to": "17:40",
-          "train": "BOBA",
-          "destinationName": "Brétigny",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "17:46",
           "to": "17:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "17:51",
+          "to": "17:54",
+          "train": "BOBA",
+          "destinationName": "Brétigny",
+          "platform": "E",
           "status": "onTime"
         }
       ]
@@ -245,7 +245,7 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "17:43",
+          "from": "17:44",
           "to": "18:04",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -289,18 +289,18 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "17:38",
-          "to": "17:54",
-          "train": "BOBA",
-          "destinationName": "Brétigny",
-          "platform": "3",
-          "status": "onTime"
-        },
-        {
           "from": "17:48",
           "to": "18:04",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "3",
+          "status": "onTime"
+        },
+        {
+          "from": "17:53",
+          "to": "18:09",
+          "train": "BOBA",
+          "destinationName": "Brétigny",
           "platform": "3",
           "status": "onTime"
         }
@@ -311,18 +311,18 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "17:40",
-          "to": "17:54",
-          "train": "BOBA",
-          "destinationName": "Brétigny",
-          "platform": "3",
-          "status": "onTime"
-        },
-        {
           "from": "17:50",
           "to": "18:04",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "3",
+          "status": "onTime"
+        },
+        {
+          "from": "17:55",
+          "to": "18:09",
+          "train": "BOBA",
+          "destinationName": "Brétigny",
           "platform": "3",
           "status": "onTime"
         }
@@ -333,18 +333,18 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "17:37",
-          "to": "17:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "1",
-          "status": "onTime"
-        },
-        {
           "from": "17:44",
           "to": "17:54",
           "train": "BOBA",
           "destinationName": "Brétigny",
+          "platform": "1",
+          "status": "onTime"
+        },
+        {
+          "from": "17:54",
+          "to": "18:04",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
           "status": "onTime"
         }
@@ -359,7 +359,7 @@
           "to": "17:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "D",
+          "platform": "E",
           "status": "onTime"
         },
         {
@@ -377,19 +377,19 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "17:37",
-          "to": "17:40",
-          "train": "BOBA",
-          "destinationName": "Brétigny",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "17:46",
           "to": "17:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "17:51",
+          "to": "17:54",
+          "train": "BOBA",
+          "destinationName": "Brétigny",
+          "platform": "E",
           "status": "onTime"
         }
       ]
