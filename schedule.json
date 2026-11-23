@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "23.11.2026, 21:51:02",
+  "fetchedAtParis": "23.11.2026, 21:56:08",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -44,7 +44,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:31",
+          "from": "22:30",
           "to": "22:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -88,7 +88,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "22:00",
+          "from": "22:01",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -138,7 +138,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "22:00",
+          "from": "21:59",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:09",
+          "from": "22:08",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -188,7 +188,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "21:54",
+          "from": "22:24",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -245,7 +245,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:13",
+          "from": "22:12",
           "to": "22:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -267,7 +267,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:15",
+          "from": "22:14",
           "to": "22:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -289,7 +289,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:18",
+          "from": "22:17",
           "to": "22:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -311,7 +311,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:20",
+          "from": "22:19",
           "to": "22:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -325,16 +325,16 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "21:53",
-          "to": "22:03",
+          "from": "22:08",
+          "to": "22:18",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "22:08",
-          "to": "22:18",
+          "from": "22:23",
+          "to": "22:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -387,6 +387,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-23T20:51:02.927918Z",
-  "busFetchedAtParis": "23.11.2026, 21:51:02"
+  "busFetchedAt": "2026-11-23T20:56:08.246467Z",
+  "busFetchedAtParis": "23.11.2026, 21:56:08"
 }
