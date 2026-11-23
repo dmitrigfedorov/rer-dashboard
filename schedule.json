@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "23.11.2026, 06:01:03",
+  "fetchedAtParis": "23.11.2026, 06:06:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -273,16 +273,16 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "06:02",
-          "to": "06:18",
+          "from": "06:32",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
-          "status": "cancelled"
+          "status": "onTime"
         },
         {
-          "from": "06:32",
-          "to": "06:48",
+          "from": "07:03",
+          "to": "07:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
@@ -295,16 +295,16 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "06:04",
-          "to": "06:18",
+          "from": "06:34",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
-          "status": "cancelled"
+          "status": "onTime"
         },
         {
-          "from": "06:34",
-          "to": "06:48",
+          "from": "07:05",
+          "to": "07:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
