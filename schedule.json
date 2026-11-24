@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "24.11.2026, 23:56:03",
+  "fetchedAtParis": "25.11.2026, 00:01:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "00:03",
+          "from": "00:01",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -37,7 +37,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:39",
+          "from": "00:38",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -61,14 +61,6 @@
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Jean-Jacques Rousseau",
       "rows": [
-        {
-          "from": "23:55",
-          "to": "",
-          "train": "325",
-          "destinationName": "Château de Vincennes",
-          "platform": "",
-          "status": "onTime"
-        },
         {
           "from": "00:35",
           "to": "",
@@ -95,7 +87,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "00:02",
+          "from": "00:22",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -103,7 +95,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:22",
+          "from": "00:42",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -119,14 +111,6 @@
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
       "rows": [
-        {
-          "from": "23:52",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        },
         {
           "from": "00:31",
           "to": "",
@@ -175,6 +159,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-24T22:51:03.837201Z",
-  "busFetchedAtParis": "24.11.2026, 23:51:03"
+  "busFetchedAt": "2026-11-24T23:01:03.386533Z",
+  "busFetchedAtParis": "25.11.2026, 00:01:03"
 }
