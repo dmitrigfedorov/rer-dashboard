@@ -1,33 +1,15 @@
 {
-  "fetchedAtParis": "24.11.2026, 22:26:03",
+  "fetchedAtParis": "24.11.2026, 22:31:07",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
-      "rows": [
-        {
-          "from": "22:28",
-          "to": "22:30",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2B",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
-      "rows": [
-        {
-          "from": "22:30",
-          "to": "22:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
   "cards": [
@@ -37,16 +19,7 @@
       "line": "C",
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
-      "rows": [
-        {
-          "from": "22:28",
-          "to": "22:30",
-          "train": "GOTA",
-          "destinationName": "Montigny - Beauchamp",
-          "platform": "2B",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-quai",
@@ -79,16 +52,7 @@
       "line": "C",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Ivry-sur-Seine",
-      "rows": [
-        {
-          "from": "22:30",
-          "to": "22:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-vincennes",
@@ -131,7 +95,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "22:43",
+          "from": "22:42",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -139,7 +103,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:52",
+          "from": "22:51",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -203,32 +167,14 @@
     {
       "id": "austerlitz",
       "title": "Gare d'Austerlitz",
-      "rows": [
-        {
-          "from": "22:27",
-          "to": "22:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "id": "bfm",
       "title": "Bibliothèque François-Mitterrand",
-      "rows": [
-        {
-          "from": "22:30",
-          "to": "22:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-24T21:26:03.663053Z",
-  "busFetchedAtParis": "24.11.2026, 22:26:03"
+  "busFetchedAt": "2026-11-24T21:31:07.207909Z",
+  "busFetchedAtParis": "24.11.2026, 22:31:07"
 }
