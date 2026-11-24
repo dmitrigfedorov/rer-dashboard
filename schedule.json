@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "24.11.2026, 20:51:08",
+  "fetchedAtParis": "24.11.2026, 20:56:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -14,8 +14,8 @@
           "status": "onTime"
         },
         {
-          "from": "21:13",
-          "to": "21:15",
+          "from": "21:16",
+          "to": "21:18",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -79,8 +79,8 @@
           "status": "onTime"
         },
         {
-          "from": "21:13",
-          "to": "21:15",
+          "from": "21:16",
+          "to": "21:18",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -289,7 +289,7 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "21:06",
+          "from": "21:05",
           "to": "21:22",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -311,7 +311,7 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "21:08",
+          "from": "21:07",
           "to": "21:22",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -333,18 +333,18 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "20:53",
-          "to": "21:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "21:11",
+          "to": "21:22",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "21:12",
-          "to": "21:22",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "21:23",
+          "to": "21:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
           "status": "onTime"
         }
@@ -363,7 +363,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:16",
+          "from": "21:15",
           "to": "21:22",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
