@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "24.11.2026, 10:16:03",
+  "fetchedAtParis": "24.11.2026, 10:21:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:28",
+          "from": "10:25",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:37",
+          "from": "10:38",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "10:21",
+          "from": "10:22",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:33",
+          "from": "10:29",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "10:19",
+          "from": "10:28",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -229,7 +229,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:28",
+          "from": "10:38",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -289,18 +289,18 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "10:16",
-          "to": "10:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "3",
-          "status": "onTime"
-        },
-        {
           "from": "10:31",
           "to": "10:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "3",
+          "status": "onTime"
+        },
+        {
+          "from": "11:16",
+          "to": "11:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "3",
           "status": "onTime"
         }
@@ -311,18 +311,18 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "10:19",
-          "to": "10:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "3",
-          "status": "onTime"
-        },
-        {
           "from": "10:33",
           "to": "10:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "3",
+          "status": "onTime"
+        },
+        {
+          "from": "11:18",
+          "to": "11:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "3",
           "status": "onTime"
         }
@@ -395,6 +395,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-24T09:16:03.195810Z",
-  "busFetchedAtParis": "24.11.2026, 10:16:03"
+  "busFetchedAt": "2026-11-24T09:21:04.324396Z",
+  "busFetchedAtParis": "24.11.2026, 10:21:04"
 }
