@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "24.11.2026, 15:01:05",
+  "fetchedAtParis": "24.11.2026, 15:06:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -36,14 +36,6 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "15:00",
-          "to": "15:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "15:15",
           "to": "15:18",
           "train": "MONA",
@@ -52,10 +44,18 @@
           "status": "onTime"
         },
         {
-          "from": "15:35",
-          "to": "15:37",
+          "from": "15:34",
+          "to": "15:38",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "15:45",
+          "to": "15:47",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         }
@@ -121,18 +121,18 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "15:00",
-          "to": "15:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "15:15",
           "to": "15:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "15:34",
+          "to": "15:38",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         }
@@ -246,7 +246,7 @@
       "rows": [
         {
           "from": "15:17",
-          "to": "15:37",
+          "to": "15:38",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -268,7 +268,7 @@
       "rows": [
         {
           "from": "15:19",
-          "to": "15:37",
+          "to": "15:38",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -289,18 +289,18 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "15:01",
-          "to": "15:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "15:22",
+          "to": "15:38",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "3",
           "status": "onTime"
         },
         {
-          "from": "15:21",
-          "to": "15:37",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "15:31",
+          "to": "15:47",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "3",
           "status": "onTime"
         }
@@ -311,18 +311,18 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "15:03",
-          "to": "15:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "15:24",
+          "to": "15:38",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "3",
           "status": "onTime"
         },
         {
-          "from": "15:24",
-          "to": "15:37",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "15:33",
+          "to": "15:47",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "3",
           "status": "onTime"
         }
@@ -341,8 +341,8 @@
           "status": "onTime"
         },
         {
-          "from": "15:27",
-          "to": "15:37",
+          "from": "15:28",
+          "to": "15:38",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -363,8 +363,8 @@
           "status": "onTime"
         },
         {
-          "from": "15:31",
-          "to": "15:37",
+          "from": "15:32",
+          "to": "15:38",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "E",
@@ -377,18 +377,18 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "15:00",
-          "to": "15:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "15:15",
           "to": "15:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "15:34",
+          "to": "15:38",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         }
