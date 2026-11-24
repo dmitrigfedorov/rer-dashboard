@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "24.11.2026, 05:06:03",
+  "fetchedAtParis": "24.11.2026, 05:11:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "05:13",
-          "to": "05:16",
+          "to": "05:15",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -22,7 +22,7 @@
           "status": "onTime"
         },
         {
-          "from": "05:44",
+          "from": "05:45",
           "to": "05:47",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -45,7 +45,7 @@
         },
         {
           "from": "06:16",
-          "to": "06:18",
+          "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "05:13",
-          "to": "05:16",
+          "to": "05:15",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -122,7 +122,7 @@
         },
         {
           "from": "06:16",
-          "to": "06:18",
+          "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -189,7 +189,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "06:18",
+          "from": "05:32",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -206,7 +206,7 @@
       "rows": [
         {
           "from": "05:58",
-          "to": "06:18",
+          "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -228,7 +228,7 @@
       "rows": [
         {
           "from": "06:00",
-          "to": "06:18",
+          "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -249,8 +249,8 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "06:02",
-          "to": "06:18",
+          "from": "06:03",
+          "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
@@ -272,7 +272,7 @@
       "rows": [
         {
           "from": "06:05",
-          "to": "06:18",
+          "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
@@ -294,7 +294,7 @@
       "rows": [
         {
           "from": "06:08",
-          "to": "06:18",
+          "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -324,7 +324,7 @@
         },
         {
           "from": "06:13",
-          "to": "06:18",
+          "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "D",
@@ -346,7 +346,7 @@
         },
         {
           "from": "06:16",
-          "to": "06:18",
+          "to": "06:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -355,6 +355,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-24T04:06:03.915392Z",
-  "busFetchedAtParis": "24.11.2026, 05:06:03"
+  "busFetchedAt": "2026-11-24T04:11:04.116901Z",
+  "busFetchedAtParis": "24.11.2026, 05:11:04"
 }
