@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "25.11.2026, 00:36:02",
+  "fetchedAtParis": "25.11.2026, 00:41:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -27,24 +27,7 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Émile Durkheim",
-      "rows": [
-        {
-          "from": "00:38",
-          "to": "",
-          "train": "325",
-          "destinationName": "Quai de la Gare",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
-          "from": "00:57",
-          "to": "",
-          "train": "325",
-          "destinationName": "Quai de la Gare",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "rer-bfm",
@@ -60,16 +43,7 @@
       "line": "325",
       "title": "Bibliothèque François-Mitterrand",
       "destination": "Jean-Jacques Rousseau",
-      "rows": [
-        {
-          "from": "00:34",
-          "to": "",
-          "train": "325",
-          "destinationName": "Château de Vincennes",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "card": "bus-eglise",
@@ -87,7 +61,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "00:42",
+          "from": "01:22",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -95,7 +69,7 @@
           "status": "onTime"
         },
         {
-          "from": "01:22",
+          "from": "01:32",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -110,16 +84,7 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": [
-        {
-          "from": "00:32",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     }
   ],
   "rerStations": [
@@ -159,6 +124,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-24T23:31:03.520925Z",
-  "busFetchedAtParis": "25.11.2026, 00:31:03"
+  "busFetchedAt": "2026-11-24T23:41:02.677743Z",
+  "busFetchedAtParis": "25.11.2026, 00:41:02"
 }
