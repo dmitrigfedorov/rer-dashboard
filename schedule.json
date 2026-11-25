@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "25.11.2026, 20:36:03",
+  "fetchedAtParis": "25.11.2026, 20:41:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "20:44",
-          "to": "20:45",
+          "from": "20:43",
+          "to": "20:46",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -22,7 +22,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:13",
+          "from": "21:14",
           "to": "21:15",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -52,7 +52,7 @@
           "status": "onTime"
         },
         {
-          "from": "21:15",
+          "from": "21:16",
           "to": "21:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "20:44",
-          "to": "20:45",
+          "from": "20:43",
+          "to": "20:46",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -333,18 +333,18 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "20:37",
-          "to": "20:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "1",
-          "status": "onTime"
-        },
-        {
           "from": "20:53",
           "to": "21:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1",
+          "status": "onTime"
+        },
+        {
+          "from": "21:07",
+          "to": "21:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
         }
