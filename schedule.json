@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "25.11.2026, 22:36:03",
+  "fetchedAtParis": "25.11.2026, 22:41:07",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -29,7 +29,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "22:32",
+          "from": "22:56",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -37,7 +37,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:53",
+          "from": "23:07",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -112,7 +112,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "22:42",
+          "from": "22:45",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -120,7 +120,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:47",
+          "from": "22:51",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -137,7 +137,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "22:38",
+          "from": "22:56",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -145,7 +145,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:56",
+          "from": "23:15",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -192,6 +192,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-25T21:31:03.511817Z",
-  "busFetchedAtParis": "25.11.2026, 22:31:03"
+  "busFetchedAt": "2026-11-25T21:41:07.406564Z",
+  "busFetchedAtParis": "25.11.2026, 22:41:07"
 }
