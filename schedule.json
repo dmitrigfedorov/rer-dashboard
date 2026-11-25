@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "25.11.2026, 04:56:02",
+  "fetchedAtParis": "25.11.2026, 05:01:06",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:14",
-          "to": "05:15",
+          "from": "05:15",
+          "to": "05:17",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:14",
-          "to": "05:15",
+          "from": "05:15",
+          "to": "05:17",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -94,7 +94,16 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Émile Durkheim",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:00",
+          "to": "",
+          "train": "325",
+          "destinationName": "Quai de la Gare",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "rer-bfm",
@@ -328,6 +337,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-25T03:56:02.925220Z",
-  "busFetchedAtParis": "25.11.2026, 04:56:02"
+  "busFetchedAt": "2026-11-25T04:01:06.789687Z",
+  "busFetchedAtParis": "25.11.2026, 05:01:06"
 }
