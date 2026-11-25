@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "25.11.2026, 17:56:03",
+  "fetchedAtParis": "25.11.2026, 18:01:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "17:58",
-          "to": "18:00",
-          "train": "NORA",
-          "destinationName": "Pontoise",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "18:13",
           "to": "18:15",
@@ -28,6 +20,14 @@
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
+        },
+        {
+          "from": "18:43",
+          "to": "18:45",
+          "train": "NORA",
+          "destinationName": "Orly Ville",
+          "platform": "2B",
+          "status": "cancelled"
         }
       ]
     },
@@ -71,18 +71,18 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "17:58",
-          "to": "18:00",
+          "from": "18:13",
+          "to": "18:15",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "18:13",
-          "to": "18:15",
-          "train": "NORA",
-          "destinationName": "Pontoise",
+          "from": "18:28",
+          "to": "18:30",
+          "train": "GOTA",
+          "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
           "status": "onTime"
         }
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "18:15",
+          "from": "18:14",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "18:15",
+          "from": "18:14",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "17:59",
+          "from": "18:19",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "18:19",
+          "from": "18:39",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "18:16",
+          "from": "18:15",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "18:02",
+          "from": "18:06",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "18:11",
+          "from": "18:09",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "18:00",
+          "from": "18:01",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -245,18 +245,18 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "17:58",
-          "to": "18:19",
-          "train": "ROMI",
-          "destinationName": "Avenue Henri Martin",
-          "platform": "1",
-          "status": "cancelled"
-        },
-        {
-          "from": "18:03",
+          "from": "18:02",
           "to": "18:23",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "1",
+          "status": "onTime"
+        },
+        {
+          "from": "18:05",
+          "to": "18:26",
+          "train": "BOBA",
+          "destinationName": "Brétigny",
           "platform": "1",
           "status": "onTime"
         }
@@ -275,7 +275,7 @@
           "status": "cancelled"
         },
         {
-          "from": "18:05",
+          "from": "18:04",
           "to": "18:23",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -297,7 +297,7 @@
           "status": "cancelled"
         },
         {
-          "from": "18:07",
+          "from": "18:06",
           "to": "18:23",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -311,20 +311,20 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "17:57",
-          "to": "18:10",
-          "train": "BOBA",
-          "destinationName": "Brétigny",
-          "platform": "3",
-          "status": "onTime"
-        },
-        {
           "from": "18:05",
           "to": "18:19",
           "train": "ROMI",
           "destinationName": "Avenue Henri Martin",
           "platform": "3",
           "status": "cancelled"
+        },
+        {
+          "from": "18:09",
+          "to": "18:23",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "3",
+          "status": "onTime"
         }
       ]
     },
@@ -395,6 +395,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-25T16:56:03.755493Z",
-  "busFetchedAtParis": "25.11.2026, 17:56:03"
+  "busFetchedAt": "2026-11-25T17:01:03.952089Z",
+  "busFetchedAtParis": "25.11.2026, 18:01:03"
 }
