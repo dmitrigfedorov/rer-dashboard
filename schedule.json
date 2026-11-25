@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "26.11.2026, 00:16:02",
+  "fetchedAtParis": "26.11.2026, 00:21:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -103,14 +103,6 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "00:12",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
           "from": "00:31",
           "to": "",
           "train": "323",
@@ -158,6 +150,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-25T23:11:02.947863Z",
-  "busFetchedAtParis": "26.11.2026, 00:11:02"
+  "busFetchedAt": "2026-11-25T23:21:02.547222Z",
+  "busFetchedAtParis": "26.11.2026, 00:21:02"
 }
