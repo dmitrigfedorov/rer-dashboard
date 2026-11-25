@@ -1,12 +1,12 @@
 {
-  "fetchedAtParis": "25.11.2026, 17:46:03",
+  "fetchedAtParis": "25.11.2026, 17:51:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "17:59",
+          "from": "17:58",
           "to": "18:01",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -36,14 +36,6 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "17:47",
-          "to": "17:50",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "E",
-          "status": "onTime"
-        },
-        {
           "from": "17:52",
           "to": "17:55",
           "train": "BOBA",
@@ -52,12 +44,20 @@
           "status": "onTime"
         },
         {
-          "from": "18:07",
+          "from": "18:08",
           "to": "18:10",
           "train": "BOBA",
           "destinationName": "Brétigny",
           "platform": "E",
           "status": "onTime"
+        },
+        {
+          "from": "18:16",
+          "to": "18:19",
+          "train": "ROMI",
+          "destinationName": "Avenue Henri Martin",
+          "platform": "F",
+          "status": "cancelled"
         }
       ]
     }
@@ -71,7 +71,7 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "17:59",
+          "from": "17:58",
           "to": "18:01",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -121,16 +121,16 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "17:47",
-          "to": "17:50",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "17:52",
+          "to": "17:55",
+          "train": "BOBA",
+          "destinationName": "Brétigny",
           "platform": "E",
           "status": "onTime"
         },
         {
-          "from": "17:52",
-          "to": "17:55",
+          "from": "18:08",
+          "to": "18:10",
           "train": "BOBA",
           "destinationName": "Brétigny",
           "platform": "E",
@@ -245,20 +245,20 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "17:50",
-          "to": "18:10",
-          "train": "BOBA",
-          "destinationName": "Brétigny",
-          "platform": "1",
-          "status": "onTime"
-        },
-        {
           "from": "17:58",
           "to": "18:19",
           "train": "ROMI",
           "destinationName": "Avenue Henri Martin",
           "platform": "1",
           "status": "cancelled"
+        },
+        {
+          "from": "18:03",
+          "to": "18:23",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "1",
+          "status": "onTime"
         }
       ]
     },
@@ -333,7 +333,7 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "17:59",
+          "from": "18:01",
           "to": "18:10",
           "train": "BOBA",
           "destinationName": "Brétigny",
@@ -355,20 +355,20 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "17:49",
-          "to": "17:55",
-          "train": "BOBA",
-          "destinationName": "Brétigny",
-          "platform": "D",
-          "status": "onTime"
-        },
-        {
           "from": "18:04",
           "to": "18:10",
           "train": "BOBA",
           "destinationName": "Brétigny",
           "platform": "D",
           "status": "onTime"
+        },
+        {
+          "from": "18:13",
+          "to": "18:19",
+          "train": "ROMI",
+          "destinationName": "Avenue Henri Martin",
+          "platform": "D",
+          "status": "cancelled"
         }
       ]
     },
@@ -377,16 +377,16 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "17:47",
-          "to": "17:50",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "17:52",
+          "to": "17:55",
+          "train": "BOBA",
+          "destinationName": "Brétigny",
           "platform": "E",
           "status": "onTime"
         },
         {
-          "from": "17:52",
-          "to": "17:55",
+          "from": "18:08",
+          "to": "18:10",
           "train": "BOBA",
           "destinationName": "Brétigny",
           "platform": "E",
