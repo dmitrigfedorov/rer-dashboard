@@ -1,21 +1,21 @@
 {
-  "fetchedAtParis": "25.11.2026, 07:16:01",
+  "fetchedAtParis": "25.11.2026, 07:21:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "07:23",
-          "to": "07:25",
+          "from": "07:22",
+          "to": "07:24",
           "train": "NICO",
           "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "07:26",
-          "to": "07:29",
+          "from": "07:27",
+          "to": "07:30",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -52,8 +52,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:31",
-          "to": "07:34",
+          "from": "07:30",
+          "to": "07:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "07:23",
-          "to": "07:25",
+          "from": "07:22",
+          "to": "07:24",
           "train": "NICO",
           "destinationName": "Pontoise",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "07:26",
-          "to": "07:29",
+          "from": "07:27",
+          "to": "07:30",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "07:11",
+          "from": "07:43",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "07:18",
+          "from": "07:58",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "07:16",
+          "from": "07:30",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "07:29",
+          "from": "07:36",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "07:11",
+          "from": "07:21",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "07:16",
+          "from": "07:27",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "07:13",
+          "from": "07:22",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -229,7 +229,7 @@
           "status": "onTime"
         },
         {
-          "from": "07:22",
+          "from": "07:32",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -289,18 +289,18 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "07:17",
-          "to": "07:34",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "07:27",
+          "to": "07:44",
+          "train": "JUNE",
+          "destinationName": "Juvisy",
           "platform": "3",
           "status": "onTime"
         },
         {
-          "from": "07:28",
-          "to": "07:44",
-          "train": "JUNE",
-          "destinationName": "Juvisy",
+          "from": "07:38",
+          "to": "07:55",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "3",
           "status": "onTime"
         }
@@ -311,18 +311,18 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "07:19",
-          "to": "07:34",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1",
-          "status": "onTime"
-        },
-        {
           "from": "07:30",
           "to": "07:44",
           "train": "JUNE",
           "destinationName": "Juvisy",
+          "platform": "1",
+          "status": "onTime"
+        },
+        {
+          "from": "07:40",
+          "to": "07:55",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
         }
@@ -333,20 +333,20 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "07:17",
-          "to": "07:28",
-          "train": "JUNE",
-          "destinationName": "Juvisy",
+          "from": "07:22",
+          "to": "07:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "07:18",
-          "to": "07:24",
-          "train": "FOOT",
-          "destinationName": "Bibliothèque François Mitterrand",
+          "from": "07:33",
+          "to": "07:44",
+          "train": "JUNE",
+          "destinationName": "Juvisy",
           "platform": "1",
-          "status": "cancelled"
+          "status": "onTime"
         }
       ]
     },
@@ -359,7 +359,7 @@
           "to": "07:28",
           "train": "JUNE",
           "destinationName": "Juvisy",
-          "platform": "E",
+          "platform": "D",
           "status": "onTime"
         },
         {
@@ -395,6 +395,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-25T06:11:03.498740Z",
-  "busFetchedAtParis": "25.11.2026, 07:11:03"
+  "busFetchedAt": "2026-11-25T06:21:05.946937Z",
+  "busFetchedAtParis": "25.11.2026, 07:21:05"
 }
