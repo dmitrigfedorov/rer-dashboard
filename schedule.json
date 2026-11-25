@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "25.11.2026, 22:11:02",
+  "fetchedAtParis": "25.11.2026, 22:16:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -64,7 +64,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "22:16",
+          "from": "22:28",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -72,7 +72,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:27",
+          "from": "22:51",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -139,7 +139,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "22:13",
+          "from": "23:04",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -147,7 +147,7 @@
           "status": "onTime"
         },
         {
-          "from": "23:03",
+          "from": "23:18",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -164,7 +164,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "22:13",
+          "from": "22:42",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -172,7 +172,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:42",
+          "from": "22:47",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -211,30 +211,12 @@
     {
       "id": "champ-de-mars",
       "title": "Champ de Mars - Tour Eiffel",
-      "rows": [
-        {
-          "from": "22:12",
-          "to": "22:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "id": "pont-de-lalma",
       "title": "Pont de l'Alma",
-      "rows": [
-        {
-          "from": "22:14",
-          "to": "22:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "id": "invalides",
@@ -283,14 +265,6 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "22:12",
-          "to": "22:18",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "D",
-          "status": "onTime"
-        },
-        {
           "from": "22:27",
           "to": "22:33",
           "train": "ROMI",
@@ -323,6 +297,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-25T21:11:02.721750Z",
-  "busFetchedAtParis": "25.11.2026, 22:11:02"
+  "busFetchedAt": "2026-11-25T21:16:03.334136Z",
+  "busFetchedAtParis": "25.11.2026, 22:16:03"
 }
