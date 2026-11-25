@@ -1,13 +1,13 @@
 {
-  "fetchedAtParis": "25.11.2026, 06:01:08",
+  "fetchedAtParis": "25.11.2026, 06:06:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:15",
-          "to": "06:18",
+          "from": "06:13",
+          "to": "06:16",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -52,12 +52,12 @@
           "status": "onTime"
         },
         {
-          "from": "07:17",
-          "to": "07:20",
+          "from": "07:22",
+          "to": "07:24",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
-          "status": "onTime"
+          "status": "delayed"
         }
       ]
     }
@@ -71,8 +71,8 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:15",
-          "to": "06:18",
+          "from": "06:13",
+          "to": "06:16",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -237,12 +237,12 @@
           "status": "onTime"
         },
         {
-          "from": "06:59",
-          "to": "07:20",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "07:04",
+          "to": "07:24",
+          "train": "FOOT",
+          "destinationName": "Bibliothèque François Mitterrand",
           "platform": "1",
-          "status": "onTime"
+          "status": "delayed"
         }
       ]
     },
@@ -259,12 +259,12 @@
           "status": "onTime"
         },
         {
-          "from": "07:02",
-          "to": "07:20",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "07:07",
+          "to": "07:24",
+          "train": "FOOT",
+          "destinationName": "Bibliothèque François Mitterrand",
           "platform": "1",
-          "status": "onTime"
+          "status": "delayed"
         }
       ]
     },
@@ -273,20 +273,20 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "06:02",
-          "to": "06:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "3",
-          "status": "onTime"
-        },
-        {
           "from": "06:32",
           "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
           "status": "onTime"
+        },
+        {
+          "from": "07:09",
+          "to": "07:24",
+          "train": "FOOT",
+          "destinationName": "Bibliothèque François Mitterrand",
+          "platform": "3",
+          "status": "delayed"
         }
       ]
     },
@@ -295,20 +295,20 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "06:04",
-          "to": "06:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "3",
-          "status": "onTime"
-        },
-        {
           "from": "06:34",
           "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
           "status": "onTime"
+        },
+        {
+          "from": "07:11",
+          "to": "07:24",
+          "train": "FOOT",
+          "destinationName": "Bibliothèque François Mitterrand",
+          "platform": "3",
+          "status": "delayed"
         }
       ]
     },
