@@ -1,12 +1,12 @@
 {
-  "fetchedAtParis": "25.11.2026, 16:21:04",
+  "fetchedAtParis": "25.11.2026, 16:26:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "16:32",
+          "from": "16:33",
           "to": "16:34",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -14,7 +14,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:43",
+          "from": "16:44",
           "to": "16:46",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -44,8 +44,8 @@
           "status": "onTime"
         },
         {
-          "from": "16:46",
-          "to": "16:49",
+          "from": "16:47",
+          "to": "16:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -71,7 +71,7 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "16:32",
+          "from": "16:33",
           "to": "16:34",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -79,7 +79,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:43",
+          "from": "16:44",
           "to": "16:46",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "16:27",
+          "from": "16:29",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:52",
+          "from": "16:49",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -129,8 +129,8 @@
           "status": "onTime"
         },
         {
-          "from": "16:46",
-          "to": "16:49",
+          "from": "16:47",
+          "to": "16:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "16:24",
+          "from": "16:29",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:26",
+          "from": "16:43",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "16:40",
+          "from": "16:41",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "16:20",
+          "from": "16:26",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -229,7 +229,7 @@
           "status": "onTime"
         },
         {
-          "from": "16:26",
+          "from": "16:35",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -245,8 +245,8 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "16:28",
-          "to": "16:49",
+          "from": "16:29",
+          "to": "16:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -267,8 +267,8 @@
       "title": "Pont de l'Alma",
       "rows": [
         {
-          "from": "16:30",
-          "to": "16:49",
+          "from": "16:31",
+          "to": "16:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -290,7 +290,7 @@
       "rows": [
         {
           "from": "16:33",
-          "to": "16:49",
+          "to": "16:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
@@ -312,7 +312,7 @@
       "rows": [
         {
           "from": "16:35",
-          "to": "16:49",
+          "to": "16:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
@@ -333,18 +333,18 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "16:23",
-          "to": "16:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "16:39",
+          "to": "16:50",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "16:38",
-          "to": "16:49",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "16:43",
+          "to": "16:54",
+          "train": "BOBA",
+          "destinationName": "Brétigny",
           "platform": "1",
           "status": "onTime"
         }
@@ -359,12 +359,12 @@
           "to": "16:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "E",
+          "platform": "D",
           "status": "onTime"
         },
         {
           "from": "16:43",
-          "to": "16:49",
+          "to": "16:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "E",
@@ -385,8 +385,8 @@
           "status": "onTime"
         },
         {
-          "from": "16:46",
-          "to": "16:49",
+          "from": "16:47",
+          "to": "16:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -395,6 +395,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-25T15:21:04.256788Z",
-  "busFetchedAtParis": "25.11.2026, 16:21:04"
+  "busFetchedAt": "2026-11-25T15:26:04.656994Z",
+  "busFetchedAtParis": "25.11.2026, 16:26:04"
 }
