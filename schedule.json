@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "26.11.2026, 09:01:03",
+  "fetchedAtParis": "26.11.2026, 09:06:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -15,7 +15,7 @@
         },
         {
           "from": "09:13",
-          "to": "09:15",
+          "to": "09:16",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -36,16 +36,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "09:01",
-          "to": "09:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "09:10",
-          "to": "09:12",
+          "to": "09:13",
           "train": "JUNE",
           "destinationName": "Juvisy",
           "platform": "E",
@@ -53,9 +45,17 @@
         },
         {
           "from": "09:33",
-          "to": "09:35",
+          "to": "09:36",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "09:46",
+          "to": "09:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         }
@@ -80,7 +80,7 @@
         },
         {
           "from": "09:13",
-          "to": "09:15",
+          "to": "09:16",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "08:55",
+          "from": "09:30",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:03",
+          "from": "09:41",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,19 +121,19 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "09:01",
-          "to": "09:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "09:10",
-          "to": "09:12",
+          "to": "09:13",
           "train": "JUNE",
           "destinationName": "Juvisy",
           "platform": "E",
+          "status": "onTime"
+        },
+        {
+          "from": "09:33",
+          "to": "09:36",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
           "status": "onTime"
         }
       ]
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "09:00",
+          "from": "09:06",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:05",
+          "from": "09:14",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "09:14",
+          "from": "09:15",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:19",
+          "from": "09:20",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "08:57",
+          "from": "09:22",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:00",
+          "from": "09:27",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "09:16",
+          "from": "09:18",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -229,7 +229,7 @@
           "status": "onTime"
         },
         {
-          "from": "09:25",
+          "from": "09:29",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -246,7 +246,7 @@
       "rows": [
         {
           "from": "09:14",
-          "to": "09:35",
+          "to": "09:36",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -267,8 +267,8 @@
       "title": "Pont de l'Alma",
       "rows": [
         {
-          "from": "09:16",
-          "to": "09:35",
+          "from": "09:17",
+          "to": "09:36",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -289,8 +289,8 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "09:18",
-          "to": "09:35",
+          "from": "09:19",
+          "to": "09:36",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "3",
@@ -312,7 +312,7 @@
       "rows": [
         {
           "from": "09:21",
-          "to": "09:35",
+          "to": "09:36",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
@@ -333,18 +333,18 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "09:02",
-          "to": "09:12",
-          "train": "JUNE",
-          "destinationName": "Juvisy",
+          "from": "09:25",
+          "to": "09:36",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "09:24",
-          "to": "09:35",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "09:38",
+          "to": "09:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
         }
@@ -355,16 +355,16 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "09:06",
-          "to": "09:12",
+          "from": "09:07",
+          "to": "09:13",
           "train": "JUNE",
           "destinationName": "Juvisy",
           "platform": "D",
           "status": "onTime"
         },
         {
-          "from": "09:28",
-          "to": "09:35",
+          "from": "09:29",
+          "to": "09:36",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "E",
@@ -377,24 +377,24 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "09:01",
-          "to": "09:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "09:10",
-          "to": "09:12",
+          "to": "09:13",
           "train": "JUNE",
           "destinationName": "Juvisy",
           "platform": "E",
+          "status": "onTime"
+        },
+        {
+          "from": "09:33",
+          "to": "09:36",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
           "status": "onTime"
         }
       ]
     }
   ],
-  "busFetchedAt": "2026-11-26T07:56:03.369765Z",
-  "busFetchedAtParis": "26.11.2026, 08:56:03"
+  "busFetchedAt": "2026-11-26T08:06:02.248465Z",
+  "busFetchedAtParis": "26.11.2026, 09:06:02"
 }
