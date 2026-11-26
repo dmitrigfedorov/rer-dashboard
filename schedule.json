@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "26.11.2026, 19:41:02",
+  "fetchedAtParis": "26.11.2026, 19:46:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "19:58",
-          "to": "20:00",
+          "to": "20:01",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -36,23 +36,23 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "19:46",
-          "to": "19:49",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "E",
-          "status": "onTime"
-        },
-        {
-          "from": "20:15",
-          "to": "20:19",
+          "from": "19:45",
+          "to": "19:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "20:31",
+          "from": "20:16",
+          "to": "20:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "20:30",
           "to": "20:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "19:58",
-          "to": "20:00",
+          "to": "20:01",
           "train": "GOTA",
           "destinationName": "Montigny - Beauchamp",
           "platform": "2B",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "20:02",
+          "from": "20:00",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -121,16 +121,16 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "19:46",
-          "to": "19:49",
+          "from": "19:45",
+          "to": "19:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "E",
+          "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "20:15",
-          "to": "20:19",
+          "from": "20:16",
+          "to": "20:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "19:44",
+          "from": "19:59",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "19:58",
+          "from": "20:08",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -245,8 +245,8 @@
       "title": "Champ de Mars - Tour Eiffel",
       "rows": [
         {
-          "from": "19:58",
-          "to": "20:19",
+          "from": "19:57",
+          "to": "20:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -268,7 +268,7 @@
       "rows": [
         {
           "from": "20:00",
-          "to": "20:19",
+          "to": "20:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -290,14 +290,14 @@
       "rows": [
         {
           "from": "20:02",
-          "to": "20:19",
+          "to": "20:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
           "status": "onTime"
         },
         {
-          "from": "20:18",
+          "from": "20:17",
           "to": "20:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
@@ -311,8 +311,8 @@
       "title": "Musée d'Orsay",
       "rows": [
         {
-          "from": "20:05",
-          "to": "20:19",
+          "from": "20:04",
+          "to": "20:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
@@ -334,7 +334,7 @@
       "rows": [
         {
           "from": "20:08",
-          "to": "20:19",
+          "to": "20:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -355,18 +355,18 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "19:42",
-          "to": "19:49",
+          "from": "20:12",
+          "to": "20:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "E",
           "status": "onTime"
         },
         {
-          "from": "20:13",
-          "to": "20:19",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "20:27",
+          "to": "20:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "E",
           "status": "onTime"
         }
@@ -377,16 +377,16 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "19:46",
-          "to": "19:49",
+          "from": "19:45",
+          "to": "19:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "E",
+          "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "20:15",
-          "to": "20:19",
+          "from": "20:16",
+          "to": "20:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -395,6 +395,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-26T18:41:02.491108Z",
-  "busFetchedAtParis": "26.11.2026, 19:41:02"
+  "busFetchedAt": "2026-11-26T18:46:03.308546Z",
+  "busFetchedAtParis": "26.11.2026, 19:46:03"
 }
