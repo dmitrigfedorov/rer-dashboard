@@ -1,10 +1,19 @@
 {
-  "fetchedAtParis": "26.11.2026, 02:46:02",
+  "fetchedAtParis": "26.11.2026, 02:51:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:44",
+          "to": "05:47",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "2B",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "title": "Bibliothèque François-Mitterrand",
@@ -19,7 +28,16 @@
       "line": "C",
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:44",
+          "to": "05:47",
+          "train": "NORA",
+          "destinationName": "Pontoise",
+          "platform": "2B",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-quai",
@@ -107,6 +125,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-26T01:41:02.642877Z",
-  "busFetchedAtParis": "26.11.2026, 02:41:02"
+  "busFetchedAt": "2026-11-26T01:51:03.321324Z",
+  "busFetchedAtParis": "26.11.2026, 02:51:03"
 }
