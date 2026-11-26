@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "26.11.2026, 05:46:06",
+  "fetchedAtParis": "26.11.2026, 05:51:08",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -44,8 +44,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:48",
-          "to": "06:50",
+          "from": "06:46",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -121,8 +121,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:48",
-          "to": "06:50",
+          "from": "06:46",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -138,7 +138,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "06:03",
+          "from": "06:05",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -146,7 +146,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:05",
+          "from": "06:12",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -163,7 +163,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "05:49",
+          "from": "06:14",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -171,7 +171,7 @@
           "status": "onTime"
         },
         {
-          "from": "06:12",
+          "from": "06:21",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -205,14 +205,6 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "05:47",
-          "to": "",
-          "train": "323",
-          "destinationName": "Hôpital Jean Rostand",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
           "from": "06:01",
           "to": "",
           "train": "323",
@@ -237,8 +229,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:29",
-          "to": "06:50",
+          "from": "06:27",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -259,8 +251,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:31",
-          "to": "06:50",
+          "from": "06:30",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -281,8 +273,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:34",
-          "to": "06:50",
+          "from": "06:32",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
@@ -303,8 +295,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:36",
-          "to": "06:50",
+          "from": "06:34",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
@@ -325,8 +317,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:39",
-          "to": "06:50",
+          "from": "06:38",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -347,8 +339,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:44",
-          "to": "06:50",
+          "from": "06:42",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "D",
@@ -369,8 +361,8 @@
           "status": "onTime"
         },
         {
-          "from": "06:48",
-          "to": "06:50",
+          "from": "06:46",
+          "to": "06:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -379,6 +371,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-26T04:41:09.026308Z",
-  "busFetchedAtParis": "26.11.2026, 05:41:09"
+  "busFetchedAt": "2026-11-26T04:51:08.181393Z",
+  "busFetchedAtParis": "26.11.2026, 05:51:08"
 }
