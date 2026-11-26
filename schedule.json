@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "26.11.2026, 22:21:02",
+  "fetchedAtParis": "26.11.2026, 22:26:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -56,7 +56,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "22:31",
+          "from": "22:33",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -123,7 +123,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "22:20",
+          "from": "22:48",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -131,7 +131,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:48",
+          "from": "23:03",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -148,7 +148,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "22:36",
+          "from": "22:38",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -173,7 +173,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "22:20",
+          "from": "22:38",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -181,7 +181,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:38",
+          "from": "22:56",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -210,30 +210,12 @@
     {
       "id": "musee-dorsay",
       "title": "Musée d'Orsay",
-      "rows": [
-        {
-          "from": "22:20",
-          "to": "22:34",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "3",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "id": "saint-michel",
       "title": "Saint-Michel Notre-Dame",
-      "rows": [
-        {
-          "from": "22:24",
-          "to": "22:34",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "id": "austerlitz",
@@ -264,6 +246,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-26T21:16:03.193048Z",
-  "busFetchedAtParis": "26.11.2026, 22:16:03"
+  "busFetchedAt": "2026-11-26T21:26:02.586251Z",
+  "busFetchedAtParis": "26.11.2026, 22:26:02"
 }
