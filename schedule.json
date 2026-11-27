@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "27.11.2026, 12:06:09",
+  "fetchedAtParis": "27.11.2026, 12:11:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "12:13",
-          "to": "12:16",
+          "to": "12:15",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -22,7 +22,7 @@
           "status": "onTime"
         },
         {
-          "from": "12:43",
+          "from": "12:44",
           "to": "12:45",
           "train": "NORA",
           "destinationName": "Pontoise",
@@ -37,7 +37,7 @@
       "rows": [
         {
           "from": "12:16",
-          "to": "12:18",
+          "to": "12:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "12:13",
-          "to": "12:16",
+          "to": "12:15",
           "train": "NORA",
           "destinationName": "Pontoise",
           "platform": "2B",
@@ -122,7 +122,7 @@
       "rows": [
         {
           "from": "12:16",
-          "to": "12:18",
+          "to": "12:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -333,18 +333,18 @@
       "title": "Saint-Michel Notre-Dame",
       "rows": [
         {
-          "from": "12:08",
-          "to": "12:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "1",
-          "status": "onTime"
-        },
-        {
           "from": "12:23",
           "to": "12:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "1",
+          "status": "onTime"
+        },
+        {
+          "from": "12:37",
+          "to": "12:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
         }
@@ -356,10 +356,10 @@
       "rows": [
         {
           "from": "12:12",
-          "to": "12:18",
+          "to": "12:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
-          "platform": "E",
+          "platform": "D",
           "status": "onTime"
         },
         {
@@ -378,7 +378,7 @@
       "rows": [
         {
           "from": "12:16",
-          "to": "12:18",
+          "to": "12:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
