@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "27.11.2026, 06:31:02",
+  "fetchedAtParis": "27.11.2026, 06:36:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -36,7 +36,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "06:47",
+          "from": "06:48",
           "to": "06:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -44,8 +44,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:18",
-          "to": "07:20",
+          "from": "07:17",
+          "to": "07:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -121,7 +121,7 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "06:47",
+          "from": "06:48",
           "to": "06:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -129,8 +129,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:18",
-          "to": "07:20",
+          "from": "07:17",
+          "to": "07:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
@@ -246,7 +246,7 @@
       "rows": [
         {
           "from": "06:59",
-          "to": "07:20",
+          "to": "07:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -267,18 +267,18 @@
       "title": "Pont de l'Alma",
       "rows": [
         {
-          "from": "06:31",
-          "to": "06:50",
+          "from": "07:01",
+          "to": "07:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
           "status": "onTime"
         },
         {
-          "from": "07:01",
-          "to": "07:20",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "07:09",
+          "to": "07:28",
+          "train": "JUNE",
+          "destinationName": "Juvisy",
           "platform": "1",
           "status": "onTime"
         }
@@ -289,18 +289,18 @@
       "title": "Invalides",
       "rows": [
         {
-          "from": "06:33",
-          "to": "06:50",
+          "from": "07:03",
+          "to": "07:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
           "status": "onTime"
         },
         {
-          "from": "07:04",
-          "to": "07:20",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
+          "from": "07:11",
+          "to": "07:28",
+          "train": "JUNE",
+          "destinationName": "Juvisy",
           "platform": "3",
           "status": "onTime"
         }
@@ -319,8 +319,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:06",
-          "to": "07:20",
+          "from": "07:05",
+          "to": "07:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "3",
@@ -342,7 +342,7 @@
         },
         {
           "from": "07:09",
-          "to": "07:20",
+          "to": "07:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "1",
@@ -363,8 +363,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:14",
-          "to": "07:20",
+          "from": "07:13",
+          "to": "07:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "D",
@@ -377,7 +377,7 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:47",
+          "from": "06:48",
           "to": "06:50",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
@@ -385,8 +385,8 @@
           "status": "onTime"
         },
         {
-          "from": "07:18",
-          "to": "07:20",
+          "from": "07:17",
+          "to": "07:19",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "F",
