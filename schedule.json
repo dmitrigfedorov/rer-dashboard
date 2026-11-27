@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "27.11.2026, 22:21:02",
+  "fetchedAtParis": "27.11.2026, 22:26:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -20,8 +20,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "22:30",
-          "to": "22:33",
+          "from": "22:31",
+          "to": "22:34",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -56,7 +56,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "22:22",
+          "from": "22:41",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -64,7 +64,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:39",
+          "from": "22:48",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -81,8 +81,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "22:30",
-          "to": "22:33",
+          "from": "22:31",
+          "to": "22:34",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -123,7 +123,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "22:24",
+          "from": "22:48",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -131,7 +131,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:48",
+          "from": "23:03",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -148,7 +148,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "22:21",
+          "from": "22:38",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -156,7 +156,7 @@
           "status": "onTime"
         },
         {
-          "from": "22:36",
+          "from": "22:42",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -215,24 +215,15 @@
     {
       "id": "saint-michel",
       "title": "Saint-Michel Notre-Dame",
-      "rows": [
-        {
-          "from": "22:23",
-          "to": "22:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "1",
-          "status": "onTime"
-        }
-      ]
+      "rows": []
     },
     {
       "id": "austerlitz",
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "22:27",
-          "to": "22:33",
+          "from": "22:28",
+          "to": "22:34",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "E",
@@ -245,8 +236,8 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "22:30",
-          "to": "22:33",
+          "from": "22:31",
+          "to": "22:34",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -255,6 +246,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-27T21:21:02.565374Z",
-  "busFetchedAtParis": "27.11.2026, 22:21:02"
+  "busFetchedAt": "2026-11-27T21:26:02.913077Z",
+  "busFetchedAtParis": "27.11.2026, 22:26:02"
 }
