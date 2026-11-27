@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "27.11.2026, 23:36:02",
+  "fetchedAtParis": "27.11.2026, 23:41:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -87,7 +87,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "23:38",
+          "from": "00:13",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -95,7 +95,7 @@
           "status": "onTime"
         },
         {
-          "from": "00:13",
+          "from": "01:03",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -192,6 +192,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-27T22:36:02.211615Z",
-  "busFetchedAtParis": "27.11.2026, 23:36:02"
+  "busFetchedAt": "2026-11-27T22:41:02.767331Z",
+  "busFetchedAtParis": "27.11.2026, 23:41:02"
 }
