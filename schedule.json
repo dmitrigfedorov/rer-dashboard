@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "28.11.2026, 17:11:02",
+  "fetchedAtParis": "28.11.2026, 17:16:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "17:13",
-          "to": "17:15",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "17:28",
           "to": "17:30",
@@ -24,6 +16,14 @@
         {
           "from": "17:43",
           "to": "17:45",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
+        },
+        {
+          "from": "17:58",
+          "to": "18:00",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "17:13",
-          "to": "17:15",
+          "from": "17:28",
+          "to": "17:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "17:28",
-          "to": "17:30",
+          "from": "17:43",
+          "to": "17:45",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "17:43",
+          "from": "17:45",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "17:19",
+          "from": "17:21",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -302,6 +302,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-28T16:11:02.083620Z",
-  "busFetchedAtParis": "28.11.2026, 17:11:02"
+  "busFetchedAt": "2026-11-28T16:16:02.451443Z",
+  "busFetchedAtParis": "28.11.2026, 17:16:02"
 }
