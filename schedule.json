@@ -1,18 +1,10 @@
 {
-  "fetchedAtParis": "28.11.2026, 05:56:02",
+  "fetchedAtParis": "28.11.2026, 06:01:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
-        {
-          "from": "05:58",
-          "to": "06:01",
-          "train": "ZORA",
-          "destinationName": "Paris Austerlitz",
-          "platform": "2B",
-          "status": "onTime"
-        },
         {
           "from": "06:13",
           "to": "06:15",
@@ -28,6 +20,14 @@
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
+        },
+        {
+          "from": "06:43",
+          "to": "06:45",
+          "train": "ZORA",
+          "destinationName": "Paris Austerlitz",
+          "platform": "2B",
+          "status": "onTime"
         }
       ]
     },
@@ -36,8 +36,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "06:00",
-          "to": "06:03",
+          "from": "06:02",
+          "to": "06:04",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:58",
-          "to": "06:01",
+          "from": "06:13",
+          "to": "06:15",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "06:13",
-          "to": "06:15",
+          "from": "06:28",
+          "to": "06:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -96,7 +96,15 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "05:59",
+          "from": "06:46",
+          "to": "",
+          "train": "325",
+          "destinationName": "Quai de la Gare",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "07:07",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -113,8 +121,8 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "06:00",
-          "to": "06:03",
+          "from": "06:02",
+          "to": "06:04",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -138,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "06:17",
+          "from": "06:22",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -163,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "06:26",
+          "from": "06:32",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -262,19 +270,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "05:56",
-          "to": "06:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "C",
-          "status": "onTime"
-        },
-        {
           "from": "06:10",
           "to": "06:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "E",
+          "status": "onTime"
+        },
+        {
+          "from": "06:25",
+          "to": "06:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "C",
           "status": "onTime"
         }
       ]
@@ -284,8 +292,8 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "06:00",
-          "to": "06:03",
+          "from": "06:02",
+          "to": "06:04",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
@@ -302,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-28T04:56:02.104593Z",
-  "busFetchedAtParis": "28.11.2026, 05:56:02"
+  "busFetchedAt": "2026-11-28T05:01:03.207814Z",
+  "busFetchedAtParis": "28.11.2026, 06:01:03"
 }
