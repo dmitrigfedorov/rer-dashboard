@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "28.11.2026, 05:31:02",
+  "fetchedAtParis": "28.11.2026, 05:36:03",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -36,14 +36,6 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "05:31",
-          "to": "05:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "06:00",
           "to": "06:03",
           "train": "ROMI",
@@ -56,6 +48,14 @@
           "to": "06:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "06:30",
+          "to": "06:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         }
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "05:58",
+          "from": "06:01",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -113,18 +113,18 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "05:31",
-          "to": "05:33",
+          "from": "06:00",
+          "to": "06:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         },
         {
-          "from": "06:00",
-          "to": "06:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "from": "06:15",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         }
@@ -203,7 +203,24 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:52",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        },
+        {
+          "from": "06:32",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "rerStations": [
@@ -259,24 +276,24 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "05:31",
-          "to": "05:33",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "06:00",
           "to": "06:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
+        },
+        {
+          "from": "06:15",
+          "to": "06:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
         }
       ]
     }
   ],
-  "busFetchedAt": "2026-11-28T04:31:02.318317Z",
-  "busFetchedAtParis": "28.11.2026, 05:31:02"
+  "busFetchedAt": "2026-11-28T04:36:03.368007Z",
+  "busFetchedAtParis": "28.11.2026, 05:36:03"
 }
