@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "28.11.2026, 02:06:01",
+  "fetchedAtParis": "28.11.2026, 02:11:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -61,14 +61,6 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "02:09",
-          "to": "",
-          "train": "125",
-          "destinationName": "Jean Le Galleu",
-          "platform": "",
-          "status": "onTime"
-        },
-        {
           "from": "02:32",
           "to": "",
           "train": "125",
@@ -124,6 +116,6 @@
       "rows": []
     }
   ],
-  "busFetchedAt": "2026-11-28T01:06:01.921047Z",
-  "busFetchedAtParis": "28.11.2026, 02:06:01"
+  "busFetchedAt": "2026-11-28T01:11:02.991679Z",
+  "busFetchedAtParis": "28.11.2026, 02:11:02"
 }
