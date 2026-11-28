@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "28.11.2026, 09:36:07",
+  "fetchedAtParis": "28.11.2026, 09:41:05",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -270,19 +270,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "09:40",
-          "to": "09:48",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "D",
-          "status": "onTime"
-        },
-        {
           "from": "09:55",
           "to": "10:03",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "C",
+          "status": "onTime"
+        },
+        {
+          "from": "10:10",
+          "to": "10:18",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
+          "platform": "D",
           "status": "onTime"
         }
       ]
