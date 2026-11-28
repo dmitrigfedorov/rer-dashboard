@@ -1,21 +1,21 @@
 {
-  "fetchedAtParis": "28.11.2026, 14:11:03",
+  "fetchedAtParis": "28.11.2026, 14:16:06",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "14:13",
-          "to": "14:15",
+          "from": "14:28",
+          "to": "14:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "14:28",
-          "to": "14:30",
+          "from": "14:43",
+          "to": "14:45",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -71,16 +71,16 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "14:13",
-          "to": "14:15",
+          "from": "14:28",
+          "to": "14:30",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
           "status": "onTime"
         },
         {
-          "from": "14:28",
-          "to": "14:30",
+          "from": "14:43",
+          "to": "14:45",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "14:37",
+          "from": "14:36",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -146,7 +146,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "14:18",
+          "from": "14:17",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "14:29",
+          "from": "14:28",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -196,7 +196,7 @@
       "destination": "Jean Le Galleu",
       "rows": [
         {
-          "from": "14:14",
+          "from": "14:31",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -204,7 +204,7 @@
           "status": "onTime"
         },
         {
-          "from": "14:30",
+          "from": "14:58",
           "to": "",
           "train": "125",
           "destinationName": "Jean Le Galleu",
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-28T13:11:03.595449Z",
-  "busFetchedAtParis": "28.11.2026, 14:11:03"
+  "busFetchedAt": "2026-11-28T13:16:06.761700Z",
+  "busFetchedAtParis": "28.11.2026, 14:16:06"
 }
