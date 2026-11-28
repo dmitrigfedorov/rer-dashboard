@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "28.11.2026, 10:31:01",
+  "fetchedAtParis": "28.11.2026, 10:36:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "10:54",
+          "from": "10:56",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -171,7 +171,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "10:33",
+          "from": "11:16",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -179,7 +179,7 @@
           "status": "onTime"
         },
         {
-          "from": "11:16",
+          "from": "11:31",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -220,6 +220,14 @@
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
       "rows": [
+        {
+          "from": "10:35",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        },
         {
           "from": "10:49",
           "to": "",
@@ -302,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-28T09:31:01.814151Z",
-  "busFetchedAtParis": "28.11.2026, 10:31:01"
+  "busFetchedAt": "2026-11-28T09:36:02.709638Z",
+  "busFetchedAtParis": "28.11.2026, 10:36:02"
 }
