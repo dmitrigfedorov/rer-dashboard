@@ -1,12 +1,12 @@
 {
-  "fetchedAtParis": "28.11.2026, 12:16:07",
+  "fetchedAtParis": "28.11.2026, 12:21:04",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "12:29",
+          "from": "12:28",
           "to": "12:31",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -36,14 +36,6 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "12:15",
-          "to": "12:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "12:30",
           "to": "12:33",
           "train": "ROMI",
@@ -56,6 +48,14 @@
           "to": "12:48",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "13:00",
+          "to": "13:03",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
           "platform": "F",
           "status": "onTime"
         }
@@ -71,7 +71,7 @@
       "destination": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "12:29",
+          "from": "12:28",
           "to": "12:31",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
@@ -121,18 +121,18 @@
       "destination": "Ivry-sur-Seine",
       "rows": [
         {
-          "from": "12:15",
-          "to": "12:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "12:30",
           "to": "12:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "12:45",
+          "to": "12:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         }
@@ -292,18 +292,18 @@
       "title": "Bibliothèque François-Mitterrand",
       "rows": [
         {
-          "from": "12:15",
-          "to": "12:18",
-          "train": "MONA",
-          "destinationName": "Massy-Palaiseau",
-          "platform": "F",
-          "status": "onTime"
-        },
-        {
           "from": "12:30",
           "to": "12:33",
           "train": "ROMI",
           "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "F",
+          "status": "onTime"
+        },
+        {
+          "from": "12:45",
+          "to": "12:48",
+          "train": "MONA",
+          "destinationName": "Massy-Palaiseau",
           "platform": "F",
           "status": "onTime"
         }
