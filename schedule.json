@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "28.11.2026, 05:06:02",
+  "fetchedAtParis": "28.11.2026, 05:11:01",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -94,7 +94,16 @@
       "line": "325",
       "title": "Jean-Jacques Rousseau",
       "destination": "Émile Durkheim",
-      "rows": []
+      "rows": [
+        {
+          "from": "06:01",
+          "to": "",
+          "train": "325",
+          "destinationName": "Quai de la Gare",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "rer-bfm",
@@ -129,7 +138,7 @@
       "destination": "Jean-Jacques Rousseau",
       "rows": [
         {
-          "from": "05:27",
+          "from": "05:20",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -146,7 +155,7 @@
       "destination": "Église de Saint-Mandé",
       "rows": [
         {
-          "from": "05:36",
+          "from": "05:29",
           "to": "",
           "train": "325",
           "destinationName": "Église de Saint-Mandé",
@@ -161,7 +170,16 @@
       "line": "125",
       "title": "Jean-Jacques Rousseau",
       "destination": "Jean Le Galleu",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:43",
+          "to": "",
+          "train": "125",
+          "destinationName": "Jean Le Galleu",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     },
     {
       "card": "bus-323",
@@ -169,7 +187,16 @@
       "line": "323",
       "title": "Molière",
       "destination": "Hôpital Jean Rostand",
-      "rows": []
+      "rows": [
+        {
+          "from": "05:32",
+          "to": "",
+          "train": "323",
+          "destinationName": "Hôpital Jean Rostand",
+          "platform": "",
+          "status": "onTime"
+        }
+      ]
     }
   ],
   "rerStations": [
@@ -243,6 +270,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-28T04:01:03.165058Z",
-  "busFetchedAtParis": "28.11.2026, 05:01:03"
+  "busFetchedAt": "2026-11-28T04:11:01.740962Z",
+  "busFetchedAtParis": "28.11.2026, 05:11:01"
 }
