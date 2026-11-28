@@ -1,5 +1,5 @@
 {
-  "fetchedAtParis": "28.11.2026, 13:51:02",
+  "fetchedAtParis": "28.11.2026, 13:56:02",
   "directions": [
     {
       "title": "Ivry-sur-Seine",
@@ -7,7 +7,7 @@
       "rows": [
         {
           "from": "13:58",
-          "to": "14:00",
+          "to": "14:01",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -15,7 +15,7 @@
         },
         {
           "from": "14:13",
-          "to": "14:16",
+          "to": "14:15",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -72,7 +72,7 @@
       "rows": [
         {
           "from": "13:58",
-          "to": "14:00",
+          "to": "14:01",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -80,7 +80,7 @@
         },
         {
           "from": "14:13",
-          "to": "14:16",
+          "to": "14:15",
           "train": "ZORA",
           "destinationName": "Paris Austerlitz",
           "platform": "2B",
@@ -96,7 +96,7 @@
       "destination": "Émile Durkheim",
       "rows": [
         {
-          "from": "13:50",
+          "from": "14:37",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -104,7 +104,7 @@
           "status": "onTime"
         },
         {
-          "from": "14:36",
+          "from": "15:04",
           "to": "",
           "train": "325",
           "destinationName": "Quai de la Gare",
@@ -154,7 +154,7 @@
           "status": "onTime"
         },
         {
-          "from": "14:16",
+          "from": "14:18",
           "to": "",
           "train": "325",
           "destinationName": "Château de Vincennes",
@@ -221,7 +221,7 @@
       "destination": "Hôpital Jean Rostand",
       "rows": [
         {
-          "from": "13:54",
+          "from": "14:06",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -229,7 +229,7 @@
           "status": "onTime"
         },
         {
-          "from": "14:06",
+          "from": "14:20",
           "to": "",
           "train": "323",
           "destinationName": "Hôpital Jean Rostand",
@@ -270,19 +270,19 @@
       "title": "Gare d'Austerlitz",
       "rows": [
         {
-          "from": "13:55",
-          "to": "14:03",
-          "train": "ROMI",
-          "destinationName": "Pont de Rungis Aéroport d'Orly",
-          "platform": "C",
-          "status": "onTime"
-        },
-        {
           "from": "14:10",
           "to": "14:18",
           "train": "MONA",
           "destinationName": "Massy-Palaiseau",
           "platform": "D",
+          "status": "onTime"
+        },
+        {
+          "from": "14:25",
+          "to": "14:33",
+          "train": "ROMI",
+          "destinationName": "Pont de Rungis Aéroport d'Orly",
+          "platform": "C",
           "status": "onTime"
         }
       ]
@@ -310,6 +310,6 @@
       ]
     }
   ],
-  "busFetchedAt": "2026-11-28T12:51:02.230382Z",
-  "busFetchedAtParis": "28.11.2026, 13:51:02"
+  "busFetchedAt": "2026-11-28T12:56:02.323421Z",
+  "busFetchedAtParis": "28.11.2026, 13:56:02"
 }
